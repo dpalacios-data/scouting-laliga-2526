@@ -1,0 +1,562 @@
+id_jugador,jugador,equipo,id_wikidata,url_imagen,licencia,autor,ancho,alto,motivo
+1,Abde Rebbach,Alaves,Q112805598,https://upload.wikimedia.org/wikipedia/commons/0/0c/Abde_rebbach_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Alberto Cabello Mayero,529.0,458.0,aceptado
+2,Aitor Mañas,Alaves,,,,,,,sin coincidencia en sus clubes
+3,Ander Guevara,Alaves,Q42383726,https://upload.wikimedia.org/wikipedia/commons/5/56/Ander_Gevara_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",827.0,1683.0,aceptado
+4,Antonio Blanco,Alaves,,,,,,,sin coincidencia en sus clubes
+5,Calebe,Alaves,,,,,,,sin coincidencia en sus clubes
+6,Carles Aleñá,Alaves,Q21546191,https://upload.wikimedia.org/wikipedia/commons/0/0b/Carles_Alena_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,הגמל התימני,161.0,381.0,aceptado
+7,Carlos Ballestero,Alaves,,,,,,,sin coincidencia en sus clubes
+8,Carlos Benavídez,Alaves,,,,,,,sin coincidencia en sus clubes
+9,Carlos Vicente,Alaves,,,,,,,sin coincidencia en sus clubes
+10,Denis Suárez,Alaves,Q2092171,https://upload.wikimedia.org/wikipedia/commons/c/c7/Denis_Su%C3%A1rez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,"Catherine Kõrtsmik from Tallinn, Estonia",2108.0,3168.0,aceptado
+11,Diego Morcillo,Alaves,,,,,,,sin coincidencia en sus clubes
+12,Facundo Garcés,Alaves,,,,,,,sin coincidencia en sus clubes
+13,Ibrahim Diabate,Alaves,,,,,,,sin coincidencia en sus clubes
+14,Jon Guridi,Alaves,Q28966437,https://upload.wikimedia.org/wikipedia/commons/4/44/Jon_Guridi_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",525.0,604.0,aceptado
+15,Jon Pacheco,Alaves,Q96757612,https://upload.wikimedia.org/wikipedia/commons/c/cf/J_pacheco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",719.0,920.0,aceptado
+16,Jonny,Alaves,,,,,,,sin coincidencia en sus clubes
+17,Lander Pinillos,Alaves,Q135635713,,,,,,aceptado
+18,Lucas Boyé,Alaves,Q16297897,https://upload.wikimedia.org/wikipedia/commons/2/2c/Lucas_boye_celtic_aek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Savvasg21,2085.0,3178.0,aceptado
+19,Mariano Díaz,Alaves,Q10556350,https://upload.wikimedia.org/wikipedia/commons/d/d9/CSKA-RM18_%2821%29_Mariano_D%C3%ADaz_Mej%C3%ADa_2018-10-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,391.0,725.0,aceptado
+20,Moussa Diarra,Alaves,,,,,,,sin coincidencia en sus clubes
+21,Nahuel Tenaglia,Alaves,,,,,,,sin coincidencia en sus clubes
+22,Pablo Ibáñez,Alaves,,,,,,,sin coincidencia en sus clubes
+23,Toni Martínez,Alaves,,,,,,,sin coincidencia en sus clubes
+24,Victor Parada,Alaves,,,,,,,sin coincidencia en sus clubes
+25,Ville Koski,Alaves,,,,,,,sin coincidencia en sus clubes
+26,Youssef Enríquez,Alaves,,,,,,,sin coincidencia en sus clubes
+27,Ángel Pérez,Alaves,,,,,,,sin coincidencia en sus clubes
+28,Adama Boiro,Athletic Club,Q124356417,https://upload.wikimedia.org/wikipedia/commons/d/d1/Adama_Boiro._Athletic_-_Racing._Foto_Maider_Goikoetxea_%2853909642167%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Maider Goikoetxea Hidalgo,1485.0,2166.0,aceptado
+29,Aitor Paredes,Athletic Club,Q100386793,https://upload.wikimedia.org/wikipedia/commons/4/48/AitorParedes2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Montxohache,1124.0,1472.0,aceptado
+30,Alejandro Rego,Athletic Club,Q114628070,,,,,,aceptado
+31,Alex Berenguer,Athletic Club,,,,,,,sin coincidencia en sus clubes
+32,Andoni Gorosabel,Athletic Club,Q40958022,https://upload.wikimedia.org/wikipedia/commons/b/bb/Gorosabel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",504.0,503.0,aceptado
+33,Asier Hierro,Athletic Club,Q123738735,https://upload.wikimedia.org/wikipedia/commons/e/e3/Asier_Hierro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Daeri,1492.0,2116.0,aceptado
+34,Aymeric Laporte,Athletic Club,Q3855340,https://upload.wikimedia.org/wikipedia/commons/8/8d/Aymeric_Laporte_France_v_Spain_7.24.26-033_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2246.0,3367.0,aceptado
+35,Beñat Prados,Athletic Club,Q106694910,https://upload.wikimedia.org/wikipedia/commons/1/11/BenarPrados2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Montxohache,1125.0,2113.0,aceptado
+36,Dani Vivian,Athletic Club,Q63368196,,,,,,aceptado
+37,Eder García,Athletic Club,Q132462781,https://upload.wikimedia.org/wikipedia/commons/5/50/Eder_Garcia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Daeri,2777.0,2556.0,aceptado
+38,Gorka Guruzeta,Athletic Club,Q22004701,,,,,,aceptado
+39,Iñaki Williams,Athletic Club,Q18608497,https://upload.wikimedia.org/wikipedia/commons/f/f8/Inaki_Williams_England_v_Ghana_23_June_2026-154.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+40,Jesús Areso,Athletic Club,Q64006699,,,,,,aceptado
+41,Maroan Sannadi,Athletic Club,Q123439972,https://upload.wikimedia.org/wikipedia/commons/a/a6/Maroan_Sannadi_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Daeri,166.0,207.0,aceptado
+42,Mikel Jauregizar,Athletic Club,Q123698330,https://upload.wikimedia.org/wikipedia/commons/c/c2/Mikel_Jauregizar._Athletic_-_Racing._Foto_Maider_Goikoetxea_%2853909642167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Maider Goikoetxea Hidalgo,3072.0,4608.0,aceptado
+43,Mikel Vesga,Athletic Club,Q20492759,https://upload.wikimedia.org/wikipedia/commons/0/0e/Real_Valladolid_-_CD_Legan%C3%A9s_2018-12-01_%2813%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,www.realvalladolid.es,218.0,320.0,aceptado
+44,Nico Serrano,Athletic Club,Q106644525,https://upload.wikimedia.org/wikipedia/commons/1/10/NicoSerrano2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Montxohache,1125.0,2107.0,aceptado
+45,Nico Williams,Athletic Club,Q104414736,https://upload.wikimedia.org/wikipedia/commons/c/cf/Nico_Williams_Argentina_v_Spain_19_July_2026-196_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,1432.0,2380.0,aceptado
+46,Oihan Sancet,Athletic Club,Q66466886,https://upload.wikimedia.org/wikipedia/commons/2/2a/ATHLETIC_-_OSASUNA_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Maider Goikoetxea,2480.0,2499.0,aceptado
+47,Robert Navarro,Athletic Club,Q60050053,,,,,,aceptado
+48,Selton Sánchez,Athletic Club,Q136718467,,,,,,aceptado
+49,Unai Gómez,Athletic Club,Q115186979,https://upload.wikimedia.org/wikipedia/commons/7/72/MAIDER_GOIKOETXEA%2C_FOT%C3%93GRAFA._BILBAO_ATHLETIC_-_LOGRO%C3%91%C3%89S_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Maider Goikoetxea,2308.0,2814.0,aceptado
+50,Urko Izeta,Athletic Club,Q113900920,https://upload.wikimedia.org/wikipedia/commons/5/54/MAIDER_GOIKOETXEA%2C_FOT%C3%93GRAFA._BILBAO_ATHLETIC_-_LOGRO%C3%91%C3%89S_%2831%29_-_Urko_Izeta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Maider Goikoetxea,1549.0,1977.0,aceptado
+51,Yeray Álvarez,Athletic Club,Q20492429,https://upload.wikimedia.org/wikipedia/commons/5/57/SM-AB_2018_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Дмитрий Садовников,619.0,1000.0,aceptado
+52,Yuri Berchiche,Athletic Club,Q4118260,https://upload.wikimedia.org/wikipedia/commons/8/8f/Krasnodar-Real_Sosiedad_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Владислав Федченко,275.0,385.0,aceptado
+53,Íñigo Lekue,Athletic Club,Q20492322,https://upload.wikimedia.org/wikipedia/commons/8/8c/I%C3%B1igo_Lekue_2018_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Дмитрий Садовников,397.0,485.0,aceptado
+54,Íñigo Ruíz de Galarreta,Athletic Club,Q3751255,https://upload.wikimedia.org/wikipedia/commons/a/a9/I%C3%B1igo_Ruiz_de_Galarreta_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Cristina Cifuentes,374.0,545.0,aceptado
+55,Ademola Lookman,Atletico Madrid,Q21484766,https://upload.wikimedia.org/wikipedia/commons/6/63/2019-10-23_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_FC_Zenit_St._Petersburg_1DX_2586_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Steffen Prößdorf,2738.0,2738.0,aceptado
+56,Aleksa Puric,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+57,Alexander Sørloth,Atletico Madrid,Q13784739,https://upload.wikimedia.org/wikipedia/commons/f/fa/Alexander_Sorloth_France_v_Norway_26_June_26-048.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+58,Antoine Griezmann,Atletico Madrid,Q455462,https://upload.wikimedia.org/wikipedia/commons/c/cf/Antoine_Griezmann_%2851100409504%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Biser  Todorov (User:Biso) from Sofia, Bulgaria",1922.0,2564.0,aceptado
+59,Clément Lenglet,Atletico Madrid,Q16236859,https://upload.wikimedia.org/wikipedia/commons/7/70/Cl%C3%A9ment_Lenglet%2C_FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_64_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Werner100359,1208.0,1689.0,aceptado
+60,Conor Gallagher,Atletico Madrid,Q44737408,https://upload.wikimedia.org/wikipedia/commons/b/b0/Conor_Gallagher_2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public domain,GrassShoots!,1184.0,1481.0,aceptado
+61,Cubo,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+62,Dani Martinez,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+63,Dávid Hancko,Atletico Madrid,Q23771427,https://upload.wikimedia.org/wikipedia/commons/d/db/D%C3%A1vid_Hancko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Carlo Bruil Fotografie,797.0,1036.0,aceptado
+64,Giacomo Raspadori,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+65,Giuliano Simeone,Atletico Madrid,Q111672750,https://upload.wikimedia.org/wikipedia/commons/a/ad/Giuliano_Simeone_Argentina_v_Spain_19_July_2026-268.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+66,Iker Luque,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+67,Jano Monserrate,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+68,Javier Boñar,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+69,Javier Morcillo,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+70,Johnny Cardoso,Atletico Madrid,Q72219351,https://upload.wikimedia.org/wikipedia/commons/8/8c/Johnny_Cardoso_USMNT_v_Belgium_Mar_28_2026-115_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,1349.0,1797.0,aceptado
+71,José María Giménez,Atletico Madrid,Q13634114,https://upload.wikimedia.org/wikipedia/commons/d/d4/Jos%C3%A9_Mar%C3%ADa_Gim%C3%A9nez_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Анна Нэсси,467.0,522.0,aceptado
+72,Julio Díaz,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+73,Julián Alvarez,Atletico Madrid,Q59381180,https://upload.wikimedia.org/wikipedia/commons/0/0c/Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2446.0,3748.0,aceptado
+74,Koke,Atletico Madrid,Q276091,https://upload.wikimedia.org/wikipedia/commons/1/17/Koke_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Анна Нэсси,1081.0,1119.0,aceptado
+75,Marc Pubill,Atletico Madrid,Q110220404,https://upload.wikimedia.org/wikipedia/commons/6/65/Marc_Pubill_Argentina_v_Spain_19_July_2026-312.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+76,Marcos Llorente,Atletico Madrid,Q21130285,https://upload.wikimedia.org/wikipedia/commons/0/09/Marcos_Llorente_France_v_Spain_7.24.26-020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+77,Matteo Ruggeri,Atletico Madrid,Q97365426,https://upload.wikimedia.org/wikipedia/commons/a/a2/Next_Generation_Trophy_2017_Dritter_Tag_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Werner100359,2135.0,2597.0,aceptado
+78,Nahuel Molina,Atletico Madrid,Q22082590,https://upload.wikimedia.org/wikipedia/commons/e/ef/Nahuel_Molina_Argentina_v_Spain_19_July_2026-023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+79,Nico González,Atletico Madrid,Q43381082,https://upload.wikimedia.org/wikipedia/commons/0/02/Nicolas_Gonzalez_Argentina_v_Egypt_7_July_2026-037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+80,Obed Vargas,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+81,Pablo Barrios,Atletico Madrid,Q114924158,,,,,,aceptado
+82,Rayane Belaid,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+83,Robin Le Normand,Atletico Madrid,Q27469970,https://upload.wikimedia.org/wikipedia/commons/5/53/Le_Normand_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",398.0,578.0,aceptado
+84,Rodrigo Mendoza,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+85,Taufik Seidu,Atletico Madrid,,,,,,,sin coincidencia en sus clubes
+86,Thiago Almada,Atletico Madrid,Q57293140,https://upload.wikimedia.org/wikipedia/commons/2/20/Thiago_Almada_Argentina_v_Egypt_7_July_2026-045.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+87,Álex Baena,Atletico Madrid,Q97404267,https://upload.wikimedia.org/wikipedia/commons/e/e8/Alex_Baena_France_v_Spain_7.24.26-024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+88,Alejandro Balde,Barcelona,Q105681392,https://upload.wikimedia.org/wikipedia/commons/9/93/Esapana-inglaterra-74_%2848899354493%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,"Pedro  Semitiel from Cehegín, España",800.0,1200.0,aceptado
+89,Andreas Christensen,Barcelona,Q16063229,https://upload.wikimedia.org/wikipedia/commons/6/6d/Andreas_Christensen_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,317.0,373.0,aceptado
+90,Dani Olmo,Barcelona,Q19560313,https://upload.wikimedia.org/wikipedia/commons/8/83/Dani_Olmo_France_v_Spain_7.24.26-176_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2730.0,4094.0,aceptado
+91,Dro Fernández,Barcelona,Q135482672,,,,,,aceptado
+92,Eric García,Barcelona,Q59938996,https://upload.wikimedia.org/wikipedia/commons/e/eb/Eric_Garcia_Argentina_v_Spain_19_July_2026-313_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2302.0,4006.0,aceptado
+93,Fermín López,Barcelona,Q117312887,https://upload.wikimedia.org/wikipedia/commons/5/5c/Ferm%C3%ADn_L%C3%B3pez_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 4.0,Biso,766.0,1139.0,aceptado
+94,Ferran Torres,Barcelona,Q44297797,https://upload.wikimedia.org/wikipedia/commons/1/1c/Ferran_Torres_France_v_Spain_7.24.26-237_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,1314.0,1973.0,aceptado
+95,Frenkie de Jong,Barcelona,Q19898898,https://upload.wikimedia.org/wikipedia/commons/4/42/%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0%C2%BB_0-1._2_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2021_%D0%B3%D0%BE%D0%B4%D0%B0._II_%E2%80%94_1289671_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Yuliia Perekopaiko,303.0,430.0,aceptado
+96,Gavi,Barcelona,Q108111889,https://upload.wikimedia.org/wikipedia/commons/4/43/Gavi_France_v_Spain_7.24.26-275_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2455.0,3119.0,aceptado
+97,Gerard Martín,Barcelona,Q121943745,https://upload.wikimedia.org/wikipedia/commons/5/53/2025_04_26_Final_de_la_Copa_del_Rey_-_54482387776_-_Gerard_Mart%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Junta de Andalucía,179.0,237.0,aceptado
+98,Jofre Torrents,Barcelona,Q133876886,,,,,,aceptado
+99,João Cancelo,Barcelona,Q6298063,https://upload.wikimedia.org/wikipedia/commons/2/28/Jo%C3%A3o_Cancelo_USMNT_v_Portugal_Mar_31_2026-30_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2666.0,3998.0,aceptado
+100,Jules Koundé,Barcelona,Q47170176,https://upload.wikimedia.org/wikipedia/commons/e/ee/Jules_Kounde_France_v_Senegal_16_June_2026-449_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,1582.0,2372.0,aceptado
+101,Lamine Yamal,Barcelona,Q113704154,https://upload.wikimedia.org/wikipedia/commons/d/d6/Lamine_Yamal_Argentina_v_Spain_19_July_2026-214_%28new_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,1342.0,1813.0,aceptado
+102,Marc Bernal,Barcelona,Q121982284,https://upload.wikimedia.org/wikipedia/commons/4/4b/Marc_Bernal_%282025%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Unknown authorUnknown author,395.0,427.0,aceptado
+103,Marc Casadó,Barcelona,Q114085673,https://upload.wikimedia.org/wikipedia/commons/b/b9/Marc_Casad%C3%B3%2C_durant_la_gira_de_pretemporada_a_EUA._%2805-08-2024%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Attribution,Government of Catalonia,775.0,936.0,aceptado
+104,Marcus Rashford,Barcelona,Q22951255,https://upload.wikimedia.org/wikipedia/commons/b/bc/Marcus_Rashford_England_v_Panama_27_June_26-047.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+105,Pau Cubarsí,Barcelona,Q118473161,https://upload.wikimedia.org/wikipedia/commons/7/77/Pau_Cubarsi_Argentina_v_Spain_19_July_2026-181_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,1112.0,1693.0,aceptado
+106,Pedri,Barcelona,Q66606355,https://upload.wikimedia.org/wikipedia/commons/1/1c/Pedri_France_v_Spain_7.24.26-245.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+107,Raphinha,Barcelona,Q28861547,https://upload.wikimedia.org/wikipedia/commons/b/b4/Raphinha_Brazil_V_Morocco_13_June_2026-133_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2042.0,2824.0,aceptado
+108,Robert Lewandowski,Barcelona,Q151269,https://upload.wikimedia.org/wikipedia/commons/6/6b/Robert_Lewandowski_2018%2C_JAP-POL_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Светлана Бекетова,501.0,610.0,aceptado
+109,Ronald Araujo,Barcelona,Q56332606,https://upload.wikimedia.org/wikipedia/commons/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Werner100359,1255.0,1893.0,aceptado
+110,Roony Bardghji,Barcelona,Q109659531,https://upload.wikimedia.org/wikipedia/commons/9/96/Roony_Bardghji%2C_Vejle_Boldklub_-_FC_K%C3%B8benhavn%2C_29._July_2023_-_opvarmning_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Thomas Dahlstrøm Nielsen,476.0,458.0,aceptado
+111,Tomás Marqués,Barcelona,,,,,,,sin coincidencia en sus clubes
+112,Toni Fernández,Barcelona,Q128214524,,,,,,aceptado
+113,Xavi Espart,Barcelona,Q136221128,,,,,,aceptado
+114,Álvaro Cortés,Barcelona,Q121944083,,,,,,aceptado
+115,Andrés Antañón,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+116,Borja Iglesias,Celta Vigo,Q18719485,https://upload.wikimedia.org/wikipedia/commons/b/b0/Borja_Iglesias_Argentina_v_Spain_19_July_2026-253_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2143.0,3310.0,aceptado
+117,Bryan Zaragoza,Celta Vigo,Q109853508,,,,,,aceptado
+118,Carl Starfelt,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+119,Carlos Domínguez,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+120,Damián Rodríguez,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+121,Fer López,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+122,Ferran Jutglà,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+123,Hugo Burcio,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+124,Hugo González,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+125,Hugo Sotelo,Celta Vigo,Q106867353,https://upload.wikimedia.org/wikipedia/commons/5/58/Hugo_Sotelo_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Pigreño,269.0,364.0,aceptado
+126,Hugo Álvarez,Celta Vigo,,,,,,,"edad no cuadra: nacido en 1985, WhoScored dice 23 años"
+127,Iago Aspas,Celta Vigo,Q26380,https://upload.wikimedia.org/wikipedia/commons/2/28/XXIII_Memorial_Quinocho_%28RC_Celta_vs_Mainz_05%29_-_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Harpagornis,2505.0,3133.0,aceptado
+128,Ilaix Moriba,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+129,Javi Rodríguez,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+130,Javi Rueda,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+131,Jones El Abdellaoui,Celta Vigo,Q113574233,,,,,,aceptado
+132,Joseph Aidoo,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+133,Manu Fernández,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+134,Marcos Alonso,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+135,Matías Vecino,Celta Vigo,Q2053358,https://upload.wikimedia.org/wikipedia/commons/6/60/20171114_AUT_URU_4555_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0 at,Ailura,766.0,1036.0,aceptado
+136,Miguel Román,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+137,Mihailo Ristic,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+138,Pablo Durán,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+139,Sergio Carreira,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+140,Williot Swedberg,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+141,Yoel Lago,Celta Vigo,,,,,,,sin coincidencia en sus clubes
+142,Álvaro Núñez,Celta Vigo,Q106878319,,,,,,aceptado
+143,Óscar Mingueza,Celta Vigo,Q102292155,https://upload.wikimedia.org/wikipedia/commons/7/75/%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0%C2%BB_0-1._2_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2021_%D0%B3%D0%BE%D0%B4%D0%B0._II_%E2%80%94_1289659_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Yuliia Perekopaiko,292.0,417.0,aceptado
+144,Adam El Mokhtari,Elche,,,,,,,sin coincidencia en sus clubes
+145,Adrià Pedrosa,Elche,Q58174944,https://upload.wikimedia.org/wikipedia/commons/c/cd/Adri%C3%A0_Pedrosa_2019_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,264.0,355.0,aceptado
+146,Aleix Febas,Elche,,,,,,,sin coincidencia en sus clubes
+147,Ali Houary,Elche,,,,,,,sin coincidencia en sus clubes
+148,André Silva,Elche,Q15113616,https://upload.wikimedia.org/wikipedia/commons/e/e2/Andr%C3%A9_Silva_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Steffen Prößdorf,1504.0,2198.0,aceptado
+149,Bambo Diaby,Elche,,,,,,,sin coincidencia en sus clubes
+150,Buba Sangaré,Elche,,,,,,,sin coincidencia en sus clubes
+151,David Affengruber,Elche,Q65948590,https://upload.wikimedia.org/wikipedia/commons/4/4b/FC_RB_Salzburg_gegen_SK_Sturm_Graz%282023-05-21%29_56.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Werner100359,2548.0,3131.0,aceptado
+152,Federico Redondo,Elche,Q113027711,https://upload.wikimedia.org/wikipedia/commons/a/a4/Federico_Redondo_NE_Revolution_Inter_Miami_7.9.25-049_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2708.0,3608.0,aceptado
+153,Germán Valera,Elche,,,,,,,sin coincidencia en sus clubes
+154,Gonzalo Villar,Elche,Q55640545,,,,,,aceptado
+155,Grady Diangana,Elche,,,,,,,sin coincidencia en sus clubes
+156,Héctor Fort,Elche,Q118876190,,,,,,aceptado
+157,Jairo Izquierdo,Elche,,,,,,,sin coincidencia en sus clubes
+158,John Donald,Elche,,,,,,,sin coincidencia en sus clubes
+159,Josan,Elche,Q20925473,https://upload.wikimedia.org/wikipedia/commons/0/0c/2025-12-03_-_Copa_del_Rey_de_f%C3%BAtbol%2C_C.D._Quintanar_del_Rey_contra_el_Elche_C.F_-_54962303553_%28cropped%29_Josan_Ferr%C3%A1ndez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Gobierno de Castilla-La Mancha,805.0,1201.0,aceptado
+160,Lucas Cepeda,Elche,,,,,,,sin coincidencia en sus clubes
+161,Léo Pétrot,Elche,,,,,,,sin coincidencia en sus clubes
+162,Marc Aguado,Elche,,,,,,,sin coincidencia en sus clubes
+163,Martim Neto,Elche,,,,,,,sin coincidencia en sus clubes
+164,Mourad El Ghezouani,Elche,,,,,,,sin coincidencia en sus clubes
+165,Pedro Bigas,Elche,,,,,,,sin coincidencia en sus clubes
+166,Rafa Mir,Elche,,,,,,,sin coincidencia en sus clubes
+167,Tete Morente,Elche,,,,,,,sin coincidencia en sus clubes
+168,Victor Chust,Elche,,,,,,,sin coincidencia en sus clubes
+169,Yago Alonso,Elche,,,,,,,sin coincidencia en sus clubes
+170,Álex Sánchez,Elche,,,,,,,sin coincidencia en sus clubes
+171,Álvaro Rodríguez,Elche,Q114901851,,,,,,aceptado
+172,Antoniu Roca,Espanyol,Q122426118,,,,,,aceptado
+173,Carlos Romero,Espanyol,Q113653321,,,,,,aceptado
+174,Charles Pickel,Espanyol,Q24256738,https://upload.wikimedia.org/wikipedia/commons/f/f5/RC_Lens_-_Grenoble_Foot_38_%2810-02-2020%29_60.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Supporterhéninois,1271.0,1695.0,aceptado
+175,Clemens Riedel,Espanyol,Q107633850,https://upload.wikimedia.org/wikipedia/commons/9/96/ClemensRiedel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Silesia711,1073.0,1985.0,aceptado
+176,Cyril Ngonge,Espanyol,,,,,,,sin coincidencia en sus clubes
+177,Edu Expósito,Espanyol,Q29855603,,,,,,aceptado
+178,Fernando Calero,Espanyol,,,,,,,sin coincidencia en sus clubes
+179,Javi Puado,Espanyol,Q56198582,,,,,,aceptado
+180,Jofre Carreras,Espanyol,Q99675666,,,,,,aceptado
+181,José Salinas,Espanyol,Q104889354,,,,,,aceptado
+182,Kike García,Espanyol,,,,,,,sin coincidencia en sus clubes
+183,Leandro Cabrera,Espanyol,Q2299030,https://upload.wikimedia.org/wikipedia/commons/1/12/Leandro_Cabrera_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,jamesboyes,1455.0,2398.0,aceptado
+184,Lluc Castell,Espanyol,,,,,,,sin coincidencia en sus clubes
+185,Luca Koleosho,Espanyol,Q112130343,https://upload.wikimedia.org/wikipedia/commons/1/1d/Luca_Koleosho_26042025_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Timmy96,1149.0,914.0,aceptado
+186,Miguel Rubio,Espanyol,,,,,,,sin coincidencia en sus clubes
+187,Omar El Hilali,Espanyol,Q106368588,https://upload.wikimedia.org/wikipedia/commons/9/96/BHA_5_v_Espanyol_1_pre_season_30_07_2022_51_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,jamesboyes,830.0,1086.0,aceptado
+188,Pere Milla,Espanyol,Q19664487,,,,,,aceptado
+189,Pol Lozano,Espanyol,Q52192222,,,,,,aceptado
+190,Ramon Terrats,Espanyol,Q101156112,,,,,,aceptado
+191,Roberto Fernández,Espanyol,,,,,,,sin coincidencia en sus clubes
+192,Rubén Sánchez,Espanyol,Q109282703,https://upload.wikimedia.org/wikipedia/commons/a/a1/BHA_5_v_Espanyol_1_pre_season_30_07_2022_27_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,jamesboyes,1330.0,1920.0,aceptado
+193,Tyrhys Dolan,Espanyol,Q98754851,https://upload.wikimedia.org/wikipedia/commons/3/38/Tyrhys_Dolan_October_2017_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Kane Brooker,1199.0,1600.0,aceptado
+194,Urko González de Zárate,Espanyol,Q99514820,https://upload.wikimedia.org/wikipedia/commons/4/47/Urko_Zarate_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Daeri,910.0,1221.0,aceptado
+195,Abdel Abqar,Getafe,,,,,,,sin coincidencia en sus clubes
+196,Abu Kamara,Getafe,,,,,,,sin coincidencia en sus clubes
+197,Adrián Liso,Getafe,,,,,,,sin coincidencia en sus clubes
+198,Alejandro Mestanza,Getafe,,,,,,,sin coincidencia en sus clubes
+199,Alex Sancris,Getafe,,,,,,,sin coincidencia en sus clubes
+200,Alex Sola,Getafe,Q61746657,,,,,,aceptado
+201,Allan Nyom,Getafe,Q2705713,https://upload.wikimedia.org/wikipedia/commons/7/7c/Allan_Nyom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,No machine-readable author provided. Trick1s assumed (based on copyright claims).,640.0,960.0,aceptado
+202,Borja Mayoral,Getafe,Q18649709,https://upload.wikimedia.org/wikipedia/commons/f/f9/Borja_Mayoral_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Real Madrid,1112.0,1079.0,aceptado
+203,Christantus Uche,Getafe,,,,,,,sin coincidencia en sus clubes
+204,Coba da Costa,Getafe,,,,,,,sin coincidencia en sus clubes
+205,Damián Cáceres,Getafe,,,,,,,sin coincidencia en sus clubes
+206,Davinchi,Getafe,,,,,,,sin coincidencia en sus clubes
+207,Diego Rico,Getafe,,,,,,,sin coincidencia en sus clubes
+208,Djené Dakonam,Getafe,Q3467456,,,,,,aceptado
+209,Domingos Duarte,Getafe,,,,,,,sin coincidencia en sus clubes
+210,Hugo Solozabal,Getafe,,,,,,,sin coincidencia en sus clubes
+211,Ismael Bekhoucha,Getafe,,,,,,,sin coincidencia en sus clubes
+212,Javi Muñoz,Getafe,,,,,,,sin coincidencia en sus clubes
+213,Jorge Montes,Getafe,,,,,,,sin coincidencia en sus clubes
+214,Joselu Pérez,Getafe,,,,,,,sin coincidencia en sus clubes
+215,Juan Iglesias,Getafe,,,,,,,sin coincidencia en sus clubes
+216,Juanmi,Getafe,,,,,,,sin coincidencia en sus clubes
+217,Kiko Femenía,Getafe,Q2269948,https://upload.wikimedia.org/wikipedia/commons/c/cf/Kiko_Femenia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Carlos RM,578.0,754.0,aceptado
+218,Luis Milla,Getafe,Q47477260,,,,,,aceptado
+219,Luis Vázquez,Getafe,,,,,,,sin coincidencia en sus clubes
+220,Mario Martín,Getafe,,,,,,,sin coincidencia en sus clubes
+221,Martín Satriano,Getafe,,,,,,,sin coincidencia en sus clubes
+222,Mauro Arambarri,Getafe,Q17124713,https://upload.wikimedia.org/wikipedia/commons/3/3d/Mauro_Arambarri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Soccer.ru,501.0,401.0,aceptado
+223,Sebastián Boselli,Getafe,,,,,,,sin coincidencia en sus clubes
+224,Veljko Birmancevic,Getafe,Q23762817,,,,,,aceptado
+225,Yvan Neyou,Getafe,,,,,,,sin coincidencia en sus clubes
+226,Zaid Romero,Getafe,,,,,,,sin coincidencia en sus clubes
+227,Abel Ruiz,Girona,,,,,,,sin coincidencia en sus clubes
+228,Alejandro Francés,Girona,,,,,,,sin coincidencia en sus clubes
+229,Arnau Martínez,Girona,Q104439000,,,,,,aceptado
+230,Axel Witsel,Girona,Q151838,https://upload.wikimedia.org/wikipedia/commons/6/61/Axel_Witsel_USMNT_v_Belgium_Mar_28_2026-34_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2446.0,3259.0,aceptado
+231,Azzedine Ounahi,Girona,Q108109586,https://upload.wikimedia.org/wikipedia/commons/5/54/Azzedine_Ounahi_Brazil_V_Morocco_13_June_2026-159_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2278.0,3415.0,aceptado
+232,Bojan Miovski,Girona,,,,,,,sin coincidencia en sus clubes
+233,Bryan Gil,Girona,Q60687576,https://upload.wikimedia.org/wikipedia/commons/6/6b/Bryan_Gil_Spain_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Valencia CF,414.0,654.0,aceptado
+234,Claudio Echeverri,Girona,Q116463164,https://upload.wikimedia.org/wikipedia/commons/3/3a/Claudio_Echeverri_in_2017_vs_Juventus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Venice Champions Trophy 2017,597.0,660.0,aceptado
+235,Cristhian Stuani,Girona,Q2608851,https://upload.wikimedia.org/wikipedia/commons/8/80/U11_Christian_Stuani_7529.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0 at,Ailura,500.0,750.0,aceptado
+236,Daley Blind,Girona,Q128912,https://upload.wikimedia.org/wikipedia/commons/c/c7/Zarya-MU_%286%29_%E2%80%94_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Станислав Ведмидь,257.0,342.0,aceptado
+237,David López,Girona,Q3531728,https://upload.wikimedia.org/wikipedia/commons/4/41/David_L%C3%B3pez_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,701.0,943.0,aceptado
+238,Dawda Camara,Girona,,,,,,,sin coincidencia en sus clubes
+239,Donny van de Beek,Girona,Q19059840,https://upload.wikimedia.org/wikipedia/commons/5/52/Donny_van_de_Beek_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Ardfern,787.0,1108.0,aceptado
+240,Fran Beltrán,Girona,Q26475869,https://upload.wikimedia.org/wikipedia/commons/6/6c/%E2%80%9CSiempre_hay_que_so%C3%B1ar_y_vuestras_gestas_nos_hacen_ir_so%C3%B1ando%2C_so%C3%B1ando%2C_so%C3%B1ando%E2%80%A6%E2%80%9D_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 4.0,Diario de Madrid,196.0,291.0,aceptado
+241,Hugo Rincón,Girona,Q107297831,,,,,,aceptado
+242,Iván Martín,Girona,Q60667184,https://upload.wikimedia.org/wikipedia/commons/0/04/Ivan_martin_nunez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Daeri,1554.0,1481.0,aceptado
+243,Jhon Solís,Girona,,,,,,,sin coincidencia en sus clubes
+244,Joel Roca,Girona,,,,,,,sin coincidencia en sus clubes
+245,Juan Arango,Girona,,,,,,,sin coincidencia en sus clubes
+246,Ladislav Krejcí,Girona,Q27919903,https://upload.wikimedia.org/wikipedia/commons/4/43/Ladislav_Krej%C4%8D%C3%AD_01112025_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Timmy96,4284.0,5712.0,aceptado
+247,Lancinet Kourouma,Girona,,,,,,,sin coincidencia en sus clubes
+248,Portu,Girona,,,,,,,sin coincidencia en sus clubes
+249,Thomas Lemar,Girona,Q15081905,https://upload.wikimedia.org/wikipedia/commons/3/38/Thomas_Lemar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Кирилл Венедиктов,513.0,770.0,aceptado
+250,Viktor Tsygankov,Girona,,,,,,,sin coincidencia en sus clubes
+251,Vitor Reis,Girona,,,,,,,sin coincidencia en sus clubes
+252,Vladyslav Vanat,Girona,Q106781889,https://upload.wikimedia.org/wikipedia/commons/1/1b/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2_%D0%92%D0%B0%D0%BD%D0%B0%D1%82._1_%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8F_2024_%D1%80%D0%BE%D0%BA%D1%83_%E2%80%94_1555370_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Dynamomania.com,354.0,443.0,aceptado
+253,Yáser Asprilla,Girona,,,,,,,sin coincidencia en sus clubes
+254,Álex Moreno,Girona,Q16235660,https://upload.wikimedia.org/wikipedia/commons/3/3a/Alex_morenoElche_vs_Mallorca_8_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Ruben Ortega,355.0,532.0,aceptado
+255,Adrián de la Fuente,Levante,,,,,,,sin coincidencia en sus clubes
+256,Alan Matturro,Levante,Q110495913,https://upload.wikimedia.org/wikipedia/commons/0/0d/Uruguay_1_Italia_0_a_Italia_-_Uruguay_campe%C3%B3n_Mundial_Sub_20_2023_230611-4427-jikatu_%2852989760354%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Jimmy Baikovicius from Montevideo, Uruguay",391.0,778.0,aceptado
+257,Carlos Espí,Levante,,,,,,,sin coincidencia en sus clubes
+258,Carlos Álvarez,Levante,,,,,,,sin coincidencia en sus clubes
+259,Diego Pampín,Levante,,,,,,,sin coincidencia en sus clubes
+260,Goduine Koyalipou,Levante,,,,,,,sin coincidencia en sus clubes
+261,Iker Losada,Levante,,,,,,,sin coincidencia en sus clubes
+262,Iván Romero,Levante,,,,,,,sin coincidencia en sus clubes
+263,Jeremy Toljan,Levante,Q3177357,https://upload.wikimedia.org/wikipedia/commons/0/03/20161011_U21_AUT_GER_9302.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0 at,Ailura,718.0,1077.0,aceptado
+264,Jon Olasagasti,Levante,Q107035459,,,,,,aceptado
+265,Jorge Cabello,Levante,,,,,,,sin coincidencia en sus clubes
+266,José Luis Morales,Levante,Q16231822,https://upload.wikimedia.org/wikipedia/commons/1/16/Jos%C3%A9_Luis_Morales_with_a_fan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Timmy96,983.0,2048.0,aceptado
+267,Kareem Tunde,Levante,,,,,,,sin coincidencia en sus clubes
+268,Karl Etta Eyong,Levante,,,,,,,sin coincidencia en sus clubes
+269,Kervin Arriaga,Levante,,,,,,,sin coincidencia en sus clubes
+270,Manu Sánchez,Levante,,,,,,,sin coincidencia en sus clubes
+271,Matías Moreno,Levante,,,,,,,sin coincidencia en sus clubes
+272,Nacho Pérez,Levante,,,,,,,sin coincidencia en sus clubes
+273,Oriol Rey,Levante,,,,,,,sin coincidencia en sus clubes
+274,Pablo Martínez,Levante,,,,,,,sin coincidencia en sus clubes
+275,Paco Cortés,Levante,,,,,,,sin coincidencia en sus clubes
+276,Roger Brugué,Levante,,,,,,,sin coincidencia en sus clubes
+277,Tai Abed,Levante,,,,,,,sin coincidencia en sus clubes
+278,Ugo Raghouber,Levante,,,,,,,sin coincidencia en sus clubes
+279,Unai Elgezabal,Levante,Q23907858,https://upload.wikimedia.org/wikipedia/commons/1/16/CSC_0226_%2835151424264%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",252.0,336.0,aceptado
+280,Unai Vencedor,Levante,Q85290934,https://upload.wikimedia.org/wikipedia/commons/a/a4/UnaiVencedor2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Montxohache,1124.0,1661.0,aceptado
+281,Víctor García,Levante,,,,,,,sin coincidencia en sus clubes
+282,Abdón Prats,Mallorca,,,,,,,sin coincidencia en sus clubes
+283,Antonio Raíllo,Mallorca,Q21039370,,,,,,aceptado
+284,Antonio Sánchez,Mallorca,,,,,,,sin coincidencia en sus clubes
+285,Dani Rodríguez,Mallorca,,,,,,,sin coincidencia en sus clubes
+286,David López,Mallorca,,,,,,,sin coincidencia en sus clubes
+287,Jan Salas,Mallorca,,,,,,,sin coincidencia en sus clubes
+288,Jan Virgili,Mallorca,Q134564837,,,,,,aceptado
+289,Javi Llabrés,Mallorca,,,,,,,sin coincidencia en sus clubes
+290,Javier Olaizola,Mallorca,,,,,,,sin coincidencia en sus clubes
+291,Johan Mojica,Mallorca,Q5932872,https://upload.wikimedia.org/wikipedia/commons/4/4a/FWC_2018_-_Round_of_16_-_COL_v_ENG_-_Photo_102_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Oleg Bkhambri (Voltmetro),545.0,905.0,aceptado
+292,Justin Kalumba,Mallorca,,,,,,,sin coincidencia en sus clubes
+293,Luis Orejuela,Mallorca,,,,,,,sin coincidencia en sus clubes
+294,Manu Morlanes,Mallorca,Q45125744,,,,,,aceptado
+295,Marash Kumbulla,Mallorca,,,,,,,sin coincidencia en sus clubes
+296,Marc Domenech,Mallorca,,,,,,,sin coincidencia en sus clubes
+297,Martin Valjent,Mallorca,Q14806392,,,,,,aceptado
+298,Mateo Joseph,Mallorca,,,,,,,sin coincidencia en sus clubes
+299,Mateu Morey,Mallorca,Q42427279,,,,,,aceptado
+300,Miguel Calatayud,Mallorca,,,,,,,sin coincidencia en sus clubes
+301,Omar Mascarell,Mallorca,Q7089760,https://upload.wikimedia.org/wikipedia/commons/7/7e/Omar_Mascarell_2018_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Елена Рыбакова,467.0,404.0,aceptado
+302,Pablo Maffeo,Mallorca,Q22694710,https://upload.wikimedia.org/wikipedia/commons/8/81/Pablo_maffeo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Jeollo von VfB-exklusiv.de,640.0,800.0,aceptado
+303,Pablo Torre,Mallorca,Q111097366,https://upload.wikimedia.org/wikipedia/commons/d/d3/Barcelona_Training_Miami_2022_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,TheSoccerBoy,453.0,691.0,aceptado
+304,Samú Costa,Mallorca,,,,,,,sin coincidencia en sus clubes
+305,Sergi Darder,Mallorca,Q6125267,https://upload.wikimedia.org/wikipedia/commons/d/d9/BHA_5_v_Espanyol_1_pre_season_30_07_2022_38_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,jamesboyes,2489.0,3360.0,aceptado
+306,Takuma Asano,Mallorca,Q11557367,https://upload.wikimedia.org/wikipedia/commons/2/21/Takuma_Asano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Jeollo von http://www.vfb-exklusiv.de,641.0,800.0,aceptado
+307,Toni Lato,Mallorca,Q20898221,https://upload.wikimedia.org/wikipedia/commons/d/d9/Toni_Lato_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Valencia CF,954.0,1035.0,aceptado
+308,Vedat Muriqi,Mallorca,Q15620192,https://upload.wikimedia.org/wikipedia/commons/e/e3/Vedat_Muriqi_19_Fenerbah%C3%A7e_20260805_%285%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,User:Zafer,5152.0,7728.0,aceptado
+309,Zito Luvumbo,Mallorca,,,,,,,sin coincidencia en sus clubes
+310,Abel Bretones,Osasuna,,,,,,,sin coincidencia en sus clubes
+311,Aimar Oroz,Osasuna,Q64735295,https://upload.wikimedia.org/wikipedia/commons/1/1a/Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28248%29_-_Aimar_Oroz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Like tears in rain,360.0,355.0,aceptado
+312,Alejandro Catena,Osasuna,Q55640535,,,,,,aceptado
+313,Ante Budimir,Osasuna,Q17505049,https://upload.wikimedia.org/wikipedia/commons/8/81/Ante_Budimir_Croatia_v_Portugal_2_July_2026-034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+314,Asier Osambela,Osasuna,Q122417337,https://upload.wikimedia.org/wikipedia/commons/2/27/Asier_Otsanbela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Daeri,1802.0,2210.0,aceptado
+315,Enzo Boyomo,Osasuna,,,,,,,sin coincidencia en sus clubes
+316,Iker Benito,Osasuna,Q110624180,,,,,,aceptado
+317,Iker Muñoz,Osasuna,Q116603156,,,,,,aceptado
+318,Javi Galán,Osasuna,,,,,,,sin coincidencia en sus clubes
+319,Jon Moncayola,Osasuna,Q66528894,https://upload.wikimedia.org/wikipedia/commons/f/fb/Moncayola1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Daeri,791.0,989.0,aceptado
+320,Jorge Herrando,Osasuna,Q114136986,,,,,,aceptado
+321,Juan Cruz,Osasuna,,,,,,,sin coincidencia en sus clubes
+322,Kike Barja,Osasuna,Q32236556,https://upload.wikimedia.org/wikipedia/commons/f/f2/CSC_0149_%2829636216028%29_Kike_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",313.0,442.0,aceptado
+323,Lucas Torró,Osasuna,Q15494540,,,,,,aceptado
+324,Moi Gómez,Osasuna,,,,,,,sin coincidencia en sus clubes
+325,Raúl García,Osasuna,,,,,,,sin coincidencia en sus clubes
+326,Raúl Moro,Osasuna,,,,,,,sin coincidencia en sus clubes
+327,Rubén García,Osasuna,,,,,,,sin coincidencia en sus clubes
+328,Sheraldo Becker,Osasuna,,,,,,,sin coincidencia en sus clubes
+329,Valentin Rosier,Osasuna,,,,,,,sin coincidencia en sus clubes
+330,Víctor Muñoz,Osasuna,Q121422889,https://upload.wikimedia.org/wikipedia/commons/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+331,Íñigo Arguibide,Osasuna,Q124659098,https://upload.wikimedia.org/wikipedia/commons/e/e6/Argibide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Daeri,998.0,1396.0,aceptado
+332,Abdul Mumin,Rayo Vallecano,Q27064119,,,,,,aceptado
+333,Alemão,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+334,Andrei Ratiu,Rayo Vallecano,Q63226171,,,,,,aceptado
+335,Carlos Martín,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+336,Florian Lejeune,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+337,Fran Pérez,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+338,Gerard Gumbau,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+339,Ilias Akhomach,Rayo Vallecano,Q100300095,https://upload.wikimedia.org/wikipedia/commons/5/57/Ilias_Akhomach_Olympic_Games.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,MFonzatti,518.0,1220.0,aceptado
+340,Isi Palazón,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+341,Iván Balliu,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+342,Jorge de Frutos,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+343,Jozhua Vertrouwd,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+344,Luiz Felipe,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+345,Nobel Mendy,Rayo Vallecano,Q116053269,,,,,,aceptado
+346,Pacha Espino,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+347,Pathé Ciss,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+348,Pedro Díaz,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+349,Pelayo Fernández,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+350,Pep Chavarría,Rayo Vallecano,Q96040600,,,,,,aceptado
+351,Randy Nteka,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+352,Samu Becerra,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+353,Sergio Camello,Rayo Vallecano,Q63928290,,,,,,aceptado
+354,Sergio Lozano,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+355,Unai López,Rayo Vallecano,Q17627796,https://upload.wikimedia.org/wikipedia/commons/7/75/Unai_Lopez_en_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,MaestroDash,1200.0,1600.0,aceptado
+356,Álvaro García,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+357,Óscar Trejo,Rayo Vallecano,Q167348,https://upload.wikimedia.org/wikipedia/commons/f/f0/Real_Valladolid_-_Rayo_Vallecano_2019-01-05_9_%28cropped%29_Trejo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,www.realvalladolid.es,166.0,261.0,aceptado
+358,Óscar Valentín,Rayo Vallecano,,,,,,,sin coincidencia en sus clubes
+359,Abde Ezzalzouli,Real Betis,Q109327842,https://upload.wikimedia.org/wikipedia/commons/6/66/Abdessamad_Ezzalzouli_Morocco_v_Norway_7_June_2026-38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+360,Aitor Ruibal,Real Betis,Q46748781,,,,,,aceptado
+361,Antony,Real Betis,,,,,,,sin coincidencia en sus clubes
+362,Chimy Ávila,Real Betis,Q19949691,,,,,,aceptado
+363,Cucho Hernández,Real Betis,Q27037962,https://upload.wikimedia.org/wikipedia/commons/9/9f/Cucho_Hern%C3%A1ndez%2C_Colombia_NT_presidential_send-off%2C_Jun_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public domain,Fotografía oficial de la Presidencia de Colombia,1037.0,1447.0,aceptado
+364,Cédric Bakambu,Real Betis,Q932982,https://upload.wikimedia.org/wikipedia/commons/b/b4/Cedric_Bakambu_Red_Bulls_v_San_Diego_10_October_2026-215_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2218.0,3327.0,aceptado
+365,Dani Pérez,Real Betis,,,,,,,sin coincidencia en sus clubes
+366,Diego Llorente,Real Betis,Q13382434,https://upload.wikimedia.org/wikipedia/commons/c/c7/Real_Sociedad_-_Red_Bull_Salzburgo_62_%2826433581918%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",329.0,423.0,aceptado
+367,Giovani Lo Celso,Real Betis,Q20743436,https://upload.wikimedia.org/wikipedia/commons/2/29/Giovani_Lo_Celso_Argentina_v_Egypt_7_July_2026-038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+368,Héctor Bellerín,Real Betis,Q14947422,https://upload.wikimedia.org/wikipedia/commons/6/62/1_hector_bellerin_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Chensiyuan,1709.0,2579.0,aceptado
+369,Isco,Real Betis,Q80892,https://upload.wikimedia.org/wikipedia/commons/e/e1/Liver-RM_%285%29_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,304.0,478.0,aceptado
+370,Iván Corralejo,Real Betis,,,,,,,sin coincidencia en sus clubes
+371,Junior Firpo,Real Betis,,,,,,,sin coincidencia en sus clubes
+372,Marc Bartra,Real Betis,Q310625,https://upload.wikimedia.org/wikipedia/commons/1/1c/Marc_Bartra%2C_durante_un_encuentro_con_el_Real_Betis_Balompi%C3%A9_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Gabriel Corbacho,1227.0,1975.0,aceptado
+373,Marc Roca,Real Betis,,,,,,,sin coincidencia en sus clubes
+374,Natan,Real Betis,,,,,,,sin coincidencia en sus clubes
+375,Nelson Deossa,Real Betis,,,,,,,sin coincidencia en sus clubes
+376,Pablo Fornals,Real Betis,,,,,,,sin coincidencia en sus clubes
+377,Pablo García,Real Betis,Q131905115,,,,,,aceptado
+378,Ricardo Rodríguez,Real Betis,Q666506,https://upload.wikimedia.org/wikipedia/commons/f/fd/Ricardo_Rodr%C3%ADguez_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,760.0,1000.0,aceptado
+379,Rodrigo Riquelme,Real Betis,,,,,,,sin coincidencia en sus clubes
+380,Sergi Altimira,Real Betis,Q113675439,,,,,,aceptado
+381,Sofyan Amrabat,Real Betis,Q18428483,https://upload.wikimedia.org/wikipedia/commons/9/9f/Sofyan_Amrabat_Brazil_V_Morocco_13_June_2026-63.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+382,Valentín Gómez,Real Betis,,,,,,,sin coincidencia en sus clubes
+383,Álvaro Fidalgo,Real Betis,Q98092491,https://upload.wikimedia.org/wikipedia/commons/e/e1/Alvaro_Fidalgo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Real Madrid C.F,868.0,1024.0,aceptado
+384,Ángel Ortiz,Real Betis,,,,,,,sin coincidencia en sus clubes
+385,Antonio Rüdiger,Real Madrid,,,,,,,sin coincidencia en sus clubes
+386,Arda Güler,Real Madrid,Q108159340,https://upload.wikimedia.org/wikipedia/commons/c/c7/Arda_G%C3%BCler_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,LawEnthusiast,441.0,515.0,aceptado
+387,Aurélien Tchouaméni,Real Madrid,,,,,,,sin coincidencia en sus clubes
+388,Brahim Díaz,Real Madrid,Q26973015,https://upload.wikimedia.org/wikipedia/commons/9/96/Brahim_Diaz_Morocco_v_Norway_7_June_2026-36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+389,César Palacios,Real Madrid,Q117661592,https://upload.wikimedia.org/wikipedia/commons/e/e2/C%C3%A9sar_Palacios_17102026_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Timmy96,1426.0,1980.0,aceptado
+390,Dani Carvajal,Real Madrid,Q127452,https://upload.wikimedia.org/wikipedia/commons/b/b6/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Dani_Carvajal_10_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Rolandhino1,628.0,872.0,aceptado
+391,Dani Ceballos,Real Madrid,Q16972254,https://upload.wikimedia.org/wikipedia/commons/4/4f/Dani_Ceballos%2C_Real_Madrid%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Fotografías Archimadrid.es,1753.0,2634.0,aceptado
+392,Daniel Yáñez,Real Madrid,,,,,,,sin coincidencia en sus clubes
+393,David Alaba,Real Madrid,Q31981,https://upload.wikimedia.org/wikipedia/commons/f/f4/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_David_Alaba_850_1632.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Granada,1333.0,2000.0,aceptado
+394,David Jiménez,Real Madrid,,,,,,,sin coincidencia en sus clubes
+395,Dean Huijsen,Real Madrid,Q112184628,https://upload.wikimedia.org/wikipedia/commons/d/d6/Dean_Huijsen_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,AFC Bournemouth,1270.0,1843.0,aceptado
+396,Diego Aguado,Real Madrid,Q131416396,,,,,,aceptado
+397,Eduardo Camavinga,Real Madrid,Q62960177,https://upload.wikimedia.org/wikipedia/commons/0/05/Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Fotografías Archimadrid.es,2049.0,2974.0,aceptado
+398,Endrick,Real Madrid,Q110644260,https://upload.wikimedia.org/wikipedia/commons/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,YantsImages,600.0,803.0,aceptado
+399,Federico Valverde,Real Madrid,,,,,,,sin coincidencia en sus clubes
+400,Ferland Mendy,Real Madrid,Q23884186,https://upload.wikimedia.org/wikipedia/commons/9/95/Ferland_Mendy%2C_June_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Real Madrid,371.0,466.0,aceptado
+401,Fran García,Real Madrid,Q98872225,,,,,,aceptado
+402,Franco Mastantuono,Real Madrid,Q123289726,https://upload.wikimedia.org/wikipedia/commons/0/00/Franco_Mastantuono_in_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Crispybeatle,541.0,785.0,aceptado
+403,Gonzalo García,Real Madrid,,,,,,,sin coincidencia en sus clubes
+404,Jorge Cestero,Real Madrid,,,,,,,sin coincidencia en sus clubes
+405,Jude Bellingham,Real Madrid,Q66241169,https://upload.wikimedia.org/wikipedia/commons/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2666.0,4000.0,aceptado
+406,Kylian Mbappé,Real Madrid,Q21621995,https://upload.wikimedia.org/wikipedia/commons/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2201.0,3301.0,aceptado
+407,Manuel Serrano,Real Madrid,,,,,,,sin coincidencia en sus clubes
+408,Manuel Ángel,Real Madrid,,,,,,,sin coincidencia en sus clubes
+409,Raúl Asencio,Real Madrid,Q122583363,https://upload.wikimedia.org/wikipedia/commons/5/56/Raul-Asencio-Real-Madrid-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Junta de Andalucía,253.0,337.0,aceptado
+410,Rodrygo,Real Madrid,Q42728914,https://upload.wikimedia.org/wikipedia/commons/0/05/Rodrygo_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Junta de Andalucía,855.0,1004.0,aceptado
+411,Thiago Pitarch,Real Madrid,Q135682148,,,,,,aceptado
+412,Trent Alexander-Arnold,Real Madrid,Q27569376,https://upload.wikimedia.org/wikipedia/commons/5/5d/Trent_Alexander-Arnold_2018_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,288.0,414.0,aceptado
+413,Valde,Real Madrid,,,,,,,sin coincidencia en sus clubes
+414,Vinícius Júnior,Real Madrid,Q28973866,https://upload.wikimedia.org/wikipedia/commons/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2053.0,3078.0,aceptado
+415,Álvaro Carreras,Real Madrid,Q110001765,https://upload.wikimedia.org/wikipedia/commons/6/62/%C3%81lvaroCarreras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Sport Lisboa e Benfica,887.0,905.0,aceptado
+416,Álvaro Leiva,Real Madrid,,,,,,,sin coincidencia en sus clubes
+417,Éder Militão,Real Madrid,Q29950055,https://upload.wikimedia.org/wikipedia/commons/3/38/Eder_Militao_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Real Madrid,756.0,919.0,aceptado
+418,Alberto Reina,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+419,Borja Sánchez,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+420,Dani Calvo,Real Oviedo,Q18205393,https://upload.wikimedia.org/wikipedia/commons/e/e3/GFC_CDM_._%2816515595127%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",595.0,879.0,aceptado
+421,David Carmo,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+422,David Costas,Real Oviedo,Q14742658,https://upload.wikimedia.org/wikipedia/commons/8/8f/XXIII_Memorial_Quinocho_%28RC_Celta_vs_Mainz_05%29_-_66_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Harpagornis,1236.0,1826.0,aceptado
+423,Eric Bailly,Real Oviedo,Q18637352,https://upload.wikimedia.org/wikipedia/commons/2/2b/Eric_Bailly_in_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Beşiktaş JK,1132.0,1310.0,aceptado
+424,Federico Viñas,Real Oviedo,Q62594816,https://upload.wikimedia.org/wikipedia/commons/a/a3/Federico_Vi%C3%B1as_and_Abdullah_Al-Khaibari_%28Saudi_Arabia_v_Uruguay%2C_World_Cup_2026%29_%28Federico_Vi%C3%B1as%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Unknown authorUnknown author,618.0,914.0,aceptado
+425,Haissem Hassan,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+426,Ilyas Chaira,Real Oviedo,Q116995547,,,,,,aceptado
+427,Javi López,Real Oviedo,Q96483893,https://upload.wikimedia.org/wikipedia/commons/1/1d/Javi_lopez_alaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Alberto Cabello Mayero,392.0,330.0,aceptado
+428,Josip Brekalo,Real Oviedo,Q22342392,https://upload.wikimedia.org/wikipedia/commons/f/f8/Josip_brekalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Jeollo von http://www.vfb-exklusiv.de,720.0,900.0,aceptado
+429,Kwasi Sibo,Real Oviedo,Q66370589,https://upload.wikimedia.org/wikipedia/commons/a/a3/Kwasi_Sibo_England_v_Ghana_23_June_2026-104_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2124.0,3345.0,aceptado
+430,Leander Dendoncker,Real Oviedo,Q14852383,https://upload.wikimedia.org/wikipedia/commons/d/d3/Leander_Dendoncker_RSC_Anderlecht_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Sidney.Cortez,2198.0,3135.0,aceptado
+431,Lucas Ahijado,Real Oviedo,Q39036059,,,,,,aceptado
+432,Luka Ilic,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+433,Marco Esteban,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+434,Nacho Vidal,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+435,Nicolás Fonseca,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+436,Oier Luengo,Real Oviedo,Q106878251,,,,,,aceptado
+437,Omar Falah,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+438,Ovie Ejaria,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+439,Pablo Agudín,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+440,Rahim Alhassane,Real Oviedo,Q112304308,,,,,,aceptado
+441,Salomón Rondón,Real Oviedo,Q357613,https://upload.wikimedia.org/wikipedia/commons/7/78/Salom%C3%B3n_Rond%C3%B3n_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,723.0,967.0,aceptado
+442,Santi Cazorla,Real Oviedo,Q185225,https://upload.wikimedia.org/wikipedia/commons/a/a3/Santi_Cazorla%2C_2012-08-18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Ronnie Macdonald,1800.0,3200.0,aceptado
+443,Santiago Colombatto,Real Oviedo,Q22290699,,,,,,aceptado
+444,Thiago Borbas,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+445,Thiago Fernández,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+446,Álex Forés,Real Oviedo,,,,,,,sin coincidencia en sus clubes
+447,Aihen Muñoz,Real Sociedad,Q60466652,https://upload.wikimedia.org/wikipedia/commons/d/dc/Aihen_Mu%C3%B1oz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Estevoaei,1737.0,2430.0,aceptado
+448,Ander Barrenetxea,Real Sociedad,Q59823403,https://upload.wikimedia.org/wikipedia/commons/4/47/Ander_Barrenetxea_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",332.0,408.0,aceptado
+449,Aritz Elustondo,Real Sociedad,Q16516257,https://upload.wikimedia.org/wikipedia/commons/0/0a/Aritz_Elustondo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Goierriko Hitza,1080.0,1350.0,aceptado
+450,Arkaitz Mariezkurrena,Real Sociedad,Q131295995,,,,,,aceptado
+451,Arsen Zakharyan,Real Sociedad,Q101073917,https://upload.wikimedia.org/wikipedia/commons/b/b7/Arsen_Zakharyan_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,"ФК ""Динамо"" Москва",1213.0,1275.0,aceptado
+452,Beñat Turrientes,Real Sociedad,Q106930407,https://upload.wikimedia.org/wikipedia/commons/5/52/SD_Negreira_-_Real_Sociedad%2C_Copa_do_Rei_2025-26_12_%28Turrientes%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Estevoaei,723.0,869.0,aceptado
+453,Brais Méndez,Real Sociedad,Q40953842,https://upload.wikimedia.org/wikipedia/commons/4/46/XXIII_Memorial_Quinocho_%28RC_Celta_vs_Mainz_05%29_-_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Harpagornis,2560.0,3840.0,aceptado
+454,Carlos Soler,Real Sociedad,Q26707913,https://upload.wikimedia.org/wikipedia/commons/6/69/Carlos_Soler_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Valencia CF,1217.0,1076.0,aceptado
+455,Daniel Díaz,Real Sociedad,Q128140004,,,,,,aceptado
+456,Duje Caleta-Car,Real Sociedad,Q17612806,https://upload.wikimedia.org/wikipedia/commons/5/5b/Duje_Caleta-Car_Croatia_v_Portugal_2_July_2026-019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+457,Gonçalo Guedes,Real Sociedad,Q16729477,https://upload.wikimedia.org/wikipedia/commons/0/09/Gon%C3%A7alo_Guedes_USMNT_v_Portugal_Mar_31_2026-64_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2845.0,4265.0,aceptado
+458,Gorka Carrera,Real Sociedad,Q135521917,,,,,,aceptado
+459,Ibai Aguirre,Real Sociedad,Q136763194,,,,,,aceptado
+460,Igor Zubeldia,Real Sociedad,Q23907908,https://upload.wikimedia.org/wikipedia/commons/e/e9/Igor_Zubeldia_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",412.0,519.0,aceptado
+461,Iñaki Rupérez,Real Sociedad,Q124623840,,,,,,aceptado
+462,Job Ochieng,Real Sociedad,,,,,,,sin coincidencia en sus clubes
+463,Jon Aramburu,Real Sociedad,Q113400106,https://upload.wikimedia.org/wikipedia/commons/8/8b/Jon_Mikel_Aranburu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Estevoaei,868.0,1486.0,aceptado
+464,Jon Gorrotxategi,Real Sociedad,Q119591333,,,,,,aceptado
+465,Jon Karrikaburu,Real Sociedad,Q106514931,,,,,,aceptado
+466,Jon Martín,Real Sociedad,Q118876123,https://upload.wikimedia.org/wikipedia/commons/5/51/Jon_Martin_Vicente.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Estevoaei,844.0,1422.0,aceptado
+467,Lander Astiazarán,Real Sociedad,Q135676761,,,,,,aceptado
+468,Luka Sucic,Real Sociedad,Q67999144,https://upload.wikimedia.org/wikipedia/commons/a/a0/Luka_Sucic_Croatia_v_Portugal_2_July_2026-062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+469,Luken Beitia,Real Sociedad,Q124218201,,,,,,aceptado
+470,Mikel Goti,Real Sociedad,Q107297844,https://upload.wikimedia.org/wikipedia/commons/9/93/Mikel_Goti_Lopez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Estevoaei,1034.0,1267.0,aceptado
+471,Mikel Oyarzabal,Real Sociedad,Q21195147,https://upload.wikimedia.org/wikipedia/commons/2/20/Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2344.0,3678.0,aceptado
+472,Orri Óskarsson,Real Sociedad,Q111488644,,,,,,aceptado
+473,Pablo Marín,Real Sociedad,Q110652731,https://upload.wikimedia.org/wikipedia/commons/f/f9/Pablo_Marin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Estevoaei,1073.0,1278.0,aceptado
+474,Sergio Gómez,Real Sociedad,Q30346413,https://upload.wikimedia.org/wikipedia/commons/4/44/Sergio-Gomez-2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,pantkiewicz,559.0,745.0,aceptado
+475,Takefusa Kubo,Real Sociedad,Q27067753,https://upload.wikimedia.org/wikipedia/commons/e/ea/Takefusa_Kubo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Ali Mohammed Mahdi,3382.0,4566.0,aceptado
+476,Wesley,Real Sociedad,,,,,,,sin coincidencia en sus clubes
+477,Yangel Herrera,Real Sociedad,Q20994432,https://upload.wikimedia.org/wikipedia/commons/e/e9/Yangel_Herrera_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Jamie Smed,1893.0,2179.0,aceptado
+478,Álvaro Odriozola,Real Sociedad,Q19948076,https://upload.wikimedia.org/wikipedia/commons/9/9e/SD_Negreira_-_Real_Sociedad%2C_Copa_do_Rei_2025-26_12_%28Odriozola%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Estevoaei,691.0,774.0,aceptado
+479,Adnan Januzaj,Sevilla,Q14558450,https://upload.wikimedia.org/wikipedia/commons/a/ac/Januzaj_and_Hazard_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Кирилл Венедиктов,426.0,598.0,aceptado
+480,Akor Adams,Sevilla,Q62059870,https://upload.wikimedia.org/wikipedia/commons/8/8f/Akor_Adams_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,MHSC TV - Montpellier Hérault Sport Club,721.0,851.0,aceptado
+481,Alexis Sánchez,Sevilla,Q180553,https://upload.wikimedia.org/wikipedia/commons/6/6b/Alexis_Sanchez_Arsenal_Vs_Burnley_%2824736448805%29_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,joshjdss,1243.0,1886.0,aceptado
+482,Andrés Castrín,Sevilla,,,,,,,sin coincidencia en sus clubes
+483,Batista Mendy,Sevilla,,,,,,,sin coincidencia en sus clubes
+484,Chidera Ejuke,Sevilla,,,,,,,sin coincidencia en sus clubes
+485,César Azpilicueta,Sevilla,Q294806,https://upload.wikimedia.org/wikipedia/commons/7/7f/C%C3%A9sar_Azpilicueta%2C_Al_Hilal_SFC_vs_Chelsea_F.C.%2C_9_February_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 4.0,محمد امین انصاری,524.0,700.0,aceptado
+486,Djibril Sow,Sevilla,Q27995699,https://upload.wikimedia.org/wikipedia/commons/2/2c/DjibrilSow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Silesia711,1494.0,2851.0,aceptado
+487,Dodi Lukebakio,Sevilla,,,,,,,sin coincidencia en sus clubes
+488,Federico Gattoni,Sevilla,Q73633914,https://upload.wikimedia.org/wikipedia/commons/2/22/Federico_Gattoni_en_Anderletch.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Racchif,1080.0,1920.0,aceptado
+489,Fábio Cardoso,Sevilla,,,,,,,sin coincidencia en sus clubes
+490,Gabriel Suazo,Sevilla,,,,,,,sin coincidencia en sus clubes
+491,Isaac Romero,Sevilla,,,,,,,sin coincidencia en sus clubes
+492,Joan Jordán,Sevilla,Q17712747,https://upload.wikimedia.org/wikipedia/commons/1/1d/Joan_Jord%C3%A1n_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,"Giovanni Batista Rodriguez from San Sebastian-Donostia, España",230.0,333.0,aceptado
+493,José Ángel Carmona,Sevilla,,,,,,,sin coincidencia en sus clubes
+494,Juanlu Sánchez,Sevilla,Q110164175,https://upload.wikimedia.org/wikipedia/commons/9/93/Juanlu_S%C3%A1nchez_October_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,"Pedro  Semitiel from Cehegín, España",293.0,440.0,aceptado
+495,Kike Salas,Sevilla,,,,,,,sin coincidencia en sus clubes
+496,Lucien Agoumé,Sevilla,,,,,,,sin coincidencia en sus clubes
+497,Manu Bueno,Sevilla,,,,,,,sin coincidencia en sus clubes
+498,Marcão,Sevilla,Q27825292,https://upload.wikimedia.org/wikipedia/commons/7/78/Marc%C3%A3o_15_November_2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,beIN SPORTS Türkiye,520.0,713.0,aceptado
+499,Miguel Sierra,Sevilla,,,,,,,sin coincidencia en sus clubes
+500,Neal Maupay,Sevilla,,,,,,,sin coincidencia en sus clubes
+501,Nemanja Gudelj,Sevilla,Q644989,https://upload.wikimedia.org/wikipedia/commons/d/d1/Nemanja_Gudelj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Дмитрий Садовников,369.0,651.0,aceptado
+502,Oso,Sevilla,,,,,,,sin coincidencia en sus clubes
+503,Peque Fernández,Sevilla,,,,,,,sin coincidencia en sus clubes
+504,Ramón Martínez,Sevilla,,,,,,,sin coincidencia en sus clubes
+505,Rubén Vargas,Sevilla,Q38053896,https://upload.wikimedia.org/wikipedia/commons/6/6a/Ruben_Vargas_SFV_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Schweizerischer Fussballverband (SFV / ASF),512.0,683.0,aceptado
+506,Stanis Idumbo Muzambo,Sevilla,,,,,,,sin coincidencia en sus clubes
+507,Tanguy Nianzou,Sevilla,Q67070943,https://upload.wikimedia.org/wikipedia/commons/2/2f/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,"Sandro Halank, Wikimedia Commons",1995.0,2641.0,aceptado
+508,André Almeida,Valencia,,,,,,,sin coincidencia en sus clubes
+509,Arnaut Danjuma,Valencia,Q22001795,https://upload.wikimedia.org/wikipedia/commons/5/5a/Arnaut_danjuma_groeneveld-1589618839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Corne van Rossum,679.0,1049.0,aceptado
+510,Baptiste Santamaría,Valencia,Q17778052,https://upload.wikimedia.org/wikipedia/commons/b/b6/BaptisteSantamaria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Kb25130,704.0,914.0,aceptado
+511,Copete,Valencia,,,,,,,sin coincidencia en sus clubes
+512,César Tárrega,Valencia,,,,,,,sin coincidencia en sus clubes
+513,Dani Raba,Valencia,,,,,,,sin coincidencia en sus clubes
+514,Diego López,Valencia,,,,,,,sin coincidencia en sus clubes
+515,Dimitri Foulquier,Valencia,,,,,,,sin coincidencia en sus clubes
+516,Eray Cömert,Valencia,Q24052364,https://upload.wikimedia.org/wikipedia/commons/8/85/Eray_C%C3%B6mert_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Дмитрий Пукалик,449.0,1021.0,aceptado
+517,Filip Ugrinic,Valencia,,,,,,,sin coincidencia en sus clubes
+518,Guido Rodríguez,Valencia,Q18224850,https://upload.wikimedia.org/wikipedia/commons/4/4e/Guido_Rodr%C3%ADguez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0,Los Doble 7,636.0,830.0,aceptado
+519,Hugo Duro,Valencia,,,,,,,sin coincidencia en sus clubes
+520,Javi Guerra,Valencia,,,,,,,sin coincidencia en sus clubes
+521,Jesús Vázquez,Valencia,,,,,,,sin coincidencia en sus clubes
+522,José Gayà,Valencia,Q15396247,https://upload.wikimedia.org/wikipedia/commons/c/c2/Jose_Gaya_2015_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Carla Cortés,442.0,471.0,aceptado
+523,Largie Ramazani,Valencia,,,,,,,sin coincidencia en sus clubes
+524,Lucas Beltrán,Valencia,Q59649459,https://upload.wikimedia.org/wikipedia/commons/4/4a/Lucas_Beltr%C3%A1n%2C_2024_Summer_Olympics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 4.0,Argentina.gob.ar,163.0,288.0,aceptado
+525,Luis Rioja,Valencia,,,,,,,sin coincidencia en sus clubes
+526,Mouctar Diakhaby,Valencia,,,,,,,sin coincidencia en sus clubes
+527,Pepelu,Valencia,,,,,,,sin coincidencia en sus clubes
+528,Renzo Saravia,Valencia,,,,,,,sin coincidencia en sus clubes
+529,Rubén Iranzo,Valencia,,,,,,,sin coincidencia en sus clubes
+530,Thierry Correia,Valencia,,,,,,,sin coincidencia en sus clubes
+531,Umar Sadiq,Valencia,Q21584736,https://upload.wikimedia.org/wikipedia/commons/2/2d/Sadiq_Umar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 3.0 br,Rovena Rosa/Agência Brasil,468.0,538.0,aceptado
+532,Unai Núñez,Valencia,Q37506695,,,,,,aceptado
+533,Adrià Alti,Villarreal,,,,,,,sin coincidencia en sus clubes
+534,Alassane Diatta,Villarreal,,,,,,,sin coincidencia en sus clubes
+535,Alberto Moleiro,Villarreal,,,,,,,sin coincidencia en sus clubes
+536,Alex Freeman,Villarreal,Q111604014,https://upload.wikimedia.org/wikipedia/commons/d/de/Alex_Freeman_USMNT_v_Belgium_Mar_28_2026-59_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,2981.0,3973.0,aceptado
+537,Alfon González,Villarreal,,,,,,,sin coincidencia en sus clubes
+538,Alfonso Pedraza,Villarreal,Q19871936,https://upload.wikimedia.org/wikipedia/commons/2/25/Alfonso_Pedraza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 3.0,Антон Зайцев,504.0,776.0,aceptado
+539,Ayoze Pérez,Villarreal,Q15427728,https://upload.wikimedia.org/wikipedia/commons/c/c5/Ayoze_Perez_20150710.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,David J Nelson Sports Photography,2576.0,3511.0,aceptado
+540,Carlos Macià,Villarreal,,,,,,,sin coincidencia en sus clubes
+541,Dani Parejo,Villarreal,Q19388,https://upload.wikimedia.org/wikipedia/commons/8/87/Dani_Parejo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY 2.0,Carla Cortés,1802.0,2319.0,aceptado
+542,Georges Mikautadze,Villarreal,Q78541955,https://upload.wikimedia.org/wikipedia/commons/6/60/Mikautadze_asse_ol_2425.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Paté kroute,403.0,669.0,aceptado
+543,Gerard Moreno,Villarreal,Q5550103,https://upload.wikimedia.org/wikipedia/commons/9/9c/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_138_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Rolandhino1,1178.0,1689.0,aceptado
+544,Hugo Lopez,Villarreal,,,,,,,sin coincidencia en sus clubes
+545,Juan Foyth,Villarreal,Q29841260,https://upload.wikimedia.org/wikipedia/commons/7/78/Juan_Foyth_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 2.0,Agencia de Noticias ANDES,844.0,1075.0,aceptado
+546,Logan Costa,Villarreal,,,,,,,sin coincidencia en sus clubes
+547,Manor Solomon,Villarreal,,,,,,,sin coincidencia en sus clubes
+548,Nicolas Pépé,Villarreal,,,,,,,sin coincidencia en sus clubes
+549,Pape Gueye,Villarreal,Q45935395,https://upload.wikimedia.org/wikipedia/commons/a/a9/Pape_Gueye_France_v_Senegal_16_June_2026-359_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,1264.0,1983.0,aceptado
+550,Pau Cabanes,Villarreal,,,,,,,sin coincidencia en sus clubes
+551,Pau Navarro,Villarreal,,,,,,,sin coincidencia en sus clubes
+552,Rafa Marín,Villarreal,,,,,,,sin coincidencia en sus clubes
+553,Renato Veiga,Villarreal,,,,,,,sin coincidencia en sus clubes
+554,Santi Comesaña,Villarreal,,,,,,,sin coincidencia en sus clubes
+555,Santiago Mouriño,Villarreal,,,,,,,sin coincidencia en sus clubes
+556,Sergi Cardona,Villarreal,Q64747242,,,,,,aceptado
+557,Tajon Buchanan,Villarreal,Q62016194,https://upload.wikimedia.org/wikipedia/commons/5/56/Tajon_Buchanan_Canada_v_Qatar_18_June_2026-094.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+558,Tani Oluwaseyi,Villarreal,Q113564288,https://upload.wikimedia.org/wikipedia/commons/4/47/Tani_Oluwaseyi_Canada_v_Qatar_18_June_2026-024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
+559,Thomas Partey,Villarreal,Q15963873,https://upload.wikimedia.org/wikipedia/commons/b/b7/Thomas_Partey_5_England_v_Ghana_at_2026_Fifa_World_Cup_by_YantsImages_02_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,YantsImages,1877.0,2882.0,aceptado
+560,Willy Kambwala,Villarreal,Q116821409,,,,,,aceptado
+561,Yeremi Pino,Villarreal,Q100735281,https://upload.wikimedia.org/wikipedia/commons/7/7e/Yeremy_Pino_Argentina_v_Spain_19_July_2026-019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC BY-SA 4.0,Bryan Berlin,3333.0,5000.0,aceptado
