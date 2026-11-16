@@ -26,7 +26,8 @@ dim_posicion ┘
 | `altura_defensiva` | Posición media en el largo del campo de las entradas, intercepciones, despejes, pases bloqueados y recuperaciones del equipo | coordenada x de Opta: 0 = portería propia, 100 = portería rival. **No son metros** | `altura_defensiva_laliga_2526.csv`, calculada en el TFM (cuaderno `02_analisis_equipo`) con los eventos de Opta |
 | `puntos` | Puntos reales en la liga | puntos | `clasificacion_xpts_laliga_2526.csv` (TFM, a partir de Understat) |
 | `puntos_esperados` | Puntos esperados según el xG de cada partido | puntos | `clasificacion_xpts_laliga_2526.csv`, columna `xpts` (Understat) |
-| `escudo` | Nombre previsto del fichero del escudo. Las imágenes todavía no existen | texto, minúsculas, sin acentos, con guiones bajos | generado a partir de `equipo` |
+| `escudo` | Nombre del fichero del escudo en `images/escudos/` | texto, minúsculas, sin acentos, con guiones bajos | generado a partir de `equipo` |
+| `color_primario` | Color más frecuente de los píxeles opacos del escudo, sin contar blancos (los tres canales ≥ 220) ni negros (los tres ≤ 45), agrupados en 8 colores | hexadecimal, `#rrggbb` | `data/escudos.csv`, calculado en el cuaderno 03 |
 
 ## dim_posicion.csv · 9 filas
 
@@ -238,6 +239,8 @@ seguía el criterio del propio fichero que validaba. Con el cambio, Bryan Zarago
 | `posiciones_alineaciones.csv` | 38 | Titularidades por puesto, propuesta, si es concluyente y si está confirmada |
 | `sin_minutos.csv` | 112 | Jugadores del fichero de posiciones que no jugaron en LaLiga 2025/26 |
 | `cruces_descartados.csv` | 7 | Cruces dudosos que no se aplican, con su motivo y su efecto |
+| `escudos.csv` | 20 | Origen de cada escudo (Wikidata o web oficial), url, licencia, fecha de descarga, tamaño original, escala aplicada, color primario y su peso en el escudo |
+| `fotos_wikidata.csv` | 561 | Para cada jugador, la entidad de Wikidata aceptada (si la hay), la url, licencia, autor y tamaño de su foto, y el motivo cuando no se acepta ninguna |
 
 ### Valores de `origen` en `mapa_nombres.csv`
 

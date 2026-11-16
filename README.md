@@ -25,6 +25,9 @@ datos ya procesados. El TFM no se modifica.
   ya agregadas por jugador están versionadas en `data/eventos_por_jugador.csv`, y el resto son ficheros de
   `data/origen/` y de `data/`.
 - **El cuaderno 02 también se puede ejecutar** con lo que hay en el repositorio.
+- **Los cuadernos 03 y 04 necesitan conexión a internet.** El 03 descarga los escudos de Wikimedia Commons y de
+  las webs oficiales de los clubes, que pueden cambiar de dirección. El 04 consulta Wikidata; guarda una caché
+  local (`data/cache_wikidata.json`, unos 8 MB) que no se versiona.
 
 ## De dónde vienen los datos
 
@@ -36,18 +39,23 @@ datos ya procesados. El TFM no se modifica.
 
 En el TFM también usé FBref, pero ninguna columna de este modelo sale de FBref.
 
-Los ficheros de origen se copiaron del TFM sin modificarlos:
+Los ficheros de origen se copiaron del TFM sin modificarlos. La tabla muestra los 16 primeros caracteres del
+SHA-256 de cada uno; los completos están en `data/origen/SHA256SUMS`, y se comprueban con:
 
-| Fichero (`data/origen/`) | SHA-256 | Uso |
+```bash
+cd data/origen && sha256sum -c SHA256SUMS
+```
+
+| Fichero (`data/origen/`) | SHA-256 (inicio) | Uso |
 |---|---|---|
-| `posiciones_laliga_2526.csv` | `d49b47fc82e486a9e1d6c5cc1695c7cd20dd48734f4b1d2aec58c15b96caa985` | posición de cada jugador |
-| `jugadores_laliga_2526.csv` | `645e7c0730a694b3aee18b449e6a4b8bd76f086a693d6a3fa0f963c9fa35f402` | Understat: minutos, partidos y métricas |
-| `alineaciones_laliga_2526.csv` | `a357179f0c5ae48ecea8b3850af5e4c5c56081b7b5f9923d698e3b3daa06ebee` | identificador de WhoScored y puesto en cada alineación |
-| `metricas_jugadores_laliga_2526.csv` | `6b8ea02ab17baad5119c8dd6f05e2d41804e8b8dda91d07c70254c5654b54b54` | cruce posiciones-Understat del TFM y auditoría |
-| `altura_defensiva_laliga_2526.csv` | `4bb0d9f3578c0e3b97738a4bfe2d9e85c6c1f7c0ae8b86dc932f9ae3fef57797` | altura defensiva de cada equipo |
-| `clasificacion_xpts_laliga_2526.csv` | `f6cbe1b0889644bef4ac526f2b1351e468a9b580932c9a5b45188a4e0ba8bd35` | puntos y puntos esperados |
-| `disparos_laliga_2526_limpio.csv` | `23f52e01c5fe60b6aa66c6786295cf0100505d7b5669135c182f06a3d2eec427` | solo auditoría (modelos del TFM) |
-| `equipos_largo_laliga_2526.csv` | `4e7e92d08b5a91520253aa602c632b80da28ff83f4332a3c1430750e7834cf1a` | solo auditoría (modelos del TFM) |
+| `posiciones_laliga_2526.csv` | `d49b47fc82e486a9` | posición de cada jugador |
+| `jugadores_laliga_2526.csv` | `645e7c0730a694b3` | Understat: minutos, partidos y métricas |
+| `alineaciones_laliga_2526.csv` | `a357179f0c5ae48e` | identificador de WhoScored y puesto en cada alineación |
+| `metricas_jugadores_laliga_2526.csv` | `6b8ea02ab17baad5` | cruce posiciones-Understat del TFM y auditoría |
+| `altura_defensiva_laliga_2526.csv` | `4bb0d9f3578c0e3b` | altura defensiva de cada equipo |
+| `clasificacion_xpts_laliga_2526.csv` | `f6cbe1b0889644be` | puntos y puntos esperados |
+| `disparos_laliga_2526_limpio.csv` | `23f52e01c5fe60b6` | solo auditoría (modelos del TFM) |
+| `equipos_largo_laliga_2526.csv` | `4e7e92d08b5a9152` | solo auditoría (modelos del TFM) |
 
 ## Qué jugadores cubre
 
@@ -112,7 +120,7 @@ dim_posicion ┘
 
 | Tabla | Filas | Contenido |
 |---|---|---|
-| `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados y fichero previsto del escudo |
+| `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados, fichero del escudo y color primario |
 | `dim_posicion` | 9 | posición y grupo de comparación |
 | `dim_jugador` | 561 | jugador, equipo, posición, minutos, partidos y de dónde sale su posición |
 | `hechos_jugador` | 561 | 19 métricas por 90 minutos y 2 porcentajes de éxito, con su percentil por grupo, `percentil_fiable`, `n_grupo_referencia` y `muestra_reducida` |
@@ -137,12 +145,30 @@ jugadores, y es lo esperado: el grupo de centrales pasa de 65 a 71 jugadores, el
 identificador, y las entradas y los duelos aéreos separan volumen y éxito. El
 [diccionario de datos](docs/diccionario_datos.md) explica cada diferencia.
 
+## Escudos y fotos
+
+**Escudos.** Los 20 están en `images/escudos/`, con el nombre de fichero que usa `dim_equipo.escudo`: PNG con
+transparencia, 128 × 128 px y el mismo margen interior. El origen de cada uno está en `data/escudos.csv`.
+
+- 3 vienen de Wikidata (propiedad P154) y tienen licencia libre en Wikimedia Commons: Barcelona (CC0), Celta
+  (CC BY-SA 3.0) y Getafe (CC BY-SA 4.0). Son los únicos que se versionan.
+- Los otros 17 son marcas de los clubes, descargadas de sus webs oficiales. No se versionan; el cuaderno 03 los
+  descarga de nuevo.
+
+`dim_equipo.color_primario` es el color más frecuente de cada escudo, sin contar el blanco ni el negro. Sale de
+la imagen, no de una lista: en escudos con corona o borde dorado, el dorado puede ganar al color del club.
+
+**Fotos de jugadores.** Todavía no se descarga ninguna. `data/fotos_wikidata.csv` recoge, para los 561, si hay
+una entidad de Wikidata que sea claramente el jugador y si tiene foto, con su licencia y su autor.
+
 ## Cuadernos
 
 | Cuaderno | Qué hace | ¿Se puede ejecutar desde el repositorio? |
 |---|---|---|
 | `notebooks/00_cruces_nombres.ipynb` | Decide qué jugador es quién en cada fuente. Todas las decisiones de cruce están escritas como listas en el cuaderno. Genera los ficheros de `data/` | **no**: necesita los eventos de WhoScored, que no están versionados |
 | `notebooks/01_modelo_datos.ipynb` | Construye el modelo de `data/modelo/`, imprime el cuadre y ejecuta las comprobaciones de calidad | sí |
+| `notebooks/03_escudos.ipynb` | Descarga los 20 escudos, los normaliza a 128 × 128 px con el mismo margen y extrae su color primario | con conexión a internet |
+| `notebooks/04_fotos_wikidata.ipynb` | Mide qué jugadores tienen foto en Wikidata. No descarga ninguna imagen | con conexión a internet |
 | `notebooks/02_auditoria_cruce_eventos.ipynb` | Comprueba que el cruce por identificador reproduce las cifras de eventos publicadas en el TFM: 462 de 464 jugadores son idénticos. Identifica los dos que cambian (dos homónimos que el TFM sumaba al cruzar por nombre) y mide su efecto en los cálculos del TFM. Compara también volumen y éxito en duelos aéreos y entradas | sí |
 
 Entorno: Python con pandas, numpy, pyarrow, unidecode y scikit-learn 1.9.1 (la versión con la que el cuaderno 02
