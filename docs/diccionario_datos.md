@@ -84,19 +84,40 @@ Una fila por jugador. Todas las métricas están **por 90 minutos**: total de la
 | `pases_clave_90` | Pases que terminan en tiro | por 90 min | Understat `key_passes` |
 | `xg_chain_90` | xG de todas las posesiones en las que participa | xG por 90 min | Understat `xg_chain` |
 | `xg_buildup_90` | xGChain sin contar sus tiros ni sus pases clave | xG por 90 min | Understat `xg_buildup` |
-| `entradas_90` | Eventos `Tackle`, con cualquier resultado | por 90 min | Opta (WhoScored) |
+| `entradas_intentadas_90` | Entradas intentadas: eventos `Tackle` (llega al balón) más eventos `Challenge` (el rival le regatea) | por 90 min | Opta (WhoScored) |
+| `entradas_exitosas_90` | Entradas exitosas: eventos `Tackle` con resultado `Successful` (su equipo recupera la posesión) | por 90 min | Opta |
 | `intercepciones_90` | Eventos `Interception` | por 90 min | Opta |
 | `despejes_90` | Eventos `Clearance` | por 90 min | Opta |
 | `pases_bloqueados_90` | Eventos `BlockedPass` | por 90 min | Opta |
-| `duelos_aereos_90` | Eventos `Aerial`, ganados y perdidos | por 90 min | Opta |
+| `duelos_aereos_disputados_90` | Duelos aéreos disputados: todos los eventos `Aerial`, ganados y perdidos | por 90 min | Opta |
+| `duelos_aereos_ganados_90` | Duelos aéreos ganados: eventos `Aerial` con resultado `Successful` | por 90 min | Opta |
 | `centros_90` | Pases con el calificador `Cross` | por 90 min | Opta |
 | `toques_area_90` | Toques con x ≥ 83 e y entre 21,1 y 78,9 (área rival, en coordenadas de Opta) | por 90 min | Opta |
-| `pctl_<métrica>` | Percentil de la métrica dentro de su grupo de posición (17 columnas, una por métrica) | 0 a 100 | cuaderno 01 (ver más abajo) |
+| `pct_entradas` | Entradas exitosas ÷ entradas intentadas × 100. Vacío si no intentó ninguna (40 jugadores, todos con menos de 600 minutos) | % (no va por 90) | Opta |
+| `pct_duelos_aereos` | Duelos ganados ÷ duelos disputados × 100. Vacío si no disputó ninguno (44 jugadores, todos con menos de 600 minutos) | % (no va por 90) | Opta |
+| `pctl_<métrica>` | Percentil de la métrica dentro de su grupo de posición: 21 columnas, una por métrica. El nombre es el de la métrica sin `_90`. Por ejemplo, `pctl_duelos_aereos_ganados` y `pctl_pct_entradas` | 0 a 100 | cuaderno 01 (ver más abajo) |
 | `percentil_fiable` | Verdadero si el jugador tiene 600 minutos o más y su grupo tiene percentil | verdadero/falso | cuaderno 01 |
 | `n_grupo_referencia` | Número de jugadores contra los que se calcula su percentil (los de su grupo con 600 minutos o más). Vacío si su grupo no tiene percentil | jugadores | cuaderno 01 |
 | `muestra_reducida` | Verdadero si `n_grupo_referencia` es 30 o menos. Solo afecta a mediapunta (28) | verdadero/falso | cuaderno 01 |
 
-Las definiciones de las siete métricas de Opta son las de la tabla de métricas del TFM, sin cambios.
+### Volumen frente a éxito: entradas y duelos aéreos
+
+En los eventos de Opta cada acción lleva un resultado (`outcome_type`):
+
+- **Duelos aéreos.** Opta registra un evento `Aerial` por cada jugador del duelo: `Successful` para el que lo
+  gana y `Unsuccessful` para el que lo pierde. En la temporada hay 9.734 de cada.
+- **Entradas.**
+  - `Tackle` es la entrada que llega al balón: `Successful` si su equipo se queda la posesión (7.522) y
+    `Unsuccessful` si no, por ejemplo porque el balón sale del campo (5.052).
+  - `Challenge` es la entrada fallida: el rival le regatea. Siempre es `Unsuccessful` (5.844).
+
+**Diferencia con el TFM.** El TFM contaba todos los `Tackle` y todos los `Aerial`, sin mirar el resultado, y los
+llamaba "entradas" y "duelos aéreos". Su "entradas" no coincide con ninguna columna de este modelo: le faltan
+los `Challenge` para ser intentadas y le sobran los `Unsuccessful` para ser exitosas. Sus "duelos aéreos" son
+los **disputados** de este modelo. Por eso las columnas de volumen se llaman "intentadas" y "disputadas", nunca
+"ganadas" ni "exitosas".
+
+Intercepciones, despejes, pases bloqueados, centros y toques en el área mantienen las definiciones del TFM.
 
 ---
 
@@ -157,8 +178,8 @@ Con 28 jugadores, cada puesto del ranking de mediapunta mueve el percentil 3,6 p
 
 - `tiene_eventos` = verdadero: el jugador está cruzado con los eventos de Opta por su identificador de
   WhoScored. Un 0 en una métrica de Opta significa que **no hizo esa acción**.
-- `tiene_eventos` = falso: no hay un cruce seguro con los eventos. Las siete métricas de Opta y sus percentiles
-  están **vacíos**, nunca a cero. Las métricas de Understat sí están.
+- `tiene_eventos` = falso: no hay un cruce seguro con los eventos. Las nueve métricas de Opta, los dos
+  porcentajes y sus percentiles están **vacíos**, nunca a cero. Las métricas de Understat sí están.
 
 Hay **5 jugadores** con `tiene_eventos` en falso. Todos tienen menos de 600 minutos, así que ninguno tiene
 percentil fiable y ninguno altera un grupo de referencia:
@@ -213,7 +234,7 @@ seguía el criterio del propio fichero que validaba. Con el cambio, Bryan Zarago
 | Fichero | Filas | Contenido |
 |---|---|---|
 | `mapa_nombres.csv` | 561 | Un jugador del modelo por fila: nombre en cada fuente, identificadores de Understat y WhoScored, minutos, partidos en Understat, partidos con eventos y origen del cruce |
-| `eventos_por_jugador.csv` | 556 | Totales de las siete acciones de Opta por identificador de WhoScored, partidos con eventos y reparto por club |
+| `eventos_por_jugador.csv` | 556 | Totales de las acciones de Opta por identificador de WhoScored, partidos con eventos y reparto por club. Incluye `entradas_tfm` (todos los `Tackle`, la definición del TFM), que solo usa la auditoría |
 | `posiciones_alineaciones.csv` | 38 | Titularidades por puesto, propuesta, si es concluyente y si está confirmada |
 | `sin_minutos.csv` | 112 | Jugadores del fichero de posiciones que no jugaron en LaLiga 2025/26 |
 | `cruces_descartados.csv` | 7 | Cruces dudosos que no se aplican, con su motivo y su efecto |

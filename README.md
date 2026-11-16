@@ -19,7 +19,7 @@ El TFM no se modifica.
 | Fuente | Qué aporta |
 |---|---|
 | **Understat** | Minutos, partidos, goles, xG, asistencias, xA, tiros, pases clave, xGChain y xGBuildup de cada jugador. Puntos y puntos esperados de cada equipo |
-| **Eventos Opta de WhoScored** | Alineaciones con el identificador de cada jugador, y acciones del partido: entradas, intercepciones, despejes, pases bloqueados, duelos aéreos, centros y toques en el área |
+| **Eventos Opta de WhoScored** | Alineaciones con el identificador de cada jugador, y acciones del partido con su resultado: entradas intentadas y exitosas, intercepciones, despejes, pases bloqueados, duelos aéreos disputados y ganados, centros y toques en el área |
 | **Fichero propio de posiciones** | La posición de 637 jugadores, asignada a mano y validada en el TFM contra las alineaciones de WhoScored |
 
 En el TFM también usé FBref, pero ninguna columna de este modelo sale de FBref.
@@ -108,7 +108,7 @@ dim_posicion ┘
 | `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados y fichero del escudo |
 | `dim_posicion` | 9 | posición y grupo de comparación |
 | `dim_jugador` | 561 | jugador, equipo, posición, minutos, partidos y de dónde sale su posición |
-| `hechos_jugador` | 561 | 17 métricas por 90 minutos, su percentil por grupo, `percentil_fiable`, `n_grupo_referencia` y `muestra_reducida` |
+| `hechos_jugador` | 561 | 19 métricas por 90 minutos y 2 porcentajes de éxito, con su percentil por grupo, `percentil_fiable`, `n_grupo_referencia` y `muestra_reducida` |
 
 **Claves.** Todas las claves son numéricas y propias. La clave del jugador nunca es el nombre: hay dos David
 López, uno en el Mallorca y otro en el Girona. Los eventos de Opta se cruzan por el identificador de WhoScored,
