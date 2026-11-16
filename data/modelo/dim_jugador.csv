@@ -1,0 +1,562 @@
+id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipos_temporada,id_understat,id_whoscored
+1,Abde Rebbach,1,6,1479,30,fichero_propio,Alaves 30,11825,447835
+2,Aitor Mañas,1,7,105,9,fichero_propio,Alaves 9,14222,514695
+3,Ander Guevara,1,4,581,25,fichero_propio,Alaves 25,6126,344120
+4,Antonio Blanco,1,3,3137,36,fichero_propio,Alaves 36,9280,409467
+5,Calebe,1,5,767,19,fichero_propio,Alaves 19,13764,397568
+6,Carles Aleñá,1,4,2002,34,fichero_propio,Alaves 34,5058,303268
+7,Carlos Ballestero,1,8,1,1,fichero_propio,Alaves 1,14117,508232
+8,Carlos Benavídez,1,9,311,13,alineaciones_whoscored,,11826,
+9,Carlos Vicente,1,6,1250,21,alineaciones_whoscored,Alaves 21,12294,462861
+10,Denis Suárez,1,5,1407,30,fichero_propio,Alaves 30,2308,106525
+11,Diego Morcillo,1,7,8,1,fichero_propio,Alaves 1,14116,464011
+12,Facundo Garcés,1,1,786,10,fichero_propio,Alaves 10,13319,337454
+13,Ibrahim Diabate,1,7,579,10,fichero_propio,Alaves 10,14465,607607
+14,Jon Guridi,1,4,1251,28,fichero_propio,Alaves 28,5179,335041
+15,Jon Pacheco,1,1,1737,22,fichero_propio,Alaves 22,8423,395320
+16,Jonny,1,2,3006,34,fichero_propio,Alaves 34,2280,115917
+17,Lander Pinillos,1,8,1,1,fichero_propio,Alaves 1,13646,561841
+18,Lucas Boyé,1,7,1960,29,fichero_propio,Alaves 29,1189,303800
+19,Mariano Díaz,1,7,269,10,fichero_propio,Alaves 10,5110,323236
+20,Moussa Diarra,1,2,225,3,alineaciones_whoscored,Alaves 3,7613,375342
+21,Nahuel Tenaglia,1,2,3240,36,fichero_propio,Alaves 36,10364,347874
+22,Pablo Ibáñez,1,4,2278,37,fichero_propio,Alaves 37,10857,444254
+23,Toni Martínez,1,7,2750,37,fichero_propio,Alaves 37,6400,280060
+24,Victor Parada,1,2,2159,30,fichero_propio,Alaves 30,12207,463966
+25,Ville Koski,1,1,281,5,fichero_propio,Alaves 5,14519,424575
+26,Youssef Enríquez,1,2,1332,25,fichero_propio,Alaves 26,13278,519969
+27,Ángel Pérez,1,2,1292,16,fichero_propio,Alaves 16,14392,506205
+28,Adama Boiro,2,2,810,14,fichero_propio,Athletic Club 14,12724,515307
+29,Aitor Paredes,2,1,1625,19,fichero_propio,Athletic Club 19,8948,402663
+30,Alejandro Rego,2,4,1231,29,fichero_propio,Athletic Club 29,13627,560362
+31,Alex Berenguer,2,6,2191,31,fichero_propio,Athletic Club 31,5091,238899
+32,Andoni Gorosabel,2,2,1347,24,fichero_propio,Athletic Club 24,6325,345908
+33,Asier Hierro,2,7,30,1,fichero_propio,Athletic Club 1,14183,599642
+34,Aymeric Laporte,2,1,2068,25,fichero_propio,Athletic Club 25,2498,122117
+35,Beñat Prados,2,4,87,2,fichero_propio,Athletic Club 2,9505,414643
+36,Dani Vivian,2,1,2561,31,fichero_propio,Athletic Club 31,6766,357839
+37,Eder García,2,4,30,2,fichero_propio,Athletic Club 2,14216,602896
+38,Gorka Guruzeta,2,7,2401,35,fichero_propio,Athletic Club 35,7020,362602
+39,Iñaki Williams,2,6,2188,30,fichero_propio,Athletic Club 30,2399,255182
+40,Jesús Areso,2,2,1498,26,fichero_propio,Athletic Club 26,9768,422820
+41,Maroan Sannadi,2,7,268,10,fichero_propio,Athletic Club 10,13417,541704
+42,Mikel Jauregizar,2,4,2872,36,fichero_propio,Athletic Club 36,12263,511120
+43,Mikel Vesga,2,3,402,23,fichero_propio,Athletic Club 23,5077,261516
+44,Nico Serrano,2,6,338,16,fichero_propio,Athletic Club 16,9825,423109
+45,Nico Williams,2,6,1715,25,fichero_propio,Athletic Club 25,9211,408449
+46,Oihan Sancet,2,5,1832,28,fichero_propio,Athletic Club 28,7779,381510
+47,Robert Navarro,2,5,1246,32,fichero_propio,Athletic Club 32,8765,400237
+48,Selton Sánchez,2,4,191,7,fichero_propio,Athletic Club 7,14167,599259
+49,Unai Gómez,2,5,930,26,fichero_propio,Athletic Club 26,11531,480619
+50,Urko Izeta,2,7,153,13,fichero_propio,Athletic Club 13,13821,463431
+51,Yeray Álvarez,2,1,517,7,fichero_propio,Athletic Club 7,5062,279839
+52,Yuri Berchiche,2,2,2708,32,fichero_propio,Athletic Club 32,2229,56057
+53,Íñigo Lekue,2,2,607,11,fichero_propio,Athletic Club 12,2403,291686
+54,Íñigo Ruíz de Galarreta,2,4,2289,34,fichero_propio,Athletic Club 34,9755,106586
+55,Ademola Lookman,3,6,638,12,fichero_propio,Atletico Madrid 12,5556,299451
+56,Aleksa Puric,3,8,40,2,fichero_propio,Atletico Madrid 2,14224,541901
+57,Alexander Sørloth,3,7,1955,35,fichero_propio,Atletico Madrid 35,6531,302497
+58,Antoine Griezmann,3,7,1428,34,fichero_propio,Atletico Madrid 35,2270,80241
+59,Clément Lenglet,3,1,1402,19,fichero_propio,Atletico Madrid 19,5050,236511
+60,Conor Gallagher,3,4,630,19,alineaciones_whoscored,Atletico Madrid 19,9040,375621
+61,Cubo,3,7,46,2,fichero_propio,Atletico Madrid 2,14586,620581
+62,Dani Martinez,3,1,90,1,fichero_propio,Atletico Madrid 1,14233,498163
+63,Dávid Hancko,3,1,2443,30,fichero_propio,Atletico Madrid 30,7086,362779
+64,Giacomo Raspadori,3,9,203,12,alineaciones_whoscored,Atletico Madrid 12,7500,371497
+65,Giuliano Simeone,3,6,2153,31,fichero_propio,Atletico Madrid 31,9796,422918
+66,Iker Luque,3,6,26,1,fichero_propio,Atletico Madrid 1,14324,605437
+67,Jano Monserrate,3,5,14,2,fichero_propio,Atletico Madrid 2,13889,534586
+68,Javier Boñar,3,2,294,4,fichero_propio,Atletico Madrid 4,14225,504671
+69,Javier Morcillo,3,8,152,5,fichero_propio,Atletico Madrid 5,14555,617819
+70,Johnny Cardoso,3,4,905,15,fichero_propio,Atletico Madrid 15,12323,379230
+71,José María Giménez,3,1,1165,16,fichero_propio,Atletico Madrid 16,2278,135914
+72,Julio Díaz,3,8,322,4,fichero_propio,Atletico Madrid 4,14323,605436
+73,Julián Alvarez,3,7,1926,29,fichero_propio,Atletico Madrid 29,10846,365409
+74,Koke,3,4,2237,34,fichero_propio,Atletico Madrid 34,2269,80764
+75,Marc Pubill,3,2,1377,19,fichero_propio,Atletico Madrid 19,10189,430148
+76,Marcos Llorente,3,4,2190,29,fichero_propio,Atletico Madrid 29,2518,254582
+77,Matteo Ruggeri,3,2,1767,26,fichero_propio,Atletico Madrid 26,8872,402046
+78,Nahuel Molina,3,2,1292,26,fichero_propio,Atletico Madrid 26,8963,303728
+79,Nico González,3,6,1480,24,fichero_propio,Atletico Madrid 24,7074,345322
+80,Obed Vargas,3,4,742,12,fichero_propio,Atletico Madrid 12,14439,419580
+81,Pablo Barrios,3,4,1672,23,fichero_propio,Atletico Madrid 23,10494,434138
+82,Rayane Belaid,3,6,140,2,fichero_propio,Atletico Madrid 2,12257,511219
+83,Robin Le Normand,3,1,1776,28,fichero_propio,Atletico Madrid 28,7276,367008
+84,Rodrigo Mendoza,3,4,1243,24,fichero_propio,Atletico Madrid 8 + Elche 16,11216,463938
+85,Taufik Seidu,3,4,15,1,fichero_propio,Atletico Madrid 1,14080,534587
+86,Thiago Almada,3,5,1327,27,fichero_propio,Atletico Madrid 27,13358,361732
+87,Álex Baena,3,5,1615,27,fichero_propio,Atletico Madrid 27,8417,395242
+88,Alejandro Balde,4,2,1910,28,fichero_propio,Barcelona 28,9805,422938
+89,Andreas Christensen,4,1,369,13,fichero_propio,Barcelona 13,200,130331
+90,Dani Olmo,4,5,2109,33,fichero_propio,Barcelona 33,8292,261212
+91,Dro Fernández,4,9,83,4,alineaciones_whoscored,Barcelona 4,13749,572375
+92,Eric García,4,1,2761,34,fichero_propio,Barcelona 34,8045,368091
+93,Fermín López,4,4,1780,30,fichero_propio,Barcelona 30,11822,463838
+94,Ferran Torres,4,7,2025,33,fichero_propio,Barcelona 33,6441,349760
+95,Frenkie de Jong,4,4,1597,25,fichero_propio,Barcelona 25,7781,279423
+96,Gavi,4,4,578,11,fichero_propio,Barcelona 11,9804,422937
+97,Gerard Martín,4,2,2145,32,fichero_propio,Barcelona 32,12821,512879
+98,Jofre Torrents,4,2,33,3,fichero_propio,Barcelona 3,13748,572374
+99,João Cancelo,4,2,938,16,fichero_propio,Barcelona 16,2379,128967
+100,Jules Koundé,4,1,2247,30,fichero_propio,Barcelona 30,6433,301019
+101,Lamine Yamal,4,6,2291,28,fichero_propio,Barcelona 28,11527,480249
+102,Marc Bernal,4,8,798,22,fichero_propio,Barcelona 22,12820,534796
+103,Marc Casadó,4,3,957,24,fichero_propio,Barcelona 24,11151,454343
+104,Marcus Rashford,4,6,1739,32,fichero_propio,Barcelona 32,556,300299
+105,Pau Cubarsí,4,1,2733,31,fichero_propio,Barcelona 31,12005,498386
+106,Pedri,4,4,2117,29,fichero_propio,Barcelona 29,8935,402197
+107,Raphinha,4,6,1424,22,fichero_propio,Barcelona 22,8026,300447
+108,Robert Lewandowski,4,7,1630,31,fichero_propio,Barcelona 31,227,29400
+109,Ronald Araujo,4,1,1049,24,fichero_propio,Barcelona 24,8091,384711
+110,Roony Bardghji,4,6,612,21,fichero_propio,Barcelona 21,14064,435529
+111,Tomás Marqués,4,3,5,2,fichero_propio,Barcelona 2,14205,602216
+112,Toni Fernández,4,7,48,1,fichero_propio,Barcelona 1,13110,534797
+113,Xavi Espart,4,2,157,4,fichero_propio,Barcelona 4,14129,591617
+114,Álvaro Cortés,4,8,90,1,fichero_propio,Barcelona 1,13227,546645
+115,Andrés Antañón,5,5,64,2,fichero_propio,Celta Vigo 2,14500,598467
+116,Borja Iglesias,5,7,1903,35,fichero_propio,Celta Vigo 35,2543,259042
+117,Bryan Zaragoza,5,6,1138,19,alineaciones_whoscored,Celta Vigo 19,10143,429273
+118,Carl Starfelt,5,1,1492,19,fichero_propio,Celta Vigo 19,7655,378626
+119,Carlos Domínguez,5,1,602,8,fichero_propio,Celta Vigo 8,9519,415344
+120,Damián Rodríguez,5,9,155,2,alineaciones_whoscored,Celta Vigo 2,10614,438846
+121,Fer López,5,5,1179,17,fichero_propio,Celta Vigo 17,13200,544982
+122,Ferran Jutglà,5,7,1702,30,fichero_propio,Celta Vigo 30,8549,396158
+123,Hugo Burcio,5,4,4,1,fichero_propio,Celta Vigo 1,14362,598468
+124,Hugo González,5,7,4,1,fichero_propio,Celta Vigo 1,10082,427117
+125,Hugo Sotelo,5,4,1350,20,fichero_propio,Celta Vigo 20,9520,415345
+126,Hugo Álvarez,5,6,1359,28,fichero_propio,Celta Vigo 28,10078,427001
+127,Iago Aspas,5,7,1082,32,fichero_propio,Celta Vigo 33,2290,91242
+128,Ilaix Moriba,5,4,2484,36,fichero_propio,Celta Vigo 36,9243,409030
+129,Javi Rodríguez,5,2,2568,33,fichero_propio,Celta Vigo 33,12180,508331
+130,Javi Rueda,5,2,1403,26,fichero_propio,Celta Vigo 26,12643,463588
+131,Jones El Abdellaoui,5,6,621,22,fichero_propio,Celta Vigo 22,13361,441888
+132,Joseph Aidoo,5,1,640,8,fichero_propio,Celta Vigo 8,7826,320713
+133,Manu Fernández,5,1,768,14,fichero_propio,Celta Vigo 14,13787,578374
+134,Marcos Alonso,5,2,2780,32,fichero_propio,Celta Vigo 32,1621,84008
+135,Matías Vecino,5,4,136,6,fichero_propio,Celta Vigo 6,1423,135625
+136,Miguel Román,5,8,1297,19,fichero_propio,Celta Vigo 19,13620,462768
+137,Mihailo Ristic,5,2,266,5,fichero_propio,Celta Vigo 5,5947,244778
+138,Pablo Durán,5,7,1451,30,fichero_propio,Celta Vigo 30,11154,459082
+139,Sergio Carreira,5,2,2695,34,fichero_propio,Celta Vigo 34,8122,386622
+140,Williot Swedberg,5,5,1237,29,fichero_propio,Celta Vigo 29,10870,444227
+141,Yoel Lago,5,1,966,12,fichero_propio,Celta Vigo 12,12642,528001
+142,Álvaro Núñez,5,2,2006,25,fichero_propio,Celta Vigo 6 + Elche 19,13836,509876
+143,Óscar Mingueza,5,2,1949,34,fichero_propio,Celta Vigo 34,9011,397469
+144,Adam El Mokhtari,6,7,85,7,fichero_propio,,14013,
+145,Adrià Pedrosa,6,2,1053,27,fichero_propio,Elche 26 + Sevilla 1,7174,363966
+146,Aleix Febas,6,4,3178,36,fichero_propio,Elche 36,7842,381643
+147,Ali Houary,6,9,133,2,alineaciones_whoscored,Elche 2,13838,508339
+148,André Silva,6,7,1858,31,fichero_propio,Elche 31,6170,299460
+149,Bambo Diaby,6,9,98,4,alineaciones_whoscored,Elche 4,13843,379633
+150,Buba Sangaré,6,8,556,12,fichero_propio,Elche 12,12870,510360
+151,David Affengruber,6,1,2958,36,fichero_propio,Elche 36,13837,423282
+152,Federico Redondo,6,3,158,11,fichero_propio,Elche 12,13841,419616
+153,Germán Valera,6,7,2888,36,fichero_propio,Elche 36,8230,390240
+154,Gonzalo Villar,6,4,722,12,fichero_propio,Elche 12,6750,357388
+155,Grady Diangana,6,6,937,20,fichero_propio,Elche 20,6651,306943
+156,Héctor Fort,6,2,478,14,fichero_propio,Elche 14,12171,483206
+157,Jairo Izquierdo,6,9,22,1,alineaciones_whoscored,Elche 1,9008,403808
+158,John Donald,6,1,637,21,fichero_propio,Elche 21,9199,408347
+159,Josan,6,6,525,19,fichero_propio,Elche 19,8893,273453
+160,Lucas Cepeda,6,6,390,10,fichero_propio,Elche 10,14400,516414
+161,Léo Pétrot,6,2,1572,32,fichero_propio,Elche 32,7574,301330
+162,Marc Aguado,6,3,2539,35,fichero_propio,Elche 35,13839,448050
+163,Martim Neto,6,4,1367,25,fichero_propio,Elche 26,13840,438351
+164,Mourad El Ghezouani,6,9,42,2,alineaciones_whoscored,Elche 2,8946,402630
+165,Pedro Bigas,6,1,2078,28,fichero_propio,Elche 28,2353,108100
+166,Rafa Mir,6,7,1834,27,fichero_propio,Elche 27,2589,300369
+167,Tete Morente,6,6,940,13,fichero_propio,Elche 13,8895,402087
+168,Victor Chust,6,1,2146,31,fichero_propio,Elche 31,8972,402862
+169,Yago Alonso,6,9,275,9,alineaciones_whoscored,,11617,
+170,Álex Sánchez,6,6,5,1,fichero_propio,Elche 1,14366,606360
+171,Álvaro Rodríguez,6,7,2199,34,fichero_propio,Elche 34,11186,460772
+172,Antoniu Roca,7,6,262,13,fichero_propio,Espanyol 13,12901,506011
+173,Carlos Romero,7,2,3207,36,fichero_propio,Espanyol 36,11402,468931
+174,Charles Pickel,7,3,658,24,fichero_propio,Espanyol 24,10936,316532
+175,Clemens Riedel,7,1,1405,20,fichero_propio,Espanyol 20,11924,419935
+176,Cyril Ngonge,7,6,441,9,fichero_propio,Espanyol 9,11306,367742
+177,Edu Expósito,7,4,2593,36,fichero_propio,Espanyol 36,5081,335696
+178,Fernando Calero,7,1,2159,28,fichero_propio,Espanyol 28,6916,362354
+179,Javi Puado,7,6,687,10,fichero_propio,Espanyol 10,6933,362423
+180,Jofre Carreras,7,6,890,26,fichero_propio,Espanyol 26,10209,430451
+181,José Salinas,7,1,232,11,fichero_propio,Espanyol 11,8902,402092
+182,Kike García,7,7,1694,37,fichero_propio,Espanyol 37,5074,79840
+183,Leandro Cabrera,7,1,3330,37,fichero_propio,Espanyol 37,6168,73265
+184,Lluc Castell,7,7,15,1,fichero_propio,Espanyol 1,14588,620865
+185,Luca Koleosho,7,9,48,3,alineaciones_whoscored,Espanyol 3,10620,438959
+186,Miguel Rubio,7,1,168,12,fichero_propio,Espanyol 12,6740,357118
+187,Omar El Hilali,7,2,2853,36,fichero_propio,Espanyol 36,10875,449410
+188,Pere Milla,7,6,2005,33,fichero_propio,Espanyol 33,4175,140772
+189,Pol Lozano,7,4,2211,33,fichero_propio,Espanyol 33,7916,382157
+190,Ramon Terrats,7,4,1020,29,fichero_propio,Espanyol 29,10947,444244
+191,Roberto Fernández,7,7,2388,38,fichero_propio,Espanyol 38,13350,448296
+192,Rubén Sánchez,7,2,774,21,fichero_propio,Espanyol 21,10067,426757
+193,Tyrhys Dolan,7,6,2481,36,fichero_propio,Espanyol 36,13829,398922
+194,Urko González de Zárate,7,3,2615,36,fichero_propio,Espanyol 35 + Real Sociedad 1,8861,401173
+195,Abdel Abqar,8,1,1479,23,fichero_propio,Getafe 23,9297,409740
+196,Abu Kamara,8,7,210,12,fichero_propio,Getafe 12,10526,435987
+197,Adrián Liso,8,6,1725,28,fichero_propio,Getafe 28,13789,519104
+198,Alejandro Mestanza,8,5,68,3,fichero_propio,Getafe 3,14287,605382
+199,Alex Sancris,8,6,693,18,fichero_propio,Getafe 18,14086,463844
+200,Alex Sola,8,9,10,1,alineaciones_whoscored,Getafe 1,7424,370000
+201,Allan Nyom,8,2,522,15,fichero_propio,Getafe 16,565,91434
+202,Borja Mayoral,8,7,1072,16,fichero_propio,Getafe 16,2252,278721
+203,Christantus Uche,8,7,270,3,alineaciones_whoscored,Getafe 3,12726,531674
+204,Coba da Costa,8,9,318,14,alineaciones_whoscored,Getafe 14,13047,538555
+205,Damián Cáceres,8,8,150,3,fichero_propio,Getafe 3,14603,448083
+206,Davinchi,8,2,688,14,fichero_propio,Getafe 14,13788,568737
+207,Diego Rico,8,2,1723,28,fichero_propio,Getafe 29,5065,323352
+208,Djené Dakonam,8,1,2601,34,fichero_propio,Getafe 34,6151,332990
+209,Domingos Duarte,8,1,2953,34,fichero_propio,Getafe 34,7860,322772
+210,Hugo Solozabal,8,4,4,1,fichero_propio,Getafe 1,13638,462919
+211,Ismael Bekhoucha,8,2,106,4,fichero_propio,Getafe 4,13334,550147
+212,Javi Muñoz,8,4,527,17,fichero_propio,Getafe 17,4168,276819
+213,Jorge Montes,8,8,24,1,fichero_propio,Getafe 1,14202,602166
+214,Joselu Pérez,8,7,16,2,fichero_propio,Getafe 2,13790,508469
+215,Juan Iglesias,8,2,3189,37,fichero_propio,Getafe 37,9218,408735
+216,Juanmi,8,6,152,8,fichero_propio,Getafe 8,897,83080
+217,Kiko Femenía,8,2,2070,28,fichero_propio,Getafe 28,5043,75919
+218,Luis Milla,8,4,3288,37,fichero_propio,Getafe 37,8725,279320
+219,Luis Vázquez,8,7,1232,17,fichero_propio,Getafe 17,14388,408030
+220,Mario Martín,8,3,2158,35,fichero_propio,Getafe 35,11349,471047
+221,Martín Satriano,8,7,1609,18,fichero_propio,Getafe 18,9001,403803
+222,Mauro Arambarri,8,4,3279,37,fichero_propio,Getafe 37,3264,303016
+223,Sebastián Boselli,8,1,356,11,fichero_propio,Getafe 12,14389,484251
+224,Veljko Birmancevic,8,6,129,6,fichero_propio,Getafe 6,11091,425231
+225,Yvan Neyou,8,9,49,5,alineaciones_whoscored,Getafe 5,8689,396583
+226,Zaid Romero,8,1,1350,15,fichero_propio,Getafe 15,14387,389191
+227,Abel Ruiz,9,7,168,9,fichero_propio,Girona 9,7549,372828
+228,Alejandro Francés,9,1,1077,24,fichero_propio,Girona 24,12723,416959
+229,Arnau Martínez,9,1,2715,35,fichero_propio,Girona 35,10949,444239
+230,Axel Witsel,9,1,2546,32,fichero_propio,Girona 32,3059,25191
+231,Azzedine Ounahi,9,4,1777,24,fichero_propio,Girona 24,8328,392361
+232,Bojan Miovski,9,9,44,1,alineaciones_whoscored,Girona 1,12995,424737
+233,Bryan Gil,9,6,1607,29,fichero_propio,Girona 29,7338,368519
+234,Claudio Echeverri,9,5,606,17,fichero_propio,Girona 17,13649,478241
+235,Cristhian Stuani,9,7,359,21,fichero_propio,Girona 21,1709,24400
+236,Daley Blind,9,2,2624,31,fichero_propio,Girona 31,548,70033
+237,David López,9,1,300,5,fichero_propio,Girona 6,1857,92691
+238,Dawda Camara,9,9,73,2,alineaciones_whoscored,Girona 2,11381,444249
+239,Donny van de Beek,9,4,37,2,fichero_propio,Girona 2,8821,275035
+240,Fran Beltrán,9,4,1544,27,fichero_propio,Celta Vigo 10 + Girona 17,6931,362421
+241,Hugo Rincón,9,2,1713,33,fichero_propio,Girona 33,12189,481851
+242,Iván Martín,9,5,2558,35,fichero_propio,Girona 35,7529,372473
+243,Jhon Solís,9,4,362,12,fichero_propio,Girona 12,12046,445345
+244,Joel Roca,9,6,1463,32,fichero_propio,Girona 32,10952,444242
+245,Juan Arango,9,6,14,2,fichero_propio,Girona 2,14227,511122
+246,Ladislav Krejcí,9,1,180,2,fichero_propio,Girona 2,12721,404245
+247,Lancinet Kourouma,9,4,23,5,fichero_propio,Girona 5,14089,542750
+248,Portu,9,6,463,10,fichero_propio,Girona 10,6118,106895
+249,Thomas Lemar,9,5,1252,27,fichero_propio,Girona 27,3425,132962
+250,Viktor Tsygankov,9,6,2672,32,fichero_propio,Girona 32,11322,231125
+251,Vitor Reis,9,1,3137,36,fichero_propio,Girona 36,13380,478314
+252,Vladyslav Vanat,9,7,2003,27,fichero_propio,Girona 27,14041,410504
+253,Yáser Asprilla,9,6,601,15,alineaciones_whoscored,Girona 15,13005,443540
+254,Álex Moreno,9,2,2554,31,fichero_propio,Girona 31,4120,135374
+255,Adrián de la Fuente,10,1,2704,33,fichero_propio,Levante 33,10319,383780
+256,Alan Matturro,10,1,918,19,fichero_propio,Levante 19,12078,445480
+257,Carlos Espí,10,7,1328,25,fichero_propio,Levante 25,13769,516341
+258,Carlos Álvarez,10,5,1910,30,fichero_propio,Levante 30,11264,406937
+259,Diego Pampín,10,2,526,8,fichero_propio,Levante 8,6291,345366
+260,Goduine Koyalipou,10,9,217,11,alineaciones_whoscored,Levante 11,13335,469950
+261,Iker Losada,10,7,882,23,fichero_propio,Levante 23,7825,381583
+262,Iván Romero,10,7,2339,32,fichero_propio,Levante 32,9275,407567
+263,Jeremy Toljan,10,2,3199,37,fichero_propio,Levante 37,257,129620
+264,Jon Olasagasti,10,4,1712,33,fichero_propio,Levante 33,9466,413346
+265,Jorge Cabello,10,1,367,5,alineaciones_whoscored,Levante 5,13766,518057
+266,José Luis Morales,10,7,298,20,fichero_propio,Levante 20,2186,135321
+267,Kareem Tunde,10,6,1183,21,fichero_propio,Levante 21,14258,604365
+268,Karl Etta Eyong,10,7,1657,33,fichero_propio,Levante 30 + Villarreal 3,10930,445095
+269,Kervin Arriaga,10,3,1511,27,fichero_propio,Levante 27,14050,433488
+270,Manu Sánchez,10,2,2844,33,fichero_propio,Levante 33,7605,374813
+271,Matías Moreno,10,1,2265,28,fichero_propio,Levante 28,13083,482951
+272,Nacho Pérez,10,2,147,3,fichero_propio,Levante 3,13772,578266
+273,Oriol Rey,10,3,1316,20,fichero_propio,Levante 21,8764,362623
+274,Pablo Martínez,10,3,1878,27,fichero_propio,Levante 27,8183,388808
+275,Paco Cortés,10,6,456,12,fichero_propio,Levante 12,13770,541854
+276,Roger Brugué,10,4,1008,19,fichero_propio,Levante 19,13767,448231
+277,Tai Abed,10,6,68,7,fichero_propio,Levante 7,14397,457175
+278,Ugo Raghouber,10,4,705,16,fichero_propio,Levante 16,10397,432214
+279,Unai Elgezabal,10,1,963,12,fichero_propio,Levante 12,13765,299752
+280,Unai Vencedor,10,4,837,16,fichero_propio,Levante 16,8329,392383
+281,Víctor García,10,8,1065,21,fichero_propio,Levante 21,8500,395708
+282,Abdón Prats,11,7,92,15,fichero_propio,Mallorca 15,8014,9270
+283,Antonio Raíllo,11,1,2069,24,fichero_propio,Mallorca 24,2584,294006
+284,Antonio Sánchez,11,4,1016,30,fichero_propio,Mallorca 30,9970,425092
+285,Dani Rodríguez,11,9,56,2,alineaciones_whoscored,Mallorca 2,7841,6227
+286,David López,11,1,827,14,fichero_propio,Mallorca 14,12074,502424
+287,Jan Salas,11,4,6,2,fichero_propio,Mallorca 2,12951,537870
+288,Jan Virgili,11,6,1807,31,fichero_propio,Mallorca 31,13991,581683
+289,Javi Llabrés,11,6,147,16,fichero_propio,Mallorca 16,10128,428593
+290,Javier Olaizola,11,8,44,2,fichero_propio,Mallorca 2,14093,584523
+291,Johan Mojica,11,2,2723,35,fichero_propio,Mallorca 35,6242,135098
+292,Justin Kalumba,11,6,81,3,fichero_propio,Mallorca 3,11494,478113
+293,Luis Orejuela,11,8,90,1,fichero_propio,Mallorca 1,14613,602512
+294,Manu Morlanes,11,4,1801,32,fichero_propio,Mallorca 32,6592,349660
+295,Marash Kumbulla,11,1,434,8,fichero_propio,Mallorca 8,6324,343778
+296,Marc Domenech,11,9,198,7,alineaciones_whoscored,Mallorca 7,12883,537076
+297,Martin Valjent,11,1,3311,37,fichero_propio,Mallorca 37,7838,142387
+298,Mateo Joseph,11,7,1707,29,fichero_propio,Mallorca 29,11208,463233
+299,Mateu Morey,11,2,723,18,fichero_propio,Mallorca 18,8070,384368
+300,Miguel Calatayud,11,8,34,2,fichero_propio,Mallorca 2,14612,622084
+301,Omar Mascarell,11,3,2251,30,fichero_propio,Mallorca 30,2456,115996
+302,Pablo Maffeo,11,2,2690,31,fichero_propio,Mallorca 32,1003,294848
+303,Pablo Torre,11,5,1614,35,fichero_propio,Mallorca 35,11025,445092
+304,Samú Costa,11,3,2731,34,fichero_propio,Mallorca 34,10974,391562
+305,Sergi Darder,11,4,2715,38,fichero_propio,Mallorca 38,2621,106596
+306,Takuma Asano,11,6,662,20,fichero_propio,Mallorca 20,6087,126316
+307,Toni Lato,11,2,601,12,fichero_propio,Mallorca 12,2479,312580
+308,Vedat Muriqi,11,7,3150,37,fichero_propio,Mallorca 37,9002,254352
+309,Zito Luvumbo,11,7,511,10,fichero_propio,Mallorca 10,10380,432157
+310,Abel Bretones,12,2,1600,28,fichero_propio,Osasuna 28,12790,461771
+311,Aimar Oroz,12,5,2175,31,fichero_propio,Osasuna 31,8424,395321
+312,Alejandro Catena,12,1,3083,35,fichero_propio,Osasuna 35,7604,374638
+313,Ante Budimir,12,7,2995,37,fichero_propio,Osasuna 37,1235,98126
+314,Asier Osambela,12,5,295,17,fichero_propio,Osasuna 18,12537,518928
+315,Enzo Boyomo,12,1,2544,30,fichero_propio,Osasuna 30,12893,447842
+316,Iker Benito,12,6,148,6,fichero_propio,Osasuna 6,10273,430907
+317,Iker Muñoz,12,4,928,19,fichero_propio,Osasuna 19,11395,474267
+318,Javi Galán,12,2,1806,25,fichero_propio,Atletico Madrid 5 + Osasuna 20,7385,369497
+319,Jon Moncayola,12,4,3061,36,fichero_propio,Osasuna 36,7857,381673
+320,Jorge Herrando,12,1,1597,28,fichero_propio,Osasuna 28,10858,444253
+321,Juan Cruz,12,2,644,15,fichero_propio,Osasuna 16,8744,96566
+322,Kike Barja,12,6,369,27,fichero_propio,Osasuna 27,5140,336251
+323,Lucas Torró,12,3,2362,34,fichero_propio,Osasuna 34,7050,249960
+324,Moi Gómez,12,6,1202,26,fichero_propio,Osasuna 26,2198,101238
+325,Raúl García,12,7,926,36,fichero_propio,Osasuna 36,8042,383924
+326,Raúl Moro,12,7,628,14,fichero_propio,Osasuna 14,8584,396490
+327,Rubén García,12,5,2297,35,fichero_propio,Osasuna 35,2183,119189
+328,Sheraldo Becker,12,6,124,9,fichero_propio,Osasuna 9,7882,137227
+329,Valentin Rosier,12,2,2563,31,fichero_propio,Osasuna 31,5615,319388
+330,Víctor Muñoz,12,6,2705,34,fichero_propio,Osasuna 34,13279,548106
+331,Íñigo Arguibide,12,6,187,6,fichero_propio,Osasuna 6,12472,517618
+332,Abdul Mumin,13,1,77,3,fichero_propio,Rayo Vallecano 3,11105,400844
+333,Alemão,13,7,1118,26,fichero_propio,Rayo Vallecano 26,14059,436617
+334,Andrei Ratiu,13,2,2791,35,fichero_propio,Rayo Vallecano 35,7515,372331
+335,Carlos Martín,13,7,473,11,fichero_propio,Rayo Vallecano 11,10101,427360
+336,Florian Lejeune,13,1,3233,36,fichero_propio,Rayo Vallecano 36,5073,80758
+337,Fran Pérez,13,6,1226,29,fichero_propio,Rayo Vallecano 29,10944,444265
+338,Gerard Gumbau,13,3,1153,28,fichero_propio,Rayo Vallecano 28,2609,294123
+339,Ilias Akhomach,13,6,876,20,fichero_propio,Rayo Vallecano 11 + Villarreal 9,10121,428500
+340,Isi Palazón,13,5,2294,31,fichero_propio,Rayo Vallecano 31,9812,422959
+341,Iván Balliu,13,2,572,14,fichero_propio,Rayo Vallecano 14,5672,101613
+342,Jorge de Frutos,13,6,2526,36,fichero_propio,Rayo Vallecano 36,8107,386230
+343,Jozhua Vertrouwd,13,2,433,9,fichero_propio,Rayo Vallecano 9,13694,505924
+344,Luiz Felipe,13,1,473,10,fichero_propio,Rayo Vallecano 10,6177,294744
+345,Nobel Mendy,13,1,1834,24,fichero_propio,Rayo Vallecano 24,12286,469508
+346,Pacha Espino,13,2,1472,30,fichero_propio,Rayo Vallecano 30,8733,143655
+347,Pathé Ciss,13,3,1974,29,fichero_propio,Rayo Vallecano 29,9815,422963
+348,Pedro Díaz,13,4,1868,34,fichero_propio,Rayo Vallecano 34,12863,448514
+349,Pelayo Fernández,13,9,37,1,alineaciones_whoscored,Rayo Vallecano 1,12864,531953
+350,Pep Chavarría,13,2,2672,33,fichero_propio,Rayo Vallecano 33,11087,448468
+351,Randy Nteka,13,5,342,13,fichero_propio,Rayo Vallecano 13,9813,422960
+352,Samu Becerra,13,8,9,3,fichero_propio,Rayo Vallecano 3,13695,578016
+353,Sergio Camello,13,7,810,22,fichero_propio,Rayo Vallecano 23,7528,372469
+354,Sergio Lozano,13,8,7,1,fichero_propio,,8416,
+355,Unai López,13,4,1637,28,fichero_propio,Rayo Vallecano 28,4091,236575
+356,Álvaro García,13,6,2123,32,fichero_propio,Rayo Vallecano 32,7071,135345
+357,Óscar Trejo,13,5,131,7,fichero_propio,Rayo Vallecano 8,3208,16942
+358,Óscar Valentín,13,3,2143,33,fichero_propio,Rayo Vallecano 33,9811,422958
+359,Abde Ezzalzouli,14,6,2275,29,fichero_propio,Real Betis 29,10095,427283
+360,Aitor Ruibal,14,6,1809,27,fichero_propio,Real Betis 27,6427,349494
+361,Antony,14,6,2495,32,fichero_propio,Real Betis 32,11094,364315
+362,Chimy Ávila,14,7,350,16,fichero_propio,Real Betis 17,6955,303707
+363,Cucho Hernández,14,7,2623,32,fichero_propio,Real Betis 32,6954,362501
+364,Cédric Bakambu,14,7,542,18,fichero_propio,Real Betis 18,2306,86513
+365,Dani Pérez,14,4,1,1,fichero_propio,Real Betis 1,12044,462987
+366,Diego Llorente,14,1,1221,18,fichero_propio,Real Betis 18,2163,123232
+367,Giovani Lo Celso,14,5,1396,24,fichero_propio,Real Betis 24,5681,303908
+368,Héctor Bellerín,14,2,1822,27,fichero_propio,Real Betis 27,492,125211
+369,Isco,14,5,213,8,fichero_propio,Real Betis 8,2255,82989
+370,Iván Corralejo,14,5,11,1,fichero_propio,Real Betis 1,13855,578871
+371,Junior Firpo,14,2,846,12,fichero_propio,Real Betis 12,6485,351252
+372,Marc Bartra,14,1,1973,25,fichero_propio,Real Betis 25,2453,83686
+373,Marc Roca,14,3,2020,29,fichero_propio,Real Betis 29,5086,323148
+374,Natan,14,1,2820,33,fichero_propio,Real Betis 33,11890,402206
+375,Nelson Deossa,14,4,725,20,fichero_propio,Real Betis 20,14001,432475
+376,Pablo Fornals,14,5,2912,37,fichero_propio,Real Betis 37,2335,297203
+377,Pablo García,14,6,346,15,fichero_propio,Real Betis 15,13376,551186
+378,Ricardo Rodríguez,14,2,1552,23,fichero_propio,Real Betis 23,308,61610
+379,Rodrigo Riquelme,14,5,788,25,fichero_propio,Real Betis 25,8002,382631
+380,Sergi Altimira,14,4,1176,24,fichero_propio,Real Betis 24,11953,489232
+381,Sofyan Amrabat,14,3,1297,17,fichero_propio,Real Betis 17,7927,248144
+382,Valentín Gómez,14,1,1852,28,fichero_propio,Real Betis 28,13845,433286
+383,Álvaro Fidalgo,14,4,567,9,fichero_propio,Real Betis 9,14440,452407
+384,Ángel Ortiz,14,2,584,13,fichero_propio,Real Betis 13,13374,545675
+385,Antonio Rüdiger,15,1,1501,18,fichero_propio,Real Madrid 18,1822,104010
+386,Arda Güler,15,4,2076,33,fichero_propio,Real Madrid 33,12190,415181
+387,Aurélien Tchouaméni,15,4,2656,33,fichero_propio,Real Madrid 33,6560,353423
+388,Brahim Díaz,15,5,1243,30,fichero_propio,Real Madrid 30,6421,317541
+389,César Palacios,15,8,68,5,fichero_propio,Real Madrid 5,14352,534901
+390,Dani Carvajal,15,2,965,17,fichero_propio,Real Madrid 17,2260,106883
+391,Dani Ceballos,15,5,451,16,fichero_propio,Real Madrid 16,2446,144890
+392,Daniel Yáñez,15,7,40,2,fichero_propio,Real Madrid 2,13266,546923
+393,David Alaba,15,1,419,11,fichero_propio,Real Madrid 11,391,39722
+394,David Jiménez,15,2,78,2,fichero_propio,Real Madrid 2,13113,540352
+395,Dean Huijsen,15,1,2046,28,fichero_propio,Real Madrid 28,11943,468852
+396,Diego Aguado,15,1,24,1,fichero_propio,Real Madrid 1,13236,546728
+397,Eduardo Camavinga,15,4,1507,29,fichero_propio,Real Madrid 29,7359,369109
+398,Endrick,15,9,5,1,alineaciones_whoscored,Real Madrid 2,12884,445649
+399,Federico Valverde,15,4,2765,33,fichero_propio,Real Madrid 33,6241,344644
+400,Ferland Mendy,15,2,204,5,fichero_propio,Real Madrid 5,6233,296337
+401,Fran García,15,2,930,13,fichero_propio,Real Madrid 13,9810,422957
+402,Franco Mastantuono,15,6,1026,23,fichero_propio,Real Madrid 23,13847,514810
+403,Gonzalo García,15,6,923,30,fichero_propio,Real Madrid 30,12035,498798
+404,Jorge Cestero,15,8,8,2,fichero_propio,Real Madrid 2,14246,603671
+405,Jude Bellingham,15,4,1933,28,fichero_propio,Real Madrid 28,8824,379868
+406,Kylian Mbappé,15,7,2623,31,fichero_propio,Real Madrid 31,3423,300713
+407,Manuel Serrano,15,2,3,1,fichero_propio,Real Madrid 1,14630,623490
+408,Manuel Ángel,15,8,86,4,fichero_propio,Real Madrid 4,14502,606004
+409,Raúl Asencio,15,1,1692,23,fichero_propio,Real Madrid 23,13201,534899
+410,Rodrygo,15,7,633,19,fichero_propio,Real Madrid 19,8015,347862
+411,Thiago Pitarch,15,8,615,10,fichero_propio,Real Madrid 10,13848,577403
+412,Trent Alexander-Arnold,15,2,1175,21,fichero_propio,Real Madrid 21,1791,318871
+413,Valde,15,8,81,1,fichero_propio,Real Madrid 1,13543,555515
+414,Vinícius Júnior,15,6,2865,36,fichero_propio,Real Madrid 36,7008,337782
+415,Álvaro Carreras,15,2,2334,28,fichero_propio,Real Madrid 28,10576,437583
+416,Álvaro Leiva,15,7,2,1,fichero_propio,Real Madrid 1,14353,606121
+417,Éder Militão,15,1,1147,16,fichero_propio,Real Madrid 16,7829,337879
+418,Alberto Reina,16,4,2616,38,fichero_propio,Real Oviedo 37,13700,463821
+419,Borja Sánchez,16,9,9,1,alineaciones_whoscored,Real Oviedo 1,13702,461767
+420,Dani Calvo,16,1,1688,21,fichero_propio,Real Oviedo 21,2597,300918
+421,David Carmo,16,1,1785,22,fichero_propio,Real Oviedo 22,13983,374812
+422,David Costas,16,1,2073,25,fichero_propio,Real Oviedo 25,4160,135404
+423,Eric Bailly,16,1,1327,16,fichero_propio,Real Oviedo 15,1739,243814
+424,Federico Viñas,16,7,2575,34,fichero_propio,Real Oviedo 33,13705,484254
+425,Haissem Hassan,16,6,1937,38,fichero_propio,Real Oviedo 37,11401,475046
+426,Ilyas Chaira,16,6,2584,37,fichero_propio,Real Oviedo 36,13701,495542
+427,Javi López,16,2,1825,26,fichero_propio,Real Oviedo 25,8413,395234
+428,Josip Brekalo,16,6,482,14,alineaciones_whoscored,Real Oviedo 14,5353,298792
+429,Kwasi Sibo,16,3,1782,27,fichero_propio,Real Oviedo 26,13699,463426
+430,Leander Dendoncker,16,3,1338,19,fichero_propio,Real Oviedo 19,7236,124106
+431,Lucas Ahijado,16,2,1086,20,fichero_propio,Real Oviedo 20,14018,298482
+432,Luka Ilic,16,5,731,19,fichero_propio,Real Oviedo 19,10388,361898
+433,Marco Esteban,16,1,40,1,fichero_propio,Real Oviedo 1,13703,506112
+434,Nacho Vidal,16,2,2383,30,fichero_propio,Real Oviedo 29,5162,335790
+435,Nicolás Fonseca,16,3,1028,19,fichero_propio,Real Oviedo 19,14316,513146
+436,Oier Luengo,16,1,228,3,alineaciones_whoscored,Real Oviedo 4,13697,448447
+437,Omar Falah,16,2,9,1,fichero_propio,Real Oviedo 1,13704,557844
+438,Ovie Ejaria,16,6,207,9,fichero_propio,Real Oviedo 8,1762,327852
+439,Pablo Agudín,16,8,60,8,fichero_propio,Real Oviedo 7,14173,597609
+440,Rahim Alhassane,16,2,1689,28,fichero_propio,Real Oviedo 27,13698,456006
+441,Salomón Rondón,16,7,1054,16,alineaciones_whoscored,Real Oviedo 16,813,25964
+442,Santi Cazorla,16,5,877,29,fichero_propio,Real Oviedo 28,965,4522
+443,Santiago Colombatto,16,3,2157,33,fichero_propio,Real Oviedo 32,13953,298175
+444,Thiago Borbas,16,7,140,12,fichero_propio,Real Oviedo 12,14334,460759
+445,Thiago Fernández,16,6,919,17,fichero_propio,Real Oviedo 16,14393,446729
+446,Álex Forés,16,7,331,18,fichero_propio,Real Oviedo 18,13954,513640
+447,Aihen Muñoz,17,2,829,21,fichero_propio,Real Sociedad 21,7306,367583
+448,Ander Barrenetxea,17,6,1794,30,fichero_propio,Real Sociedad 30,7308,367857
+449,Aritz Elustondo,17,2,723,16,fichero_propio,Real Sociedad 16,2228,256864
+450,Arkaitz Mariezkurrena,17,6,1,1,fichero_propio,Real Sociedad 1,13267,546575
+451,Arsen Zakharyan,17,5,424,17,fichero_propio,Real Sociedad 17,8760,400185
+452,Beñat Turrientes,17,4,1355,27,fichero_propio,Real Sociedad 27,9465,407138
+453,Brais Méndez,17,5,1708,29,fichero_propio,Real Sociedad 29,6227,344542
+454,Carlos Soler,17,4,2346,33,fichero_propio,Real Sociedad 33,2478,313542
+455,Daniel Díaz,17,6,13,1,fichero_propio,Real Sociedad 1,13558,556862
+456,Duje Caleta-Car,17,1,2140,27,fichero_propio,Real Sociedad 27,7007,251134
+457,Gonçalo Guedes,17,6,1833,32,fichero_propio,Real Sociedad 32,5682,247995
+458,Gorka Carrera,17,7,49,3,fichero_propio,Real Sociedad 3,14208,602289
+459,Ibai Aguirre,17,8,4,1,fichero_propio,Real Sociedad 1,14322,605461
+460,Igor Zubeldia,17,1,2080,25,fichero_propio,Real Sociedad 25,2417,315566
+461,Iñaki Rupérez,17,2,1,1,fichero_propio,Real Sociedad 1,12354,514956
+462,Job Ochieng,17,7,92,2,fichero_propio,Real Sociedad 2,14364,599413
+463,Jon Aramburu,17,2,2789,35,fichero_propio,Real Sociedad 35,12182,463961
+464,Jon Gorrotxategi,17,3,2235,30,fichero_propio,Real Sociedad 30,13936,541871
+465,Jon Karrikaburu,17,7,107,7,fichero_propio,Real Sociedad 7,9922,423913
+466,Jon Martín,17,1,2250,25,fichero_propio,Real Sociedad 25,12353,495459
+467,Lander Astiazarán,17,8,1,1,fichero_propio,Real Sociedad 1,14259,604378
+468,Luka Sucic,17,4,1003,22,fichero_propio,Real Sociedad 22,12862,407080
+469,Luken Beitia,17,1,91,2,fichero_propio,Real Sociedad 2,13482,546570
+470,Mikel Goti,17,9,64,4,alineaciones_whoscored,Real Sociedad 4,13580,546571
+471,Mikel Oyarzabal,17,7,2727,34,fichero_propio,Real Sociedad 34,2234,298839
+472,Orri Óskarsson,17,7,822,20,fichero_propio,Real Sociedad 20,13048,428066
+473,Pablo Marín,17,5,1491,34,fichero_propio,Real Sociedad 34,11185,459677
+474,Sergio Gómez,17,6,2712,35,fichero_propio,Real Sociedad 35,6656,355110
+475,Takefusa Kubo,17,6,1531,24,fichero_propio,Real Sociedad 24,8001,377285
+476,Wesley,17,6,74,5,fichero_propio,Real Sociedad 5,14413,439650
+477,Yangel Herrera,17,4,638,14,fichero_propio,Girona 2 + Real Sociedad 12,7350,318505
+478,Álvaro Odriozola,17,2,196,5,fichero_propio,Real Sociedad 5,2418,317354
+479,Adnan Januzaj,18,5,283,12,fichero_propio,Sevilla 12,323,130334
+480,Akor Adams,18,7,2048,32,fichero_propio,Sevilla 32,11783,408616
+481,Alexis Sánchez,18,7,1278,28,fichero_propio,Sevilla 28,498,25244
+482,Andrés Castrín,18,1,1251,19,fichero_propio,Sevilla 19,13600,448284
+483,Batista Mendy,18,3,1632,27,fichero_propio,Sevilla 27,8283,391316
+484,Chidera Ejuke,18,6,866,27,fichero_propio,Sevilla 27,8694,337022
+485,César Azpilicueta,18,2,1233,17,fichero_propio,Sevilla 17,681,25931
+486,Djibril Sow,18,4,2235,33,fichero_propio,Sevilla 33,2624,317630
+487,Dodi Lukebakio,18,9,180,2,alineaciones_whoscored,Sevilla 2,5706,299490
+488,Federico Gattoni,18,1,5,1,fichero_propio,Sevilla 1,11705,379208
+489,Fábio Cardoso,18,1,309,4,fichero_propio,Sevilla 4,14012,322771
+490,Gabriel Suazo,18,2,2107,29,fichero_propio,Sevilla 29,11343,286080
+491,Isaac Romero,18,7,1506,29,fichero_propio,Sevilla 29,12305,492362
+492,Joan Jordán,18,4,15,3,fichero_propio,Sevilla 4,2122,238941
+493,José Ángel Carmona,18,2,2561,35,fichero_propio,Sevilla 35,9809,422956
+494,Juanlu Sánchez,18,2,2016,32,fichero_propio,Sevilla 32,8409,395187
+495,Kike Salas,18,1,2199,26,fichero_propio,Sevilla 26,10334,431509
+496,Lucien Agoumé,18,3,2728,34,fichero_propio,Sevilla 34,8165,388505
+497,Manu Bueno,18,4,256,8,fichero_propio,Sevilla 8,11266,469547
+498,Marcão,18,1,935,13,fichero_propio,Sevilla 13,10999,318120
+499,Miguel Sierra,18,7,50,4,fichero_propio,Sevilla 4,13823,507590
+500,Neal Maupay,18,7,884,12,fichero_propio,Sevilla 12,3621,119822
+501,Nemanja Gudelj,18,4,2349,34,fichero_propio,Sevilla 34,7888,77417
+502,Oso,18,2,1397,21,fichero_propio,Sevilla 22,13615,511064
+503,Peque Fernández,18,6,952,26,fichero_propio,Sevilla 26,12742,464952
+504,Ramón Martínez,18,9,99,2,alineaciones_whoscored,Sevilla 2,13198,536136
+505,Rubén Vargas,18,6,1670,24,fichero_propio,Sevilla 24,7810,381550
+506,Stanis Idumbo Muzambo,18,9,48,1,alineaciones_whoscored,Sevilla 1,12426,516051
+507,Tanguy Nianzou,18,1,670,12,fichero_propio,Sevilla 12,7981,382492
+508,André Almeida,19,4,1007,22,fichero_propio,Valencia 22,11057,322246
+509,Arnaut Danjuma,19,6,1612,30,fichero_propio,Valencia 30,8066,323625
+510,Baptiste Santamaría,19,3,731,19,fichero_propio,Valencia 19,5654,236558
+511,Copete,19,1,1767,21,fichero_propio,Valencia 21,10982,444252
+512,César Tárrega,19,1,2588,32,fichero_propio,Valencia 32,10107,427831
+513,Dani Raba,19,6,247,13,fichero_propio,Valencia 13,5199,334221
+514,Diego López,19,7,1781,34,fichero_propio,Valencia 34,9694,422656
+515,Dimitri Foulquier,19,2,1149,15,fichero_propio,Valencia 15,2509,101084
+516,Eray Cömert,19,1,1341,17,fichero_propio,Valencia 17,10382,301034
+517,Filip Ugrinic,19,8,1515,27,fichero_propio,Valencia 27,13761,379684
+518,Guido Rodríguez,19,3,1310,16,fichero_propio,Valencia 16,8267,303876
+519,Hugo Duro,19,7,1979,36,fichero_propio,Valencia 36,6637,354526
+520,Javi Guerra,19,4,2086,36,fichero_propio,Valencia 36,10322,431507
+521,Jesús Vázquez,19,2,936,24,fichero_propio,Valencia 24,9217,408732
+522,José Gayà,19,2,2491,32,fichero_propio,Valencia 32,2505,119817
+523,Largie Ramazani,19,6,1200,27,fichero_propio,Valencia 27,10975,388665
+524,Lucas Beltrán,19,5,1377,27,fichero_propio,Valencia 27,11900,365410
+525,Luis Rioja,19,6,2676,37,fichero_propio,Valencia 37,7870,381713
+526,Mouctar Diakhaby,19,1,539,8,fichero_propio,Valencia 8,5666,322095
+527,Pepelu,19,3,2253,31,fichero_propio,Valencia 31,2551,302889
+528,Renzo Saravia,19,2,358,5,fichero_propio,Valencia 5,14518,127618
+529,Rubén Iranzo,19,1,1,1,fichero_propio,,10155,
+530,Thierry Correia,19,2,1386,24,fichero_propio,Valencia 24,8058,367180
+531,Umar Sadiq,19,7,1028,25,fichero_propio,Real Sociedad 5 + Valencia 20,1450,297546
+532,Unai Núñez,19,1,927,13,fichero_propio,Valencia 13,6149,344200
+533,Adrià Alti,20,9,7,1,alineaciones_whoscored,Villarreal 1,11834,448041
+534,Alassane Diatta,20,8,19,1,fichero_propio,Villarreal 1,13229,546651
+535,Alberto Moleiro,20,5,2535,38,fichero_propio,Villarreal 37,12160,448211
+536,Alex Freeman,20,2,332,10,fichero_propio,Villarreal 9,14396,440159
+537,Alfon González,20,6,691,21,fichero_propio,Sevilla 10 + Villarreal 10,9241,408942
+538,Alfonso Pedraza,20,2,1700,27,fichero_propio,Villarreal 27,2521,276489
+539,Ayoze Pérez,20,6,1154,26,fichero_propio,Villarreal 25,770,135366
+540,Carlos Macià,20,8,65,5,fichero_propio,Villarreal 5,14221,603190
+541,Dani Parejo,20,4,1474,33,fichero_propio,Villarreal 32,2378,28186
+542,Georges Mikautadze,20,7,2155,33,fichero_propio,Villarreal 32,8187,389020
+543,Gerard Moreno,20,7,1368,22,fichero_propio,Villarreal 22,2120,97659
+544,Hugo Lopez,20,7,57,2,fichero_propio,Villarreal 2,13997,582063
+545,Juan Foyth,20,2,946,13,fichero_propio,Villarreal 13,6306,335107
+546,Logan Costa,20,1,21,2,fichero_propio,Villarreal 2,8200,389130
+547,Manor Solomon,20,9,129,6,alineaciones_whoscored,Villarreal 6,10716,345022
+548,Nicolas Pépé,20,6,2497,37,fichero_propio,Villarreal 36,5656,239872
+549,Pape Gueye,20,4,2280,31,fichero_propio,Villarreal 30,8696,399047
+550,Pau Cabanes,20,7,10,1,fichero_propio,Villarreal 1,13036,538494
+551,Pau Navarro,20,1,2034,24,fichero_propio,Villarreal 23,12914,537235
+552,Rafa Marín,20,1,1975,23,fichero_propio,Villarreal 23,10200,430301
+553,Renato Veiga,20,3,2553,33,fichero_propio,Villarreal 32,11383,434077
+554,Santi Comesaña,20,4,2428,34,fichero_propio,Villarreal 34,7070,362735
+555,Santiago Mouriño,20,1,2485,29,fichero_propio,Villarreal 28,13003,448936
+556,Sergi Cardona,20,2,2028,32,fichero_propio,Villarreal 31,11744,448209
+557,Tajon Buchanan,20,6,1873,35,fichero_propio,Villarreal 34,12322,371027
+558,Tani Oluwaseyi,20,7,949,28,fichero_propio,Villarreal 27,13996,445292
+559,Thomas Partey,20,3,892,26,fichero_propio,Villarreal 25,2328,238940
+560,Willy Kambwala,20,1,85,2,fichero_propio,Villarreal 2,12275,494120
+561,Yeremi Pino,20,9,165,2,alineaciones_whoscored,Villarreal 2,9024,403865

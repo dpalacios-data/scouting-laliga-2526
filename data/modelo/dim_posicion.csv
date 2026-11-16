@@ -1,0 +1,10 @@
+id_posicion,posicion,grupo
+1,central,central
+2,lateral,lateral
+3,pivote,pivote_mediocentro
+4,mediocentro,pivote_mediocentro
+5,mediapunta,mediapunta
+6,extremo,extremo
+7,delantero,delantero
+8,sin_definir,sin_definir
+9,sin_confirmar,sin_confirmar
