@@ -1,0 +1,562 @@
+nombre_posiciones,nombre_understat,nombre_whoscored,id_whoscored,equipo,minutos_us,partidos_us,partidos_eventos,origen,id_understat,equipo_understat
+Abde Rebbach,Abderrahmane Rebbach,Abde Rebbach,447835,Alaves,1479,30,30,recuperado_36,11825,Alaves
+Aitor Mañas,Aitor Mañas,Aitor Mañas,514695,Alaves,105,9,9,directo,14222,Alaves
+Ander Guevara,Ander Guevara,Ander Guevara,344120,Alaves,581,25,25,directo,6126,Alaves
+Antonio Blanco,Antonio Blanco,Antonio Blanco,409467,Alaves,3137,36,36,directo,9280,Alaves
+Calebe,Calebe,Calebe,397568,Alaves,767,19,19,directo,13764,Alaves
+Carles Aleñá,Carles Aleñá,Carles Aleñá,303268,Alaves,2002,34,34,directo,5058,Alaves
+Carlos Ballestero,Carlos Ballestero,Carlos Ballestero,508232,Alaves,1,1,1,directo,14117,Alaves
+,Carlos Benavídez,,,Alaves,311,13,,understat_sin_posicion,11826,Alaves
+,Carlos Vicente,Carlos Vicente,462861,Alaves,1250,21,21,understat_sin_posicion,12294,Alaves
+Denis Suárez,Denis Suárez,Denis Suárez,106525,Alaves,1407,30,30,directo,2308,Alaves
+Diego Morcillo,Diego Morcillo,Diego Morcillo,464011,Alaves,8,1,1,directo,14116,Alaves
+Facundo Garcés,Facundo Garcés,Facundo Garcés,337454,Alaves,786,10,10,directo,13319,Alaves
+Ibrahim Diabate,Ibrahim Diabate,Ibrahim Diabate,607607,Alaves,579,10,10,directo,14465,Alaves
+Jon Guridi,Jon Guridi,Jon Guridi,335041,Alaves,1251,28,28,directo,5179,Alaves
+Jon Pacheco,Jon Pacheco Dozagarat,Jon Pacheco,395320,Alaves,1737,22,22,recuperado_15,8423,Alaves
+Jonny,Jonny,Jonny Otto,115917,Alaves,3006,34,34,recuperado_15,2280,Alaves
+Lander Pinillos,Lander Pinillos,Lander Pinillos,561841,Alaves,1,1,1,directo,13646,Alaves
+Lucas Boyé,Lucas Boyé,Lucas Boyé,303800,Alaves,1960,29,29,directo,1189,Alaves
+Mariano Díaz,Mariano,Mariano Díaz,323236,Alaves,269,10,10,recuperado_36,5110,Alaves
+,Moussa Diarra,Moussa Diarra,375342,Alaves,225,3,3,understat_sin_posicion,7613,Alaves
+Nahuel Tenaglia,Nahuel Tenaglia,Nahuel Tenaglia,347874,Alaves,3240,36,36,directo,10364,Alaves
+Pablo Ibáñez,Pablo Ibáñez,Pablo Ibáñez,444254,Alaves,2278,37,37,directo,10857,Alaves
+Toni Martínez,Antonio Martínez,Toni Martínez,280060,Alaves,2750,37,37,recuperado_36,6400,Alaves
+Victor Parada,Victor Parada,Victor Parada,463966,Alaves,2159,30,30,directo,12207,Alaves
+Ville Koski,Ville Koski,Ville Koski,424575,Alaves,281,5,5,directo,14519,Alaves
+Youssef Enríquez,Youssef Lekhedim,Youssef Enriquez,519969,Alaves,1332,25,26,recuperado_36,13278,Alaves
+Ángel Pérez,Ángel Pérez,Ángel Pérez,506205,Alaves,1292,16,16,directo,14392,Alaves
+Adama Boiro,Adama Boiro,Adama Boiro,515307,Athletic Club,810,14,14,directo,12724,Athletic Club
+Aitor Paredes,Aitor Paredes,Aitor Paredes,402663,Athletic Club,1625,19,19,directo,8948,Athletic Club
+Alejandro Rego,Alejandro Rego,Alejandro Rego,560362,Athletic Club,1231,29,29,directo,13627,Athletic Club
+Alex Berenguer,Alex Berenguer,Alex Berenguer,238899,Athletic Club,2191,31,31,directo,5091,Athletic Club
+Andoni Gorosabel,Andoni Gorosabel,Andoni Gorosabel,345908,Athletic Club,1347,24,24,directo,6325,Athletic Club
+Asier Hierro,Asier Hierro,Asier Hierro,599642,Athletic Club,30,1,1,directo,14183,Athletic Club
+Aymeric Laporte,Aymeric Laporte,Aymeric Laporte,122117,Athletic Club,2068,25,25,directo,2498,Athletic Club
+Beñat Prados,Beñat Prados,Beñat Prados,414643,Athletic Club,87,2,2,directo,9505,Athletic Club
+Dani Vivian,Dani Vivian,Dani Vivian,357839,Athletic Club,2561,31,31,directo,6766,Athletic Club
+Eder García,Eder García,Eder García,602896,Athletic Club,30,2,2,directo,14216,Athletic Club
+Gorka Guruzeta,Gorka Guruzeta,Gorka Guruzeta,362602,Athletic Club,2401,35,35,directo,7020,Athletic Club
+Iñaki Williams,Iñaki Williams,Iñaki Williams,255182,Athletic Club,2188,30,30,directo,2399,Athletic Club
+Jesús Areso,Jesús Areso,Jesús Areso,422820,Athletic Club,1498,26,26,directo,9768,Athletic Club
+Maroan Sannadi,Maroan Sannadi,Maroan Sannadi,541704,Athletic Club,268,10,10,directo,13417,Athletic Club
+Mikel Jauregizar,Mikel Jauregizar,Mikel Jauregizar,511120,Athletic Club,2872,36,36,directo,12263,Athletic Club
+Mikel Vesga,Mikel Vesga,Mikel Vesga,261516,Athletic Club,402,23,23,directo,5077,Athletic Club
+Nico Serrano,Nicolás Serrano,Nico Serrano,423109,Athletic Club,338,16,16,recuperado_36,9825,Athletic Club
+Nico Williams,Nico Williams,Nico Williams,408449,Athletic Club,1715,25,25,directo,9211,Athletic Club
+Oihan Sancet,Oihan Sancet,Oihan Sancet,381510,Athletic Club,1832,28,28,directo,7779,Athletic Club
+Robert Navarro,Roberto Navarro,Robert Navarro,400237,Athletic Club,1246,32,32,recuperado_36,8765,Athletic Club
+Selton Sánchez,Selton Sánchez,Selton Sánchez,599259,Athletic Club,191,7,7,directo,14167,Athletic Club
+Unai Gómez,Unai Gómez,Unai Gómez,480619,Athletic Club,930,26,26,directo,11531,Athletic Club
+Urko Izeta,Urko Izeta,Urko Izeta,463431,Athletic Club,153,13,13,directo,13821,Athletic Club
+Yeray Álvarez,Yeray Álvarez,Yeray Álvarez,279839,Athletic Club,517,7,7,directo,5062,Athletic Club
+Yuri Berchiche,Yuri,Yuri Berchiche,56057,Athletic Club,2708,32,32,recuperado_36,2229,Athletic Club
+Íñigo Lekue,Íñigo Lekue,Íñigo Lekue,291686,Athletic Club,607,11,12,directo,2403,Athletic Club
+Íñigo Ruíz de Galarreta,Inigo Ruiz de Galarreta,Íñigo Ruiz de Galarreta,106586,Athletic Club,2289,34,34,directo,9755,Athletic Club
+Ademola Lookman,Ademola Lookman,Ademola Lookman,299451,Atletico Madrid,638,12,12,directo,5556,Atletico Madrid
+Aleksa Puric,Aleksa Puric,Aleksa Puric,541901,Atletico Madrid,40,2,2,directo,14224,Atletico Madrid
+Alexander Sørloth,Alexander Sørloth,Alexander Sørloth,302497,Atletico Madrid,1955,35,35,directo,6531,Atletico Madrid
+Antoine Griezmann,Antoine Griezmann,Antoine Griezmann,80241,Atletico Madrid,1428,34,35,directo,2270,Atletico Madrid
+Clément Lenglet,Clement Lenglet,Clément Lenglet,236511,Atletico Madrid,1402,19,19,directo,5050,Atletico Madrid
+,Conor Gallagher,Conor Gallagher,375621,Atletico Madrid,630,19,19,understat_sin_posicion,9040,Atletico Madrid
+Cubo,Cubo,Cubo,620581,Atletico Madrid,46,2,2,directo,14586,Atletico Madrid
+Dani Martinez,Dani Martinez,Dani Martinez,498163,Atletico Madrid,90,1,1,directo,14233,Atletico Madrid
+Dávid Hancko,David Hancko,Dávid Hancko,362779,Atletico Madrid,2443,30,30,directo,7086,Atletico Madrid
+,Giacomo Raspadori,Giacomo Raspadori,371497,Atletico Madrid,203,12,12,understat_sin_posicion,7500,Atletico Madrid
+Giuliano Simeone,Giuliano Simeone,Giuliano Simeone,422918,Atletico Madrid,2153,31,31,directo,9796,Atletico Madrid
+Iker Luque,Iker Luque,Iker Luque,605437,Atletico Madrid,26,1,1,directo,14324,Atletico Madrid
+Jano Monserrate,Jano Monserrate,Jano Monserrate,534586,Atletico Madrid,14,2,2,directo,13889,Atletico Madrid
+Javier Boñar,Javier Boñar,Javier Boñar,504671,Atletico Madrid,294,4,4,directo,14225,Atletico Madrid
+Javier Morcillo,Javier Morcillo,Javier Morcillo,617819,Atletico Madrid,152,5,5,directo,14555,Atletico Madrid
+Johnny Cardoso,Johnny Cardoso,Johnny Cardoso,379230,Atletico Madrid,905,15,15,directo,12323,Atletico Madrid
+José María Giménez,Giménez,José María Giménez,135914,Atletico Madrid,1165,16,16,recuperado_36,2278,Atletico Madrid
+Julio Díaz,Julio Díaz,Julio Díaz,605436,Atletico Madrid,322,4,4,directo,14323,Atletico Madrid
+Julián Alvarez,Julián Álvarez,Julián Alvarez,365409,Atletico Madrid,1926,29,29,directo,10846,Atletico Madrid
+Koke,Koke,Koke,80764,Atletico Madrid,2237,34,34,directo,2269,Atletico Madrid
+Marc Pubill,Marc Pubill,Marc Pubill,430148,Atletico Madrid,1377,19,19,directo,10189,Atletico Madrid
+Marcos Llorente,Marcos Llorente,Marcos Llorente,254582,Atletico Madrid,2190,29,29,directo,2518,Atletico Madrid
+Matteo Ruggeri,Matteo Ruggeri,Matteo Ruggeri,402046,Atletico Madrid,1767,26,26,directo,8872,Atletico Madrid
+Nahuel Molina,Nahuel Molina,Nahuel Molina,303728,Atletico Madrid,1292,26,26,directo,8963,Atletico Madrid
+Nico González,Nicolás González,Nico González,345322,Atletico Madrid,1480,24,24,recuperado_36,7074,Atletico Madrid
+Obed Vargas,Obed Vargas,Obed Vargas,419580,Atletico Madrid,742,12,12,directo,14439,Atletico Madrid
+Pablo Barrios,Pablo Barrios Rivas,Pablo Barrios,434138,Atletico Madrid,1672,23,23,recuperado_15,10494,Atletico Madrid
+Rayane Belaid,Rayane Belaid,Rayane Belaid,511219,Atletico Madrid,140,2,2,directo,12257,Atletico Madrid
+Robin Le Normand,Robin Le Normand,Robin Le Normand,367008,Atletico Madrid,1776,28,28,directo,7276,Atletico Madrid
+Rodrigo Mendoza,Rodrigo Mendoza,Rodrigo Mendoza,463938,Atletico Madrid,1243,24,24,directo,11216,Atletico Madrid
+Taufik Seidu,Taufik Seidu,Taufik Seidu,534587,Atletico Madrid,15,1,1,directo,14080,Atletico Madrid
+Thiago Almada,Thiago Almada,Thiago Almada,361732,Atletico Madrid,1327,27,27,directo,13358,Atletico Madrid
+Álex Baena,Álex Baena,Álex Baena,395242,Atletico Madrid,1615,27,27,directo,8417,Atletico Madrid
+Alejandro Balde,Álex Balde,Alejandro Balde,422938,Barcelona,1910,28,28,recuperado_36,9805,Barcelona
+Andreas Christensen,Andreas Christensen,Andreas Christensen,130331,Barcelona,369,13,13,directo,200,Barcelona
+Dani Olmo,Dani Olmo,Dani Olmo,261212,Barcelona,2109,33,33,directo,8292,Barcelona
+,Dro Fernández,Dro Fernández,572375,Barcelona,83,4,4,understat_sin_posicion,13749,Barcelona
+Eric García,Eric Garcia,Eric García,368091,Barcelona,2761,34,34,directo,8045,Barcelona
+Fermín López,Fermín López,Fermín López,463838,Barcelona,1780,30,30,directo,11822,Barcelona
+Ferran Torres,Ferrán Torres,Ferran Torres,349760,Barcelona,2025,33,33,directo,6441,Barcelona
+Frenkie de Jong,Frenkie de Jong,Frenkie de Jong,279423,Barcelona,1597,25,25,directo,7781,Barcelona
+Gavi,Gavi,Gavi,422937,Barcelona,578,11,11,directo,9804,Barcelona
+Gerard Martín,Gerard Martín,Gerard Martín,512879,Barcelona,2145,32,32,directo,12821,Barcelona
+Jofre Torrents,Jofre Torrents,Jofre Torrents,572374,Barcelona,33,3,3,directo,13748,Barcelona
+João Cancelo,João Cancelo,João Cancelo,128967,Barcelona,938,16,16,directo,2379,Barcelona
+Jules Koundé,Jules Koundé,Jules Koundé,301019,Barcelona,2247,30,30,directo,6433,Barcelona
+Lamine Yamal,Lamine Yamal,Lamine Yamal,480249,Barcelona,2291,28,28,directo,11527,Barcelona
+Marc Bernal,Marc Bernal,Marc Bernal,534796,Barcelona,798,22,22,directo,12820,Barcelona
+Marc Casadó,Marc Casadó,Marc Casadó,454343,Barcelona,957,24,24,directo,11151,Barcelona
+Marcus Rashford,Marcus Rashford,Marcus Rashford,300299,Barcelona,1739,32,32,directo,556,Barcelona
+Pau Cubarsí,Pau Cubarsí,Pau Cubarsí,498386,Barcelona,2733,31,31,directo,12005,Barcelona
+Pedri,Pedri,Pedri,402197,Barcelona,2117,29,29,directo,8935,Barcelona
+Raphinha,Raphinha,Raphinha,300447,Barcelona,1424,22,22,directo,8026,Barcelona
+Robert Lewandowski,Robert Lewandowski,Robert Lewandowski,29400,Barcelona,1630,31,31,directo,227,Barcelona
+Ronald Araujo,Ronald Araújo,Ronald Araujo,384711,Barcelona,1049,24,24,directo,8091,Barcelona
+Roony Bardghji,Roony Bardghji,Roony Bardghji,435529,Barcelona,612,21,21,directo,14064,Barcelona
+Tomás Marqués,Tomás Marqués,Tomás Marqués,602216,Barcelona,5,2,2,directo,14205,Barcelona
+Toni Fernández,Toni Fernández,Toni Fernández,534797,Barcelona,48,1,1,directo,13110,Barcelona
+Xavi Espart,Xavi Espart,Xavi Espart,591617,Barcelona,157,4,4,directo,14129,Barcelona
+Álvaro Cortés,Álvaro Cortés,Álvaro Cortés,546645,Barcelona,90,1,1,directo,13227,Barcelona
+Andrés Antañón,Andrés Antañón,Andrés Antañón,598467,Celta Vigo,64,2,2,directo,14500,Celta Vigo
+Borja Iglesias,Borja Iglesias,Borja Iglesias,259042,Celta Vigo,1903,35,35,directo,2543,Celta Vigo
+,Bryan Zaragoza,Bryan Zaragoza,429273,Celta Vigo,1138,19,19,understat_sin_posicion,10143,Celta Vigo
+Carl Starfelt,Carl Starfelt,Carl Starfelt,378626,Celta Vigo,1492,19,19,directo,7655,Celta Vigo
+Carlos Domínguez,Carlos Domínguez,Carlos Domínguez,415344,Celta Vigo,602,8,8,directo,9519,Celta Vigo
+,Damián Rodríguez,Damián Rodríguez,438846,Celta Vigo,155,2,2,understat_sin_posicion,10614,Celta Vigo
+Fer López,Fernando López,Fer López,544982,Celta Vigo,1179,17,17,recuperado_36,13200,Celta Vigo
+Ferran Jutglà,Ferrán Jutglà,Ferran Jutglà,396158,Celta Vigo,1702,30,30,directo,8549,Celta Vigo
+Hugo Burcio,Hugo Burcio,Hugo Burcio,598468,Celta Vigo,4,1,1,directo,14362,Celta Vigo
+Hugo González,Hugo Gonzalez,Hugo González,427117,Celta Vigo,4,1,1,directo,10082,Celta Vigo
+Hugo Sotelo,Hugo Sotelo,Hugo Sotelo,415345,Celta Vigo,1350,20,20,directo,9520,Celta Vigo
+Hugo Álvarez,Hugo Álvarez,Hugo Álvarez,427001,Celta Vigo,1359,28,28,directo,10078,Celta Vigo
+Iago Aspas,Iago Aspas,Iago Aspas,91242,Celta Vigo,1082,32,33,directo,2290,Celta Vigo
+Ilaix Moriba,Ilaix Moriba,Ilaix Moriba,409030,Celta Vigo,2484,36,36,directo,9243,Celta Vigo
+Javi Rodríguez,Javier Rodríguez,Javi Rodríguez,508331,Celta Vigo,2568,33,33,recuperado_36,12180,Celta Vigo
+Javi Rueda,Javier Rueda,Javi Rueda,463588,Celta Vigo,1403,26,26,recuperado_36,12643,Celta Vigo
+Jones El Abdellaoui,Jones El Abdellaoui,Jones El Abdellaoui,441888,Celta Vigo,621,22,22,directo,13361,Celta Vigo
+Joseph Aidoo,Joseph Aidoo,Joseph Aidoo,320713,Celta Vigo,640,8,8,directo,7826,Celta Vigo
+Manu Fernández,Manuel Fernández,Manu Fernández,578374,Celta Vigo,768,14,14,recuperado_36,13787,Celta Vigo
+Marcos Alonso,Marcos Alonso,Marcos Alonso,84008,Celta Vigo,2780,32,32,directo,1621,Celta Vigo
+Matías Vecino,Matías Vecino,Matías Vecino,135625,Celta Vigo,136,6,6,directo,1423,Celta Vigo
+Miguel Román,Miguel Román,Miguel Román,462768,Celta Vigo,1297,19,19,directo,13620,Celta Vigo
+Mihailo Ristic,Mihailo Ristic,Mihailo Ristic,244778,Celta Vigo,266,5,5,directo,5947,Celta Vigo
+Pablo Durán,Pablo Durán,Pablo Durán,459082,Celta Vigo,1451,30,30,directo,11154,Celta Vigo
+Sergio Carreira,Sergio Carreira,Sergio Carreira,386622,Celta Vigo,2695,34,34,directo,8122,Celta Vigo
+Williot Swedberg,Williot Swedberg,Williot Swedberg,444227,Celta Vigo,1237,29,29,directo,10870,Celta Vigo
+Yoel Lago,Yoel Lago,Yoel Lago,528001,Celta Vigo,966,12,12,directo,12642,Celta Vigo
+Álvaro Núñez,Álvaro Núñez,Álvaro Núñez,509876,Celta Vigo,2006,25,25,directo,13836,Celta Vigo
+Óscar Mingueza,Óscar Mingueza,Óscar Mingueza,397469,Celta Vigo,1949,34,34,directo,9011,Celta Vigo
+Adam El Mokhtari,Adam El Mokhtari,,,Elche,85,7,,directo,14013,Elche
+Adrià Pedrosa,Adrià Pedrosa,Adrià Pedrosa,363966,Elche,1053,27,27,directo,7174,Elche
+Aleix Febas,Aleix Febas,Aleix Febas,381643,Elche,3178,36,36,directo,7842,Elche
+,Ali Houary,Ali Houary,508339,Elche,133,2,2,understat_sin_posicion,13838,Elche
+André Silva,André Silva,André Silva,299460,Elche,1858,31,31,directo,6170,Elche
+,Bambo Diaby,Bambo Diaby,379633,Elche,98,4,4,understat_sin_posicion,13843,Elche
+Buba Sangaré,Buba Sangaré,Buba Sangaré,510360,Elche,556,12,12,directo,12870,Elche
+David Affengruber,David Affengruber,David Affengruber,423282,Elche,2958,36,36,directo,13837,Elche
+Federico Redondo,Federico Redondo,Federico Redondo,419616,Elche,158,11,12,directo,13841,Elche
+Germán Valera,German Valera,Germán Valera,390240,Elche,2888,36,36,directo,8230,Elche
+Gonzalo Villar,Gonzalo Villar,Gonzalo Villar,357388,Elche,722,12,12,directo,6750,Elche
+Grady Diangana,Grady Diangana,Grady Diangana,306943,Elche,937,20,20,directo,6651,Elche
+Héctor Fort,Hector Fort,Héctor Fort,483206,Elche,478,14,14,directo,12171,Elche
+,Jairo Izquierdo,Jairo Izquierdo,403808,Elche,22,1,1,understat_sin_posicion,9008,Elche
+John Donald,John Donald,John Donald,408347,Elche,637,21,21,directo,9199,Elche
+Josan,Josan,Josan,273453,Elche,525,19,19,directo,8893,Elche
+Lucas Cepeda,Lucas Cepeda,Lucas Cepeda,516414,Elche,390,10,10,directo,14400,Elche
+Léo Pétrot,Leo Petrot,Léo Pétrot,301330,Elche,1572,32,32,directo,7574,Elche
+Marc Aguado,Marc Aguado,Marc Aguado,448050,Elche,2539,35,35,directo,13839,Elche
+Martim Neto,Martim Neto,Martim Neto,438351,Elche,1367,25,26,directo,13840,Elche
+,Mourad El Ghezouani,Mourad El Ghezouani,402630,Elche,42,2,2,understat_sin_posicion,8946,Elche
+Pedro Bigas,Pedro Bigas,Pedro Bigas,108100,Elche,2078,28,28,directo,2353,Elche
+Rafa Mir,Rafa Mir,Rafa Mir,300369,Elche,1834,27,27,directo,2589,Elche
+Tete Morente,Tete Morente,Tete Morente,402087,Elche,940,13,13,directo,8895,Elche
+Victor Chust,Victor Chust,Víctor Chust,402862,Elche,2146,31,31,directo,8972,Elche
+,Yago Alonso,,,Elche,275,9,,understat_sin_posicion,11617,Elche
+Álex Sánchez,Álex Sánchez,Álex Sánchez,606360,Elche,5,1,1,directo,14366,Elche
+Álvaro Rodríguez,Alvaro Rodríguez,Álvaro Rodríguez,460772,Elche,2199,34,34,directo,11186,Elche
+Antoniu Roca,Antoniu Roca,Antoniu Roca,506011,Espanyol,262,13,13,directo,12901,Espanyol
+Carlos Romero,Carlos Romero,Carlos Romero,468931,Espanyol,3207,36,36,directo,11402,Espanyol
+Charles Pickel,Charles Pickel,Charles Pickel,316532,Espanyol,658,24,24,directo,10936,Espanyol
+Clemens Riedel,Clemens Riedel,Clemens Riedel,419935,Espanyol,1405,20,20,directo,11924,Espanyol
+Cyril Ngonge,Cyril Ngonge,Cyril Ngonge,367742,Espanyol,441,9,9,directo,11306,Espanyol
+Edu Expósito,Edu Expósito,Edu Expósito,335696,Espanyol,2593,36,36,directo,5081,Espanyol
+Fernando Calero,Fernando Calero,Fernando Calero,362354,Espanyol,2159,28,28,directo,6916,Espanyol
+Javi Puado,Javi Puado,Javi Puado,362423,Espanyol,687,10,10,directo,6933,Espanyol
+Jofre Carreras,Jofre Carreras,Jofre Carreras,430451,Espanyol,890,26,26,directo,10209,Espanyol
+José Salinas,José Salinas,José Salinas,402092,Espanyol,232,11,11,directo,8902,Espanyol
+Kike García,Kike García,Kike García,79840,Espanyol,1694,37,37,directo,5074,Espanyol
+Leandro Cabrera,Leandro Cabrera,Leandro Cabrera,73265,Espanyol,3330,37,37,directo,6168,Espanyol
+Lluc Castell,Lluc Castell,Lluc Castell,620865,Espanyol,15,1,1,directo,14588,Espanyol
+,Luca Koleosho,Luca Koleosho,438959,Espanyol,48,3,3,understat_sin_posicion,10620,Espanyol
+Miguel Rubio,Miguel Ángel Rubio,Miguel Rubio,357118,Espanyol,168,12,12,recuperado_15,6740,Espanyol
+Omar El Hilali,Omar El Hilali,Omar El Hilali,449410,Espanyol,2853,36,36,directo,10875,Espanyol
+Pere Milla,Pere Milla,Pere Milla,140772,Espanyol,2005,33,33,directo,4175,Espanyol
+Pol Lozano,Pol Lozano,Pol Lozano,382157,Espanyol,2211,33,33,directo,7916,Espanyol
+Ramon Terrats,Ramón Terrats,Ramón Terrats,444244,Espanyol,1020,29,29,directo,10947,Espanyol
+Roberto Fernández,Roberto Fernández,Roberto Fernández,448296,Espanyol,2388,38,38,directo,13350,Espanyol
+Rubén Sánchez,Rubén Sánchez,Rubén Sánchez,426757,Espanyol,774,21,21,directo,10067,Espanyol
+Tyrhys Dolan,Tyrhys Dolan,Tyrhys Dolan,398922,Espanyol,2481,36,36,directo,13829,Espanyol
+Urko González de Zárate,Urko Gonzalez,Urko González de Zárate,401173,Espanyol,2615,36,36,recuperado_15,8861,Espanyol
+Abdel Abqar,Abdelkabir Abqar,Abdel Abqar,409740,Getafe,1479,23,23,recuperado_36,9297,Getafe
+Abu Kamara,Abu Kamara,Abu Kamara,435987,Getafe,210,12,12,directo,10526,Getafe
+Adrián Liso,Adrián Liso,Adrián Liso,519104,Getafe,1725,28,28,directo,13789,Getafe
+Alejandro Mestanza,Alejandro Mestanza,Alejandro Mestanza,605382,Getafe,68,3,3,directo,14287,Getafe
+Alex Sancris,Alex Sancris,Álex Sancris,463844,Getafe,693,18,18,directo,14086,Getafe
+,Alex Sola,Álex Sola,370000,Getafe,10,1,1,understat_sin_posicion,7424,Getafe
+Allan Nyom,Nyom,Allan Nyom,91434,Getafe,522,15,16,recuperado_36,565,Getafe
+Borja Mayoral,Borja Mayoral,Borja Mayoral,278721,Getafe,1072,16,16,directo,2252,Getafe
+,Christantus Uche,Christantus Uche,531674,Getafe,270,3,3,understat_sin_posicion,12726,Getafe
+,Coba da Costa,Coba da Costa,538555,Getafe,318,14,14,understat_sin_posicion,13047,Getafe
+Damián Cáceres,Damián Cáceres,Damián Cáceres,448083,Getafe,150,3,3,directo,14603,Getafe
+Davinchi,Davinchi,Davinchi,568737,Getafe,688,14,14,directo,13788,Getafe
+Diego Rico,Diego Rico,Diego Rico,323352,Getafe,1723,28,29,directo,5065,Getafe
+Djené Dakonam,Djené Dakonam,Djené Dakonam,332990,Getafe,2601,34,34,directo,6151,Getafe
+Domingos Duarte,Domingos Duarte,Domingos Duarte,322772,Getafe,2953,34,34,directo,7860,Getafe
+Hugo Solozabal,Hugo Solozabal,Hugo Solozábal,462919,Getafe,4,1,1,directo,13638,Getafe
+Ismael Bekhoucha,Ismael Bekhoucha,Ismael Bekhoucha,550147,Getafe,106,4,4,directo,13334,Getafe
+Javi Muñoz,Javi Muñoz,Javi Muñoz,276819,Getafe,527,17,17,directo,4168,Getafe
+Jorge Montes,Jorge Montes,Jorge Montes,602166,Getafe,24,1,1,directo,14202,Getafe
+Joselu Pérez,Joselu Pérez,Joselu Pérez,508469,Getafe,16,2,2,directo,13790,Getafe
+Juan Iglesias,Juan Iglesias,Juan Iglesias,408735,Getafe,3189,37,37,directo,9218,Getafe
+Juanmi,Juanmi,Juanmi,83080,Getafe,152,8,8,directo,897,Getafe
+Kiko Femenía,Kiko Femenía,Kiko Femenía,75919,Getafe,2070,28,28,directo,5043,Getafe
+Luis Milla,Luis Milla,Luis Milla,279320,Getafe,3288,37,37,directo,8725,Getafe
+Luis Vázquez,Luis Vázquez,Luis Vázquez,408030,Getafe,1232,17,17,directo,14388,Getafe
+Mario Martín,Mario Martín,Mario Martín,471047,Getafe,2158,35,35,directo,11349,Getafe
+Martín Satriano,Martín Satriano,Martín Satriano,403803,Getafe,1609,18,18,directo,9001,Getafe
+Mauro Arambarri,Mauro Arambarri,Mauro Arambarri,303016,Getafe,3279,37,37,directo,3264,Getafe
+Sebastián Boselli,Sebastián Boselli,Sebastián Boselli,484251,Getafe,356,11,12,directo,14389,Getafe
+Veljko Birmancevic,Veljko Birmancevic,Veljko Birmancevic,425231,Getafe,129,6,6,directo,11091,Getafe
+,Yvan Neyou,Yvan Neyou,396583,Getafe,49,5,5,understat_sin_posicion,8689,Getafe
+Zaid Romero,Zaid Romero,Zaid Romero,389191,Getafe,1350,15,15,directo,14387,Getafe
+Abel Ruiz,Abel Ruiz,Abel Ruiz,372828,Girona,168,9,9,directo,7549,Girona
+Alejandro Francés,Alejandro Francés,Alejandro Francés,416959,Girona,1077,24,24,directo,12723,Girona
+Arnau Martínez,Arnau Martinez,Arnau Martínez,444239,Girona,2715,35,35,directo,10949,Girona
+Axel Witsel,Axel Witsel,Axel Witsel,25191,Girona,2546,32,32,directo,3059,Girona
+Azzedine Ounahi,Azz-Eddine Ounahi,Azzedine Ounahi,392361,Girona,1777,24,24,recuperado_36,8328,Girona
+,Bojan Miovski,Bojan Miovski,424737,Girona,44,1,1,understat_sin_posicion,12995,Girona
+Bryan Gil,Bryan Gil Salvatierra,Bryan Gil,368519,Girona,1607,29,29,recuperado_15,7338,Girona
+Claudio Echeverri,Claudio Echeverri,Claudio Echeverri,478241,Girona,606,17,17,directo,13649,Girona
+Cristhian Stuani,Cristhian Stuani,Cristhian Stuani,24400,Girona,359,21,21,directo,1709,Girona
+Daley Blind,Daley Blind,Daley Blind,70033,Girona,2624,31,31,directo,548,Girona
+David López,David López,David López,92691,Girona,300,5,6,directo,1857,Girona
+,Dawda Camara,Dawda Camara,444249,Girona,73,2,2,understat_sin_posicion,11381,Girona
+Donny van de Beek,Donny van de Beek,Donny van de Beek,275035,Girona,37,2,2,directo,8821,Girona
+Fran Beltrán,Fran Beltrán,Fran Beltrán,362421,Girona,1544,27,27,traspasado,6931,Celta Vigo
+Hugo Rincón,Hugo Rincón,Hugo Rincón,481851,Girona,1713,33,33,directo,12189,Girona
+Iván Martín,Iván Martín,Iván Martín,372473,Girona,2558,35,35,directo,7529,Girona
+Jhon Solís,Jhon Solis,Jhon Solís,445345,Girona,362,12,12,directo,12046,Girona
+Joel Roca,Joel Roca,Joel Roca,444242,Girona,1463,32,32,directo,10952,Girona
+Juan Arango,Juan Arango,Juan Arango,511122,Girona,14,2,2,directo,14227,Girona
+Ladislav Krejcí,Ladislav Krejcí,Ladislav Krejcí,404245,Girona,180,2,2,directo,12721,Girona
+Lancinet Kourouma,Lancinet Kourouma,Lancinet Kourouma,542750,Girona,23,5,5,directo,14089,Girona
+Portu,Portu,Portu,106895,Girona,463,10,10,directo,6118,Girona
+Thomas Lemar,Thomas Lemar,Thomas Lemar,132962,Girona,1252,27,27,directo,3425,Girona
+Viktor Tsygankov,Viktor Tsygankov,Viktor Tsygankov,231125,Girona,2672,32,32,directo,11322,Girona
+Vitor Reis,Vitor Reis,Vitor Reis,478314,Girona,3137,36,36,directo,13380,Girona
+Vladyslav Vanat,Vladyslav Vanat,Vladyslav Vanat,410504,Girona,2003,27,27,directo,14041,Girona
+,Yáser Asprilla,Yáser Asprilla,443540,Girona,601,15,15,understat_sin_posicion,13005,Girona
+Álex Moreno,Álex Moreno,Àlex Moreno,135374,Girona,2554,31,31,directo,4120,Girona
+Adrián de la Fuente,Adrián De la Fuente,Adrián de la Fuente,383780,Levante,2704,33,33,directo,10319,Levante
+Alan Matturro,Alan Matturro,Alan Matturro,445480,Levante,918,19,19,directo,12078,Levante
+Carlos Espí,Carlos Espí,Carlos Espí,516341,Levante,1328,25,25,directo,13769,Levante
+Carlos Álvarez,Carlos Álvarez,Carlos Álvarez,406937,Levante,1910,30,30,directo,11264,Levante
+Diego Pampín,Diego Pampín,Diego Pampín,345366,Levante,526,8,8,directo,6291,Levante
+,Goduine Koyalipou,Goduine Koyalipou,469950,Levante,217,11,11,understat_sin_posicion,13335,Levante
+Iker Losada,Iker Losada,Iker Losada,381583,Levante,882,23,23,directo,7825,Levante
+Iván Romero,Iván Romero,Iván Romero,407567,Levante,2339,32,32,directo,9275,Levante
+Jeremy Toljan,Jeremy Toljan,Jeremy Toljan,129620,Levante,3199,37,37,directo,257,Levante
+Jon Olasagasti,Jon Ander Olasagasti,Jon Ander Olasagasti,413346,Levante,1712,33,33,directo,9466,Levante
+,Jorge Cabello,Jorge Cabello,518057,Levante,367,5,5,understat_sin_posicion,13766,Levante
+José Luis Morales,Morales,José Luis Morales,135321,Levante,298,20,20,recuperado_36,2186,Levante
+Kareem Tunde,Kareem Tunde,Kareem Tunde,604365,Levante,1183,21,21,directo,14258,Levante
+Karl Etta Eyong,Etta Eyong,Karl Etta Eyong,445095,Levante,1657,33,33,recuperado_15,10930,Levante
+Kervin Arriaga,Kervin Arriaga,Kervin Arriaga,433488,Levante,1511,27,27,directo,14050,Levante
+Manu Sánchez,Manuel Sánchez,Manu Sánchez,374813,Levante,2844,33,33,recuperado_36,7605,Levante
+Matías Moreno,Matías Moreno,Matías Moreno,482951,Levante,2265,28,28,directo,13083,Levante
+Nacho Pérez,Nacho Pérez,Nacho Pérez,578266,Levante,147,3,3,directo,13772,Levante
+Oriol Rey,Oriol Rey,Oriol Rey,362623,Levante,1316,20,21,directo,8764,Levante
+Pablo Martínez,Pablo Martínez,Pablo Martínez,388808,Levante,1878,27,27,directo,8183,Levante
+Paco Cortés,Paco Cortés,Paco Cortés,541854,Levante,456,12,12,directo,13770,Levante
+Roger Brugué,Roger Brugué,Roger Brugué,448231,Levante,1008,19,19,directo,13767,Levante
+Tai Abed,Tai Abed,Tay Abed,457175,Levante,68,7,7,recuperado_15,14397,Levante
+Ugo Raghouber,Ugo Raghouber,Ugo Raghouber,432214,Levante,705,16,16,directo,10397,Levante
+Unai Elgezabal,Unai Elgezabal,Unai Elgezabal,299752,Levante,963,12,12,directo,13765,Levante
+Unai Vencedor,Unai Vencedor,Unai Vencedor,392383,Levante,837,16,16,directo,8329,Levante
+Víctor García,Víctor García,Víctor García,395708,Levante,1065,21,21,directo,8500,Levante
+Abdón Prats,Abdón Prats,Abdón Prats,9270,Mallorca,92,15,15,directo,8014,Mallorca
+Antonio Raíllo,Raíllo,Antonio Raíllo,294006,Mallorca,2069,24,24,directo,2584,Mallorca
+Antonio Sánchez,Antonio Sánchez,Antonio Sánchez,425092,Mallorca,1016,30,30,directo,9970,Mallorca
+,Dani Rodríguez,Dani Rodríguez,6227,Mallorca,56,2,2,understat_sin_posicion,7841,Mallorca
+David López,David López,David López,502424,Mallorca,827,14,14,directo,12074,Mallorca
+Jan Salas,Jan Salas,Jan Salas,537870,Mallorca,6,2,2,directo,12951,Mallorca
+Jan Virgili,Jan Virgili,Jan Virgili,581683,Mallorca,1807,31,31,directo,13991,Mallorca
+Javi Llabrés,Javi Llabrés,Javi Llabrés,428593,Mallorca,147,16,16,directo,10128,Mallorca
+Javier Olaizola,Javier Olaizola,Javier Olaizola,584523,Mallorca,44,2,2,directo,14093,Mallorca
+Johan Mojica,Johan Mojica,Johan Mojica,135098,Mallorca,2723,35,35,directo,6242,Mallorca
+Justin Kalumba,Justin-Noel Kalumba,Justin Kalumba,478113,Mallorca,81,3,3,directo,11494,Mallorca
+Luis Orejuela,Luis Orejuela,Luis Orejuela,602512,Mallorca,90,1,1,directo,14613,Mallorca
+Manu Morlanes,Manuel Morlanes,Manu Morlanes,349660,Mallorca,1801,32,32,directo,6592,Mallorca
+Marash Kumbulla,Marash Kumbulla,Marash Kumbulla,343778,Mallorca,434,8,8,directo,6324,Mallorca
+,Marc Domenech,Marc Domenech,537076,Mallorca,198,7,7,understat_sin_posicion,12883,Mallorca
+Martin Valjent,Martin Valjent,Martin Valjent,142387,Mallorca,3311,37,37,directo,7838,Mallorca
+Mateo Joseph,Mateo Joseph,Mateo Joseph,463233,Mallorca,1707,29,29,directo,11208,Mallorca
+Mateu Morey,Mateu Morey,Mateu Morey,384368,Mallorca,723,18,18,directo,8070,Mallorca
+Miguel Calatayud,Miguel Calatayud,Miguel Calatayud,622084,Mallorca,34,2,2,directo,14612,Mallorca
+Omar Mascarell,Omar Mascarell,Omar Mascarell,115996,Mallorca,2251,30,30,directo,2456,Mallorca
+Pablo Maffeo,Pablo Maffeo,Pablo Maffeo,294848,Mallorca,2690,31,32,directo,1003,Mallorca
+Pablo Torre,Pablo Torre,Pablo Torre,445092,Mallorca,1614,35,35,directo,11025,Mallorca
+Samú Costa,Samú Costa,Samú Costa,391562,Mallorca,2731,34,34,directo,10974,Mallorca
+Sergi Darder,Sergi Darder,Sergi Darder,106596,Mallorca,2715,38,38,directo,2621,Mallorca
+Takuma Asano,Takuma Asano,Takuma Asano,126316,Mallorca,662,20,20,directo,6087,Mallorca
+Toni Lato,Toni Lato,Toni Lato,312580,Mallorca,601,12,12,directo,2479,Mallorca
+Vedat Muriqi,Vedat Muriqi,Vedat Muriqi,254352,Mallorca,3150,37,37,directo,9002,Mallorca
+Zito Luvumbo,Zito,Zito Luvumbo,432157,Mallorca,511,10,10,directo,10380,Mallorca
+Abel Bretones,Abel Bretones,Abel Bretones,461771,Osasuna,1600,28,28,directo,12790,Osasuna
+Aimar Oroz,Aimar Oroz,Aimar Oroz,395321,Osasuna,2175,31,31,directo,8424,Osasuna
+Alejandro Catena,Alejandro Catena,Alejandro Catena,374638,Osasuna,3083,35,35,directo,7604,Osasuna
+Ante Budimir,Ante Budimir,Ante Budimir,98126,Osasuna,2995,37,37,directo,1235,Osasuna
+Asier Osambela,Asier Osambela,Asier Osambela,518928,Osasuna,295,17,18,directo,12537,Osasuna
+Enzo Boyomo,Enzo Boyomo,Enzo Boyomo,447842,Osasuna,2544,30,30,directo,12893,Osasuna
+Iker Benito,Iker Benito,Iker Benito,430907,Osasuna,148,6,6,directo,10273,Osasuna
+Iker Muñoz,Iker Muñoz,Iker Muñoz,474267,Osasuna,928,19,19,directo,11395,Osasuna
+Javi Galán,Javi Galán,Javi Galán,369497,Osasuna,1806,25,25,traspasado,7385,Atletico Madrid
+Jon Moncayola,Jon Moncayola,Jon Moncayola,381673,Osasuna,3061,36,36,directo,7857,Osasuna
+Jorge Herrando,Jorge Herrando,Jorge Herrando,444253,Osasuna,1597,28,28,directo,10858,Osasuna
+Juan Cruz,Juan Cruz,Juan Cruz,96566,Osasuna,644,15,16,directo,8744,Osasuna
+Kike Barja,Kike Barja,Kike Barja,336251,Osasuna,369,27,27,directo,5140,Osasuna
+Lucas Torró,Lucas Torró,Lucas Torró,249960,Osasuna,2362,34,34,directo,7050,Osasuna
+Moi Gómez,Moi Gómez,Moi Gómez,101238,Osasuna,1202,26,26,directo,2198,Osasuna
+Raúl García,Raul García,Raúl García,383924,Osasuna,926,36,36,directo,8042,Osasuna
+Raúl Moro,Raul Moro,Raúl Moro,396490,Osasuna,628,14,14,directo,8584,Osasuna
+Rubén García,Rubén García,Rubén García,119189,Osasuna,2297,35,35,directo,2183,Osasuna
+Sheraldo Becker,Sheraldo Becker,Sheraldo Becker,137227,Osasuna,124,9,9,directo,7882,Osasuna
+Valentin Rosier,Valentin Rosier,Valentin Rosier,319388,Osasuna,2563,31,31,directo,5615,Osasuna
+Víctor Muñoz,Víctor Muñoz,Víctor Muñoz,548106,Osasuna,2705,34,34,directo,13279,Osasuna
+Íñigo Arguibide,Iñigo Arguibide,Iñigo Arguibide,517618,Osasuna,187,6,6,directo,12472,Osasuna
+Abdul Mumin,Abdul Mumin,Abdul Mumin,400844,Rayo Vallecano,77,3,3,directo,11105,Rayo Vallecano
+Alemão,Alemão,Alemão,436617,Rayo Vallecano,1118,26,26,directo,14059,Rayo Vallecano
+Andrei Ratiu,Andrei Ratiu,Andrei Ratiu,372331,Rayo Vallecano,2791,35,35,directo,7515,Rayo Vallecano
+Carlos Martín,Carlos Martín,Carlos Martín,427360,Rayo Vallecano,473,11,11,directo,10101,Rayo Vallecano
+Florian Lejeune,Florian Lejeune,Florian Lejeune,80758,Rayo Vallecano,3233,36,36,directo,5073,Rayo Vallecano
+Fran Pérez,Fran Pérez,Fran Pérez,444265,Rayo Vallecano,1226,29,29,directo,10944,Rayo Vallecano
+Gerard Gumbau,Gerard Gumbau,Gerard Gumbau,294123,Rayo Vallecano,1153,28,28,directo,2609,Rayo Vallecano
+Ilias Akhomach,Ilias Akhomach,Ilias Akhomach,428500,Rayo Vallecano,876,20,20,directo,10121,Rayo Vallecano
+Isi Palazón,Isi Palazón,Isi Palazón,422959,Rayo Vallecano,2294,31,31,directo,9812,Rayo Vallecano
+Iván Balliu,Iván Balliu,Iván Balliu,101613,Rayo Vallecano,572,14,14,directo,5672,Rayo Vallecano
+Jorge de Frutos,Jorge De Frutos,Jorge de Frutos,386230,Rayo Vallecano,2526,36,36,directo,8107,Rayo Vallecano
+Jozhua Vertrouwd,Jozhua Vertrouwd,Jozhua Vertrouwd,505924,Rayo Vallecano,433,9,9,directo,13694,Rayo Vallecano
+Luiz Felipe,Luiz Felipe,Luiz Felipe,294744,Rayo Vallecano,473,10,10,directo,6177,Rayo Vallecano
+Nobel Mendy,Nobel Mendy,Nobel Mendy,469508,Rayo Vallecano,1834,24,24,directo,12286,Rayo Vallecano
+Pacha Espino,Alfonso Espino,Pacha Espino,143655,Rayo Vallecano,1472,30,30,recuperado_36,8733,Rayo Vallecano
+Pathé Ciss,Pathé Ciss,Pathé Ciss,422963,Rayo Vallecano,1974,29,29,directo,9815,Rayo Vallecano
+Pedro Díaz,Pedro Díaz,Pedro Díaz,448514,Rayo Vallecano,1868,34,34,directo,12863,Rayo Vallecano
+,Pelayo Fernández,Pelayo Fernández,531953,Rayo Vallecano,37,1,1,understat_sin_posicion,12864,Rayo Vallecano
+Pep Chavarría,Pep Chavarría,Pep Chavarría,448468,Rayo Vallecano,2672,33,33,directo,11087,Rayo Vallecano
+Randy Nteka,Randy Nteka,Randy Nteka,422960,Rayo Vallecano,342,13,13,directo,9813,Rayo Vallecano
+Samu Becerra,Samu Becerra,Samu Becerra,578016,Rayo Vallecano,9,3,3,directo,13695,Rayo Vallecano
+Sergio Camello,Sergio Camello,Sergio Camello,372469,Rayo Vallecano,810,22,23,directo,7528,Rayo Vallecano
+Sergio Lozano,Sergio Lozano,,,Rayo Vallecano,7,1,,traspasado,8416,Levante
+Unai López,Unai López,Unai López,236575,Rayo Vallecano,1637,28,28,directo,4091,Rayo Vallecano
+Álvaro García,Álvaro García,Álvaro García,135345,Rayo Vallecano,2123,32,32,directo,7071,Rayo Vallecano
+Óscar Trejo,Óscar Trejo,Óscar Trejo,16942,Rayo Vallecano,131,7,8,directo,3208,Rayo Vallecano
+Óscar Valentín,Óscar Valentín,Óscar Valentín,422958,Rayo Vallecano,2143,33,33,directo,9811,Rayo Vallecano
+Abde Ezzalzouli,Abdessamad Ezzalzouli,Abde Ezzalzouli,427283,Real Betis,2275,29,29,recuperado_36,10095,Real Betis
+Aitor Ruibal,Aitor Ruibal,Aitor Ruibal,349494,Real Betis,1809,27,27,directo,6427,Real Betis
+Antony,Antony,Antony,364315,Real Betis,2495,32,32,directo,11094,Real Betis
+Chimy Ávila,Ezequiel Ávila,Chimy Ávila,303707,Real Betis,350,16,17,recuperado_36,6955,Real Betis
+Cucho Hernández,Juan Camilo Hernández,Cucho Hernández,362501,Real Betis,2623,32,32,recuperado_36,6954,Real Betis
+Cédric Bakambu,Cédric Bakambu,Cédric Bakambu,86513,Real Betis,542,18,18,directo,2306,Real Betis
+Dani Pérez,Dani Pérez,Dani Pérez,462987,Real Betis,1,1,1,directo,12044,Real Betis
+Diego Llorente,Diego Llorente,Diego Llorente,123232,Real Betis,1221,18,18,directo,2163,Real Betis
+Giovani Lo Celso,Giovani Lo Celso,Giovani Lo Celso,303908,Real Betis,1396,24,24,directo,5681,Real Betis
+Héctor Bellerín,Héctor Bellerín,Héctor Bellerín,125211,Real Betis,1822,27,27,directo,492,Real Betis
+Isco,Isco,Isco,82989,Real Betis,213,8,8,directo,2255,Real Betis
+Iván Corralejo,Iván Corralejo,Iván Corralejo,578871,Real Betis,11,1,1,directo,13855,Real Betis
+Junior Firpo,Júnior Firpo,Junior Firpo,351252,Real Betis,846,12,12,directo,6485,Real Betis
+Marc Bartra,Marc Bartra,Marc Bartra,83686,Real Betis,1973,25,25,directo,2453,Real Betis
+Marc Roca,Marc Roca,Marc Roca,323148,Real Betis,2020,29,29,directo,5086,Real Betis
+Natan,Natan,Natan,402206,Real Betis,2820,33,33,directo,11890,Real Betis
+Nelson Deossa,Nelson Deossa,Nelson Deossa,432475,Real Betis,725,20,20,directo,14001,Real Betis
+Pablo Fornals,Pablo Fornals,Pablo Fornals,297203,Real Betis,2912,37,37,directo,2335,Real Betis
+Pablo García,Pablo García,Pablo García,551186,Real Betis,346,15,15,directo,13376,Real Betis
+Ricardo Rodríguez,Ricardo Rodríguez,Ricardo Rodríguez,61610,Real Betis,1552,23,23,directo,308,Real Betis
+Rodrigo Riquelme,Rodrigo Riquelme,Rodrigo Riquelme,382631,Real Betis,788,25,25,directo,8002,Real Betis
+Sergi Altimira,Sergi Altimira,Sergi Altimira,489232,Real Betis,1176,24,24,directo,11953,Real Betis
+Sofyan Amrabat,Sofyan Amrabat,Sofyan Amrabat,248144,Real Betis,1297,17,17,directo,7927,Real Betis
+Valentín Gómez,Valentín Gómez,Valentín Gómez,433286,Real Betis,1852,28,28,directo,13845,Real Betis
+Álvaro Fidalgo,Álvaro Fidalgo,Álvaro Fidalgo,452407,Real Betis,567,9,9,directo,14440,Real Betis
+Ángel Ortiz,Ángel Ortiz,Ángel Ortiz,545675,Real Betis,584,13,13,directo,13374,Real Betis
+Antonio Rüdiger,Antonio Rüdiger,Antonio Rüdiger,104010,Real Madrid,1501,18,18,directo,1822,Real Madrid
+Arda Güler,Arda Güler,Arda Güler,415181,Real Madrid,2076,33,33,directo,12190,Real Madrid
+Aurélien Tchouaméni,Aurelien Tchouameni,Aurélien Tchouaméni,353423,Real Madrid,2656,33,33,directo,6560,Real Madrid
+Brahim Díaz,Brahim Diaz,Brahim Díaz,317541,Real Madrid,1243,30,30,directo,6421,Real Madrid
+César Palacios,César Palacios,César Palacios,534901,Real Madrid,68,5,5,directo,14352,Real Madrid
+Dani Carvajal,Daniel Carvajal,Dani Carvajal,106883,Real Madrid,965,17,17,recuperado_36,2260,Real Madrid
+Dani Ceballos,Dani Ceballos,Dani Ceballos,144890,Real Madrid,451,16,16,directo,2446,Real Madrid
+Daniel Yáñez,Daniel Yáñez,Daniel Yáñez,546923,Real Madrid,40,2,2,directo,13266,Real Madrid
+David Alaba,David Alaba,David Alaba,39722,Real Madrid,419,11,11,directo,391,Real Madrid
+David Jiménez,David Jiménez,David Jiménez,540352,Real Madrid,78,2,2,directo,13113,Real Madrid
+Dean Huijsen,Dean Huijsen,Dean Huijsen,468852,Real Madrid,2046,28,28,directo,11943,Real Madrid
+Diego Aguado,Diego Aguado,Diego Aguado,546728,Real Madrid,24,1,1,directo,13236,Real Madrid
+Eduardo Camavinga,Eduardo Camavinga,Eduardo Camavinga,369109,Real Madrid,1507,29,29,directo,7359,Real Madrid
+,Endrick,Endrick,445649,Real Madrid,5,1,2,understat_sin_posicion,12884,Real Madrid
+Federico Valverde,Federico Valverde,Federico Valverde,344644,Real Madrid,2765,33,33,directo,6241,Real Madrid
+Ferland Mendy,Ferland Mendy,Ferland Mendy,296337,Real Madrid,204,5,5,directo,6233,Real Madrid
+Fran García,Fran García,Fran García,422957,Real Madrid,930,13,13,directo,9810,Real Madrid
+Franco Mastantuono,Franco Mastantuono,Franco Mastantuono,514810,Real Madrid,1026,23,23,directo,13847,Real Madrid
+Gonzalo García,Gonzalo García,Gonzalo García,498798,Real Madrid,923,30,30,directo,12035,Real Madrid
+Jorge Cestero,Jorge Cestero,Cestero,603671,Real Madrid,8,2,2,recuperado_15,14246,Real Madrid
+Jude Bellingham,Jude Bellingham,Jude Bellingham,379868,Real Madrid,1933,28,28,directo,8824,Real Madrid
+Kylian Mbappé,Kylian Mbappe-Lottin,Kylian Mbappé,300713,Real Madrid,2623,31,31,recuperado_15,3423,Real Madrid
+Manuel Serrano,Manuel Serrano,Manuel Serrano,623490,Real Madrid,3,1,1,directo,14630,Real Madrid
+Manuel Ángel,Manuel Ángel,Manuel Ángel,606004,Real Madrid,86,4,4,directo,14502,Real Madrid
+Raúl Asencio,Raúl,Raúl Asencio,534899,Real Madrid,1692,23,23,recuperado_36,13201,Real Madrid
+Rodrygo,Rodrygo,Rodrygo,347862,Real Madrid,633,19,19,directo,8015,Real Madrid
+Thiago Pitarch,Thiago Pitarch,Thiago Pitarch,577403,Real Madrid,615,10,10,directo,13848,Real Madrid
+Trent Alexander-Arnold,Trent Alexander-Arnold,Trent Alexander-Arnold,318871,Real Madrid,1175,21,21,directo,1791,Real Madrid
+Valde,Valde,Valde,555515,Real Madrid,81,1,1,directo,13543,Real Madrid
+Vinícius Júnior,Vinícius Júnior,Vinícius Júnior,337782,Real Madrid,2865,36,36,directo,7008,Real Madrid
+Álvaro Carreras,Álvaro Fernández,Álvaro Carreras,437583,Real Madrid,2334,28,28,recuperado_36,10576,Real Madrid
+Álvaro Leiva,Álvaro Leiva,Ávaro Leiva,606121,Real Madrid,2,1,1,recuperado_15,14353,Real Madrid
+Éder Militão,Eder Militão,Éder Militão,337879,Real Madrid,1147,16,16,directo,7829,Real Madrid
+Alberto Reina,Alberto Reina,Alberto Reina,463821,Real Oviedo,2616,38,37,directo,13700,Real Oviedo
+,Borja Sánchez,Borja Sánchez,461767,Real Oviedo,9,1,1,understat_sin_posicion,13702,Real Oviedo
+Dani Calvo,Dani Calvo,Dani Calvo,300918,Real Oviedo,1688,21,21,directo,2597,Real Oviedo
+David Carmo,David Carmo,David Carmo,374812,Real Oviedo,1785,22,22,directo,13983,Real Oviedo
+David Costas,David Costas,David Costas,135404,Real Oviedo,2073,25,25,directo,4160,Real Oviedo
+Eric Bailly,Eric Bailly,Eric Bailly,243814,Real Oviedo,1327,16,15,directo,1739,Real Oviedo
+Federico Viñas,Federico Viñas,Federico Viñas,484254,Real Oviedo,2575,34,33,directo,13705,Real Oviedo
+Haissem Hassan,Haissem Hassan,Haissem Hassan,475046,Real Oviedo,1937,38,37,directo,11401,Real Oviedo
+Ilyas Chaira,Ilyas Chaira,Ilyas Chaira,495542,Real Oviedo,2584,37,36,directo,13701,Real Oviedo
+Javi López,Javier López,Javi López,395234,Real Oviedo,1825,26,25,recuperado_36,8413,Real Oviedo
+,Josip Brekalo,Josip Brekalo,298792,Real Oviedo,482,14,14,understat_sin_posicion,5353,Real Oviedo
+Kwasi Sibo,Kwasi Sibo,Kwasi Sibo,463426,Real Oviedo,1782,27,26,directo,13699,Real Oviedo
+Leander Dendoncker,Leander Dendoncker,Leander Dendoncker,124106,Real Oviedo,1338,19,19,directo,7236,Real Oviedo
+Lucas Ahijado,Lucas Ahijado,Lucas Ahijado,298482,Real Oviedo,1086,20,20,directo,14018,Real Oviedo
+Luka Ilic,Luka Ilic,Luka Ilic,361898,Real Oviedo,731,19,19,directo,10388,Real Oviedo
+Marco Esteban,Marco Esteban,Marco Esteban,506112,Real Oviedo,40,1,1,directo,13703,Real Oviedo
+Nacho Vidal,Nacho Vidal,Nacho Vidal,335790,Real Oviedo,2383,30,29,directo,5162,Real Oviedo
+Nicolás Fonseca,Nicolás Fonseca,Nicolás Fonseca,513146,Real Oviedo,1028,19,19,directo,14316,Real Oviedo
+,Oier Luengo,Oier Luengo,448447,Real Oviedo,228,3,4,understat_sin_posicion,13697,Real Oviedo
+Omar Falah,Omar Falah,Omar Falah,557844,Real Oviedo,9,1,1,directo,13704,Real Oviedo
+Ovie Ejaria,Ovie Ejaria,Ovie Ejaria,327852,Real Oviedo,207,9,8,directo,1762,Real Oviedo
+Pablo Agudín,Pablo Agudín,Pablo Agudín,597609,Real Oviedo,60,8,7,directo,14173,Real Oviedo
+Rahim Alhassane,Rahim Alhassane,Rahim Alhassane,456006,Real Oviedo,1689,28,27,directo,13698,Real Oviedo
+,Salomón Rondón,Salomón Rondón,25964,Real Oviedo,1054,16,16,understat_sin_posicion,813,Real Oviedo
+Santi Cazorla,Santiago Cazorla,Santi Cazorla,4522,Real Oviedo,877,29,28,recuperado_36,965,Real Oviedo
+Santiago Colombatto,Santiago Colombatto,Santiago Colombatto,298175,Real Oviedo,2157,33,32,directo,13953,Real Oviedo
+Thiago Borbas,Thiago Borbas,Thiago Borbas,460759,Real Oviedo,140,12,12,directo,14334,Real Oviedo
+Thiago Fernández,Thiago Fernández,Thiago Fernández,446729,Real Oviedo,919,17,16,directo,14393,Real Oviedo
+Álex Forés,Álex Forés,Álex Forés,513640,Real Oviedo,331,18,18,directo,13954,Real Oviedo
+Aihen Muñoz,Aihen Muñoz,Aihen Muñoz,367583,Real Sociedad,829,21,21,directo,7306,Real Sociedad
+Ander Barrenetxea,Ander Barrenetxea,Ander Barrenetxea,367857,Real Sociedad,1794,30,30,directo,7308,Real Sociedad
+Aritz Elustondo,Aritz Elustondo,Aritz Elustondo,256864,Real Sociedad,723,16,16,directo,2228,Real Sociedad
+Arkaitz Mariezkurrena,Arkaitz Mariezkurrena,Arkaitz Mariezkurrena,546575,Real Sociedad,1,1,1,directo,13267,Real Sociedad
+Arsen Zakharyan,Arsen Zakharyan,Arsen Zakharyan,400185,Real Sociedad,424,17,17,directo,8760,Real Sociedad
+Beñat Turrientes,Beñat Turrientes,Beñat Turrientes,407138,Real Sociedad,1355,27,27,directo,9465,Real Sociedad
+Brais Méndez,Brais Méndez,Brais Méndez,344542,Real Sociedad,1708,29,29,directo,6227,Real Sociedad
+Carlos Soler,Carlos Soler,Carlos Soler,313542,Real Sociedad,2346,33,33,directo,2478,Real Sociedad
+Daniel Díaz,Daniel Díaz,Dani Díaz,556862,Real Sociedad,13,1,1,recuperado_15,13558,Real Sociedad
+Duje Caleta-Car,Duje Caleta-Car,Duje Caleta-Car,251134,Real Sociedad,2140,27,27,directo,7007,Real Sociedad
+Gonçalo Guedes,Gonçalo Guedes,Gonçalo Guedes,247995,Real Sociedad,1833,32,32,directo,5682,Real Sociedad
+Gorka Carrera,Gorka Carrera,Gorka Carrera,602289,Real Sociedad,49,3,3,directo,14208,Real Sociedad
+Ibai Aguirre,Ibai Aguirre,Ibai Aguirre,605461,Real Sociedad,4,1,1,directo,14322,Real Sociedad
+Igor Zubeldia,Igor Zubeldia,Igor Zubeldia,315566,Real Sociedad,2080,25,25,directo,2417,Real Sociedad
+Iñaki Rupérez,Iñaki Rupérez,Iñaki Rupérez,514956,Real Sociedad,1,1,1,directo,12354,Real Sociedad
+Job Ochieng,Job Ochieng,Job Ochieng,599413,Real Sociedad,92,2,2,directo,14364,Real Sociedad
+Jon Aramburu,Jon Aramburu,Jon Aramburu,463961,Real Sociedad,2789,35,35,directo,12182,Real Sociedad
+Jon Gorrotxategi,Jon Gorrotxategi,Jon Gorrotxategi,541871,Real Sociedad,2235,30,30,directo,13936,Real Sociedad
+Jon Karrikaburu,Jon Karrikaburu,Jon Karrikaburu,423913,Real Sociedad,107,7,7,directo,9922,Real Sociedad
+Jon Martín,Jon Martín,Jon Martín,495459,Real Sociedad,2250,25,25,directo,12353,Real Sociedad
+Lander Astiazarán,Lander Astiazarán,Lander Astiazarán,604378,Real Sociedad,1,1,1,directo,14259,Real Sociedad
+Luka Sucic,Luka Sucic,Luka Sucic,407080,Real Sociedad,1003,22,22,directo,12862,Real Sociedad
+Luken Beitia,Luken Beitia,Luken Beitia,546570,Real Sociedad,91,2,2,directo,13482,Real Sociedad
+,Mikel Goti,Mikel Goti,546571,Real Sociedad,64,4,4,understat_sin_posicion,13580,Real Sociedad
+Mikel Oyarzabal,Mikel Oyarzabal,Mikel Oyarzabal,298839,Real Sociedad,2727,34,34,directo,2234,Real Sociedad
+Orri Óskarsson,Orri Óskarsson,Orri Óskarsson,428066,Real Sociedad,822,20,20,directo,13048,Real Sociedad
+Pablo Marín,Pablo Marín,Pablo Marín,459677,Real Sociedad,1491,34,34,directo,11185,Real Sociedad
+Sergio Gómez,Sergio Gómez,Sergio Gómez,355110,Real Sociedad,2712,35,35,directo,6656,Real Sociedad
+Takefusa Kubo,Takefusa Kubo,Takefusa Kubo,377285,Real Sociedad,1531,24,24,directo,8001,Real Sociedad
+Wesley,Wesley,Wesley,439650,Real Sociedad,74,5,5,directo,14413,Real Sociedad
+Yangel Herrera,Yangel Herrera,Yangel Herrera,318505,Real Sociedad,638,14,14,traspasado,7350,Girona
+Álvaro Odriozola,Álvaro Odriozola,Álvaro Odriozola,317354,Real Sociedad,196,5,5,directo,2418,Real Sociedad
+Adnan Januzaj,Adnan Januzaj,Adnan Januzaj,130334,Sevilla,283,12,12,directo,323,Sevilla
+Akor Adams,Akor Adams,Akor Adams,408616,Sevilla,2048,32,32,directo,11783,Sevilla
+Alexis Sánchez,Alexis Sánchez,Alexis Sánchez,25244,Sevilla,1278,28,28,directo,498,Sevilla
+Andrés Castrín,Andrés Castrín,Andrés Castrín,448284,Sevilla,1251,19,19,directo,13600,Sevilla
+Batista Mendy,Batista Mendy,Batista Mendy,391316,Sevilla,1632,27,27,directo,8283,Sevilla
+Chidera Ejuke,Chidera Ejuke,Chidera Ejuke,337022,Sevilla,866,27,27,directo,8694,Sevilla
+César Azpilicueta,César Azpilicueta,César Azpilicueta,25931,Sevilla,1233,17,17,directo,681,Sevilla
+Djibril Sow,Djibril Sow,Djibril Sow,317630,Sevilla,2235,33,33,directo,2624,Sevilla
+,Dodi Lukebakio,Dodi Lukébakio,299490,Sevilla,180,2,2,understat_sin_posicion,5706,Sevilla
+Federico Gattoni,Federico Gattoni,Federico Gattoni,379208,Sevilla,5,1,1,directo,11705,Sevilla
+Fábio Cardoso,Fábio Cardoso,Fábio Cardoso,322771,Sevilla,309,4,4,directo,14012,Sevilla
+Gabriel Suazo,Gabriel Suazo,Gabriel Suazo,286080,Sevilla,2107,29,29,directo,11343,Sevilla
+Isaac Romero,Isaac Romero,Isaac Romero,492362,Sevilla,1506,29,29,directo,12305,Sevilla
+Joan Jordán,Joan Jordán,Joan Jordán,238941,Sevilla,15,3,4,directo,2122,Sevilla
+José Ángel Carmona,José Ángel Carmona,José Ángel Carmona,422956,Sevilla,2561,35,35,directo,9809,Sevilla
+Juanlu Sánchez,Juanlu Sanchez,Juanlu Sánchez,395187,Sevilla,2016,32,32,directo,8409,Sevilla
+Kike Salas,Kike Salas,Kike Salas,431509,Sevilla,2199,26,26,directo,10334,Sevilla
+Lucien Agoumé,Lucien Agoume,Lucien Agoumé,388505,Sevilla,2728,34,34,directo,8165,Sevilla
+Manu Bueno,Manu Bueno,Manu Bueno,469547,Sevilla,256,8,8,directo,11266,Sevilla
+Marcão,Marcão,Marcão,318120,Sevilla,935,13,13,directo,10999,Sevilla
+Miguel Sierra,Miguel Sierra,Miguel Sierra,507590,Sevilla,50,4,4,directo,13823,Sevilla
+Neal Maupay,Neal Maupay,Neal Maupay,119822,Sevilla,884,12,12,directo,3621,Sevilla
+Nemanja Gudelj,Nemanja Gudelj,Nemanja Gudelj,77417,Sevilla,2349,34,34,directo,7888,Sevilla
+Oso,Oso,Oso,511064,Sevilla,1397,21,22,directo,13615,Sevilla
+Peque Fernández,Peque,Peque Fernández,464952,Sevilla,952,26,26,recuperado_36,12742,Sevilla
+,Ramón Martínez,Ramón Martínez,536136,Sevilla,99,2,2,understat_sin_posicion,13198,Sevilla
+Rubén Vargas,Ruben Vargas,Rubén Vargas,381550,Sevilla,1670,24,24,directo,7810,Sevilla
+,Stanis Idumbo Muzambo,Stanis Idumbo,516051,Sevilla,48,1,1,recuperado_grafia,12426,Sevilla
+Tanguy Nianzou,Nianzou Kouassi,Tanguy Nianzou,382492,Sevilla,670,12,12,recuperado_36,7981,Sevilla
+André Almeida,André Almeida,André Almeida,322246,Valencia,1007,22,22,directo,11057,Valencia
+Arnaut Danjuma,Arnaut Danjuma Groeneveld,Arnaut Danjuma,323625,Valencia,1612,30,30,recuperado_15,8066,Valencia
+Baptiste Santamaría,Baptiste Santamaria,Baptiste Santamaría,236558,Valencia,731,19,19,directo,5654,Valencia
+Copete,Copete,Copete,444252,Valencia,1767,21,21,directo,10982,Valencia
+César Tárrega,César Tárrega,César Tárrega,427831,Valencia,2588,32,32,directo,10107,Valencia
+Dani Raba,Raba,Dani Raba,334221,Valencia,247,13,13,recuperado_36,5199,Valencia
+Diego López,Diego López,Diego López,422656,Valencia,1781,34,34,directo,9694,Valencia
+Dimitri Foulquier,Dimitri Foulquier,Dimitri Foulquier,101084,Valencia,1149,15,15,directo,2509,Valencia
+Eray Cömert,Eray Cömert,Eray Cömert,301034,Valencia,1341,17,17,directo,10382,Valencia
+Filip Ugrinic,Filip Ugrinic,Filip Ugrinic,379684,Valencia,1515,27,27,directo,13761,Valencia
+Guido Rodríguez,Guido Rodríguez,Guido Rodríguez,303876,Valencia,1310,16,16,directo,8267,Valencia
+Hugo Duro,Hugo Duro,Hugo Duro,354526,Valencia,1979,36,36,directo,6637,Valencia
+Javi Guerra,Javier Guerra,Javi Guerra,431507,Valencia,2086,36,36,recuperado_36,10322,Valencia
+Jesús Vázquez,Jesús Vázquez,Jesús Vázquez,408732,Valencia,936,24,24,directo,9217,Valencia
+José Gayà,José Gayá,José Gayà,119817,Valencia,2491,32,32,directo,2505,Valencia
+Largie Ramazani,Largie Ramazani,Largie Ramazani,388665,Valencia,1200,27,27,directo,10975,Valencia
+Lucas Beltrán,Lucas Beltrán,Lucas Beltrán,365410,Valencia,1377,27,27,directo,11900,Valencia
+Luis Rioja,Luis Rioja,Luis Rioja,381713,Valencia,2676,37,37,directo,7870,Valencia
+Mouctar Diakhaby,Mouctar Diakhaby,Mouctar Diakhaby,322095,Valencia,539,8,8,directo,5666,Valencia
+Pepelu,Pepelu,Pepelu,302889,Valencia,2253,31,31,directo,2551,Valencia
+Renzo Saravia,Renzo Saravia,Renzo Saravia,127618,Valencia,358,5,5,directo,14518,Valencia
+Rubén Iranzo,Rubén Iranzo,,,Valencia,1,1,,directo,10155,Valencia
+Thierry Correia,Thierry Correia,Thierry Correia,367180,Valencia,1386,24,24,directo,8058,Valencia
+Umar Sadiq,Umar Sadiq,Umar Sadiq,297546,Valencia,1028,25,25,traspasado,1450,Real Sociedad
+Unai Núñez,Unai Núñez,Unai Núñez,344200,Valencia,927,13,13,directo,6149,Valencia
+,Adrià Alti,Adrià Alti,448041,Villarreal,7,1,1,understat_sin_posicion,11834,Villarreal
+Alassane Diatta,Alassane Diatta,Alassane Diatta,546651,Villarreal,19,1,1,directo,13229,Villarreal
+Alberto Moleiro,Alberto Moleiro,Alberto Moleiro,448211,Villarreal,2535,38,37,directo,12160,Villarreal
+Alex Freeman,Alexander Freeman,Alex Freeman,440159,Villarreal,332,10,9,recuperado_36,14396,Villarreal
+Alfon González,Alfon,Alfon González,408942,Villarreal,691,21,20,traspasado,9241,Sevilla
+Alfonso Pedraza,Alfonso,Alfonso Pedraza,276489,Villarreal,1700,27,27,recuperado_36,2521,Villarreal
+Ayoze Pérez,Ayoze Pérez,Ayoze Pérez,135366,Villarreal,1154,26,25,directo,770,Villarreal
+Carlos Macià,Carlos Macià,Carlos Maciá,603190,Villarreal,65,5,5,directo,14221,Villarreal
+Dani Parejo,Daniel Parejo,Dani Parejo,28186,Villarreal,1474,33,32,recuperado_36,2378,Villarreal
+Georges Mikautadze,Georges Mikautadze,Georges Mikautadze,389020,Villarreal,2155,33,32,directo,8187,Villarreal
+Gerard Moreno,Gerard Moreno,Gerard Moreno,97659,Villarreal,1368,22,22,directo,2120,Villarreal
+Hugo Lopez,Hugo Lopez,Hugo López,582063,Villarreal,57,2,2,directo,13997,Villarreal
+Juan Foyth,Juan Foyth,Juan Foyth,335107,Villarreal,946,13,13,directo,6306,Villarreal
+Logan Costa,Logan Costa,Logan Costa,389130,Villarreal,21,2,2,directo,8200,Villarreal
+,Manor Solomon,Manor Solomon,345022,Villarreal,129,6,6,understat_sin_posicion,10716,Villarreal
+Nicolas Pépé,Nicolas Pepe,Nicolas Pepe,239872,Villarreal,2497,37,36,directo,5656,Villarreal
+Pape Gueye,Pape Alassane Gueye,Pape Gueye,399047,Villarreal,2280,31,30,recuperado_15,8696,Villarreal
+Pau Cabanes,Pau Cabanes De La Torre,Pau Cabanes,538494,Villarreal,10,1,1,recuperado_15,13036,Villarreal
+Pau Navarro,Pau Navarro,Pau Navarro,537235,Villarreal,2034,24,23,directo,12914,Villarreal
+Rafa Marín,Rafa Marín,Rafa Marín,430301,Villarreal,1975,23,23,directo,10200,Villarreal
+Renato Veiga,Renato Veiga,Renato Veiga,434077,Villarreal,2553,33,32,directo,11383,Villarreal
+Santi Comesaña,Santiago Comesaña,Santi Comesaña,362735,Villarreal,2428,34,34,recuperado_36,7070,Villarreal
+Santiago Mouriño,Santiago Mouriño,Santiago Mouriño,448936,Villarreal,2485,29,28,directo,13003,Villarreal
+Sergi Cardona,Sergi Cardona,Sergi Cardona,448209,Villarreal,2028,32,31,directo,11744,Villarreal
+Tajon Buchanan,Tajon Buchanan,Tajon Buchanan,371027,Villarreal,1873,35,34,directo,12322,Villarreal
+Tani Oluwaseyi,Tani Oluwaseyi,Tani Oluwaseyi,445292,Villarreal,949,28,27,directo,13996,Villarreal
+Thomas Partey,Thomas Partey,Thomas Partey,238940,Villarreal,892,26,25,directo,2328,Villarreal
+Willy Kambwala,Willy Kambwala,Willy Kambwala,494120,Villarreal,85,2,2,directo,12275,Villarreal
+,Yeremi Pino,Yéremy Pino,403865,Villarreal,165,2,2,recuperado_grafia,9024,Villarreal

@@ -1,0 +1,8 @@
+nombre,equipo,cruce,nombre_propuesto,minutos_us,motivo,efecto
+Carlos Protesoni,Alaves,posiciones-understat,Carlos Benavídez,311,solo comparten el nombre de pila; 13 partidos en Understat y 13 con eventos,fila de posiciones fuera; la fila de Understat entra sin posición y sin eventos
+Yago Santiago,Elche,posiciones-understat,Yago Alonso,275,solo comparten el nombre de pila; 9 partidos en Understat y 10 con eventos,fila de posiciones fuera; la fila de Understat entra sin posición y sin eventos
+Adam El Mokhtari,Elche,eventos,Adam Boayar,85,solo comparten el nombre de pila; 7 partidos en Understat y 7 con eventos,entra en el modelo con las métricas de eventos vacías
+Rubén Iranzo,Valencia,eventos,Rubo,1,único jugador de campo del Valencia con un partido; indicio muy débil,entra en el modelo con las métricas de eventos vacías
+Sergio Lozano,Rayo Vallecano,eventos,Sergio Lozano (Levante),7,traspaso dudoso: Understat y los eventos solo lo sitúan en el Levante; puede ser otro jugador,entra en el modelo con las métricas de eventos vacías
+Carlos Benavídez,Alaves,eventos,Carlos Protesoni,311,fila de Understat de un cruce de posiciones descartado,entra en el modelo con las métricas de eventos vacías
+Yago Alonso,Elche,eventos,Yago Santiago,275,fila de Understat de un cruce de posiciones descartado,entra en el modelo con las métricas de eventos vacías

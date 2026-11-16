@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Power BI: ficheros temporales y de bloqueo
+~$*.pbix
+*.pbix.bak
+
+# Tableau: copias de seguridad automáticas
+*.twbr
+*.twb~
+Backup of */
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Los CSV de data/ SÍ se versionan: no añadir *.csv aquí
+
+# Datos en bruto: demasiado grandes para versionar (eventos ~16 MB)
+data/bruto/

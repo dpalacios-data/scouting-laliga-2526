@@ -1,0 +1,39 @@
+nombre_understat,equipo,id_understat,id_whoscored,minutos_us,titularidades,recuento_puestos_ws,posicion_propuesta,grupo_propuesto,concluyente,motivo,confirmado
+Carlos Vicente,Alaves,12294,462861,1250,11,MR 8 · AMR 2 · FWR 1,extremo,extremo,True,11 de 11 titularidades en el grupo,True
+Bryan Zaragoza,Celta Vigo,10143,429273,1138,13,FWL 9 · FWR 2 · AMC 1 · ML 1,extremo,extremo,True,12 de 13 titularidades en el grupo,True
+Salomón Rondón,Real Oviedo,813,25964,1054,13,FW 13,delantero,delantero,True,13 de 13 titularidades en el grupo,True
+Conor Gallagher,Atletico Madrid,9040,375621,630,4,MC 3 · DMC 1,mediocentro,pivote_mediocentro,True,4 de 4 titularidades en el grupo,True
+Yáser Asprilla,Girona,13005,443540,601,6,FWR 2 · AMR 1 · MR 1 · FWL 1 · FW 1,extremo,extremo,True,5 de 6 titularidades en el grupo,True
+Josip Brekalo,Real Oviedo,5353,298792,482,6,AML 4 · FWL 2,extremo,extremo,True,6 de 6 titularidades en el grupo,True
+Jorge Cabello,Levante,13766,518057,367,4,DC 4,central,central,True,4 de 4 titularidades en el grupo,True
+Coba da Costa,Getafe,13047,538555,318,2,ML 1 · AML 1,,,False,menos de 3 titularidades,False
+Carlos Benavídez,Alaves,11826,,311,0,,,,False,sin identificador de WhoScored,False
+Yago Alonso,Elche,11617,,275,0,,,,False,sin identificador de WhoScored,False
+Christantus Uche,Getafe,12726,531674,270,3,FW 3,delantero,delantero,True,3 de 3 titularidades en el grupo,True
+Oier Luengo,Real Oviedo,13697,448447,228,3,DC 3,central,central,True,3 de 3 titularidades en el grupo,True
+Moussa Diarra,Alaves,7613,375342,225,3,DL 3,lateral,lateral,True,3 de 3 titularidades en el grupo,True
+Goduine Koyalipou,Levante,13335,469950,217,2,FW 2,,,False,menos de 3 titularidades,False
+Giacomo Raspadori,Atletico Madrid,7500,371497,203,1,FW 1,,,False,menos de 3 titularidades,False
+Marc Domenech,Mallorca,12883,537076,198,2,AMR 2,,,False,menos de 3 titularidades,False
+Dodi Lukebakio,Sevilla,5706,299490,180,2,AMR 1 · MR 1,,,False,menos de 3 titularidades,False
+Yeremi Pino,Villarreal,9024,403865,165,2,ML 2,,,False,menos de 3 titularidades,False
+Damián Rodríguez,Celta Vigo,10614,438846,155,2,MC 2,,,False,menos de 3 titularidades,False
+Ali Houary,Elche,13838,508339,133,2,MC 2,,,False,menos de 3 titularidades,False
+Manor Solomon,Villarreal,10716,345022,129,1,ML 1,,,False,menos de 3 titularidades,False
+Ramón Martínez,Sevilla,13198,536136,99,0,solo suplente,,,False,nunca fue titular,False
+Bambo Diaby,Elche,13843,379633,98,1,DC 1,,,False,menos de 3 titularidades,False
+Dro Fernández,Barcelona,13749,572375,83,1,AMC 1,,,False,menos de 3 titularidades,False
+Dawda Camara,Girona,11381,444249,73,1,FW 1,,,False,menos de 3 titularidades,False
+Mikel Goti,Real Sociedad,13580,546571,64,1,AMC 1,,,False,menos de 3 titularidades,False
+Dani Rodríguez,Mallorca,7841,6227,56,0,solo suplente,,,False,nunca fue titular,False
+Yvan Neyou,Getafe,8689,396583,49,0,solo suplente,,,False,nunca fue titular,False
+Luca Koleosho,Espanyol,10620,438959,48,0,solo suplente,,,False,nunca fue titular,False
+Stanis Idumbo Muzambo,Sevilla,12426,516051,48,1,ML 1,,,False,menos de 3 titularidades,False
+Bojan Miovski,Girona,12995,424737,44,1,FW 1,,,False,menos de 3 titularidades,False
+Mourad El Ghezouani,Elche,8946,402630,42,0,solo suplente,,,False,nunca fue titular,False
+Pelayo Fernández,Rayo Vallecano,12864,531953,37,0,solo suplente,,,False,nunca fue titular,False
+Jairo Izquierdo,Elche,9008,403808,22,0,solo suplente,,,False,nunca fue titular,False
+Alex Sola,Getafe,7424,370000,10,0,solo suplente,,,False,nunca fue titular,False
+Borja Sánchez,Real Oviedo,13702,461767,9,0,solo suplente,,,False,nunca fue titular,False
+Adrià Alti,Villarreal,11834,448041,7,0,solo suplente,,,False,nunca fue titular,False
+Endrick,Real Madrid,12884,445649,5,0,solo suplente,,,False,nunca fue titular,False
