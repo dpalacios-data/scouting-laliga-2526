@@ -127,7 +127,7 @@ dim_posicion ┘
 |---|---|---|
 | `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados, fichero y url del escudo, y colores primario y secundario de la camiseta |
 | `dim_posicion` | 9 | posición y grupo de comparación |
-| `dim_jugador` | 561 | jugador, equipo, posición, minutos, partidos, de dónde sale su posición y url de su retrato |
+| `dim_jugador` | 561 | jugador, equipo, posición, minutos, partidos, de dónde sale su posición, edad, altura, pie, nacionalidad, valor de mercado estimado y url de su retrato |
 | `hechos_jugador` | 561 | 19 métricas por 90 minutos y 2 porcentajes de éxito, con su percentil por grupo, `percentil_fiable`, `n_grupo_referencia` y `muestra_reducida` |
 
 **Claves.** Todas las claves son numéricas y propias. La clave del jugador nunca es el nombre: hay dos jugadores
@@ -190,12 +190,22 @@ fuente de forma visible.
 
 - **539 de 561** jugadores tienen retrato enlazado, y **367 de los 368** con percentil fiable.
 - Los otros **22** tienen un retrato de iniciales generado en este proyecto (`images/jugadores/`, cuaderno 07):
-  un círculo con el color primario de su equipo y sus iniciales. `url_foto` apunta a su dirección pública en
+  un rectángulo de la misma proporción que los retratos de Transfermarkt (10:13), con el color primario de su
+  equipo y sus iniciales. `url_foto` apunta a su dirección pública en
   este repositorio, así que **los 561 jugadores tienen una url de imagen**, y `foto_origen` dice de dónde sale
   cada una. Son: 18 que en
   Transfermarkt solo tienen la silueta genérica, 3 sin coincidencia y 1 con cruce dudoso.
 - Todas las url responden fuera de la web de Transfermarkt, pesan entre 3 y 30 KB y tienen 85 caracteres como
   máximo, dentro de los límites de Tableau (128 KB y 255 caracteres).
+
+**Datos de scouting. Fuente: Transfermarkt.** De las mismas páginas de plantilla salen la fecha de nacimiento,
+la altura, el pie, la nacionalidad y el valor de mercado de 557 de los 561 jugadores (descargadas el 16/11/2026).
+
+- **La edad está calculada a 31 de mayo de 2026**, último día de la temporada, no a día de hoy.
+- **`valor_mercado_tm` es una estimación de Transfermarkt, no un precio real** ni una cifra de traspaso.
+- La fecha de fin de contrato no está en el modelo: no aparece en las páginas de plantilla descargadas.
+- 4 jugadores no tienen ninguno de estos datos, porque no están emparejados con Transfermarkt: Carlos
+  Benavídez, Yago Alonso, Adam El Mokhtari y Sergio Lozano.
 
 **Fuente evaluada y descartada: Wikimedia Commons.** Antes se midió la cobertura de fotos con licencia libre en
 Wikidata (cuaderno 04, `data/fotos_wikidata.csv`): 218 de 561 jugadores (38,9 %) y 174 de los 368 con percentil
