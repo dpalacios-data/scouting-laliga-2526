@@ -125,7 +125,7 @@ dim_posicion ┘
 
 | Tabla | Filas | Contenido |
 |---|---|---|
-| `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados, fichero del escudo y colores primario y secundario de la camiseta |
+| `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados, fichero y url del escudo, y colores primario y secundario de la camiseta |
 | `dim_posicion` | 9 | posición y grupo de comparación |
 | `dim_jugador` | 561 | jugador, equipo, posición, minutos, partidos, de dónde sale su posición y url de su retrato |
 | `hechos_jugador` | 561 | 19 métricas por 90 minutos y 2 porcentajes de éxito, con su percentil por grupo, `percentil_fiable`, `n_grupo_referencia` y `muestra_reducida` |
@@ -155,10 +155,23 @@ identificador, y las entradas y los duelos aéreos separan volumen y éxito. El
 **Escudos.** Los 20 están en `images/escudos/`, con el nombre de fichero que usa `dim_equipo.escudo`: PNG con
 transparencia, 128 × 128 px y el mismo margen interior. El origen de cada uno está en `data/escudos.csv`.
 
-- 3 vienen de Wikidata (propiedad P154) y tienen licencia libre en Wikimedia Commons: Barcelona (CC0), Celta
-  (CC BY-SA 3.0) y Getafe (CC BY-SA 4.0). Son los únicos que se versionan.
-- Los otros 17 son marcas de los clubes, descargadas de sus webs oficiales. No se versionan; el cuaderno 03 los
-  descarga de nuevo.
+Los 20 están versionados, porque el panel los carga por su dirección pública en este repositorio
+(`dim_equipo.url_escudo`): sin fichero en el repositorio no hay url pública, y el escudo es lo que identifica al
+equipo en todo el panel.
+
+**Los escudos son marcas registradas de sus clubes.** Se usan solo con fines identificativos, en un proyecto
+académico sin ánimo de lucro. Cada uno tiene su url de origen y su fecha de descarga en `data/escudos.csv`.
+
+- 17 se descargaron de la web oficial de cada club.
+- 3 vienen de Wikimedia Commons (propiedad P154 de Wikidata), con licencia libre:
+
+| Escudo | Licencia | Autor en Commons | Fichero |
+|---|---|---|---|
+| Barcelona | CC0 | HAMDANI 72 | [Football Club Barcelona Color Update.png](https://commons.wikimedia.org/wiki/File:Football_Club_Barcelona_Color_Update.png) |
+| Celta | CC BY-SA 3.0 | Elisardojm, a partir de ficheros de Madboy74, HansenBCN y WarX | [Escudo RC Celta de Vigo.svg](https://commons.wikimedia.org/wiki/File:Escudo_RC_Celta_de_Vigo.svg) |
+| Getafe | CC BY-SA 4.0 | Yawen | [Getafe CF Logo.png](https://commons.wikimedia.org/wiki/File:Getafe_CF_Logo.png) |
+
+Estos tres están reducidos a 128 × 128 px respecto al original.
 
 **Colores.** `dim_equipo.color_primario` y `color_secundario` son los dos colores de la camiseta de la primera
 equipación 2025/26, medidos sobre la plantilla de equipación de la ficha de cada club en la Wikipedia en inglés
@@ -170,13 +183,16 @@ comparten exactamente el mismo `#ff0000`. El color servirá para acentuar la fic
 donde solo hay un equipo en pantalla. El detalle, con la revisión de cada artículo, está en el
 [diccionario de datos](docs/diccionario_datos.md).
 
-**Retratos de jugadores. Fuente: [Transfermarkt](https://www.transfermarkt.es).** Las imágenes no se descargan
-ni se republican: `dim_jugador.url_foto` guarda la dirección del retrato en los servidores de Transfermarkt, y
+**Retratos de jugadores. Fuente: [Transfermarkt](https://www.transfermarkt.es).** Las imágenes de Transfermarkt
+no se descargan ni se republican: `dim_jugador.url_foto` guarda la dirección del retrato en sus servidores, y
 el panel la cargará desde allí. Los retratos son de Transfermarkt y de sus proveedores, y el panel citará la
 fuente de forma visible.
 
 - **539 de 561** jugadores tienen retrato enlazado, y **367 de los 368** con percentil fiable.
-- Los otros **22** llevarán un retrato de iniciales, con el mismo tamaño y la misma forma: 18 que en
+- Los otros **22** tienen un retrato de iniciales generado en este proyecto (`images/jugadores/`, cuaderno 07):
+  un círculo con el color primario de su equipo y sus iniciales. `url_foto` apunta a su dirección pública en
+  este repositorio, así que **los 561 jugadores tienen una url de imagen**, y `foto_origen` dice de dónde sale
+  cada una. Son: 18 que en
   Transfermarkt solo tienen la silueta genérica, 3 sin coincidencia y 1 con cruce dudoso.
 - Todas las url responden fuera de la web de Transfermarkt, pesan entre 3 y 30 KB y tienen 85 caracteres como
   máximo, dentro de los límites de Tableau (128 KB y 255 caracteres).
@@ -194,6 +210,7 @@ fiable (47,3 %). Con menos de la mitad de cobertura se cambió de fuente.
 | `notebooks/03_escudos.ipynb` | Descarga los 20 escudos, los normaliza a 128 × 128 px con el mismo margen y extrae su color dominante | con conexión a internet |
 | `notebooks/04_fotos_wikidata.ipynb` | Mide qué jugadores tienen foto en Wikidata. No descarga ninguna imagen. Fuente descartada por cobertura | con conexión a internet |
 | `notebooks/05_colores_equipacion.ipynb` | Mide los dos colores de la camiseta de cada equipo sobre la plantilla de equipación de Wikipedia y fija el color primario | sí |
+| `notebooks/07_retratos_iniciales.ipynb` | Genera el retrato de iniciales de los jugadores sin retrato de Transfermarkt | sí, después del cuaderno 01 |
 | `notebooks/06_fotos_transfermarkt.ipynb` | Empareja a los 561 jugadores con las plantillas de Transfermarkt y guarda la url de su retrato, sin descargar imágenes. Comprueba que las url responden y cumplen los límites de Tableau | **no** sin volver a descargar las plantillas |
 | `notebooks/02_auditoria_cruce_eventos.ipynb` | Comprueba que el cruce por identificador reproduce las cifras de eventos publicadas en el TFM: 462 de 464 jugadores son idénticos. Identifica los dos que cambian (dos homónimos que el TFM sumaba al cruzar por nombre) y mide su efecto en los cálculos del TFM. Compara también volumen y éxito en duelos aéreos y entradas | sí |
 
