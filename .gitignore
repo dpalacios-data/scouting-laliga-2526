@@ -36,3 +36,6 @@ images/escudos/*
 !images/escudos/celta_vigo.png
 !images/escudos/getafe.png
 images/escudos_control.png
+
+# Hoja de revisión de colores: incluye los 20 escudos, que no se versionan todos
+images/revision_colores.png
