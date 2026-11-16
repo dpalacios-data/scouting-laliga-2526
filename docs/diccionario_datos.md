@@ -23,7 +23,7 @@ dim_posicion ┘
 |---|---|---|---|
 | `id_equipo` | Clave propia del equipo | entero, 1 a 20, por orden alfabético | generada en el cuaderno 01 |
 | `equipo` | Nombre del equipo | texto | fichero propio de posiciones; WhoScored escribe "Atletico" y "Deportivo Alaves", que se traducen con una correspondencia explícita en los cuadernos 00 y 01 |
-| `altura_defensiva` | Posición media en el largo del campo de las entradas, intercepciones, despejes, pases bloqueados y recuperaciones del equipo | coordenada x de Opta: 0 = portería propia, 100 = portería rival. **No son metros** | `altura_defensiva_laliga_2526.csv`, calculada en el TFM (cuaderno 02) con los eventos de Opta |
+| `altura_defensiva` | Posición media en el largo del campo de las entradas, intercepciones, despejes, pases bloqueados y recuperaciones del equipo | coordenada x de Opta: 0 = portería propia, 100 = portería rival. **No son metros** | `altura_defensiva_laliga_2526.csv`, calculada en el TFM (cuaderno `02_analisis_equipo`) con los eventos de Opta |
 | `puntos` | Puntos reales en la liga | puntos | `clasificacion_xpts_laliga_2526.csv` (TFM, a partir de Understat) |
 | `puntos_esperados` | Puntos esperados según el xG de cada partido | puntos | `clasificacion_xpts_laliga_2526.csv`, columna `xpts` (Understat) |
 | `escudo` | Nombre previsto del fichero del escudo. Las imágenes todavía no existen | texto, minúsculas, sin acentos, con guiones bajos | generado a partir de `equipo` |
@@ -46,7 +46,7 @@ dim_posicion ┘
 | extremo | extremo | sí |
 | delantero | delantero | sí |
 | sin_definir | sin_definir | no |
-| sin_confirmar | sin_confirmar | no. En el panel se lee "Posición no confirmada" |
+| sin_confirmar | sin_confirmar | no. El panel deberá mostrarlo como "Posición no confirmada" |
 
 Pivote y mediocentro van en el mismo grupo, como en el TFM, porque las fuentes no coinciden en la frontera
 entre los dos puestos.
@@ -149,7 +149,7 @@ para un jugador cuya posición no se conoce.
 | central | 95 | 71 |
 | extremo | 86 | 59 |
 | delantero | 83 | 50 |
-| mediapunta | 39 | **28**: muestra reducida, con aviso en el panel |
+| mediapunta | 39 | **28**: muestra reducida; el panel deberá avisarlo |
 | sin_definir | 28 | sin percentil |
 | sin_confirmar | 28 | sin percentil |
 
@@ -163,7 +163,7 @@ Con 28 jugadores, cada puesto del ranking de mediapunta mueve el percentil 3,6 p
 - Es la fórmula de las cifras publicadas en el TFM y las reproduce exactamente: Valjent percentil 9 en
   intercepciones, Llorente 98 y, en el bloque bajo, 10, 19 y 38.
 - **Ningún jugador del grupo de referencia llega a 100.** El mejor de un grupo de n jugadores sale en
-  (n − 1) ÷ n × 100: con 71 centrales, 98,59; con 87 en pivote_mediocentro, 98,85. No es un fallo del panel.
+  (n − 1) ÷ n × 100: con 71 centrales, 98,59; con 87 en pivote_mediocentro, 98,85. Es una consecuencia de la fórmula, no un error de cálculo.
 - Un jugador con **menos de 600 minutos** sí puede llegar a 100 si supera al mejor del grupo de referencia.
   Ese percentil lleva `percentil_fiable` en falso.
 - Los empates comparten percentil: nadie empatado está "estrictamente por debajo" de otro.

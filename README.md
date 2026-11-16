@@ -1,18 +1,30 @@
 # Scouting LaLiga 2025/26
 
-Herramienta de scouting de los **jugadores de campo de LaLiga 2025/26**, con un panel en Power BI y otro en
-Tableau. Este repositorio contiene la capa de datos: un modelo en estrella con métricas por 90 minutos y
-percentiles por grupo de posición, listo para conectar a los dos paneles.
+Modelo de datos de los **jugadores de campo de LaLiga 2025/26**: métricas por 90 minutos y percentiles por grupo
+de posición, organizados en un modelo en estrella pensado para alimentar un panel de scouting en Power BI y otro
+en Tableau.
 
-Es un proyecto separado de mi TFM sobre el descenso del RCD Mallorca, del que reutiliza los datos ya procesados.
-El TFM no se modifica.
+## Estado
 
-**Paneles**
+Hoy este repositorio es la capa de datos de un panel de scouting. Los paneles de Power BI y Tableau todavía no
+existen; cuando se publiquen, se enlazarán aquí.
 
-- Power BI: _[enlace pendiente]_
-- Tableau: _[enlace pendiente]_
+Es un proyecto separado de mi TFM sobre el descenso del RCD Mallorca
+([analisis-mallorca-2025-26](https://github.com/dpalacios-data/analisis-mallorca-2025-26)), del que reutiliza los
+datos ya procesados. El TFM no se modifica.
 
 ---
+
+## Reproducibilidad
+
+- **El cuaderno 00 no se puede ejecutar desde fuera, porque los eventos de WhoScored no están versionados en
+  ningún sitio.** Necesita `data/bruto/eventos_laliga_2526.parquet` (16 MB), que no está en este repositorio
+  ni en el del TFM. Se generó en el cuaderno 01 del TFM a partir de los eventos de WhoScored descargados con la librería `soccerdata`. Su SHA-256 es
+  `8bcb04eeacb42d93d242ca735e080a86475b9d57aa5ee82fa267d7f997989d61`.
+- **El cuaderno 01 sí se puede ejecutar, porque todo lo que lee está en el repositorio.** Las acciones de Opta
+  ya agregadas por jugador están versionadas en `data/eventos_por_jugador.csv`, y el resto son ficheros de
+  `data/origen/` y de `data/`.
+- **El cuaderno 02 también se puede ejecutar** con lo que hay en el repositorio.
 
 ## De dónde vienen los datos
 
@@ -24,7 +36,7 @@ El TFM no se modifica.
 
 En el TFM también usé FBref, pero ninguna columna de este modelo sale de FBref.
 
-Todos los ficheros de origen se copiaron del TFM sin modificarlos:
+Los ficheros de origen se copiaron del TFM sin modificarlos:
 
 | Fichero (`data/origen/`) | SHA-256 | Uso |
 |---|---|---|
@@ -36,11 +48,6 @@ Todos los ficheros de origen se copiaron del TFM sin modificarlos:
 | `clasificacion_xpts_laliga_2526.csv` | `f6cbe1b0889644bef4ac526f2b1351e468a9b580932c9a5b45188a4e0ba8bd35` | puntos y puntos esperados |
 | `disparos_laliga_2526_limpio.csv` | `23f52e01c5fe60b6aa66c6786295cf0100505d7b5669135c182f06a3d2eec427` | solo auditoría (modelos del TFM) |
 | `equipos_largo_laliga_2526.csv` | `4e7e92d08b5a91520253aa602c632b80da28ff83f4332a3c1430750e7834cf1a` | solo auditoría (modelos del TFM) |
-
-**`data/bruto/` no está versionado.** Contiene `eventos_laliga_2526.parquet` (16 MB, SHA-256
-`8bcb04eeacb42d93d242ca735e080a86475b9d57aa5ee82fa267d7f997989d61`), que se copia a mano desde
-`tfm-mallorca/data/`. Solo lo necesita el cuaderno 00. El modelo se reconstruye con el cuaderno 01 sin él,
-porque las acciones de Opta ya agregadas están versionadas en `data/eventos_por_jugador.csv`.
 
 ## Qué jugadores cubre
 
@@ -62,8 +69,8 @@ porque las acciones de Opta ya agregadas están versionadas en `data/eventos_por
   Benavídez y Yago Alonso) solo comparte el nombre de pila. Esas dos filas de Understat entran en el modelo con
   su propio nombre, sin posición confirmada y sin eventos.
 - **Porteros (39), fuera de esta versión.** Un portero no se mide con intercepciones ni duelos aéreos:
-  necesita paradas, salidas y goles esperados a puerta, y esos datos no los tengo completos. El panel cubre
-  jugadores de campo y lo dice de forma visible.
+  necesita paradas, salidas y goles esperados a puerta, y esos datos no los tengo completos. El modelo cubre
+  jugadores de campo, y el panel deberá decirlo de forma visible.
 
 ### Cómo se cruzó cada jugador
 
@@ -105,14 +112,15 @@ dim_posicion ┘
 
 | Tabla | Filas | Contenido |
 |---|---|---|
-| `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados y fichero del escudo |
+| `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados y fichero previsto del escudo |
 | `dim_posicion` | 9 | posición y grupo de comparación |
 | `dim_jugador` | 561 | jugador, equipo, posición, minutos, partidos y de dónde sale su posición |
 | `hechos_jugador` | 561 | 19 métricas por 90 minutos y 2 porcentajes de éxito, con su percentil por grupo, `percentil_fiable`, `n_grupo_referencia` y `muestra_reducida` |
 
-**Claves.** Todas las claves son numéricas y propias. La clave del jugador nunca es el nombre: hay dos David
-López, uno en el Mallorca y otro en el Girona. Los eventos de Opta se cruzan por el identificador de WhoScored,
-no por nombre. Así los dos David López no se mezclan, y los traspasados suman los eventos de sus dos clubes.
+**Claves.** Todas las claves son numéricas y propias. La clave del jugador nunca es el nombre: hay dos jugadores
+que se llaman David López, uno en el Mallorca y otro en el Girona. Los eventos de Opta se cruzan por el
+identificador de WhoScored, no por nombre. Así los homónimos no se mezclan, y los traspasados suman los eventos
+de sus dos clubes.
 
 **Percentiles.**
 
@@ -121,25 +129,35 @@ no por nombre. Así los dos David López no se mezclan, y los traspasados suman 
   llega a 100: el mejor de los 71 centrales sale en 98,59.
 - Los jugadores con menos de 600 minutos tienen percentil, pero con `percentil_fiable` en falso.
 - **368 jugadores** tienen percentil fiable.
-- El grupo mediapunta solo tiene 28 jugadores de referencia, y el panel lo avisa.
+- El grupo mediapunta solo tiene 28 jugadores de referencia. El modelo lo marca con `muestra_reducida` para que
+  el panel pueda avisarlo.
 
-Las fórmulas, unidades y fuentes de cada columna están en [docs/diccionario_datos.md](docs/diccionario_datos.md).
+**Diferencias con el TFM.** Los percentiles de este proyecto no coinciden con los del TFM para los mismos
+jugadores, y es lo esperado: el grupo de centrales pasa de 65 a 71 jugadores, el cruce de eventos es por
+identificador, y las entradas y los duelos aéreos separan volumen y éxito. El
+[diccionario de datos](docs/diccionario_datos.md) explica cada diferencia.
 
 ## Cuadernos
 
-| Cuaderno | Qué hace | Necesita `data/bruto/` |
+| Cuaderno | Qué hace | ¿Se puede ejecutar desde el repositorio? |
 |---|---|---|
-| `notebooks/00_cruces_nombres.ipynb` | Decide qué jugador es quién en cada fuente. Todas las decisiones de cruce están escritas como listas en el cuaderno. Genera los ficheros de `data/` | sí |
-| `notebooks/01_modelo_datos.ipynb` | Construye el modelo de `data/modelo/`, imprime el cuadre y ejecuta las comprobaciones de calidad | no |
-| `notebooks/02_auditoria_david_lopez.ipynb` | Mide cuánto afecta al TFM el fallo de los dos David López, que en el TFM compartían eventos | no |
+| `notebooks/00_cruces_nombres.ipynb` | Decide qué jugador es quién en cada fuente. Todas las decisiones de cruce están escritas como listas en el cuaderno. Genera los ficheros de `data/` | **no**: necesita los eventos de WhoScored, que no están versionados |
+| `notebooks/01_modelo_datos.ipynb` | Construye el modelo de `data/modelo/`, imprime el cuadre y ejecuta las comprobaciones de calidad | sí |
+| `notebooks/02_auditoria_cruce_eventos.ipynb` | Comprueba que el cruce por identificador reproduce las cifras de eventos publicadas en el TFM: 462 de 464 jugadores son idénticos. Identifica los dos que cambian (dos homónimos que el TFM sumaba al cruzar por nombre) y mide su efecto en los cálculos del TFM. Compara también volumen y éxito en duelos aéreos y entradas | sí |
 
-Entorno: conda `tfm`. Cada cuaderno se ejecuta desde la raíz del proyecto o desde `notebooks/`, con rutas
-relativas.
+Entorno: Python con pandas, numpy, pyarrow, unidecode y scikit-learn 1.9.1 (la versión con la que el cuaderno 02
+reproduce los modelos del TFM). Cada cuaderno se ejecuta desde la raíz del proyecto o desde `notebooks/`, con
+rutas relativas. Las fórmulas, unidades y fuentes de cada columna están en
+[docs/diccionario_datos.md](docs/diccionario_datos.md).
 
-## Qué se va a construir encima
+## Próximos pasos
+
+El panel se construirá sobre este modelo:
 
 - **Ficha de jugador:** métricas por 90 y percentiles dentro de su grupo, con `n_grupo_referencia` siempre
   visible y aviso de muestra reducida en mediapunta.
 - **Comparador** de jugadores del mismo grupo de posición.
 - **Buscador por perfil:** filtros de percentil, minutos y equipo, con `percentil_fiable` como filtro por defecto.
 - **Contexto de equipo:** altura defensiva y puntos frente a puntos esperados.
+- **Cobertura visible:** el panel dirá que cubre jugadores de campo, y mostrará "Posición no confirmada" para el
+  grupo `sin_confirmar`.
