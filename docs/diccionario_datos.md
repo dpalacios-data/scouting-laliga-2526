@@ -27,7 +27,9 @@ dim_posicion ┘
 | `puntos` | Puntos reales en la liga | puntos | `clasificacion_xpts_laliga_2526.csv` (TFM, a partir de Understat) |
 | `puntos_esperados` | Puntos esperados según el xG de cada partido | puntos | `clasificacion_xpts_laliga_2526.csv`, columna `xpts` (Understat) |
 | `escudo` | Nombre del fichero del escudo en `images/escudos/` | texto, minúsculas, sin acentos, con guiones bajos | generado a partir de `equipo` |
-| `color_primario` | Color más frecuente de los píxeles opacos del escudo, sin contar blancos (los tres canales ≥ 220) ni negros (los tres ≤ 45), agrupados en 8 colores | hexadecimal, `#rrggbb` | `data/escudos.csv`, calculado en el cuaderno 03 |
+| `color_primario` | Color identificativo del equipo: el color de la camiseta de la primera equipación 2025/26 que no es blanco (ver "Colores de equipo") | hexadecimal, `#rrggbb` | `data/colores_equipos.csv`, calculado en el cuaderno 05 |
+| `color_secundario` | El otro color de la camiseta, tal cual sale de Wikipedia | hexadecimal, `#rrggbb` | `data/colores_equipos.csv` |
+| `color_origen` | `wikipedia_equipacion` si el color primario es uno de los colores de camiseta medidos en Wikipedia; `revision_autor` si lo fijó el autor con otro criterio (solo Valencia) | texto | cuaderno 05 |
 
 ## dim_posicion.csv · 9 filas
 
@@ -66,6 +68,9 @@ entre los dos puestos.
 | `equipos_temporada` | Partidos con al menos un evento de Opta, por club. Ejemplo: "Celta Vigo 10 + Girona 17". Vacío si no tiene eventos | texto | eventos de Opta, por identificador de WhoScored |
 | `id_understat` | Identificador del jugador en Understat, para auditoría | entero | Understat (`player_id`) |
 | `id_whoscored` | Identificador del jugador en WhoScored, para auditoría. Vacío en los 5 jugadores sin eventos | entero | alineaciones de WhoScored |
+| `url_foto` | Dirección https del retrato del jugador en los servidores de Transfermarkt. La imagen no está en este repositorio. Vacía en 24 jugadores | url | Transfermarkt, plantillas 2025/26 (cuaderno 06) |
+| `foto_origen` | `transfermarkt` (537 jugadores) o `iniciales` (24): sin retrato enlazado, el panel deberá dibujar un retrato de iniciales del mismo tamaño y forma | texto | cuaderno 01 |
+| `id_transfermarkt` | Identificador del jugador en Transfermarkt, para auditoría. Vacío si no tiene retrato enlazado | entero | Transfermarkt (cuaderno 06) |
 
 ## hechos_jugador.csv · 561 filas
 
@@ -230,6 +235,76 @@ seguía el criterio del propio fichero que validaba. Con el cambio, Bryan Zarago
 
 ---
 
+## Colores de equipo
+
+**Qué son.** Los dos colores de la **camiseta** de la primera equipación 2025/26. El pantalón y las medias no
+cuentan: el Atlético es rojo y blanco, aunque su pantalón sea azul.
+
+**De dónde salen.** De la plantilla de equipación de la ficha de cada club en la Wikipedia en inglés: los campos
+`body1`, `leftarm1` y `rightarm1` (color de fondo del cuerpo y de cada manga) y `pattern_b1`, `pattern_la1` y
+`pattern_ra1` (imagen con las rayas, franjas o ribetes). El cuaderno 05 pinta la camiseta como lo hace
+Wikipedia y mide qué superficie ocupa cada color. Se usa la versión de cada artículo a 31 de mayo de 2026,
+último día de la temporada, porque las fichas actuales ya muestran la equipación 2026/27. Consultado el
+2026-11-16.
+
+**Color primario.** El blanco no identifica a ningún equipo salvo al Real Madrid: al Athletic nadie lo llama
+blanco. Por eso, de los dos colores con más superficie, el primario es el que no es blanco. Hay tres excepciones
+decididas por el autor:
+
+- **Real Madrid:** blanco.
+- **Barcelona:** el grana, su segundo color de camiseta, en lugar del azul.
+- **Valencia:** su camiseta es blanca. Se usa el naranja dominante de su escudo (`#e33e07`). Es el único color
+  primario que no sale de la plantilla de Wikipedia, y por eso es el único con `color_origen` = `revision_autor`.
+
+**Son colores aproximados, no colores de marca oficiales.** Wikipedia usa colores genéricos: el mismo `#ff0000`
+para casi todos los rojos.
+
+> **El color no identifica al equipo en este panel. Lo hace el escudo.** Con este criterio hay 7 equipos rojos
+> (Athletic, Atlético, Girona, Mallorca, Osasuna, Rayo y Sevilla) y 5 azules (Alavés, Espanyol, Getafe, Oviedo
+> y Real Sociedad), y varios comparten exactamente el mismo hexadecimal. El color sirve para acentuar la ficha
+> del jugador seleccionado, donde solo hay un equipo en pantalla. No debe usarse para distinguir equipos en un
+> gráfico. Es una decisión de diseño que viene de los datos.
+
+| Equipo | Artículo | Revisión | Fecha de la revisión | Primario | Secundario | Origen |
+|---|---|---|---|---|---|---|
+| Alaves | [Deportivo Alavés](https://en.wikipedia.org/wiki/Deportivo_Alavés) | 1355951832 | 2026-05-24 | `#0066e1` | `#ffffff` | wikipedia_equipacion |
+| Athletic Club | [Athletic Bilbao](https://en.wikipedia.org/wiki/Athletic_Bilbao) | 1356670834 | 2026-05-29 | `#ff0b0b` | `#ffffff` | wikipedia_equipacion |
+| Atletico Madrid | [Atlético Madrid](https://en.wikipedia.org/wiki/Atlético_Madrid) | 1357137026 | 2026-05-31 | `#ff0000` | `#ffffff` | wikipedia_equipacion |
+| Barcelona | [FC Barcelona](https://en.wikipedia.org/wiki/FC_Barcelona) | 1356877329 | 2026-05-30 | `#ba002f` | `#14266e` | wikipedia_equipacion |
+| Celta Vigo | [RC Celta de Vigo](https://en.wikipedia.org/wiki/RC_Celta_de_Vigo) | 1356706508 | 2026-05-29 | `#a3d0f4` | `#000000` | wikipedia_equipacion |
+| Elche | [Elche CF](https://en.wikipedia.org/wiki/Elche_CF) | 1356630873 | 2026-05-28 | `#008127` | `#ffffff` | wikipedia_equipacion |
+| Espanyol | [RCD Espanyol](https://en.wikipedia.org/wiki/RCD_Espanyol) | 1356534454 | 2026-05-28 | `#0000ff` | `#ffffff` | wikipedia_equipacion |
+| Getafe | [Getafe CF](https://en.wikipedia.org/wiki/Getafe_CF) | 1356233553 | 2026-05-26 | `#0000ff` | `#ff0000` | wikipedia_equipacion |
+| Girona | [Girona FC](https://en.wikipedia.org/wiki/Girona_FC) | 1356571866 | 2026-05-28 | `#ff0000` | `#ffffff` | wikipedia_equipacion |
+| Levante | [Levante UD](https://en.wikipedia.org/wiki/Levante_UD) | 1357000448 | 2026-05-31 | `#661424` | `#222730` | wikipedia_equipacion |
+| Mallorca | [RCD Mallorca](https://en.wikipedia.org/wiki/RCD_Mallorca) | 1356065821 | 2026-05-25 | `#ff0000` | `#000000` | wikipedia_equipacion |
+| Osasuna | [CA Osasuna](https://en.wikipedia.org/wiki/CA_Osasuna) | 1356879811 | 2026-05-30 | `#ff0000` | `#001355` | wikipedia_equipacion |
+| Rayo Vallecano | [Rayo Vallecano](https://en.wikipedia.org/wiki/Rayo_Vallecano) | 1356594400 | 2026-05-28 | `#ff0000` | `#ffffff` | wikipedia_equipacion |
+| Real Betis | [Real Betis](https://en.wikipedia.org/wiki/Real_Betis) | 1356116714 | 2026-05-25 | `#349b5c` | `#ffffff` | wikipedia_equipacion |
+| Real Madrid | [Real Madrid CF](https://en.wikipedia.org/wiki/Real_Madrid_CF) | 1356275441 | 2026-05-26 | `#ffffff` | `#d9d5d2` | wikipedia_equipacion |
+| Real Oviedo | [Real Oviedo](https://en.wikipedia.org/wiki/Real_Oviedo) | 1356732491 | 2026-05-29 | `#0000dd` | `#e1c67a` | wikipedia_equipacion |
+| Real Sociedad | [Real Sociedad](https://en.wikipedia.org/wiki/Real_Sociedad) | 1356624551 | 2026-05-28 | `#475cad` | `#ffffff` | wikipedia_equipacion |
+| Sevilla | [Sevilla FC](https://en.wikipedia.org/wiki/Sevilla_FC) | 1356512655 | 2026-05-28 | `#e20000` | `#ffffff` | wikipedia_equipacion |
+| Valencia | [Valencia CF](https://en.wikipedia.org/wiki/Valencia_CF) | 1356063522 | 2026-05-25 | `#e33e07` | `#ffffff` | revision_autor |
+| Villarreal | [Villarreal CF](https://en.wikipedia.org/wiki/Villarreal_CF) | 1356669725 | 2026-05-29 | `#ffff00` | `#01004e` | wikipedia_equipacion |
+
+El color dominante del escudo (cuaderno 03) no se usa en el modelo. Queda en `data/escudos.csv` y en
+`data/colores_equipos.csv` (`color_escudo`) para comparar.
+
+## Retratos de jugadores
+
+**Fuente: Transfermarkt** (transfermarkt.es), plantillas de la temporada 2025/26. Las imágenes no se descargan ni
+se republican: el modelo guarda la url, y Power BI (categoría "URL de imagen") y Tableau (rol de imagen) la
+cargan directamente. El panel deberá citar la fuente de forma visible.
+
+- Un jugador se empareja dentro de sus clubes de la temporada, por nombre exacto y con la edad comprobada contra
+  WhoScored (±1 año). 8 parejas con nombre parecido las revisó y confirmó el autor una a una.
+- **537** jugadores tienen retrato enlazado y **24** no: 18 que en Transfermarkt solo tienen la
+  silueta genérica, 5 sin coincidencia y 1 con cruce dudoso (Sergio Lozano, el mismo cruce de
+  `cruces_descartados.csv`).
+- Las url son externas y pueden cambiar o dejar de responder. El cuaderno 06 comprueba que responden; a
+  2026-11-16 respondían todas.
+
 ## Ficheros de trazabilidad (`data/`)
 
 | Fichero | Filas | Contenido |
@@ -240,6 +315,9 @@ seguía el criterio del propio fichero que validaba. Con el cambio, Bryan Zarago
 | `sin_minutos.csv` | 112 | Jugadores del fichero de posiciones que no jugaron en LaLiga 2025/26 |
 | `cruces_descartados.csv` | 7 | Cruces dudosos que no se aplican, con su motivo y su efecto |
 | `escudos.csv` | 20 | Origen de cada escudo (Wikidata o web oficial), url, licencia, fecha de descarga, tamaño original, escala aplicada, color primario y su peso en el escudo |
+| `colores_equipos.csv` | 20 | Artículo de Wikipedia, revisión y fechas, campos de la plantilla de equipación, los dos colores medidos con su superficie, color primario, secundario, origen y color dominante del escudo (`color_escudo`, solo para comparar) |
+| `wikitexto_equipaciones.json` | 20 artículos | Copia de lo leído en Wikipedia: líneas de la equipación de cada ficha con su revisión y fecha, e imágenes de los patrones y siluetas de la plantilla. Permite ejecutar el cuaderno 05 sin conexión |
+| `fotos_transfermarkt.csv` | 561 | Para cada jugador, el candidato de Transfermarkt, su estado (`claro`, `confirmado_autor`, `dudoso` o `sin_coincidencia`), el motivo, si se aplica, y el código de respuesta y el peso de la url |
 | `fotos_wikidata.csv` | 561 | Para cada jugador, la entidad de Wikidata aceptada (si la hay), la url, licencia, autor y tamaño de su foto, y el motivo cuando no se acepta ninguna |
 
 ### Valores de `origen` en `mapa_nombres.csv`

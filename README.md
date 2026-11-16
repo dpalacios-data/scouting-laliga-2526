@@ -25,6 +25,11 @@ datos ya procesados. El TFM no se modifica.
   ya agregadas por jugador están versionadas en `data/eventos_por_jugador.csv`, y el resto son ficheros de
   `data/origen/` y de `data/`.
 - **El cuaderno 02 también se puede ejecutar** con lo que hay en el repositorio.
+- **El cuaderno 05 también se puede ejecutar sin conexión.** Lo que leyó de Wikipedia está versionado en
+  `data/wikitexto_equipaciones.json`.
+- **El cuaderno 06 no se puede ejecutar desde fuera sin volver a descargar** las 20 páginas de plantilla de
+  Transfermarkt, que se guardan en `data/bruto/transfermarkt/` y no se versionan. Su resultado sí está
+  versionado, en `data/fotos_transfermarkt.csv`.
 - **Los cuadernos 03 y 04 necesitan conexión a internet.** El 03 descarga los escudos de Wikimedia Commons y de
   las webs oficiales de los clubes, que pueden cambiar de dirección. El 04 consulta Wikidata; guarda una caché
   local (`data/cache_wikidata.json`, unos 8 MB) que no se versiona.
@@ -120,9 +125,9 @@ dim_posicion ┘
 
 | Tabla | Filas | Contenido |
 |---|---|---|
-| `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados, fichero del escudo y color primario |
+| `dim_equipo` | 20 | equipo, altura defensiva, puntos, puntos esperados, fichero del escudo y colores primario y secundario de la camiseta |
 | `dim_posicion` | 9 | posición y grupo de comparación |
-| `dim_jugador` | 561 | jugador, equipo, posición, minutos, partidos y de dónde sale su posición |
+| `dim_jugador` | 561 | jugador, equipo, posición, minutos, partidos, de dónde sale su posición y url de su retrato |
 | `hechos_jugador` | 561 | 19 métricas por 90 minutos y 2 porcentajes de éxito, con su percentil por grupo, `percentil_fiable`, `n_grupo_referencia` y `muestra_reducida` |
 
 **Claves.** Todas las claves son numéricas y propias. La clave del jugador nunca es el nombre: hay dos jugadores
@@ -155,11 +160,30 @@ transparencia, 128 × 128 px y el mismo margen interior. El origen de cada uno e
 - Los otros 17 son marcas de los clubes, descargadas de sus webs oficiales. No se versionan; el cuaderno 03 los
   descarga de nuevo.
 
-`dim_equipo.color_primario` es el color más frecuente de cada escudo, sin contar el blanco ni el negro. Sale de
-la imagen, no de una lista: en escudos con corona o borde dorado, el dorado puede ganar al color del club.
+**Colores.** `dim_equipo.color_primario` y `color_secundario` son los dos colores de la camiseta de la primera
+equipación 2025/26, medidos sobre la plantilla de equipación de la ficha de cada club en la Wikipedia en inglés
+(versión de cada artículo a 31 de mayo de 2026). El primario es el que no es blanco, porque el blanco solo
+identifica al Real Madrid. Son colores aproximados de Wikipedia, no colores de marca oficiales.
 
-**Fotos de jugadores.** Todavía no se descarga ninguna. `data/fotos_wikidata.csv` recoge, para los 561, si hay
-una entidad de Wikidata que sea claramente el jugador y si tiene foto, con su licencia y su autor.
+**El color no identifica al equipo en este panel: lo hace el escudo.** Hay 7 equipos rojos y 5 azules, y varios
+comparten exactamente el mismo `#ff0000`. El color servirá para acentuar la ficha del jugador seleccionado,
+donde solo hay un equipo en pantalla. El detalle, con la revisión de cada artículo, está en el
+[diccionario de datos](docs/diccionario_datos.md).
+
+**Retratos de jugadores. Fuente: [Transfermarkt](https://www.transfermarkt.es).** Las imágenes no se descargan
+ni se republican: `dim_jugador.url_foto` guarda la dirección del retrato en los servidores de Transfermarkt, y
+el panel la cargará desde allí. Los retratos son de Transfermarkt y de sus proveedores, y el panel citará la
+fuente de forma visible.
+
+- **537 de 561** jugadores tienen retrato enlazado, y **365 de los 368** con percentil fiable.
+- Los otros **24** llevarán un retrato de iniciales, con el mismo tamaño y la misma forma: 18 que en
+  Transfermarkt solo tienen la silueta genérica, 5 sin coincidencia y 1 con cruce dudoso.
+- Todas las url responden fuera de la web de Transfermarkt, pesan entre 3 y 30 KB y tienen 85 caracteres como
+  máximo, dentro de los límites de Tableau (128 KB y 255 caracteres).
+
+**Fuente evaluada y descartada: Wikimedia Commons.** Antes se midió la cobertura de fotos con licencia libre en
+Wikidata (cuaderno 04, `data/fotos_wikidata.csv`): 218 de 561 jugadores (38,9 %) y 174 de los 368 con percentil
+fiable (47,3 %). Con menos de la mitad de cobertura se cambió de fuente.
 
 ## Cuadernos
 
@@ -167,8 +191,10 @@ una entidad de Wikidata que sea claramente el jugador y si tiene foto, con su li
 |---|---|---|
 | `notebooks/00_cruces_nombres.ipynb` | Decide qué jugador es quién en cada fuente. Todas las decisiones de cruce están escritas como listas en el cuaderno. Genera los ficheros de `data/` | **no**: necesita los eventos de WhoScored, que no están versionados |
 | `notebooks/01_modelo_datos.ipynb` | Construye el modelo de `data/modelo/`, imprime el cuadre y ejecuta las comprobaciones de calidad | sí |
-| `notebooks/03_escudos.ipynb` | Descarga los 20 escudos, los normaliza a 128 × 128 px con el mismo margen y extrae su color primario | con conexión a internet |
-| `notebooks/04_fotos_wikidata.ipynb` | Mide qué jugadores tienen foto en Wikidata. No descarga ninguna imagen | con conexión a internet |
+| `notebooks/03_escudos.ipynb` | Descarga los 20 escudos, los normaliza a 128 × 128 px con el mismo margen y extrae su color dominante | con conexión a internet |
+| `notebooks/04_fotos_wikidata.ipynb` | Mide qué jugadores tienen foto en Wikidata. No descarga ninguna imagen. Fuente descartada por cobertura | con conexión a internet |
+| `notebooks/05_colores_equipacion.ipynb` | Mide los dos colores de la camiseta de cada equipo sobre la plantilla de equipación de Wikipedia y fija el color primario | sí |
+| `notebooks/06_fotos_transfermarkt.ipynb` | Empareja a los 561 jugadores con las plantillas de Transfermarkt y guarda la url de su retrato, sin descargar imágenes. Comprueba que las url responden y cumplen los límites de Tableau | **no** sin volver a descargar las plantillas |
 | `notebooks/02_auditoria_cruce_eventos.ipynb` | Comprueba que el cruce por identificador reproduce las cifras de eventos publicadas en el TFM: 462 de 464 jugadores son idénticos. Identifica los dos que cambian (dos homónimos que el TFM sumaba al cruzar por nombre) y mide su efecto en los cálculos del TFM. Compara también volumen y éxito en duelos aéreos y entradas | sí |
 
 Entorno: Python con pandas, numpy, pyarrow, unidecode y scikit-learn 1.9.1 (la versión con la que el cuaderno 02
