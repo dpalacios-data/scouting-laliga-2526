@@ -25,3 +25,14 @@ desktop.ini
 
 # Datos en bruto: demasiado grandes para versionar (eventos ~16 MB)
 data/bruto/
+
+# Caché de las consultas a Wikidata (unos 8 MB); el cuaderno 04 la regenera
+data/cache_wikidata.json
+
+# Escudos: solo se versionan los que tienen licencia libre en Wikimedia Commons.
+# El resto son marcas de los clubes, descargadas de sus webs oficiales; el cuaderno 03 los regenera
+images/escudos/*
+!images/escudos/barcelona.png
+!images/escudos/celta_vigo.png
+!images/escudos/getafe.png
+images/escudos_control.png
