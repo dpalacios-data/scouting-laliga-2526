@@ -1,0 +1,237 @@
+# Diccionario de datos
+
+Modelo en estrella de `data/modelo/`, construido por `notebooks/01_modelo_datos.ipynb` a partir de los ficheros
+de cruce que genera `notebooks/00_cruces_nombres.ipynb`.
+
+```
+dim_equipo ──┐
+             ├── dim_jugador ── hechos_jugador
+dim_posicion ┘
+```
+
+- `dim_jugador.id_equipo` → `dim_equipo.id_equipo`
+- `dim_jugador.id_posicion` → `dim_posicion.id_posicion`
+- `hechos_jugador.id_jugador` → `dim_jugador.id_jugador` (relación uno a uno)
+
+**Cobertura:** jugadores de campo con minutos en LaLiga 2025/26. Los porteros no están (ver más abajo).
+
+---
+
+## dim_equipo.csv · 20 filas
+
+| Columna | Qué es | Unidad | De dónde sale |
+|---|---|---|---|
+| `id_equipo` | Clave propia del equipo | entero, 1 a 20, por orden alfabético | generada en el cuaderno 01 |
+| `equipo` | Nombre del equipo | texto | fichero propio de posiciones; WhoScored escribe "Atletico" y "Deportivo Alaves", que se traducen con una correspondencia explícita en los cuadernos 00 y 01 |
+| `altura_defensiva` | Posición media en el largo del campo de las entradas, intercepciones, despejes, pases bloqueados y recuperaciones del equipo | coordenada x de Opta: 0 = portería propia, 100 = portería rival. **No son metros** | `altura_defensiva_laliga_2526.csv`, calculada en el TFM (cuaderno 02) con los eventos de Opta |
+| `puntos` | Puntos reales en la liga | puntos | `clasificacion_xpts_laliga_2526.csv` (TFM, a partir de Understat) |
+| `puntos_esperados` | Puntos esperados según el xG de cada partido | puntos | `clasificacion_xpts_laliga_2526.csv`, columna `xpts` (Understat) |
+| `escudo` | Nombre previsto del fichero del escudo. Las imágenes todavía no existen | texto, minúsculas, sin acentos, con guiones bajos | generado a partir de `equipo` |
+
+## dim_posicion.csv · 9 filas
+
+| Columna | Qué es | Unidad | De dónde sale |
+|---|---|---|---|
+| `id_posicion` | Clave propia de la posición | entero | generada en el cuaderno 01 |
+| `posicion` | Posición del jugador | texto | fichero propio de posiciones o alineaciones de WhoScored (ver `dim_jugador.posicion_origen`) |
+| `grupo` | Grupo de comparación para los percentiles | texto | definido en el cuaderno 01 |
+
+| posicion | grupo | ¿Tiene percentil? |
+|---|---|---|
+| central | central | sí |
+| lateral | lateral | sí |
+| pivote | pivote_mediocentro | sí |
+| mediocentro | pivote_mediocentro | sí |
+| mediapunta | mediapunta | sí, **con aviso de muestra reducida** |
+| extremo | extremo | sí |
+| delantero | delantero | sí |
+| sin_definir | sin_definir | no |
+| sin_confirmar | sin_confirmar | no. En el panel se lee "Posición no confirmada" |
+
+Pivote y mediocentro van en el mismo grupo, como en el TFM, porque las fuentes no coinciden en la frontera
+entre los dos puestos.
+
+## dim_jugador.csv · 561 filas
+
+| Columna | Qué es | Unidad | De dónde sale |
+|---|---|---|---|
+| `id_jugador` | Clave propia del jugador. **El nombre no sirve de clave**: hay dos David López, uno en el Mallorca y otro en el Girona | entero, 1 a 561, por equipo y nombre | generada en el cuaderno 01 |
+| `jugador` | Nombre del jugador | texto | fichero propio de posiciones; para los 38 que no están en él, el nombre de Understat |
+| `id_equipo` | Club actual del jugador | clave → `dim_equipo` | fichero propio de posiciones; para los 38 que no están en él, el equipo de Understat |
+| `id_posicion` | Posición | clave → `dim_posicion` | ver `posicion_origen` |
+| `minutos` | Minutos jugados en toda la temporada, sumando todos sus clubes | minutos | Understat (`minutes`) |
+| `partidos` | Partidos jugados en toda la temporada, sumando todos sus clubes | partidos | Understat (`matches`) |
+| `posicion_origen` | De dónde sale la posición: `fichero_propio` (523 jugadores) o `alineaciones_whoscored` (38) | texto | cuaderno 00 |
+| `equipos_temporada` | Partidos con al menos un evento de Opta, por club. Ejemplo: "Celta Vigo 10 + Girona 17". Vacío si no tiene eventos | texto | eventos de Opta, por identificador de WhoScored |
+| `id_understat` | Identificador del jugador en Understat, para auditoría | entero | Understat (`player_id`) |
+| `id_whoscored` | Identificador del jugador en WhoScored, para auditoría. Vacío en los 5 jugadores sin eventos | entero | alineaciones de WhoScored |
+
+## hechos_jugador.csv · 561 filas
+
+Una fila por jugador. Todas las métricas están **por 90 minutos**: total de la temporada ÷ `minutos` × 90.
+
+| Columna | Qué es | Unidad | De dónde sale |
+|---|---|---|---|
+| `id_jugador` | Clave del jugador | clave → `dim_jugador` | cuaderno 01 |
+| `tiene_eventos` | Verdadero si el jugador está cruzado con los eventos de Opta (ver más abajo) | verdadero/falso | cuaderno 00 |
+| `goles_90` | Goles | por 90 min | Understat `goals` |
+| `goles_sin_penalti_90` | Goles sin contar penaltis | por 90 min | Understat `np_goals` |
+| `xg_90` | Goles esperados de sus tiros | xG por 90 min | Understat `xg` |
+| `xg_sin_penalti_90` | Goles esperados sin penaltis | xG por 90 min | Understat `np_xg` |
+| `asistencias_90` | Asistencias | por 90 min | Understat `assists` |
+| `xa_90` | Asistencias esperadas: xG de los tiros que sale de sus pases | xA por 90 min | Understat `xa` |
+| `tiros_90` | Tiros | por 90 min | Understat `shots` |
+| `pases_clave_90` | Pases que terminan en tiro | por 90 min | Understat `key_passes` |
+| `xg_chain_90` | xG de todas las posesiones en las que participa | xG por 90 min | Understat `xg_chain` |
+| `xg_buildup_90` | xGChain sin contar sus tiros ni sus pases clave | xG por 90 min | Understat `xg_buildup` |
+| `entradas_90` | Eventos `Tackle`, con cualquier resultado | por 90 min | Opta (WhoScored) |
+| `intercepciones_90` | Eventos `Interception` | por 90 min | Opta |
+| `despejes_90` | Eventos `Clearance` | por 90 min | Opta |
+| `pases_bloqueados_90` | Eventos `BlockedPass` | por 90 min | Opta |
+| `duelos_aereos_90` | Eventos `Aerial`, ganados y perdidos | por 90 min | Opta |
+| `centros_90` | Pases con el calificador `Cross` | por 90 min | Opta |
+| `toques_area_90` | Toques con x ≥ 83 e y entre 21,1 y 78,9 (área rival, en coordenadas de Opta) | por 90 min | Opta |
+| `pctl_<métrica>` | Percentil de la métrica dentro de su grupo de posición (17 columnas, una por métrica) | 0 a 100 | cuaderno 01 (ver más abajo) |
+| `percentil_fiable` | Verdadero si el jugador tiene 600 minutos o más y su grupo tiene percentil | verdadero/falso | cuaderno 01 |
+| `n_grupo_referencia` | Número de jugadores contra los que se calcula su percentil (los de su grupo con 600 minutos o más). Vacío si su grupo no tiene percentil | jugadores | cuaderno 01 |
+| `muestra_reducida` | Verdadero si `n_grupo_referencia` es 30 o menos. Solo afecta a mediapunta (28) | verdadero/falso | cuaderno 01 |
+
+Las definiciones de las siete métricas de Opta son las de la tabla de métricas del TFM, sin cambios.
+
+---
+
+## La regla de los 600 minutos
+
+Un percentil compara a un jugador con su grupo. Si el grupo incluye a jugadores con muy pocos minutos, sus
+valores por 90 son ruido: un gol en 40 minutos da 2,25 goles por 90. Por eso:
+
+- **El grupo de referencia solo incluye jugadores con 600 minutos o más**, el mismo umbral del TFM.
+- Los jugadores con menos de 600 minutos **sí aparecen** en las tablas y **sí tienen percentil**, calculado
+  contra el grupo de referencia de su posición. Pero llevan `percentil_fiable` en falso para poder filtrarlos.
+
+## Por qué los percentiles van por grupo de posición
+
+Las métricas significan cosas distintas según el puesto. Un central despeja muchos balones por 90 y un extremo
+casi ninguno: comparado con toda la liga, cualquier central saldría arriba en despejes y cualquier extremo abajo,
+y el percentil no diría nada del jugador. Dentro de su grupo, el percentil responde a la pregunta útil:
+**cómo está respecto a los que juegan donde él juega**.
+
+Los grupos `sin_definir` y `sin_confirmar` no tienen percentil. No hay un grupo de referencia con sentido
+para un jugador cuya posición no se conoce.
+
+### Tamaño de cada grupo de referencia
+
+| Grupo | Jugadores | Con 600 min o más (`n_grupo_referencia`) |
+|---|---|---|
+| pivote_mediocentro | 108 | 87 |
+| lateral | 94 | 73 |
+| central | 95 | 71 |
+| extremo | 86 | 59 |
+| delantero | 83 | 50 |
+| mediapunta | 39 | **28**: muestra reducida, con aviso en el panel |
+| sin_definir | 28 | sin percentil |
+| sin_confirmar | 28 | sin percentil |
+
+Con 28 jugadores, cada puesto del ranking de mediapunta mueve el percentil 3,6 puntos.
+
+## Fórmula del percentil
+
+> **percentil = (número de jugadores del grupo de referencia con un valor estrictamente menor) ÷ (número de
+> jugadores del grupo de referencia) × 100**
+
+- Es la fórmula de las cifras publicadas en el TFM y las reproduce exactamente: Valjent percentil 9 en
+  intercepciones, Llorente 98 y, en el bloque bajo, 10, 19 y 38.
+- **Ningún jugador del grupo de referencia llega a 100.** El mejor de un grupo de n jugadores sale en
+  (n − 1) ÷ n × 100: con 71 centrales, 98,59; con 87 en pivote_mediocentro, 98,85. No es un fallo del panel.
+- Un jugador con **menos de 600 minutos** sí puede llegar a 100 si supera al mejor del grupo de referencia.
+  Ese percentil lleva `percentil_fiable` en falso.
+- Los empates comparten percentil: nadie empatado está "estrictamente por debajo" de otro.
+- **No coincide con `rank(pct=True)` de pandas**, que es lo que usan algunas celdas del TFM. Esa fórmula da
+  Valjent 10,8 y Llorente 100 sobre los mismos 65 centrales, y no reproduce las cifras publicadas.
+- **Los percentiles de este proyecto no coinciden con los del TFM, y es lo esperado.** El grupo de centrales
+  pasa de 65 a 71 jugadores porque este proyecto recupera jugadores que el TFM no cruzaba, y corrige a los dos
+  David López. Con el grupo de este proyecto, Valjent sale en el percentil 12,68 de intercepciones y Llorente
+  en el 98,59.
+
+## tiene_eventos: "no hizo la acción" frente a "no tengo el dato"
+
+- `tiene_eventos` = verdadero: el jugador está cruzado con los eventos de Opta por su identificador de
+  WhoScored. Un 0 en una métrica de Opta significa que **no hizo esa acción**.
+- `tiene_eventos` = falso: no hay un cruce seguro con los eventos. Las siete métricas de Opta y sus percentiles
+  están **vacíos**, nunca a cero. Las métricas de Understat sí están.
+
+Hay **5 jugadores** con `tiene_eventos` en falso. Todos tienen menos de 600 minutos, así que ninguno tiene
+percentil fiable y ninguno altera un grupo de referencia:
+
+| Jugador | Equipo | Minutos | Motivo |
+|---|---|---|---|
+| Carlos Benavídez | Alavés | 311 | su posible nombre en WhoScored, "Carlos Protesoni", solo comparte el nombre de pila |
+| Yago Alonso | Elche | 275 | su posible nombre en WhoScored, "Yago Santiago", solo comparte el nombre de pila |
+| Adam El Mokhtari | Elche | 85 | su posible nombre en WhoScored, "Adam Boayar", solo comparte el nombre de pila |
+| Sergio Lozano | Rayo Vallecano | 7 | traspaso dudoso: Understat y los eventos solo lo sitúan en el Levante |
+| Rubén Iranzo | Valencia | 1 | el único candidato, "Rubo", es un indicio demasiado débil |
+
+Detalle y minutos en `data/cruces_descartados.csv`.
+
+## Posición deducida de las alineaciones
+
+Hay 38 jugadores de campo con minutos en Understat que no están en el fichero propio de posiciones. Su
+posición se deduce de sus titularidades en las alineaciones de WhoScored (`posicion_origen` =
+`alineaciones_whoscored`):
+
+- **Regla:** al menos 3 titularidades y más de la mitad de ellas en el mismo grupo de posición.
+- **10 confirmados** a mano, con la posición propuesta por la regla.
+- **28 sin confirmar**: 15 con menos de 3 titularidades, 11 que nunca fueron titulares y 2 sin identificador de
+  WhoScored. Están en el grupo `sin_confirmar`, sin percentil. Ninguno pasa de 320 minutos.
+
+El recuento de cada uno está en `data/posiciones_alineaciones.csv`.
+
+### Equivalencia de puestos de WhoScored
+
+| Puesto de WhoScored | Significado | Posición | Grupo |
+|---|---|---|---|
+| DC | defensa central | central | central |
+| DL, DR | lateral izquierdo, derecho | lateral | lateral |
+| DML, DMR | carrilero izquierdo, derecho | lateral | lateral |
+| DMC | mediocentro defensivo | pivote | pivote_mediocentro |
+| MC | mediocentro | mediocentro | pivote_mediocentro |
+| AMC | mediapunta | mediapunta | mediapunta |
+| AML, AMR | extremo izquierdo, derecho | extremo | extremo |
+| ML, MR | interior/volante izquierdo, derecho | extremo | extremo |
+| **FWL, FWR** | **delantero escorado a la izquierda, derecha** | **extremo** | **extremo** |
+| FW | delantero centro | delantero | delantero |
+
+**FWL y FWR van a extremo, y eso difiere de la equivalencia que usaba el TFM**, que los mandaba a delantero.
+El cambio sigue a mi propio fichero de posiciones: entre los jugadores que están en él, los titulares en FWL
+son extremos 57 veces y delanteros 10, y en FWR, extremos 46 veces y delanteros 28. La equivalencia del TFM no
+seguía el criterio del propio fichero que validaba. Con el cambio, Bryan Zaragoza y Yáser Asprilla son extremos.
+
+---
+
+## Ficheros de trazabilidad (`data/`)
+
+| Fichero | Filas | Contenido |
+|---|---|---|
+| `mapa_nombres.csv` | 561 | Un jugador del modelo por fila: nombre en cada fuente, identificadores de Understat y WhoScored, minutos, partidos en Understat, partidos con eventos y origen del cruce |
+| `eventos_por_jugador.csv` | 556 | Totales de las siete acciones de Opta por identificador de WhoScored, partidos con eventos y reparto por club |
+| `posiciones_alineaciones.csv` | 38 | Titularidades por puesto, propuesta, si es concluyente y si está confirmada |
+| `sin_minutos.csv` | 112 | Jugadores del fichero de posiciones que no jugaron en LaLiga 2025/26 |
+| `cruces_descartados.csv` | 7 | Cruces dudosos que no se aplican, con su motivo y su efecto |
+
+### Valores de `origen` en `mapa_nombres.csv`
+
+| origen | Jugadores | Qué es |
+|---|---|---|
+| `directo` | 466 | Cruzados por el TFM sin cambios |
+| `recuperado_15` | 15 | Estaban en la tabla del TFM, pero con las métricas de Opta vacías porque el nombre no cruzó con los eventos. Recuperados por nombre en WhoScored, mismo equipo y mismos partidos |
+| `recuperado_36` | 36 | En el fichero de posiciones con otro nombre que en Understat. Recuperados por nombre, mismo equipo y mismos partidos |
+| `traspasado` | 6 | Understat los pone en su club anterior. Equipo = el del fichero de posiciones (club actual); minutos y partidos de toda la temporada; eventos de los dos clubes sumados |
+| `recuperado_grafia` | 2 | Jugadores de Understat sin posición cuyo nombre en WhoScored es otra grafía: Yeremi/Yéremy Pino y Stanis Idumbo (Muzambo) |
+| `understat_sin_posicion` | 36 | Jugadores de campo de Understat que no están en el fichero de posiciones |
+
+Los 38 jugadores con la posición deducida de las alineaciones son los 36 `understat_sin_posicion` más los 2
+`recuperado_grafia`.
+
+Además de los 6 traspasados, hay otros 6 jugadores que tienen eventos con dos clubes y entran como directos:
+Rodrigo Mendoza, Álvaro Núñez, Ilias Akhomach, Karl Etta Eyong, Adrià Pedrosa y Urko González de Zárate.
+Como los eventos se cruzan por identificador, suman los dos clubes, y `equipos_temporada` muestra el reparto.
