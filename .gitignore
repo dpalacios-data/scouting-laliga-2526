@@ -29,13 +29,5 @@ data/bruto/
 # Caché de las consultas a Wikidata (unos 8 MB); el cuaderno 04 la regenera
 data/cache_wikidata.json
 
-# Escudos: solo se versionan los que tienen licencia libre en Wikimedia Commons.
-# El resto son marcas de los clubes, descargadas de sus webs oficiales; el cuaderno 03 los regenera
-images/escudos/*
-!images/escudos/barcelona.png
-!images/escudos/celta_vigo.png
-!images/escudos/getafe.png
+# Hoja de control interna del cuaderno 03 (la de revisión de colores sí se versiona)
 images/escudos_control.png
-
-# Hoja de revisión de colores: incluye los 20 escudos, que no se versionan todos
-images/revision_colores.png
