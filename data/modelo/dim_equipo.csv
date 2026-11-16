@@ -1,21 +1,21 @@
-id_equipo,equipo,altura_defensiva,puntos,puntos_esperados,escudo,color_primario,color_secundario,color_origen
-1,Alaves,32.4,43,52.58,alaves.png,#0066e1,#ffffff,wikipedia_equipacion
-2,Athletic Club,37.73,45,56.9,athletic_club.png,#ff0b0b,#ffffff,wikipedia_equipacion
-3,Atletico Madrid,33.29,69,61.83,atletico_madrid.png,#ff0000,#ffffff,wikipedia_equipacion
-4,Barcelona,36.49,94,79.06,barcelona.png,#ba002f,#14266e,wikipedia_equipacion
-5,Celta Vigo,31.25,54,51.37,celta_vigo.png,#a3d0f4,#000000,wikipedia_equipacion
-6,Elche,32.0,43,41.67,elche.png,#008127,#ffffff,wikipedia_equipacion
-7,Espanyol,33.24,46,44.13,espanyol.png,#0000ff,#ffffff,wikipedia_equipacion
-8,Getafe,32.85,51,42.95,getafe.png,#0000ff,#ff0000,wikipedia_equipacion
-9,Girona,30.36,41,45.11,girona.png,#ff0000,#ffffff,wikipedia_equipacion
-10,Levante,32.23,42,47.79,levante.png,#661424,#222730,wikipedia_equipacion
-11,Mallorca,29.8,42,39.79,mallorca.png,#ff0000,#000000,wikipedia_equipacion
-12,Osasuna,31.14,42,53.36,osasuna.png,#ff0000,#001355,wikipedia_equipacion
-13,Rayo Vallecano,32.26,50,55.9,rayo_vallecano.png,#ff0000,#ffffff,wikipedia_equipacion
-14,Real Betis,32.05,60,59.96,real_betis.png,#349b5c,#ffffff,wikipedia_equipacion
-15,Real Madrid,35.78,86,75.93,real_madrid.png,#ffffff,#d9d5d2,wikipedia_equipacion
-16,Real Oviedo,30.71,29,36.08,real_oviedo.png,#0000dd,#e1c67a,wikipedia_equipacion
-17,Real Sociedad,33.65,46,54.61,real_sociedad.png,#475cad,#ffffff,wikipedia_equipacion
-18,Sevilla,32.91,43,37.88,sevilla.png,#e20000,#ffffff,wikipedia_equipacion
-19,Valencia,32.0,49,53.54,valencia.png,#e33e07,#ffffff,revision_autor
-20,Villarreal,30.11,72,63.28,villarreal.png,#ffff00,#01004e,wikipedia_equipacion
+id_equipo,equipo,altura_defensiva,puntos,puntos_esperados,escudo,url_escudo,color_primario,color_secundario,color_origen,color_secundario_origen
+1,Alaves,32.4,43,52.58,alaves.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/alaves.png,#0066e1,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+2,Athletic Club,37.73,45,56.9,athletic_club.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/athletic_club.png,#ff0b0b,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+3,Atletico Madrid,33.29,69,61.83,atletico_madrid.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/atletico_madrid.png,#ff0000,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+4,Barcelona,36.49,94,79.06,barcelona.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/barcelona.png,#ba002f,#14266e,wikipedia_equipacion,wikipedia_equipacion
+5,Celta Vigo,31.25,54,51.37,celta_vigo.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/celta_vigo.png,#a3d0f4,#ffffff,wikipedia_equipacion,revision_autor
+6,Elche,32.0,43,41.67,elche.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/elche.png,#008127,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+7,Espanyol,33.24,46,44.13,espanyol.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/espanyol.png,#0000ff,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+8,Getafe,32.85,51,42.95,getafe.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/getafe.png,#0000ff,#ff0000,wikipedia_equipacion,wikipedia_equipacion
+9,Girona,30.36,41,45.11,girona.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/girona.png,#ff0000,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+10,Levante,32.23,42,47.79,levante.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/levante.png,#661424,#222730,wikipedia_equipacion,wikipedia_equipacion
+11,Mallorca,29.8,42,39.79,mallorca.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/mallorca.png,#ff0000,#000000,wikipedia_equipacion,wikipedia_equipacion
+12,Osasuna,31.14,42,53.36,osasuna.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/osasuna.png,#ff0000,#001355,wikipedia_equipacion,wikipedia_equipacion
+13,Rayo Vallecano,32.26,50,55.9,rayo_vallecano.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/rayo_vallecano.png,#ff0000,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+14,Real Betis,32.05,60,59.96,real_betis.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/real_betis.png,#349b5c,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+15,Real Madrid,35.78,86,75.93,real_madrid.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/real_madrid.png,#ffffff,#d9d5d2,wikipedia_equipacion,wikipedia_equipacion
+16,Real Oviedo,30.71,29,36.08,real_oviedo.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/real_oviedo.png,#0000dd,#e1c67a,wikipedia_equipacion,wikipedia_equipacion
+17,Real Sociedad,33.65,46,54.61,real_sociedad.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/real_sociedad.png,#475cad,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+18,Sevilla,32.91,43,37.88,sevilla.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/sevilla.png,#e20000,#ffffff,wikipedia_equipacion,wikipedia_equipacion
+19,Valencia,32.0,49,53.54,valencia.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/valencia.png,#e33e07,#ffffff,revision_autor,wikipedia_equipacion
+20,Villarreal,30.11,72,63.28,villarreal.png,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/escudos/villarreal.png,#ffff00,#01004e,wikipedia_equipacion,wikipedia_equipacion

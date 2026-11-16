@@ -1,15 +1,15 @@
 id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipos_temporada,url_foto,foto_origen,id_understat,id_whoscored,id_transfermarkt
 1,Abde Rebbach,1,6,1479,30,fichero_propio,Alaves 30,https://img.a.transfermarkt.technology/portrait/medium/718034-1705337308.jpg?lm=4711,transfermarkt,11825,447835,718034
-2,Aitor Mañas,1,7,105,9,fichero_propio,Alaves 9,,iniciales,14222,514695,
+2,Aitor Mañas,1,7,105,9,fichero_propio,Alaves 9,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/2.png,iniciales,14222,514695,
 3,Ander Guevara,1,4,581,25,fichero_propio,Alaves 25,https://img.a.transfermarkt.technology/portrait/medium/465967-1705338008.jpg?lm=4711,transfermarkt,6126,344120,465967
 4,Antonio Blanco,1,3,3137,36,fichero_propio,Alaves 36,https://img.a.transfermarkt.technology/portrait/medium/495621-1705337231.jpg?lm=4711,transfermarkt,9280,409467,495621
 5,Calebe,1,5,767,19,fichero_propio,Alaves 19,https://img.a.transfermarkt.technology/portrait/medium/798114-1762367600.jpg?lm=4711,transfermarkt,13764,397568,798114
 6,Carles Aleñá,1,4,2002,34,fichero_propio,Alaves 34,https://img.a.transfermarkt.technology/portrait/medium/284854-1669364902.jpg?lm=4711,transfermarkt,5058,303268,284854
 7,Carlos Ballestero,1,8,1,1,fichero_propio,Alaves 1,https://img.a.transfermarkt.technology/portrait/medium/945760-1733488790.jpg?lm=4711,transfermarkt,14117,508232,945760
-8,Carlos Benavídez,1,9,311,13,alineaciones_whoscored,,,iniciales,11826,,
+8,Carlos Benavídez,1,9,311,13,alineaciones_whoscored,,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/8.png,iniciales,11826,,
 9,Carlos Vicente,1,6,1250,21,alineaciones_whoscored,Alaves 21,https://img.a.transfermarkt.technology/portrait/medium/540536-1794301190.jpg?lm=4711,transfermarkt,12294,462861,540536
 10,Denis Suárez,1,5,1407,30,fichero_propio,Alaves 30,https://img.a.transfermarkt.technology/portrait/medium/165007-1687272769.jpg?lm=4711,transfermarkt,2308,106525,165007
-11,Diego Morcillo,1,7,8,1,fichero_propio,Alaves 1,,iniciales,14116,464011,
+11,Diego Morcillo,1,7,8,1,fichero_propio,Alaves 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/11.png,iniciales,14116,464011,
 12,Facundo Garcés,1,1,786,10,fichero_propio,Alaves 10,https://img.a.transfermarkt.technology/portrait/medium/533354-1633539030.JPG?lm=4711,transfermarkt,13319,337454,533354
 13,Ibrahim Diabate,1,7,579,10,fichero_propio,Alaves 10,https://img.a.transfermarkt.technology/portrait/medium/620696-1789478831.png?lm=4711,transfermarkt,14465,607607,620696
 14,Jon Guridi,1,4,1251,28,fichero_propio,Alaves 28,https://img.a.transfermarkt.technology/portrait/medium/289257-1604301765.jpg?lm=4711,transfermarkt,5179,335041,289257
@@ -54,7 +54,7 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 53,Íñigo Lekue,2,2,607,11,fichero_propio,Athletic Club 12,https://img.a.transfermarkt.technology/portrait/medium/255501-1709675295.png?lm=4711,transfermarkt,2403,291686,255501
 54,Íñigo Ruíz de Galarreta,2,4,2289,34,fichero_propio,Athletic Club 34,https://img.a.transfermarkt.technology/portrait/medium/126751-1709675810.png?lm=4711,transfermarkt,9755,106586,126751
 55,Ademola Lookman,3,6,638,12,fichero_propio,Atletico Madrid 12,https://img.a.transfermarkt.technology/portrait/medium/406040-1769763751.jpg?lm=4711,transfermarkt,5556,299451,406040
-56,Aleksa Puric,3,8,40,2,fichero_propio,Atletico Madrid 2,,iniciales,14224,541901,
+56,Aleksa Puric,3,8,40,2,fichero_propio,Atletico Madrid 2,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/56.png,iniciales,14224,541901,
 57,Alexander Sørloth,3,7,1955,35,fichero_propio,Atletico Madrid 35,https://img.a.transfermarkt.technology/portrait/medium/238407-1716403969.jpg?lm=4711,transfermarkt,6531,302497,238407
 58,Antoine Griezmann,3,7,1428,34,fichero_propio,Atletico Madrid 35,https://img.a.transfermarkt.technology/portrait/medium/125781-1775233998.jpg?lm=4711,transfermarkt,2270,80241,125781
 59,Clément Lenglet,3,1,1402,19,fichero_propio,Atletico Madrid 19,https://img.a.transfermarkt.technology/portrait/medium/182904-1599988301.jpg?lm=4711,transfermarkt,5050,236511,182904
@@ -142,10 +142,10 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 141,Yoel Lago,5,1,966,12,fichero_propio,Celta Vigo 12,https://img.a.transfermarkt.technology/portrait/medium/939374-1758827211.jpg?lm=4711,transfermarkt,12642,528001,939374
 142,Álvaro Núñez,5,2,2006,25,fichero_propio,Celta Vigo 6 + Elche 19,https://img.a.transfermarkt.technology/portrait/medium/626953-1752919393.jpg?lm=4711,transfermarkt,13836,509876,626953
 143,Óscar Mingueza,5,2,1949,34,fichero_propio,Celta Vigo 34,https://img.a.transfermarkt.technology/portrait/medium/331505-1698852962.jpg?lm=4711,transfermarkt,9011,397469,331505
-144,Adam El Mokhtari,6,7,85,7,fichero_propio,,,iniciales,14013,,
+144,Adam El Mokhtari,6,7,85,7,fichero_propio,,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/144.png,iniciales,14013,,
 145,Adrià Pedrosa,6,2,1053,27,fichero_propio,Elche 26 + Sevilla 1,https://img.a.transfermarkt.technology/portrait/medium/501418-1583506190.jpg?lm=4711,transfermarkt,7174,363966,501418
 146,Aleix Febas,6,4,3178,36,fichero_propio,Elche 36,https://img.a.transfermarkt.technology/portrait/medium/217144-1448531418.jpg?lm=4711,transfermarkt,7842,381643,217144
-147,Ali Houary,6,9,133,2,alineaciones_whoscored,Elche 2,,iniciales,13838,508339,
+147,Ali Houary,6,9,133,2,alineaciones_whoscored,Elche 2,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/147.png,iniciales,13838,508339,
 148,André Silva,6,7,1858,31,fichero_propio,Elche 31,https://img.a.transfermarkt.technology/portrait/medium/198008-1724336978.jpg?lm=4711,transfermarkt,6170,299460,198008
 149,Bambo Diaby,6,9,98,4,alineaciones_whoscored,Elche 4,https://img.a.transfermarkt.technology/portrait/medium/435493-1723551440.jpg?lm=4711,transfermarkt,13843,379633,435493
 150,Buba Sangaré,6,8,556,12,fichero_propio,Elche 12,https://img.a.transfermarkt.technology/portrait/medium/962125-1739283835.jpg?lm=4711,transfermarkt,12870,510360,962125
@@ -167,8 +167,8 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 166,Rafa Mir,6,7,1834,27,fichero_propio,Elche 27,https://img.a.transfermarkt.technology/portrait/medium/361254-1720020544.jpg?lm=4711,transfermarkt,2589,300369,361254
 167,Tete Morente,6,6,940,13,fichero_propio,Elche 13,https://img.a.transfermarkt.technology/portrait/medium/339816-1730123532.jpg?lm=4711,transfermarkt,8895,402087,339816
 168,Victor Chust,6,1,2146,31,fichero_propio,Elche 31,https://img.a.transfermarkt.technology/portrait/medium/495625-1725990797.jpg?lm=4711,transfermarkt,8972,402862,495625
-169,Yago Alonso,6,9,275,9,alineaciones_whoscored,,,iniciales,11617,,
-170,Álex Sánchez,6,6,5,1,fichero_propio,Elche 1,,iniciales,14366,606360,
+169,Yago Alonso,6,9,275,9,alineaciones_whoscored,,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/169.png,iniciales,11617,,
+170,Álex Sánchez,6,6,5,1,fichero_propio,Elche 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/170.png,iniciales,14366,606360,
 171,Álvaro Rodríguez,6,7,2199,34,fichero_propio,Elche 34,https://img.a.transfermarkt.technology/portrait/medium/948275-1660124773.jpg?lm=4711,transfermarkt,11186,460772,948275
 172,Antoniu Roca,7,6,262,13,fichero_propio,Espanyol 13,https://img.a.transfermarkt.technology/portrait/medium/834744-1734596565.jpg?lm=4711,transfermarkt,12901,506011,834744
 173,Carlos Romero,7,2,3207,36,fichero_propio,Espanyol 36,https://img.a.transfermarkt.technology/portrait/medium/709372-1747385379.jpg?lm=4711,transfermarkt,11402,468931,709372
@@ -208,11 +208,11 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 207,Diego Rico,8,2,1723,28,fichero_propio,Getafe 29,https://img.a.transfermarkt.technology/portrait/medium/249513-1697221474.jpg?lm=4711,transfermarkt,5065,323352,249513
 208,Djené Dakonam,8,1,2601,34,fichero_propio,Getafe 34,https://img.a.transfermarkt.technology/portrait/medium/221150-1669364811.jpg?lm=4711,transfermarkt,6151,332990,221150
 209,Domingos Duarte,8,1,2953,34,fichero_propio,Getafe 34,https://img.a.transfermarkt.technology/portrait/medium/257376-1583309064.jpg?lm=4711,transfermarkt,7860,322772,257376
-210,Hugo Solozabal,8,4,4,1,fichero_propio,Getafe 1,,iniciales,13638,462919,
+210,Hugo Solozabal,8,4,4,1,fichero_propio,Getafe 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/210.png,iniciales,13638,462919,
 211,Ismael Bekhoucha,8,2,106,4,fichero_propio,Getafe 4,https://img.a.transfermarkt.technology/portrait/medium/1164331-1732134880.png?lm=4711,transfermarkt,13334,550147,1164331
 212,Javi Muñoz,8,4,527,17,fichero_propio,Getafe 17,https://img.a.transfermarkt.technology/portrait/medium/282421-1698852390.jpg?lm=4711,transfermarkt,4168,276819,282421
-213,Jorge Montes,8,8,24,1,fichero_propio,Getafe 1,,iniciales,14202,602166,
-214,Joselu Pérez,8,7,16,2,fichero_propio,Getafe 2,,iniciales,13790,508469,
+213,Jorge Montes,8,8,24,1,fichero_propio,Getafe 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/213.png,iniciales,14202,602166,
+214,Joselu Pérez,8,7,16,2,fichero_propio,Getafe 2,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/214.png,iniciales,13790,508469,
 215,Juan Iglesias,8,2,3189,37,fichero_propio,Getafe 37,https://img.a.transfermarkt.technology/portrait/medium/390688-1632295269.jpg?lm=4711,transfermarkt,9218,408735,390688
 216,Juanmi,8,6,152,8,fichero_propio,Getafe 8,https://img.a.transfermarkt.technology/portrait/medium/126737-1653043231.jpg?lm=4711,transfermarkt,897,83080,126737
 217,Kiko Femenía,8,2,2070,28,fichero_propio,Getafe 28,https://img.a.transfermarkt.technology/portrait/medium/76467-1726231817.jpg?lm=4711,transfermarkt,5043,75919,76467
@@ -243,7 +243,7 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 242,Iván Martín,9,5,2558,35,fichero_propio,Girona 35,https://img.a.transfermarkt.technology/portrait/medium/341278-1703177977.jpg?lm=4711,transfermarkt,7529,372473,341278
 243,Jhon Solís,9,4,362,12,fichero_propio,Girona 12,https://img.a.transfermarkt.technology/portrait/medium/742521-1715882394.jpg?lm=4711,transfermarkt,12046,445345,742521
 244,Joel Roca,9,6,1463,32,fichero_propio,Girona 32,https://img.a.transfermarkt.technology/portrait/medium/895326-1784899530.png?lm=4711,transfermarkt,10952,444242,895326
-245,Juan Arango,9,6,14,2,fichero_propio,Girona 2,,iniciales,14227,511122,
+245,Juan Arango,9,6,14,2,fichero_propio,Girona 2,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/245.png,iniciales,14227,511122,
 246,Ladislav Krejcí,9,1,180,2,fichero_propio,Girona 2,https://img.a.transfermarkt.technology/portrait/medium/345911-1716965804.jpg?lm=4711,transfermarkt,12721,404245,345911
 247,Lancinet Kourouma,9,4,23,5,fichero_propio,Girona 5,https://img.a.transfermarkt.technology/portrait/medium/974251-1769783998.jpg?lm=4711,transfermarkt,14089,542750,974251
 248,Portu,9,6,463,10,fichero_propio,Girona 10,https://img.a.transfermarkt.technology/portrait/medium/99353-1669365520.jpg?lm=4711,transfermarkt,6118,106895,99353
@@ -285,20 +285,20 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 284,Antonio Sánchez,11,4,1016,30,fichero_propio,Mallorca 30,https://img.a.transfermarkt.technology/portrait/medium/513031-1576533215.jpg?lm=4711,transfermarkt,9970,425092,513031
 285,Dani Rodríguez,11,9,56,2,alineaciones_whoscored,Mallorca 2,https://img.a.transfermarkt.technology/portrait/medium/139435-1583332711.jpg?lm=4711,transfermarkt,7841,6227,139435
 286,David López,11,1,827,14,fichero_propio,Mallorca 14,https://img.a.transfermarkt.technology/portrait/medium/947431-1725880281.jpg?lm=4711,transfermarkt,12074,502424,947431
-287,Jan Salas,11,4,6,2,fichero_propio,Mallorca 2,,iniciales,12951,537870,
+287,Jan Salas,11,4,6,2,fichero_propio,Mallorca 2,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/287.png,iniciales,12951,537870,
 288,Jan Virgili,11,6,1807,31,fichero_propio,Mallorca 31,https://img.a.transfermarkt.technology/portrait/medium/1301775-1750759323.jpg?lm=4711,transfermarkt,13991,581683,1301775
 289,Javi Llabrés,11,6,147,16,fichero_propio,Mallorca 16,https://img.a.transfermarkt.technology/portrait/medium/706138-1793103274.jpg?lm=4711,transfermarkt,10128,428593,706138
-290,Javier Olaizola,11,8,44,2,fichero_propio,Mallorca 2,,iniciales,14093,584523,
+290,Javier Olaizola,11,8,44,2,fichero_propio,Mallorca 2,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/290.png,iniciales,14093,584523,
 291,Johan Mojica,11,2,2723,35,fichero_propio,Mallorca 35,https://img.a.transfermarkt.technology/portrait/medium/262939-1541161893.jpg?lm=4711,transfermarkt,6242,135098,262939
 292,Justin Kalumba,11,6,81,3,fichero_propio,Mallorca 3,https://img.a.transfermarkt.technology/portrait/medium/1101641-1750956932.png?lm=4711,transfermarkt,11494,478113,1101641
-293,Luis Orejuela,11,8,90,1,fichero_propio,Mallorca 1,,iniciales,14613,602512,
+293,Luis Orejuela,11,8,90,1,fichero_propio,Mallorca 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/293.png,iniciales,14613,602512,
 294,Manu Morlanes,11,4,1801,32,fichero_propio,Mallorca 32,https://img.a.transfermarkt.technology/portrait/medium/335225-1552044533.jpg?lm=4711,transfermarkt,6592,349660,335225
 295,Marash Kumbulla,11,1,434,8,fichero_propio,Mallorca 8,https://img.a.transfermarkt.technology/portrait/medium/371371-1716969202.jpg?lm=4711,transfermarkt,6324,343778,371371
 296,Marc Domenech,11,9,198,7,alineaciones_whoscored,Mallorca 7,https://img.a.transfermarkt.technology/portrait/medium/1296876-1746443048.jpg?lm=4711,transfermarkt,12883,537076,1296876
 297,Martin Valjent,11,1,3311,37,fichero_propio,Mallorca 37,https://img.a.transfermarkt.technology/portrait/medium/277384-1738232660.jpg?lm=4711,transfermarkt,7838,142387,277384
 298,Mateo Joseph,11,7,1707,29,fichero_propio,Mallorca 29,https://img.a.transfermarkt.technology/portrait/medium/834742-1749739164.jpg?lm=4711,transfermarkt,11208,463233,834742
 299,Mateu Morey,11,2,723,18,fichero_propio,Mallorca 18,https://img.a.transfermarkt.technology/portrait/medium/388513-1661413734.jpg?lm=4711,transfermarkt,8070,384368,388513
-300,Miguel Calatayud,11,8,34,2,fichero_propio,Mallorca 2,,iniciales,14612,622084,
+300,Miguel Calatayud,11,8,34,2,fichero_propio,Mallorca 2,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/300.png,iniciales,14612,622084,
 301,Omar Mascarell,11,3,2251,30,fichero_propio,Mallorca 30,https://img.a.transfermarkt.technology/portrait/medium/142031-1531813358.jpg?lm=4711,transfermarkt,2456,115996,142031
 302,Pablo Maffeo,11,2,2690,31,fichero_propio,Mallorca 32,https://img.a.transfermarkt.technology/portrait/medium/251876-1784897141.png?lm=4711,transfermarkt,1003,294848,251876
 303,Pablo Torre,11,5,1614,35,fichero_propio,Mallorca 35,https://img.a.transfermarkt.technology/portrait/medium/720038-1724406086.jpg?lm=4711,transfermarkt,11025,445092,720038
@@ -347,12 +347,12 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 346,Pacha Espino,13,2,1472,30,fichero_propio,Rayo Vallecano 30,https://img.a.transfermarkt.technology/portrait/medium/311044-1635328827.jpg?lm=4711,transfermarkt,8733,143655,311044
 347,Pathé Ciss,13,3,1974,29,fichero_propio,Rayo Vallecano 29,https://img.a.transfermarkt.technology/portrait/medium/525578-1775761248.jpg?lm=4711,transfermarkt,9815,422963,525578
 348,Pedro Díaz,13,4,1868,34,fichero_propio,Rayo Vallecano 34,https://img.a.transfermarkt.technology/portrait/medium/363057-1664207844.jpg?lm=4711,transfermarkt,12863,448514,363057
-349,Pelayo Fernández,13,9,37,1,alineaciones_whoscored,Rayo Vallecano 1,,iniciales,12864,531953,
+349,Pelayo Fernández,13,9,37,1,alineaciones_whoscored,Rayo Vallecano 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/349.png,iniciales,12864,531953,
 350,Pep Chavarría,13,2,2672,33,fichero_propio,Rayo Vallecano 33,https://img.a.transfermarkt.technology/portrait/medium/596122-1744713547.jpg?lm=4711,transfermarkt,11087,448468,596122
 351,Randy Nteka,13,5,342,13,fichero_propio,Rayo Vallecano 13,https://img.a.transfermarkt.technology/portrait/medium/560483-1600680162.jpg?lm=4711,transfermarkt,9813,422960,560483
 352,Samu Becerra,13,8,9,3,fichero_propio,Rayo Vallecano 3,https://img.a.transfermarkt.technology/portrait/medium/1384911-1773220130.jpg?lm=4711,transfermarkt,13695,578016,1384911
 353,Sergio Camello,13,7,810,22,fichero_propio,Rayo Vallecano 23,https://img.a.transfermarkt.technology/portrait/medium/505674-1775761676.jpg?lm=4711,transfermarkt,7528,372469,505674
-354,Sergio Lozano,13,8,7,1,fichero_propio,,,iniciales,8416,,
+354,Sergio Lozano,13,8,7,1,fichero_propio,,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/354.png,iniciales,8416,,
 355,Unai López,13,4,1637,28,fichero_propio,Rayo Vallecano 28,https://img.a.transfermarkt.technology/portrait/medium/192009-1726662500.jpg?lm=4711,transfermarkt,4091,236575,192009
 356,Álvaro García,13,6,2123,32,fichero_propio,Rayo Vallecano 32,https://img.a.transfermarkt.technology/portrait/medium/257062-1762775114.jpg?lm=4711,transfermarkt,7071,135345,257062
 357,Óscar Trejo,13,5,131,7,fichero_propio,Rayo Vallecano 8,https://img.a.transfermarkt.technology/portrait/medium/30321-1653039805.jpg?lm=4711,transfermarkt,3208,16942,30321
@@ -368,7 +368,7 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 367,Giovani Lo Celso,14,5,1396,24,fichero_propio,Real Betis 24,https://img.a.transfermarkt.technology/portrait/medium/348795-1726734706.jpg?lm=4711,transfermarkt,5681,303908,348795
 368,Héctor Bellerín,14,2,1822,27,fichero_propio,Real Betis 27,https://img.a.transfermarkt.technology/portrait/medium/191217-1773344002.jpg?lm=4711,transfermarkt,492,125211,191217
 369,Isco,14,5,213,8,fichero_propio,Real Betis 8,https://img.a.transfermarkt.technology/portrait/medium/85288-1744375744.jpg?lm=4711,transfermarkt,2255,82989,85288
-370,Iván Corralejo,14,5,11,1,fichero_propio,Real Betis 1,,iniciales,13855,578871,
+370,Iván Corralejo,14,5,11,1,fichero_propio,Real Betis 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/370.png,iniciales,13855,578871,
 371,Junior Firpo,14,2,846,12,fichero_propio,Real Betis 12,https://img.a.transfermarkt.technology/portrait/medium/374139-1724939835.jpg?lm=4711,transfermarkt,6485,351252,374139
 372,Marc Bartra,14,1,1973,25,fichero_propio,Real Betis 25,https://img.a.transfermarkt.technology/portrait/medium/99922-1724053472.jpg?lm=4711,transfermarkt,2453,83686,99922
 373,Marc Roca,14,3,2020,29,fichero_propio,Real Betis 29,https://img.a.transfermarkt.technology/portrait/medium/336869-1773344159.jpg?lm=4711,transfermarkt,5086,323148,336869
@@ -435,7 +435,7 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 434,Nacho Vidal,16,2,2383,30,fichero_propio,Real Oviedo 29,https://img.a.transfermarkt.technology/portrait/medium/216870-1510233362.jpg?lm=4711,transfermarkt,5162,335790,216870
 435,Nicolás Fonseca,16,3,1028,19,fichero_propio,Real Oviedo 19,https://img.a.transfermarkt.technology/portrait/medium/462070-1721920695.png?lm=4711,transfermarkt,14316,513146,462070
 436,Oier Luengo,16,1,228,3,alineaciones_whoscored,Real Oviedo 4,https://img.a.transfermarkt.technology/portrait/medium/447823-1793102644.jpg?lm=4711,transfermarkt,13697,448447,447823
-437,Omar Falah,16,2,9,1,fichero_propio,Real Oviedo 1,,iniciales,13704,557844,
+437,Omar Falah,16,2,9,1,fichero_propio,Real Oviedo 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/437.png,iniciales,13704,557844,
 438,Ovie Ejaria,16,6,207,9,fichero_propio,Real Oviedo 8,https://img.a.transfermarkt.technology/portrait/medium/337284-1469781570.jpg?lm=4711,transfermarkt,1762,327852,337284
 439,Pablo Agudín,16,8,60,8,fichero_propio,Real Oviedo 7,https://img.a.transfermarkt.technology/portrait/medium/1081496-1783117999.jpg?lm=4711,transfermarkt,14173,597609,1081496
 440,Rahim Alhassane,16,2,1689,28,fichero_propio,Real Oviedo 27,https://img.a.transfermarkt.technology/portrait/medium/929899-1758832463.jpg?lm=4711,transfermarkt,13698,456006,929899
@@ -457,7 +457,7 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 456,Duje Caleta-Car,17,1,2140,27,fichero_propio,Real Sociedad 27,https://img.a.transfermarkt.technology/portrait/medium/238266-1662069879.jpg?lm=4711,transfermarkt,7007,251134,238266
 457,Gonçalo Guedes,17,6,1833,32,fichero_propio,Real Sociedad 32,https://img.a.transfermarkt.technology/portrait/medium/225122-1701334424.jpg?lm=4711,transfermarkt,5682,247995,225122
 458,Gorka Carrera,17,7,49,3,fichero_propio,Real Sociedad 3,https://img.a.transfermarkt.technology/portrait/medium/1063598-1773830415.jpg?lm=4711,transfermarkt,14208,602289,1063598
-459,Ibai Aguirre,17,8,4,1,fichero_propio,Real Sociedad 1,,iniciales,14322,605461,
+459,Ibai Aguirre,17,8,4,1,fichero_propio,Real Sociedad 1,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/459.png,iniciales,14322,605461,
 460,Igor Zubeldia,17,1,2080,25,fichero_propio,Real Sociedad 25,https://img.a.transfermarkt.technology/portrait/medium/355628-1664974849.jpg?lm=4711,transfermarkt,2417,315566,355628
 461,Iñaki Rupérez,17,2,1,1,fichero_propio,Real Sociedad 1,https://img.a.transfermarkt.technology/portrait/medium/1055860-1732795256.png?lm=4711,transfermarkt,12354,514956,1055860
 462,Job Ochieng,17,7,92,2,fichero_propio,Real Sociedad 2,https://img.a.transfermarkt.technology/portrait/medium/1105810-1732795774.png?lm=4711,transfermarkt,14364,599413,1105810
@@ -480,7 +480,7 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 479,Adnan Januzaj,18,5,283,12,fichero_propio,Sevilla 12,https://img.a.transfermarkt.technology/portrait/medium/177847-1685115304.png?lm=4711,transfermarkt,323,130334,177847
 480,Akor Adams,18,7,2048,32,fichero_propio,Sevilla 32,https://img.a.transfermarkt.technology/portrait/medium/607034-1767008026.jpg?lm=4711,transfermarkt,11783,408616,607034
 481,Alexis Sánchez,18,7,1278,28,fichero_propio,Sevilla 28,https://img.a.transfermarkt.technology/portrait/medium/40433-1792483856.jpg?lm=4711,transfermarkt,498,25244,40433
-482,Andrés Castrín,18,1,1251,19,fichero_propio,Sevilla 19,,iniciales,13600,448284,
+482,Andrés Castrín,18,1,1251,19,fichero_propio,Sevilla 19,https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/images/jugadores/482.png,iniciales,13600,448284,
 483,Batista Mendy,18,3,1632,27,fichero_propio,Sevilla 27,https://img.a.transfermarkt.technology/portrait/medium/395234-1756290427.png?lm=4711,transfermarkt,8283,391316,395234
 484,Chidera Ejuke,18,6,866,27,fichero_propio,Sevilla 27,https://img.a.transfermarkt.technology/portrait/medium/500067-1706264992.jpg?lm=4711,transfermarkt,8694,337022,500067
 485,César Azpilicueta,18,2,1233,17,fichero_propio,Sevilla 17,https://img.a.transfermarkt.technology/portrait/medium/57500-1668169250.jpg?lm=4711,transfermarkt,681,25931,57500
