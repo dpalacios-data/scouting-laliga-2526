@@ -68,8 +68,8 @@ entre los dos puestos.
 | `equipos_temporada` | Partidos con al menos un evento de Opta, por club. Ejemplo: "Celta Vigo 10 + Girona 17". Vacío si no tiene eventos | texto | eventos de Opta, por identificador de WhoScored |
 | `id_understat` | Identificador del jugador en Understat, para auditoría | entero | Understat (`player_id`) |
 | `id_whoscored` | Identificador del jugador en WhoScored, para auditoría. Vacío en los 5 jugadores sin eventos | entero | alineaciones de WhoScored |
-| `url_foto` | Dirección https del retrato del jugador en los servidores de Transfermarkt. La imagen no está en este repositorio. Vacía en 24 jugadores | url | Transfermarkt, plantillas 2025/26 (cuaderno 06) |
-| `foto_origen` | `transfermarkt` (537 jugadores) o `iniciales` (24): sin retrato enlazado, el panel deberá dibujar un retrato de iniciales del mismo tamaño y forma | texto | cuaderno 01 |
+| `url_foto` | Dirección https del retrato del jugador en los servidores de Transfermarkt. La imagen no está en este repositorio. Vacía en 22 jugadores | url | Transfermarkt, plantillas 2025/26 (cuaderno 06) |
+| `foto_origen` | `transfermarkt` (539 jugadores) o `iniciales` (22): sin retrato enlazado, el panel deberá dibujar un retrato de iniciales del mismo tamaño y forma | texto | cuaderno 01 |
 | `id_transfermarkt` | Identificador del jugador en Transfermarkt, para auditoría. Vacío si no tiene retrato enlazado | entero | Transfermarkt (cuaderno 06) |
 
 ## hechos_jugador.csv · 561 filas
@@ -298,9 +298,10 @@ se republican: el modelo guarda la url, y Power BI (categoría "URL de imagen") 
 cargan directamente. El panel deberá citar la fuente de forma visible.
 
 - Un jugador se empareja dentro de sus clubes de la temporada, por nombre exacto y con la edad comprobada contra
-  WhoScored (±1 año). 8 parejas con nombre parecido las revisó y confirmó el autor una a una.
-- **537** jugadores tienen retrato enlazado y **24** no: 18 que en Transfermarkt solo tienen la
-  silueta genérica, 5 sin coincidencia y 1 con cruce dudoso (Sergio Lozano, el mismo cruce de
+  WhoScored (±1 año). 8 parejas con nombre parecido las revisó y confirmó el autor una a una, y otros 2 jugadores
+  que Transfermarkt escribe de otra forma (Adrián de la Fuente y Djené Dakonam) los localizó a mano.
+- **539** jugadores tienen retrato enlazado y **22** no: 18 que en Transfermarkt solo tienen la
+  silueta genérica, 3 sin coincidencia y 1 con cruce dudoso (Sergio Lozano, el mismo cruce de
   `cruces_descartados.csv`).
 - Las url son externas y pueden cambiar o dejar de responder. El cuaderno 06 comprueba que responden; a
   2026-11-16 respondían todas.

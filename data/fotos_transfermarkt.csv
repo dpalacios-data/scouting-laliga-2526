@@ -206,7 +206,7 @@ id_jugador,jugador,equipo,minutos,id_transfermarkt,nombre_tm,edad_ws,edad_tm,url
 205,Damián Cáceres,Getafe,150,845638.0,Damián Cáceres,23.0,23.0,https://img.a.transfermarkt.technology/portrait/medium/845638-1732138253.png?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,22.5
 206,Davinchi,Getafe,688,1268764.0,Davinchi,18.0,18.0,https://img.a.transfermarkt.technology/portrait/medium/1268764-1732577167.jpg?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,3.3
 207,Diego Rico,Getafe,1723,249513.0,Diego Rico,33.0,33.0,https://img.a.transfermarkt.technology/portrait/medium/249513-1697221474.jpg?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,4.1
-208,Djené Dakonam,Getafe,2601,,,34.0,,,,sin_coincidencia,no está en las plantillas de sus clubes,False,2026-11-16,,
+208,Djené Dakonam,Getafe,2601,221150.0,Dakonam Djené,34.0,34.0,https://img.a.transfermarkt.technology/portrait/medium/221150-1669364811.jpg?lm=4711,False,confirmado_autor,"localizado por el autor: otro nombre en Transfermarkt, mismo club, edad y puesto",True,2026-11-16,200.0,3.6
 209,Domingos Duarte,Getafe,2953,257376.0,Domingos Duarte,31.0,31.0,https://img.a.transfermarkt.technology/portrait/medium/257376-1583309064.jpg?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,3.9
 210,Hugo Solozabal,Getafe,4,945767.0,Hugo Solozábal,23.0,23.0,https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=4711,True,claro,nombre exacto,False,2026-11-16,,
 211,Ismael Bekhoucha,Getafe,106,1164331.0,Ismael Bekhoucha,21.0,21.0,https://img.a.transfermarkt.technology/portrait/medium/1164331-1732134880.png?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,24.4
@@ -253,7 +253,7 @@ id_jugador,jugador,equipo,minutos,id_transfermarkt,nombre_tm,edad_ws,edad_tm,url
 252,Vladyslav Vanat,Girona,2003,631821.0,Vladyslav Vanat,24.0,24.0,https://img.a.transfermarkt.technology/portrait/medium/631821-1769784171.jpg?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,3.9
 253,Yáser Asprilla,Girona,601,857818.0,Yáser Asprilla,22.0,22.0,https://img.a.transfermarkt.technology/portrait/medium/857818-1779994366.png?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,23.2
 254,Álex Moreno,Girona,2554,193098.0,Álex Moreno,33.0,33.0,https://img.a.transfermarkt.technology/portrait/medium/193098-1667289023.jpg?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,3.8
-255,Adrián de la Fuente,Levante,2704,,,27.0,,,,sin_coincidencia,no está en las plantillas de sus clubes,False,2026-11-16,,
+255,Adrián de la Fuente,Levante,2704,341263.0,Adrián Dela,27.0,27.0,https://img.a.transfermarkt.technology/portrait/medium/341263-1698879765.jpg?lm=4711,False,confirmado_autor,"localizado por el autor: otro nombre en Transfermarkt, mismo club, edad y puesto",True,2026-11-16,200.0,3.5
 256,Alan Matturro,Levante,918,861981.0,Alan Matturro,21.0,21.0,https://img.a.transfermarkt.technology/portrait/medium/861981-1792256680.png?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,21.7
 257,Carlos Espí,Levante,1328,1063338.0,Carlos Espí,21.0,20.0,https://img.a.transfermarkt.technology/portrait/medium/1063338-1759409131.jpg?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,3.8
 258,Carlos Álvarez,Levante,1910,668179.0,Carlos Álvarez,23.0,22.0,https://img.a.transfermarkt.technology/portrait/medium/668179-1726053882.jpg?lm=4711,False,claro,nombre exacto,True,2026-11-16,200.0,3.9

@@ -175,9 +175,9 @@ ni se republican: `dim_jugador.url_foto` guarda la dirección del retrato en los
 el panel la cargará desde allí. Los retratos son de Transfermarkt y de sus proveedores, y el panel citará la
 fuente de forma visible.
 
-- **537 de 561** jugadores tienen retrato enlazado, y **365 de los 368** con percentil fiable.
-- Los otros **24** llevarán un retrato de iniciales, con el mismo tamaño y la misma forma: 18 que en
-  Transfermarkt solo tienen la silueta genérica, 5 sin coincidencia y 1 con cruce dudoso.
+- **539 de 561** jugadores tienen retrato enlazado, y **367 de los 368** con percentil fiable.
+- Los otros **22** llevarán un retrato de iniciales, con el mismo tamaño y la misma forma: 18 que en
+  Transfermarkt solo tienen la silueta genérica, 3 sin coincidencia y 1 con cruce dudoso.
 - Todas las url responden fuera de la web de Transfermarkt, pesan entre 3 y 30 KB y tienen 85 caracteres como
   máximo, dentro de los límites de Tableau (128 KB y 255 caracteres).
 

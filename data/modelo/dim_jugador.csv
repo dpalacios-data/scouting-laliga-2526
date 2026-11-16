@@ -206,7 +206,7 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 205,Damián Cáceres,8,8,150,3,fichero_propio,Getafe 3,https://img.a.transfermarkt.technology/portrait/medium/845638-1732138253.png?lm=4711,transfermarkt,14603,448083,845638
 206,Davinchi,8,2,688,14,fichero_propio,Getafe 14,https://img.a.transfermarkt.technology/portrait/medium/1268764-1732577167.jpg?lm=4711,transfermarkt,13788,568737,1268764
 207,Diego Rico,8,2,1723,28,fichero_propio,Getafe 29,https://img.a.transfermarkt.technology/portrait/medium/249513-1697221474.jpg?lm=4711,transfermarkt,5065,323352,249513
-208,Djené Dakonam,8,1,2601,34,fichero_propio,Getafe 34,,iniciales,6151,332990,
+208,Djené Dakonam,8,1,2601,34,fichero_propio,Getafe 34,https://img.a.transfermarkt.technology/portrait/medium/221150-1669364811.jpg?lm=4711,transfermarkt,6151,332990,221150
 209,Domingos Duarte,8,1,2953,34,fichero_propio,Getafe 34,https://img.a.transfermarkt.technology/portrait/medium/257376-1583309064.jpg?lm=4711,transfermarkt,7860,322772,257376
 210,Hugo Solozabal,8,4,4,1,fichero_propio,Getafe 1,,iniciales,13638,462919,
 211,Ismael Bekhoucha,8,2,106,4,fichero_propio,Getafe 4,https://img.a.transfermarkt.technology/portrait/medium/1164331-1732134880.png?lm=4711,transfermarkt,13334,550147,1164331
@@ -253,7 +253,7 @@ id_jugador,jugador,id_equipo,id_posicion,minutos,partidos,posicion_origen,equipo
 252,Vladyslav Vanat,9,7,2003,27,fichero_propio,Girona 27,https://img.a.transfermarkt.technology/portrait/medium/631821-1769784171.jpg?lm=4711,transfermarkt,14041,410504,631821
 253,Yáser Asprilla,9,6,601,15,alineaciones_whoscored,Girona 15,https://img.a.transfermarkt.technology/portrait/medium/857818-1779994366.png?lm=4711,transfermarkt,13005,443540,857818
 254,Álex Moreno,9,2,2554,31,fichero_propio,Girona 31,https://img.a.transfermarkt.technology/portrait/medium/193098-1667289023.jpg?lm=4711,transfermarkt,4120,135374,193098
-255,Adrián de la Fuente,10,1,2704,33,fichero_propio,Levante 33,,iniciales,10319,383780,
+255,Adrián de la Fuente,10,1,2704,33,fichero_propio,Levante 33,https://img.a.transfermarkt.technology/portrait/medium/341263-1698879765.jpg?lm=4711,transfermarkt,10319,383780,341263
 256,Alan Matturro,10,1,918,19,fichero_propio,Levante 19,https://img.a.transfermarkt.technology/portrait/medium/861981-1792256680.png?lm=4711,transfermarkt,12078,445480,861981
 257,Carlos Espí,10,7,1328,25,fichero_propio,Levante 25,https://img.a.transfermarkt.technology/portrait/medium/1063338-1759409131.jpg?lm=4711,transfermarkt,13769,516341,1063338
 258,Carlos Álvarez,10,5,1910,30,fichero_propio,Levante 30,https://img.a.transfermarkt.technology/portrait/medium/668179-1726053882.jpg?lm=4711,transfermarkt,11264,406937,668179
