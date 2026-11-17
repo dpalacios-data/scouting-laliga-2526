@@ -1,0 +1,52 @@
+table hechos_ficha
+	lineageTag: b9f4b855-050b-4800-83dd-48e689259b8c
+
+	column id_jugador
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f3980f8-f1ea-43cd-a7aa-1bcec0916838
+		summarizeBy: none
+		sourceColumn: id_jugador
+
+		annotation SummarizationSetBy = User
+
+	column orden
+		dataType: int64
+		formatString: 0
+		lineageTag: fb570253-acc6-4cd3-b237-1fc50951b44f
+		summarizeBy: none
+		sourceColumn: orden
+
+		annotation SummarizationSetBy = User
+
+	column atributo
+		dataType: string
+		lineageTag: ca5d6bf7-a036-4a0a-9f1f-3534ce4128c9
+		summarizeBy: none
+		sourceColumn: atributo
+
+		annotation SummarizationSetBy = User
+
+	column valor
+		dataType: string
+		lineageTag: 694ed2f4-84da-4f15-9be6-fbafcd7305a4
+		summarizeBy: none
+		sourceColumn: valor
+
+		annotation SummarizationSetBy = User
+
+	partition hechos_ficha = m
+		mode: import
+		source =
+				let
+				    Url = "https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/data/modelo/hechos_ficha.csv",
+				    Origen = Csv.Document(Web.Contents(Url), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"id_jugador", Int64.Type}, {"orden", Int64.Type}, {"atributo", type text}, {"valor", type text}
+				    }, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

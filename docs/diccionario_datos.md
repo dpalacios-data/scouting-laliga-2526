@@ -370,3 +370,44 @@ Los 38 jugadores con la posición deducida de las alineaciones son los 36 `under
 Además de los 6 traspasados, hay otros 6 jugadores que tienen eventos con dos clubes y entran como directos:
 Rodrigo Mendoza, Álvaro Núñez, Ilias Akhomach, Karl Etta Eyong, Adrià Pedrosa y Urko González de Zárate.
 Como los eventos se cruzan por identificador, suman los dos clubes, y `equipos_temporada` muestra el reparto.
+
+---
+
+## Formato largo para la página Ficha
+
+En la Ficha las métricas van en el eje vertical, una fila por métrica. Estas tres tablas dan los mismos datos que
+`hechos_jugador` y `dim_jugador`, pero en formato largo. `hechos_jugador` no cambia: alimenta la página Buscador.
+
+### dim_metrica.csv · 21 filas
+
+| Columna | Qué es |
+|---|---|
+| `id_metrica` | Clave propia de la métrica |
+| `metrica` | Nombre de la columna en `hechos_jugador` (p. ej. `intercepciones_90`) |
+| `nombre` | Cómo se lee en el panel ("Intercepciones") |
+| `nombre_corto` | Versión corta para cuando no cabe ("Intercep.") |
+| `bloque` | `defensa` (9 métricas), `con_balon` (6) o `ataque` (6) |
+| `orden` | Orden dentro del bloque, desde 1 |
+| `unidad` | `por_90` o `porcentaje`. La unidad está aquí y no en el número |
+
+Entradas intentadas y duelos aéreos disputados están en el bloque defensa (orden 8 y 9), aunque la Ficha no los pinte.
+
+### hechos_metrica.csv · 11.781 filas (561 jugadores × 21 métricas)
+
+| Columna | Qué es |
+|---|---|
+| `id_jugador`, `id_metrica` | Claves hacia `dim_jugador` y `dim_metrica` |
+| `valor` | Valor por 90 minutos, o porcentaje de éxito si la unidad es `porcentaje`. Vacío si no hay dato (129 filas: los 5 jugadores sin eventos de Opta y los que no intentaron ninguna entrada o duelo), nunca cero |
+| `percentil` | El mismo percentil de `hechos_jugador`, redondeado sin decimales. Vale para todos los jugadores; para saber si es fiable, `hechos_jugador.percentil_fiable` |
+
+### hechos_ficha.csv · 5.049 filas (561 jugadores × 9 atributos)
+
+| Columna | Qué es |
+|---|---|
+| `id_jugador` | Clave hacia `dim_jugador` |
+| `orden` | Orden del atributo en la ficha, de 1 a 9 |
+| `atributo` | Equipo, Puesto, Edad, Altura, Pie, Nacionalidad, Minutos, Partidos, Valor estimado |
+| `valor` | Texto ya formateado: "27 años", "1,83 m", "España / Francia", "3.330", "4,5 M€". Vacío si no hay dato |
+
+Relaciones en el modelo de Power BI, todas de uno a muchos y en una sola dirección: `dim_metrica` → `hechos_metrica`,
+`dim_jugador` → `hechos_metrica` y `dim_jugador` → `hechos_ficha`.

@@ -1,0 +1,22 @@
+id_metrica,metrica,nombre,nombre_corto,bloque,orden,unidad
+1,intercepciones_90,Intercepciones,Intercep.,defensa,1,por_90
+2,entradas_exitosas_90,Entradas exitosas,Entradas,defensa,2,por_90
+3,pct_entradas,% de entradas exitosas,% entradas,defensa,3,porcentaje
+4,despejes_90,Despejes,Despejes,defensa,4,por_90
+5,pases_bloqueados_90,Pases bloqueados,Bloqueos,defensa,5,por_90
+6,duelos_aereos_ganados_90,Duelos aéreos ganados,Aéreos,defensa,6,por_90
+7,pct_duelos_aereos,% de duelos aéreos ganados,% aéreos,defensa,7,porcentaje
+8,entradas_intentadas_90,Entradas intentadas,Ent. intent.,defensa,8,por_90
+9,duelos_aereos_disputados_90,Duelos aéreos disputados,Aéreos disp.,defensa,9,por_90
+10,pases_clave_90,Pases clave,Pases clave,con_balon,1,por_90
+11,xg_chain_90,xG chain,xGChain,con_balon,2,por_90
+12,xg_buildup_90,xG buildup,xGBuildup,con_balon,3,por_90
+13,centros_90,Centros,Centros,con_balon,4,por_90
+14,toques_area_90,Toques en el área,Toques área,con_balon,5,por_90
+15,tiros_90,Tiros,Tiros,con_balon,6,por_90
+16,goles_90,Goles,Goles,ataque,1,por_90
+17,goles_sin_penalti_90,Goles sin penalti,Goles s/p,ataque,2,por_90
+18,xg_90,xG,xG,ataque,3,por_90
+19,xg_sin_penalti_90,xG sin penalti,npxG,ataque,4,por_90
+20,asistencias_90,Asistencias,Asist.,ataque,5,por_90
+21,xa_90,xA,xA,ataque,6,por_90

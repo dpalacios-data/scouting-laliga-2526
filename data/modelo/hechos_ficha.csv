@@ -1,0 +1,5050 @@
+id_jugador,orden,atributo,valor
+1,1,Equipo,Alaves
+1,2,Puesto,Extremo
+1,3,Edad,27 años
+1,4,Altura,"1,76 m"
+1,5,Pie,Derecho
+1,6,Nacionalidad,Argelia / España
+1,7,Minutos,1.479
+1,8,Partidos,30
+1,9,Valor estimado,"2,5 M€"
+2,1,Equipo,Alaves
+2,2,Puesto,Delantero
+2,3,Edad,23 años
+2,4,Altura,"1,85 m"
+2,5,Pie,Izquierdo
+2,6,Nacionalidad,España
+2,7,Minutos,105
+2,8,Partidos,9
+2,9,Valor estimado,600 mil €
+3,1,Equipo,Alaves
+3,2,Puesto,Mediocentro
+3,3,Edad,28 años
+3,4,Altura,"1,80 m"
+3,5,Pie,Derecho
+3,6,Nacionalidad,España
+3,7,Minutos,581
+3,8,Partidos,25
+3,9,Valor estimado,"2,5 M€"
+4,1,Equipo,Alaves
+4,2,Puesto,Pivote
+4,3,Edad,25 años
+4,4,Altura,"1,76 m"
+4,5,Pie,Derecho
+4,6,Nacionalidad,España
+4,7,Minutos,3.137
+4,8,Partidos,36
+4,9,Valor estimado,10 M€
+5,1,Equipo,Alaves
+5,2,Puesto,Mediapunta
+5,3,Edad,26 años
+5,4,Altura,"1,73 m"
+5,5,Pie,Izquierdo
+5,6,Nacionalidad,Brasil
+5,7,Minutos,767
+5,8,Partidos,19
+5,9,Valor estimado,"1,8 M€"
+6,1,Equipo,Alaves
+6,2,Puesto,Mediocentro
+6,3,Edad,28 años
+6,4,Altura,"1,80 m"
+6,5,Pie,Izquierdo
+6,6,Nacionalidad,España
+6,7,Minutos,2.002
+6,8,Partidos,34
+6,9,Valor estimado,3 M€
+7,1,Equipo,Alaves
+7,2,Puesto,Sin definir
+7,3,Edad,22 años
+7,4,Altura,"1,78 m"
+7,5,Pie,Ambidiestro
+7,6,Nacionalidad,España
+7,7,Minutos,1
+7,8,Partidos,1
+7,9,Valor estimado,100 mil €
+8,1,Equipo,Alaves
+8,2,Puesto,Posición no confirmada
+8,3,Edad,
+8,4,Altura,
+8,5,Pie,
+8,6,Nacionalidad,
+8,7,Minutos,311
+8,8,Partidos,13
+8,9,Valor estimado,
+9,1,Equipo,Alaves
+9,2,Puesto,Extremo
+9,3,Edad,27 años
+9,4,Altura,"1,79 m"
+9,5,Pie,Derecho
+9,6,Nacionalidad,España
+9,7,Minutos,1.250
+9,8,Partidos,21
+9,9,Valor estimado,7 M€
+10,1,Equipo,Alaves
+10,2,Puesto,Mediapunta
+10,3,Edad,32 años
+10,4,Altura,"1,76 m"
+10,5,Pie,Derecho
+10,6,Nacionalidad,España
+10,7,Minutos,1.407
+10,8,Partidos,30
+10,9,Valor estimado,1 M€
+11,1,Equipo,Alaves
+11,2,Puesto,Delantero
+11,3,Edad,22 años
+11,4,Altura,"1,85 m"
+11,5,Pie,Derecho
+11,6,Nacionalidad,España
+11,7,Minutos,8
+11,8,Partidos,1
+11,9,Valor estimado,200 mil €
+12,1,Equipo,Alaves
+12,2,Puesto,Central
+12,3,Edad,26 años
+12,4,Altura,"1,91 m"
+12,5,Pie,Derecho
+12,6,Nacionalidad,Malasia / Argentina
+12,7,Minutos,786
+12,8,Partidos,10
+12,9,Valor estimado,
+13,1,Equipo,Alaves
+13,2,Puesto,Delantero
+13,3,Edad,26 años
+13,4,Altura,"1,85 m"
+13,5,Pie,Derecho
+13,6,Nacionalidad,Costa de Marfil
+13,7,Minutos,579
+13,8,Partidos,10
+13,9,Valor estimado,"1,5 M€"
+14,1,Equipo,Alaves
+14,2,Puesto,Mediocentro
+14,3,Edad,31 años
+14,4,Altura,"1,79 m"
+14,5,Pie,Izquierdo
+14,6,Nacionalidad,España
+14,7,Minutos,1.251
+14,8,Partidos,28
+14,9,Valor estimado,"1,8 M€"
+15,1,Equipo,Alaves
+15,2,Puesto,Central
+15,3,Edad,25 años
+15,4,Altura,"1,84 m"
+15,5,Pie,Izquierdo
+15,6,Nacionalidad,España
+15,7,Minutos,1.737
+15,8,Partidos,22
+15,9,Valor estimado,5 M€
+16,1,Equipo,Alaves
+16,2,Puesto,Lateral
+16,3,Edad,32 años
+16,4,Altura,"1,75 m"
+16,5,Pie,Ambidiestro
+16,6,Nacionalidad,España
+16,7,Minutos,3.006
+16,8,Partidos,34
+16,9,Valor estimado,"2,2 M€"
+17,1,Equipo,Alaves
+17,2,Puesto,Sin definir
+17,3,Edad,22 años
+17,4,Altura,"1,78 m"
+17,5,Pie,
+17,6,Nacionalidad,España
+17,7,Minutos,1
+17,8,Partidos,1
+17,9,Valor estimado,200 mil €
+18,1,Equipo,Alaves
+18,2,Puesto,Delantero
+18,3,Edad,30 años
+18,4,Altura,"1,83 m"
+18,5,Pie,Derecho
+18,6,Nacionalidad,Argentina / Italia
+18,7,Minutos,1.960
+18,8,Partidos,29
+18,9,Valor estimado,5 M€
+19,1,Equipo,Alaves
+19,2,Puesto,Delantero
+19,3,Edad,32 años
+19,4,Altura,"1,80 m"
+19,5,Pie,Derecho
+19,6,Nacionalidad,República Dominicana / España
+19,7,Minutos,269
+19,8,Partidos,10
+19,9,Valor estimado,300 mil €
+20,1,Equipo,Alaves
+20,2,Puesto,Lateral
+20,3,Edad,25 años
+20,4,Altura,"1,85 m"
+20,5,Pie,Izquierdo
+20,6,Nacionalidad,Malí / Francia
+20,7,Minutos,225
+20,8,Partidos,3
+20,9,Valor estimado,2 M€
+21,1,Equipo,Alaves
+21,2,Puesto,Lateral
+21,3,Edad,30 años
+21,4,Altura,"1,81 m"
+21,5,Pie,Derecho
+21,6,Nacionalidad,Argentina / Italia
+21,7,Minutos,3.240
+21,8,Partidos,36
+21,9,Valor estimado,3 M€
+22,1,Equipo,Alaves
+22,2,Puesto,Mediocentro
+22,3,Edad,27 años
+22,4,Altura,"1,79 m"
+22,5,Pie,Derecho
+22,6,Nacionalidad,España
+22,7,Minutos,2.278
+22,8,Partidos,37
+22,9,Valor estimado,4 M€
+23,1,Equipo,Alaves
+23,2,Puesto,Delantero
+23,3,Edad,28 años
+23,4,Altura,"1,87 m"
+23,5,Pie,Derecho
+23,6,Nacionalidad,España
+23,7,Minutos,2.750
+23,8,Partidos,37
+23,9,Valor estimado,"7,5 M€"
+24,1,Equipo,Alaves
+24,2,Puesto,Lateral
+24,3,Edad,24 años
+24,4,Altura,"1,85 m"
+24,5,Pie,Izquierdo
+24,6,Nacionalidad,España
+24,7,Minutos,2.159
+24,8,Partidos,30
+24,9,Valor estimado,4 M€
+25,1,Equipo,Alaves
+25,2,Puesto,Central
+25,3,Edad,24 años
+25,4,Altura,"1,85 m"
+25,5,Pie,Derecho
+25,6,Nacionalidad,Finlandia
+25,7,Minutos,281
+25,8,Partidos,5
+25,9,Valor estimado,"1,5 M€"
+26,1,Equipo,Alaves
+26,2,Puesto,Lateral
+26,3,Edad,20 años
+26,4,Altura,"1,70 m"
+26,5,Pie,Izquierdo
+26,6,Nacionalidad,Marruecos / España
+26,7,Minutos,1.332
+26,8,Partidos,25
+26,9,Valor estimado,4 M€
+27,1,Equipo,Alaves
+27,2,Puesto,Lateral
+27,3,Edad,23 años
+27,4,Altura,"1,83 m"
+27,5,Pie,Derecho
+27,6,Nacionalidad,España
+27,7,Minutos,1.292
+27,8,Partidos,16
+27,9,Valor estimado,3 M€
+28,1,Equipo,Athletic Club
+28,2,Puesto,Lateral
+28,3,Edad,23 años
+28,4,Altura,"1,83 m"
+28,5,Pie,Izquierdo
+28,6,Nacionalidad,España / Senegal
+28,7,Minutos,810
+28,8,Partidos,14
+28,9,Valor estimado,"2,5 M€"
+29,1,Equipo,Athletic Club
+29,2,Puesto,Central
+29,3,Edad,26 años
+29,4,Altura,"1,85 m"
+29,5,Pie,Derecho
+29,6,Nacionalidad,España
+29,7,Minutos,1.625
+29,8,Partidos,19
+29,9,Valor estimado,"7,5 M€"
+30,1,Equipo,Athletic Club
+30,2,Puesto,Mediocentro
+30,3,Edad,22 años
+30,4,Altura,"1,92 m"
+30,5,Pie,Derecho
+30,6,Nacionalidad,España
+30,7,Minutos,1.231
+30,8,Partidos,29
+30,9,Valor estimado,5 M€
+31,1,Equipo,Athletic Club
+31,2,Puesto,Extremo
+31,3,Edad,30 años
+31,4,Altura,"1,75 m"
+31,5,Pie,Derecho
+31,6,Nacionalidad,España
+31,7,Minutos,2.191
+31,8,Partidos,31
+31,9,Valor estimado,4 M€
+32,1,Equipo,Athletic Club
+32,2,Puesto,Lateral
+32,3,Edad,29 años
+32,4,Altura,"1,74 m"
+32,5,Pie,Derecho
+32,6,Nacionalidad,España
+32,7,Minutos,1.347
+32,8,Partidos,24
+32,9,Valor estimado,3 M€
+33,1,Equipo,Athletic Club
+33,2,Puesto,Delantero
+33,3,Edad,21 años
+33,4,Altura,"1,90 m"
+33,5,Pie,Derecho
+33,6,Nacionalidad,España
+33,7,Minutos,30
+33,8,Partidos,1
+33,9,Valor estimado,1 M€
+34,1,Equipo,Athletic Club
+34,2,Puesto,Central
+34,3,Edad,32 años
+34,4,Altura,"1,91 m"
+34,5,Pie,Izquierdo
+34,6,Nacionalidad,España / Francia
+34,7,Minutos,2.068
+34,8,Partidos,25
+34,9,Valor estimado,8 M€
+35,1,Equipo,Athletic Club
+35,2,Puesto,Mediocentro
+35,3,Edad,25 años
+35,4,Altura,"1,80 m"
+35,5,Pie,Derecho
+35,6,Nacionalidad,España
+35,7,Minutos,87
+35,8,Partidos,2
+35,9,Valor estimado,15 M€
+36,1,Equipo,Athletic Club
+36,2,Puesto,Central
+36,3,Edad,26 años
+36,4,Altura,"1,84 m"
+36,5,Pie,Derecho
+36,6,Nacionalidad,España
+36,7,Minutos,2.561
+36,8,Partidos,31
+36,9,Valor estimado,20 M€
+37,1,Equipo,Athletic Club
+37,2,Puesto,Mediocentro
+37,3,Edad,22 años
+37,4,Altura,"1,83 m"
+37,5,Pie,Derecho
+37,6,Nacionalidad,España
+37,7,Minutos,30
+37,8,Partidos,2
+37,9,Valor estimado,1 M€
+38,1,Equipo,Athletic Club
+38,2,Puesto,Delantero
+38,3,Edad,29 años
+38,4,Altura,"1,88 m"
+38,5,Pie,Derecho
+38,6,Nacionalidad,España
+38,7,Minutos,2.401
+38,8,Partidos,35
+38,9,Valor estimado,5 M€
+39,1,Equipo,Athletic Club
+39,2,Puesto,Extremo
+39,3,Edad,31 años
+39,4,Altura,"1,86 m"
+39,5,Pie,Derecho
+39,6,Nacionalidad,Ghana / España
+39,7,Minutos,2.188
+39,8,Partidos,30
+39,9,Valor estimado,8 M€
+40,1,Equipo,Athletic Club
+40,2,Puesto,Lateral
+40,3,Edad,26 años
+40,4,Altura,"1,82 m"
+40,5,Pie,Derecho
+40,6,Nacionalidad,España
+40,7,Minutos,1.498
+40,8,Partidos,26
+40,9,Valor estimado,5 M€
+41,1,Equipo,Athletic Club
+41,2,Puesto,Delantero
+41,3,Edad,25 años
+41,4,Altura,"1,92 m"
+41,5,Pie,Derecho
+41,6,Nacionalidad,Marruecos / España
+41,7,Minutos,268
+41,8,Partidos,10
+41,9,Valor estimado,3 M€
+42,1,Equipo,Athletic Club
+42,2,Puesto,Mediocentro
+42,3,Edad,22 años
+42,4,Altura,"1,77 m"
+42,5,Pie,Derecho
+42,6,Nacionalidad,España
+42,7,Minutos,2.872
+42,8,Partidos,36
+42,9,Valor estimado,30 M€
+43,1,Equipo,Athletic Club
+43,2,Puesto,Pivote
+43,3,Edad,33 años
+43,4,Altura,"1,91 m"
+43,5,Pie,Izquierdo
+43,6,Nacionalidad,España
+43,7,Minutos,402
+43,8,Partidos,23
+43,9,Valor estimado,"1,2 M€"
+44,1,Equipo,Athletic Club
+44,2,Puesto,Extremo
+44,3,Edad,23 años
+44,4,Altura,"1,76 m"
+44,5,Pie,Izquierdo
+44,6,Nacionalidad,España
+44,7,Minutos,338
+44,8,Partidos,16
+44,9,Valor estimado,"1,5 M€"
+45,1,Equipo,Athletic Club
+45,2,Puesto,Extremo
+45,3,Edad,23 años
+45,4,Altura,"1,81 m"
+45,5,Pie,Derecho
+45,6,Nacionalidad,España / Ghana
+45,7,Minutos,1.715
+45,8,Partidos,25
+45,9,Valor estimado,40 M€
+46,1,Equipo,Athletic Club
+46,2,Puesto,Mediapunta
+46,3,Edad,26 años
+46,4,Altura,"1,88 m"
+46,5,Pie,Derecho
+46,6,Nacionalidad,España
+46,7,Minutos,1.832
+46,8,Partidos,28
+46,9,Valor estimado,25 M€
+47,1,Equipo,Athletic Club
+47,2,Puesto,Mediapunta
+47,3,Edad,24 años
+47,4,Altura,"1,78 m"
+47,5,Pie,Derecho
+47,6,Nacionalidad,España
+47,7,Minutos,1.246
+47,8,Partidos,32
+47,9,Valor estimado,6 M€
+48,1,Equipo,Athletic Club
+48,2,Puesto,Mediocentro
+48,3,Edad,19 años
+48,4,Altura,"1,85 m"
+48,5,Pie,Derecho
+48,6,Nacionalidad,España / Brasil
+48,7,Minutos,191
+48,8,Partidos,7
+48,9,Valor estimado,"2,8 M€"
+49,1,Equipo,Athletic Club
+49,2,Puesto,Mediapunta
+49,3,Edad,23 años
+49,4,Altura,"1,83 m"
+49,5,Pie,Izquierdo
+49,6,Nacionalidad,España
+49,7,Minutos,930
+49,8,Partidos,26
+49,9,Valor estimado,5 M€
+50,1,Equipo,Athletic Club
+50,2,Puesto,Delantero
+50,3,Edad,26 años
+50,4,Altura,"1,75 m"
+50,5,Pie,Derecho
+50,6,Nacionalidad,España
+50,7,Minutos,153
+50,8,Partidos,13
+50,9,Valor estimado,"1,4 M€"
+51,1,Equipo,Athletic Club
+51,2,Puesto,Central
+51,3,Edad,31 años
+51,4,Altura,"1,82 m"
+51,5,Pie,Derecho
+51,6,Nacionalidad,España
+51,7,Minutos,517
+51,8,Partidos,7
+51,9,Valor estimado,900 mil €
+52,1,Equipo,Athletic Club
+52,2,Puesto,Lateral
+52,3,Edad,36 años
+52,4,Altura,"1,81 m"
+52,5,Pie,Izquierdo
+52,6,Nacionalidad,España / Argelia
+52,7,Minutos,2.708
+52,8,Partidos,32
+52,9,Valor estimado,1 M€
+53,1,Equipo,Athletic Club
+53,2,Puesto,Lateral
+53,3,Edad,33 años
+53,4,Altura,"1,80 m"
+53,5,Pie,Derecho
+53,6,Nacionalidad,España
+53,7,Minutos,607
+53,8,Partidos,11
+53,9,Valor estimado,1 M€
+54,1,Equipo,Athletic Club
+54,2,Puesto,Mediocentro
+54,3,Edad,32 años
+54,4,Altura,"1,75 m"
+54,5,Pie,Derecho
+54,6,Nacionalidad,España
+54,7,Minutos,2.289
+54,8,Partidos,34
+54,9,Valor estimado,2 M€
+55,1,Equipo,Atletico Madrid
+55,2,Puesto,Extremo
+55,3,Edad,28 años
+55,4,Altura,"1,74 m"
+55,5,Pie,Derecho
+55,6,Nacionalidad,Nigeria / Inglaterra
+55,7,Minutos,638
+55,8,Partidos,12
+55,9,Valor estimado,40 M€
+56,1,Equipo,Atletico Madrid
+56,2,Puesto,Sin definir
+56,3,Edad,22 años
+56,4,Altura,"1,96 m"
+56,5,Pie,Derecho
+56,6,Nacionalidad,Serbia
+56,7,Minutos,40
+56,8,Partidos,2
+56,9,Valor estimado,1 M€
+57,1,Equipo,Atletico Madrid
+57,2,Puesto,Delantero
+57,3,Edad,30 años
+57,4,Altura,"1,96 m"
+57,5,Pie,Izquierdo
+57,6,Nacionalidad,Noruega
+57,7,Minutos,1.955
+57,8,Partidos,35
+57,9,Valor estimado,18 M€
+58,1,Equipo,Atletico Madrid
+58,2,Puesto,Delantero
+58,3,Edad,35 años
+58,4,Altura,"1,76 m"
+58,5,Pie,Izquierdo
+58,6,Nacionalidad,Francia
+58,7,Minutos,1.428
+58,8,Partidos,34
+58,9,Valor estimado,8 M€
+59,1,Equipo,Atletico Madrid
+59,2,Puesto,Central
+59,3,Edad,30 años
+59,4,Altura,"1,86 m"
+59,5,Pie,Izquierdo
+59,6,Nacionalidad,Francia
+59,7,Minutos,1.402
+59,8,Partidos,19
+59,9,Valor estimado,4 M€
+60,1,Equipo,Atletico Madrid
+60,2,Puesto,Mediocentro
+60,3,Edad,26 años
+60,4,Altura,"1,82 m"
+60,5,Pie,Derecho
+60,6,Nacionalidad,Inglaterra
+60,7,Minutos,630
+60,8,Partidos,19
+60,9,Valor estimado,32 M€
+61,1,Equipo,Atletico Madrid
+61,2,Puesto,Delantero
+61,3,Edad,18 años
+61,4,Altura,"1,84 m"
+61,5,Pie,Derecho
+61,6,Nacionalidad,España
+61,7,Minutos,46
+61,8,Partidos,2
+61,9,Valor estimado,2 M€
+62,1,Equipo,Atletico Madrid
+62,2,Puesto,Central
+62,3,Edad,22 años
+62,4,Altura,"1,86 m"
+62,5,Pie,Izquierdo
+62,6,Nacionalidad,España
+62,7,Minutos,90
+62,8,Partidos,1
+62,9,Valor estimado,500 mil €
+63,1,Equipo,Atletico Madrid
+63,2,Puesto,Central
+63,3,Edad,28 años
+63,4,Altura,"1,88 m"
+63,5,Pie,Izquierdo
+63,6,Nacionalidad,Eslovaquia
+63,7,Minutos,2.443
+63,8,Partidos,30
+63,9,Valor estimado,35 M€
+64,1,Equipo,Atletico Madrid
+64,2,Puesto,Posición no confirmada
+64,3,Edad,26 años
+64,4,Altura,"1,72 m"
+64,5,Pie,Derecho
+64,6,Nacionalidad,Italia
+64,7,Minutos,203
+64,8,Partidos,12
+64,9,Valor estimado,22 M€
+65,1,Equipo,Atletico Madrid
+65,2,Puesto,Extremo
+65,3,Edad,23 años
+65,4,Altura,"1,74 m"
+65,5,Pie,Derecho
+65,6,Nacionalidad,Argentina / Italia
+65,7,Minutos,2.153
+65,8,Partidos,31
+65,9,Valor estimado,40 M€
+66,1,Equipo,Atletico Madrid
+66,2,Puesto,Extremo
+66,3,Edad,20 años
+66,4,Altura,"1,68 m"
+66,5,Pie,Derecho
+66,6,Nacionalidad,España
+66,7,Minutos,26
+66,8,Partidos,1
+66,9,Valor estimado,2 M€
+67,1,Equipo,Atletico Madrid
+67,2,Puesto,Mediapunta
+67,3,Edad,20 años
+67,4,Altura,"1,77 m"
+67,5,Pie,Izquierdo
+67,6,Nacionalidad,España
+67,7,Minutos,14
+67,8,Partidos,2
+67,9,Valor estimado,500 mil €
+68,1,Equipo,Atletico Madrid
+68,2,Puesto,Lateral
+68,3,Edad,20 años
+68,4,Altura,"1,80 m"
+68,5,Pie,Derecho
+68,6,Nacionalidad,España
+68,7,Minutos,294
+68,8,Partidos,4
+68,9,Valor estimado,"1,5 M€"
+69,1,Equipo,Atletico Madrid
+69,2,Puesto,Sin definir
+69,3,Edad,20 años
+69,4,Altura,"1,83 m"
+69,5,Pie,Derecho
+69,6,Nacionalidad,España
+69,7,Minutos,152
+69,8,Partidos,5
+69,9,Valor estimado,500 mil €
+70,1,Equipo,Atletico Madrid
+70,2,Puesto,Mediocentro
+70,3,Edad,24 años
+70,4,Altura,"1,86 m"
+70,5,Pie,Derecho
+70,6,Nacionalidad,Estados Unidos / Italia
+70,7,Minutos,905
+70,8,Partidos,15
+70,9,Valor estimado,20 M€
+71,1,Equipo,Atletico Madrid
+71,2,Puesto,Central
+71,3,Edad,31 años
+71,4,Altura,"1,86 m"
+71,5,Pie,Derecho
+71,6,Nacionalidad,Uruguay / España
+71,7,Minutos,1.165
+71,8,Partidos,16
+71,9,Valor estimado,9 M€
+72,1,Equipo,Atletico Madrid
+72,2,Puesto,Sin definir
+72,3,Edad,21 años
+72,4,Altura,"1,74 m"
+72,5,Pie,Izquierdo
+72,6,Nacionalidad,España
+72,7,Minutos,322
+72,8,Partidos,4
+72,9,Valor estimado,"1,5 M€"
+73,1,Equipo,Atletico Madrid
+73,2,Puesto,Delantero
+73,3,Edad,26 años
+73,4,Altura,"1,70 m"
+73,5,Pie,Derecho
+73,6,Nacionalidad,Argentina / Italia
+73,7,Minutos,1.926
+73,8,Partidos,29
+73,9,Valor estimado,100 M€
+74,1,Equipo,Atletico Madrid
+74,2,Puesto,Mediocentro
+74,3,Edad,34 años
+74,4,Altura,"1,76 m"
+74,5,Pie,Derecho
+74,6,Nacionalidad,España
+74,7,Minutos,2.237
+74,8,Partidos,34
+74,9,Valor estimado,5 M€
+75,1,Equipo,Atletico Madrid
+75,2,Puesto,Lateral
+75,3,Edad,22 años
+75,4,Altura,"1,91 m"
+75,5,Pie,Derecho
+75,6,Nacionalidad,España
+75,7,Minutos,1.377
+75,8,Partidos,19
+75,9,Valor estimado,35 M€
+76,1,Equipo,Atletico Madrid
+76,2,Puesto,Mediocentro
+76,3,Edad,31 años
+76,4,Altura,"1,83 m"
+76,5,Pie,Derecho
+76,6,Nacionalidad,España
+76,7,Minutos,2.190
+76,8,Partidos,29
+76,9,Valor estimado,20 M€
+77,1,Equipo,Atletico Madrid
+77,2,Puesto,Lateral
+77,3,Edad,23 años
+77,4,Altura,"1,87 m"
+77,5,Pie,Izquierdo
+77,6,Nacionalidad,Italia
+77,7,Minutos,1.767
+77,8,Partidos,26
+77,9,Valor estimado,28 M€
+78,1,Equipo,Atletico Madrid
+78,2,Puesto,Lateral
+78,3,Edad,28 años
+78,4,Altura,"1,79 m"
+78,5,Pie,Derecho
+78,6,Nacionalidad,Argentina
+78,7,Minutos,1.292
+78,8,Partidos,26
+78,9,Valor estimado,15 M€
+79,1,Equipo,Atletico Madrid
+79,2,Puesto,Extremo
+79,3,Edad,28 años
+79,4,Altura,"1,80 m"
+79,5,Pie,Izquierdo
+79,6,Nacionalidad,Argentina / Italia
+79,7,Minutos,1.480
+79,8,Partidos,24
+79,9,Valor estimado,22 M€
+80,1,Equipo,Atletico Madrid
+80,2,Puesto,Mediocentro
+80,3,Edad,20 años
+80,4,Altura,"1,75 m"
+80,5,Pie,Derecho
+80,6,Nacionalidad,México / España
+80,7,Minutos,742
+80,8,Partidos,12
+80,9,Valor estimado,10 M€
+81,1,Equipo,Atletico Madrid
+81,2,Puesto,Mediocentro
+81,3,Edad,22 años
+81,4,Altura,"1,81 m"
+81,5,Pie,Derecho
+81,6,Nacionalidad,España
+81,7,Minutos,1.672
+81,8,Partidos,23
+81,9,Valor estimado,55 M€
+82,1,Equipo,Atletico Madrid
+82,2,Puesto,Extremo
+82,3,Edad,21 años
+82,4,Altura,"1,75 m"
+82,5,Pie,Derecho
+82,6,Nacionalidad,España / Argelia
+82,7,Minutos,140
+82,8,Partidos,2
+82,9,Valor estimado,600 mil €
+83,1,Equipo,Atletico Madrid
+83,2,Puesto,Central
+83,3,Edad,29 años
+83,4,Altura,"1,87 m"
+83,5,Pie,Derecho
+83,6,Nacionalidad,España / Francia
+83,7,Minutos,1.776
+83,8,Partidos,28
+83,9,Valor estimado,20 M€
+84,1,Equipo,Atletico Madrid
+84,2,Puesto,Mediocentro
+84,3,Edad,21 años
+84,4,Altura,"1,82 m"
+84,5,Pie,Derecho
+84,6,Nacionalidad,España
+84,7,Minutos,1.243
+84,8,Partidos,24
+84,9,Valor estimado,20 M€
+85,1,Equipo,Atletico Madrid
+85,2,Puesto,Mediocentro
+85,3,Edad,18 años
+85,4,Altura,"1,82 m"
+85,5,Pie,Derecho
+85,6,Nacionalidad,España / Ghana
+85,7,Minutos,15
+85,8,Partidos,1
+85,9,Valor estimado,
+86,1,Equipo,Atletico Madrid
+86,2,Puesto,Mediapunta
+86,3,Edad,25 años
+86,4,Altura,"1,71 m"
+86,5,Pie,Derecho
+86,6,Nacionalidad,Argentina / Italia
+86,7,Minutos,1.327
+86,8,Partidos,27
+86,9,Valor estimado,15 M€
+87,1,Equipo,Atletico Madrid
+87,2,Puesto,Mediapunta
+87,3,Edad,24 años
+87,4,Altura,"1,72 m"
+87,5,Pie,Derecho
+87,6,Nacionalidad,España
+87,7,Minutos,1.615
+87,8,Partidos,27
+87,9,Valor estimado,40 M€
+88,1,Equipo,Barcelona
+88,2,Puesto,Lateral
+88,3,Edad,22 años
+88,4,Altura,"1,77 m"
+88,5,Pie,Izquierdo
+88,6,Nacionalidad,España
+88,7,Minutos,1.910
+88,8,Partidos,28
+88,9,Valor estimado,50 M€
+89,1,Equipo,Barcelona
+89,2,Puesto,Central
+89,3,Edad,30 años
+89,4,Altura,"1,89 m"
+89,5,Pie,Derecho
+89,6,Nacionalidad,Dinamarca
+89,7,Minutos,369
+89,8,Partidos,13
+89,9,Valor estimado,8 M€
+90,1,Equipo,Barcelona
+90,2,Puesto,Mediapunta
+90,3,Edad,28 años
+90,4,Altura,"1,79 m"
+90,5,Pie,Derecho
+90,6,Nacionalidad,España
+90,7,Minutos,2.109
+90,8,Partidos,33
+90,9,Valor estimado,60 M€
+91,1,Equipo,Barcelona
+91,2,Puesto,Posición no confirmada
+91,3,Edad,18 años
+91,4,Altura,"1,80 m"
+91,5,Pie,Derecho
+91,6,Nacionalidad,España / Filipinas
+91,7,Minutos,83
+91,8,Partidos,4
+91,9,Valor estimado,10 M€
+92,1,Equipo,Barcelona
+92,2,Puesto,Central
+92,3,Edad,25 años
+92,4,Altura,"1,80 m"
+92,5,Pie,Derecho
+92,6,Nacionalidad,España
+92,7,Minutos,2.761
+92,8,Partidos,34
+92,9,Valor estimado,40 M€
+93,1,Equipo,Barcelona
+93,2,Puesto,Mediocentro
+93,3,Edad,23 años
+93,4,Altura,"1,76 m"
+93,5,Pie,Derecho
+93,6,Nacionalidad,España
+93,7,Minutos,1.780
+93,8,Partidos,30
+93,9,Valor estimado,100 M€
+94,1,Equipo,Barcelona
+94,2,Puesto,Delantero
+94,3,Edad,26 años
+94,4,Altura,"1,83 m"
+94,5,Pie,Derecho
+94,6,Nacionalidad,España
+94,7,Minutos,2.025
+94,8,Partidos,33
+94,9,Valor estimado,50 M€
+95,1,Equipo,Barcelona
+95,2,Puesto,Mediocentro
+95,3,Edad,29 años
+95,4,Altura,"1,81 m"
+95,5,Pie,Derecho
+95,6,Nacionalidad,Países Bajos
+95,7,Minutos,1.597
+95,8,Partidos,25
+95,9,Valor estimado,35 M€
+96,1,Equipo,Barcelona
+96,2,Puesto,Mediocentro
+96,3,Edad,21 años
+96,4,Altura,"1,73 m"
+96,5,Pie,Derecho
+96,6,Nacionalidad,España
+96,7,Minutos,578
+96,8,Partidos,11
+96,9,Valor estimado,30 M€
+97,1,Equipo,Barcelona
+97,2,Puesto,Lateral
+97,3,Edad,24 años
+97,4,Altura,"1,86 m"
+97,5,Pie,Izquierdo
+97,6,Nacionalidad,España
+97,7,Minutos,2.145
+97,8,Partidos,32
+97,9,Valor estimado,35 M€
+98,1,Equipo,Barcelona
+98,2,Puesto,Lateral
+98,3,Edad,19 años
+98,4,Altura,"1,85 m"
+98,5,Pie,Izquierdo
+98,6,Nacionalidad,España
+98,7,Minutos,33
+98,8,Partidos,3
+98,9,Valor estimado,1 M€
+99,1,Equipo,Barcelona
+99,2,Puesto,Lateral
+99,3,Edad,32 años
+99,4,Altura,"1,82 m"
+99,5,Pie,Derecho
+99,6,Nacionalidad,Portugal
+99,7,Minutos,938
+99,8,Partidos,16
+99,9,Valor estimado,8 M€
+100,1,Equipo,Barcelona
+100,2,Puesto,Central
+100,3,Edad,27 años
+100,4,Altura,"1,81 m"
+100,5,Pie,Derecho
+100,6,Nacionalidad,Francia / Benín
+100,7,Minutos,2.247
+100,8,Partidos,30
+100,9,Valor estimado,60 M€
+101,1,Equipo,Barcelona
+101,2,Puesto,Extremo
+101,3,Edad,18 años
+101,4,Altura,"1,83 m"
+101,5,Pie,Izquierdo
+101,6,Nacionalidad,España
+101,7,Minutos,2.291
+101,8,Partidos,28
+101,9,Valor estimado,200 M€
+102,1,Equipo,Barcelona
+102,2,Puesto,Sin definir
+102,3,Edad,19 años
+102,4,Altura,"1,93 m"
+102,5,Pie,Izquierdo
+102,6,Nacionalidad,España
+102,7,Minutos,798
+102,8,Partidos,22
+102,9,Valor estimado,30 M€
+103,1,Equipo,Barcelona
+103,2,Puesto,Pivote
+103,3,Edad,22 años
+103,4,Altura,"1,72 m"
+103,5,Pie,Derecho
+103,6,Nacionalidad,España
+103,7,Minutos,957
+103,8,Partidos,24
+103,9,Valor estimado,18 M€
+104,1,Equipo,Barcelona
+104,2,Puesto,Extremo
+104,3,Edad,28 años
+104,4,Altura,"1,85 m"
+104,5,Pie,Derecho
+104,6,Nacionalidad,Inglaterra / San Cristóbal y Nieves
+104,7,Minutos,1.739
+104,8,Partidos,32
+104,9,Valor estimado,40 M€
+105,1,Equipo,Barcelona
+105,2,Puesto,Central
+105,3,Edad,19 años
+105,4,Altura,"1,84 m"
+105,5,Pie,Derecho
+105,6,Nacionalidad,España
+105,7,Minutos,2.733
+105,8,Partidos,31
+105,9,Valor estimado,80 M€
+106,1,Equipo,Barcelona
+106,2,Puesto,Mediocentro
+106,3,Edad,23 años
+106,4,Altura,"1,74 m"
+106,5,Pie,Derecho
+106,6,Nacionalidad,España
+106,7,Minutos,2.117
+106,8,Partidos,29
+106,9,Valor estimado,150 M€
+107,1,Equipo,Barcelona
+107,2,Puesto,Extremo
+107,3,Edad,29 años
+107,4,Altura,"1,76 m"
+107,5,Pie,Izquierdo
+107,6,Nacionalidad,Brasil / Italia
+107,7,Minutos,1.424
+107,8,Partidos,22
+107,9,Valor estimado,70 M€
+108,1,Equipo,Barcelona
+108,2,Puesto,Delantero
+108,3,Edad,37 años
+108,4,Altura,"1,86 m"
+108,5,Pie,Derecho
+108,6,Nacionalidad,Polonia
+108,7,Minutos,1.630
+108,8,Partidos,31
+108,9,Valor estimado,7 M€
+109,1,Equipo,Barcelona
+109,2,Puesto,Central
+109,3,Edad,27 años
+109,4,Altura,"1,92 m"
+109,5,Pie,Derecho
+109,6,Nacionalidad,Uruguay / España
+109,7,Minutos,1.049
+109,8,Partidos,24
+109,9,Valor estimado,20 M€
+110,1,Equipo,Barcelona
+110,2,Puesto,Extremo
+110,3,Edad,20 años
+110,4,Altura,"1,73 m"
+110,5,Pie,Izquierdo
+110,6,Nacionalidad,Suecia / Siria
+110,7,Minutos,612
+110,8,Partidos,21
+110,9,Valor estimado,15 M€
+111,1,Equipo,Barcelona
+111,2,Puesto,Pivote
+111,3,Edad,19 años
+111,4,Altura,"1,86 m"
+111,5,Pie,Derecho
+111,6,Nacionalidad,España
+111,7,Minutos,5
+111,8,Partidos,2
+111,9,Valor estimado,3 M€
+112,1,Equipo,Barcelona
+112,2,Puesto,Delantero
+112,3,Edad,17 años
+112,4,Altura,"1,75 m"
+112,5,Pie,Izquierdo
+112,6,Nacionalidad,España
+112,7,Minutos,48
+112,8,Partidos,1
+112,9,Valor estimado,3 M€
+113,1,Equipo,Barcelona
+113,2,Puesto,Lateral
+113,3,Edad,19 años
+113,4,Altura,"1,75 m"
+113,5,Pie,Derecho
+113,6,Nacionalidad,España
+113,7,Minutos,157
+113,8,Partidos,4
+113,9,Valor estimado,5 M€
+114,1,Equipo,Barcelona
+114,2,Puesto,Sin definir
+114,3,Edad,21 años
+114,4,Altura,"1,90 m"
+114,5,Pie,Izquierdo
+114,6,Nacionalidad,España
+114,7,Minutos,90
+114,8,Partidos,1
+114,9,Valor estimado,4 M€
+115,1,Equipo,Celta Vigo
+115,2,Puesto,Mediapunta
+115,3,Edad,19 años
+115,4,Altura,"1,83 m"
+115,5,Pie,Derecho
+115,6,Nacionalidad,España
+115,7,Minutos,64
+115,8,Partidos,2
+115,9,Valor estimado,500 mil €
+116,1,Equipo,Celta Vigo
+116,2,Puesto,Delantero
+116,3,Edad,33 años
+116,4,Altura,"1,87 m"
+116,5,Pie,Derecho
+116,6,Nacionalidad,España
+116,7,Minutos,1.903
+116,8,Partidos,35
+116,9,Valor estimado,"2,8 M€"
+117,1,Equipo,Celta Vigo
+117,2,Puesto,Extremo
+117,3,Edad,24 años
+117,4,Altura,"1,64 m"
+117,5,Pie,Derecho
+117,6,Nacionalidad,España
+117,7,Minutos,1.138
+117,8,Partidos,19
+117,9,Valor estimado,8 M€
+118,1,Equipo,Celta Vigo
+118,2,Puesto,Central
+118,3,Edad,30 años
+118,4,Altura,"1,85 m"
+118,5,Pie,Derecho
+118,6,Nacionalidad,Suecia
+118,7,Minutos,1.492
+118,8,Partidos,19
+118,9,Valor estimado,"4,5 M€"
+119,1,Equipo,Celta Vigo
+119,2,Puesto,Central
+119,3,Edad,25 años
+119,4,Altura,"1,87 m"
+119,5,Pie,Izquierdo
+119,6,Nacionalidad,España
+119,7,Minutos,602
+119,8,Partidos,8
+119,9,Valor estimado,2 M€
+120,1,Equipo,Celta Vigo
+120,2,Puesto,Posición no confirmada
+120,3,Edad,23 años
+120,4,Altura,"1,80 m"
+120,5,Pie,Izquierdo
+120,6,Nacionalidad,España
+120,7,Minutos,155
+120,8,Partidos,2
+120,9,Valor estimado,2 M€
+121,1,Equipo,Celta Vigo
+121,2,Puesto,Mediapunta
+121,3,Edad,22 años
+121,4,Altura,"1,88 m"
+121,5,Pie,Izquierdo
+121,6,Nacionalidad,España
+121,7,Minutos,1.179
+121,8,Partidos,17
+121,9,Valor estimado,16 M€
+122,1,Equipo,Celta Vigo
+122,2,Puesto,Delantero
+122,3,Edad,27 años
+122,4,Altura,"1,75 m"
+122,5,Pie,Derecho
+122,6,Nacionalidad,España
+122,7,Minutos,1.702
+122,8,Partidos,30
+122,9,Valor estimado,10 M€
+123,1,Equipo,Celta Vigo
+123,2,Puesto,Mediocentro
+123,3,Edad,19 años
+123,4,Altura,"1,87 m"
+123,5,Pie,Derecho
+123,6,Nacionalidad,España
+123,7,Minutos,4
+123,8,Partidos,1
+123,9,Valor estimado,500 mil €
+124,1,Equipo,Celta Vigo
+124,2,Puesto,Delantero
+124,3,Edad,23 años
+124,4,Altura,"1,77 m"
+124,5,Pie,Derecho
+124,6,Nacionalidad,España
+124,7,Minutos,4
+124,8,Partidos,1
+124,9,Valor estimado,700 mil €
+125,1,Equipo,Celta Vigo
+125,2,Puesto,Mediocentro
+125,3,Edad,22 años
+125,4,Altura,"1,80 m"
+125,5,Pie,Derecho
+125,6,Nacionalidad,España
+125,7,Minutos,1.350
+125,8,Partidos,20
+125,9,Valor estimado,5 M€
+126,1,Equipo,Celta Vigo
+126,2,Puesto,Extremo
+126,3,Edad,22 años
+126,4,Altura,"1,76 m"
+126,5,Pie,Derecho
+126,6,Nacionalidad,España
+126,7,Minutos,1.359
+126,8,Partidos,28
+126,9,Valor estimado,8 M€
+127,1,Equipo,Celta Vigo
+127,2,Puesto,Delantero
+127,3,Edad,38 años
+127,4,Altura,"1,76 m"
+127,5,Pie,Izquierdo
+127,6,Nacionalidad,España
+127,7,Minutos,1.082
+127,8,Partidos,32
+127,9,Valor estimado,"1,6 M€"
+128,1,Equipo,Celta Vigo
+128,2,Puesto,Mediocentro
+128,3,Edad,23 años
+128,4,Altura,"1,85 m"
+128,5,Pie,Derecho
+128,6,Nacionalidad,Guinea / España
+128,7,Minutos,2.484
+128,8,Partidos,36
+128,9,Valor estimado,15 M€
+129,1,Equipo,Celta Vigo
+129,2,Puesto,Lateral
+129,3,Edad,22 años
+129,4,Altura,"1,83 m"
+129,5,Pie,Derecho
+129,6,Nacionalidad,España
+129,7,Minutos,2.568
+129,8,Partidos,33
+129,9,Valor estimado,18 M€
+130,1,Equipo,Celta Vigo
+130,2,Puesto,Lateral
+130,3,Edad,24 años
+130,4,Altura,"1,77 m"
+130,5,Pie,Derecho
+130,6,Nacionalidad,España
+130,7,Minutos,1.403
+130,8,Partidos,26
+130,9,Valor estimado,6 M€
+131,1,Equipo,Celta Vigo
+131,2,Puesto,Extremo
+131,3,Edad,20 años
+131,4,Altura,"1,84 m"
+131,5,Pie,Derecho
+131,6,Nacionalidad,Marruecos / Noruega
+131,7,Minutos,621
+131,8,Partidos,22
+131,9,Valor estimado,8 M€
+132,1,Equipo,Celta Vigo
+132,2,Puesto,Central
+132,3,Edad,30 años
+132,4,Altura,"1,81 m"
+132,5,Pie,Derecho
+132,6,Nacionalidad,Ghana
+132,7,Minutos,640
+132,8,Partidos,8
+132,9,Valor estimado,1 M€
+133,1,Equipo,Celta Vigo
+133,2,Puesto,Central
+133,3,Edad,25 años
+133,4,Altura,"1,85 m"
+133,5,Pie,Derecho
+133,6,Nacionalidad,España
+133,7,Minutos,768
+133,8,Partidos,14
+133,9,Valor estimado,"1,5 M€"
+134,1,Equipo,Celta Vigo
+134,2,Puesto,Lateral
+134,3,Edad,35 años
+134,4,Altura,"1,88 m"
+134,5,Pie,Izquierdo
+134,6,Nacionalidad,España
+134,7,Minutos,2.780
+134,8,Partidos,32
+134,9,Valor estimado,"1,2 M€"
+135,1,Equipo,Celta Vigo
+135,2,Puesto,Mediocentro
+135,3,Edad,34 años
+135,4,Altura,"1,87 m"
+135,5,Pie,Derecho
+135,6,Nacionalidad,Uruguay / Italia
+135,7,Minutos,136
+135,8,Partidos,6
+135,9,Valor estimado,1 M€
+136,1,Equipo,Celta Vigo
+136,2,Puesto,Sin definir
+136,3,Edad,23 años
+136,4,Altura,"1,78 m"
+136,5,Pie,Derecho
+136,6,Nacionalidad,España
+136,7,Minutos,1.297
+136,8,Partidos,19
+136,9,Valor estimado,15 M€
+137,1,Equipo,Celta Vigo
+137,2,Puesto,Lateral
+137,3,Edad,30 años
+137,4,Altura,"1,82 m"
+137,5,Pie,Izquierdo
+137,6,Nacionalidad,Serbia / Bosnia y Herzegovina
+137,7,Minutos,266
+137,8,Partidos,5
+137,9,Valor estimado,800 mil €
+138,1,Equipo,Celta Vigo
+138,2,Puesto,Delantero
+138,3,Edad,25 años
+138,4,Altura,"1,76 m"
+138,5,Pie,Derecho
+138,6,Nacionalidad,España
+138,7,Minutos,1.451
+138,8,Partidos,30
+138,9,Valor estimado,4 M€
+139,1,Equipo,Celta Vigo
+139,2,Puesto,Lateral
+139,3,Edad,25 años
+139,4,Altura,"1,70 m"
+139,5,Pie,Derecho
+139,6,Nacionalidad,España
+139,7,Minutos,2.695
+139,8,Partidos,34
+139,9,Valor estimado,12 M€
+140,1,Equipo,Celta Vigo
+140,2,Puesto,Mediapunta
+140,3,Edad,22 años
+140,4,Altura,"1,87 m"
+140,5,Pie,Derecho
+140,6,Nacionalidad,Suecia
+140,7,Minutos,1.237
+140,8,Partidos,29
+140,9,Valor estimado,20 M€
+141,1,Equipo,Celta Vigo
+141,2,Puesto,Central
+141,3,Edad,22 años
+141,4,Altura,"1,85 m"
+141,5,Pie,Derecho
+141,6,Nacionalidad,España
+141,7,Minutos,966
+141,8,Partidos,12
+141,9,Valor estimado,4 M€
+142,1,Equipo,Celta Vigo
+142,2,Puesto,Lateral
+142,3,Edad,25 años
+142,4,Altura,"1,77 m"
+142,5,Pie,Derecho
+142,6,Nacionalidad,España
+142,7,Minutos,2.006
+142,8,Partidos,25
+142,9,Valor estimado,4 M€
+143,1,Equipo,Celta Vigo
+143,2,Puesto,Lateral
+143,3,Edad,27 años
+143,4,Altura,"1,84 m"
+143,5,Pie,Derecho
+143,6,Nacionalidad,España
+143,7,Minutos,1.949
+143,8,Partidos,34
+143,9,Valor estimado,18 M€
+144,1,Equipo,Elche
+144,2,Puesto,Delantero
+144,3,Edad,
+144,4,Altura,
+144,5,Pie,
+144,6,Nacionalidad,
+144,7,Minutos,85
+144,8,Partidos,7
+144,9,Valor estimado,
+145,1,Equipo,Elche
+145,2,Puesto,Lateral
+145,3,Edad,28 años
+145,4,Altura,"1,72 m"
+145,5,Pie,Izquierdo
+145,6,Nacionalidad,España
+145,7,Minutos,1.053
+145,8,Partidos,27
+145,9,Valor estimado,"2,8 M€"
+146,1,Equipo,Elche
+146,2,Puesto,Mediocentro
+146,3,Edad,30 años
+146,4,Altura,"1,72 m"
+146,5,Pie,Derecho
+146,6,Nacionalidad,España
+146,7,Minutos,3.178
+146,8,Partidos,36
+146,9,Valor estimado,5 M€
+147,1,Equipo,Elche
+147,2,Puesto,Posición no confirmada
+147,3,Edad,20 años
+147,4,Altura,"1,78 m"
+147,5,Pie,Derecho
+147,6,Nacionalidad,Marruecos / España
+147,7,Minutos,133
+147,8,Partidos,2
+147,9,Valor estimado,300 mil €
+148,1,Equipo,Elche
+148,2,Puesto,Delantero
+148,3,Edad,30 años
+148,4,Altura,"1,86 m"
+148,5,Pie,Derecho
+148,6,Nacionalidad,Portugal
+148,7,Minutos,1.858
+148,8,Partidos,31
+148,9,Valor estimado,3 M€
+149,1,Equipo,Elche
+149,2,Puesto,Posición no confirmada
+149,3,Edad,28 años
+149,4,Altura,"1,88 m"
+149,5,Pie,Derecho
+149,6,Nacionalidad,España / Senegal
+149,7,Minutos,98
+149,8,Partidos,4
+149,9,Valor estimado,800 mil €
+150,1,Equipo,Elche
+150,2,Puesto,Sin definir
+150,3,Edad,18 años
+150,4,Altura,"1,83 m"
+150,5,Pie,Derecho
+150,6,Nacionalidad,España / Malí
+150,7,Minutos,556
+150,8,Partidos,12
+150,9,Valor estimado,"4,5 M€"
+151,1,Equipo,Elche
+151,2,Puesto,Central
+151,3,Edad,25 años
+151,4,Altura,"1,85 m"
+151,5,Pie,Derecho
+151,6,Nacionalidad,Austria
+151,7,Minutos,2.958
+151,8,Partidos,36
+151,9,Valor estimado,20 M€
+152,1,Equipo,Elche
+152,2,Puesto,Pivote
+152,3,Edad,23 años
+152,4,Altura,"1,88 m"
+152,5,Pie,Derecho
+152,6,Nacionalidad,Argentina / España
+152,7,Minutos,158
+152,8,Partidos,11
+152,9,Valor estimado,"2,5 M€"
+153,1,Equipo,Elche
+153,2,Puesto,Delantero
+153,3,Edad,24 años
+153,4,Altura,"1,70 m"
+153,5,Pie,Izquierdo
+153,6,Nacionalidad,España / Lituania
+153,7,Minutos,2.888
+153,8,Partidos,36
+153,9,Valor estimado,6 M€
+154,1,Equipo,Elche
+154,2,Puesto,Mediocentro
+154,3,Edad,28 años
+154,4,Altura,"1,81 m"
+154,5,Pie,Derecho
+154,6,Nacionalidad,España
+154,7,Minutos,722
+154,8,Partidos,12
+154,9,Valor estimado,"1,8 M€"
+155,1,Equipo,Elche
+155,2,Puesto,Extremo
+155,3,Edad,28 años
+155,4,Altura,"1,80 m"
+155,5,Pie,Izquierdo
+155,6,Nacionalidad,RD del Congo / Inglaterra
+155,7,Minutos,937
+155,8,Partidos,20
+155,9,Valor estimado,2 M€
+156,1,Equipo,Elche
+156,2,Puesto,Lateral
+156,3,Edad,19 años
+156,4,Altura,"1,85 m"
+156,5,Pie,Derecho
+156,6,Nacionalidad,España
+156,7,Minutos,478
+156,8,Partidos,14
+156,9,Valor estimado,12 M€
+157,1,Equipo,Elche
+157,2,Puesto,Posición no confirmada
+157,3,Edad,32 años
+157,4,Altura,"1,65 m"
+157,5,Pie,Izquierdo
+157,6,Nacionalidad,España
+157,7,Minutos,22
+157,8,Partidos,1
+157,9,Valor estimado,400 mil €
+158,1,Equipo,Elche
+158,2,Puesto,Central
+158,3,Edad,25 años
+158,4,Altura,"1,82 m"
+158,5,Pie,Derecho
+158,6,Nacionalidad,España / Nigeria
+158,7,Minutos,637
+158,8,Partidos,21
+158,9,Valor estimado,1 M€
+159,1,Equipo,Elche
+159,2,Puesto,Extremo
+159,3,Edad,36 años
+159,4,Altura,"1,76 m"
+159,5,Pie,Derecho
+159,6,Nacionalidad,España
+159,7,Minutos,525
+159,8,Partidos,19
+159,9,Valor estimado,100 mil €
+160,1,Equipo,Elche
+160,2,Puesto,Extremo
+160,3,Edad,23 años
+160,4,Altura,"1,77 m"
+160,5,Pie,Izquierdo
+160,6,Nacionalidad,Chile
+160,7,Minutos,390
+160,8,Partidos,10
+160,9,Valor estimado,"2,5 M€"
+161,1,Equipo,Elche
+161,2,Puesto,Lateral
+161,3,Edad,29 años
+161,4,Altura,"1,88 m"
+161,5,Pie,Izquierdo
+161,6,Nacionalidad,Francia
+161,7,Minutos,1.572
+161,8,Partidos,32
+161,9,Valor estimado,"1,5 M€"
+162,1,Equipo,Elche
+162,2,Puesto,Pivote
+162,3,Edad,26 años
+162,4,Altura,"1,82 m"
+162,5,Pie,Izquierdo
+162,6,Nacionalidad,España
+162,7,Minutos,2.539
+162,8,Partidos,35
+162,9,Valor estimado,"3,5 M€"
+163,1,Equipo,Elche
+163,2,Puesto,Mediocentro
+163,3,Edad,23 años
+163,4,Altura,"1,85 m"
+163,5,Pie,Derecho
+163,6,Nacionalidad,Portugal
+163,7,Minutos,1.367
+163,8,Partidos,25
+163,9,Valor estimado,4 M€
+164,1,Equipo,Elche
+164,2,Puesto,Posición no confirmada
+164,3,Edad,28 años
+164,4,Altura,"1,88 m"
+164,5,Pie,Derecho
+164,6,Nacionalidad,Marruecos / España
+164,7,Minutos,42
+164,8,Partidos,2
+164,9,Valor estimado,"2,5 M€"
+165,1,Equipo,Elche
+165,2,Puesto,Central
+165,3,Edad,36 años
+165,4,Altura,"1,81 m"
+165,5,Pie,Izquierdo
+165,6,Nacionalidad,España
+165,7,Minutos,2.078
+165,8,Partidos,28
+165,9,Valor estimado,300 mil €
+166,1,Equipo,Elche
+166,2,Puesto,Delantero
+166,3,Edad,28 años
+166,4,Altura,"1,91 m"
+166,5,Pie,Derecho
+166,6,Nacionalidad,España
+166,7,Minutos,1.834
+166,8,Partidos,27
+166,9,Valor estimado,4 M€
+167,1,Equipo,Elche
+167,2,Puesto,Extremo
+167,3,Edad,29 años
+167,4,Altura,"1,84 m"
+167,5,Pie,Derecho
+167,6,Nacionalidad,España
+167,7,Minutos,940
+167,8,Partidos,13
+167,9,Valor estimado,"1,8 M€"
+168,1,Equipo,Elche
+168,2,Puesto,Central
+168,3,Edad,26 años
+168,4,Altura,"1,84 m"
+168,5,Pie,Ambidiestro
+168,6,Nacionalidad,España
+168,7,Minutos,2.146
+168,8,Partidos,31
+168,9,Valor estimado,"3,5 M€"
+169,1,Equipo,Elche
+169,2,Puesto,Posición no confirmada
+169,3,Edad,
+169,4,Altura,
+169,5,Pie,
+169,6,Nacionalidad,
+169,7,Minutos,275
+169,8,Partidos,9
+169,9,Valor estimado,
+170,1,Equipo,Elche
+170,2,Puesto,Extremo
+170,3,Edad,20 años
+170,4,Altura,
+170,5,Pie,Izquierdo
+170,6,Nacionalidad,España
+170,7,Minutos,5
+170,8,Partidos,1
+170,9,Valor estimado,50 mil €
+171,1,Equipo,Elche
+171,2,Puesto,Delantero
+171,3,Edad,21 años
+171,4,Altura,"1,93 m"
+171,5,Pie,Izquierdo
+171,6,Nacionalidad,Uruguay / España
+171,7,Minutos,2.199
+171,8,Partidos,34
+171,9,Valor estimado,10 M€
+172,1,Equipo,Espanyol
+172,2,Puesto,Extremo
+172,3,Edad,23 años
+172,4,Altura,"1,80 m"
+172,5,Pie,Derecho
+172,6,Nacionalidad,España
+172,7,Minutos,262
+172,8,Partidos,13
+172,9,Valor estimado,"1,8 M€"
+173,1,Equipo,Espanyol
+173,2,Puesto,Lateral
+173,3,Edad,24 años
+173,4,Altura,"1,74 m"
+173,5,Pie,Izquierdo
+173,6,Nacionalidad,España
+173,7,Minutos,3.207
+173,8,Partidos,36
+173,9,Valor estimado,25 M€
+174,1,Equipo,Espanyol
+174,2,Puesto,Pivote
+174,3,Edad,29 años
+174,4,Altura,"1,87 m"
+174,5,Pie,Derecho
+174,6,Nacionalidad,RD del Congo / Suiza
+174,7,Minutos,658
+174,8,Partidos,24
+174,9,Valor estimado,"2,5 M€"
+175,1,Equipo,Espanyol
+175,2,Puesto,Central
+175,3,Edad,22 años
+175,4,Altura,"1,86 m"
+175,5,Pie,Derecho
+175,6,Nacionalidad,Alemania
+175,7,Minutos,1.405
+175,8,Partidos,20
+175,9,Valor estimado,4 M€
+176,1,Equipo,Espanyol
+176,2,Puesto,Extremo
+176,3,Edad,26 años
+176,4,Altura,"1,80 m"
+176,5,Pie,Izquierdo
+176,6,Nacionalidad,Bélgica / RD del Congo
+176,7,Minutos,441
+176,8,Partidos,9
+176,9,Valor estimado,7 M€
+177,1,Equipo,Espanyol
+177,2,Puesto,Mediocentro
+177,3,Edad,29 años
+177,4,Altura,"1,78 m"
+177,5,Pie,Derecho
+177,6,Nacionalidad,España
+177,7,Minutos,2.593
+177,8,Partidos,36
+177,9,Valor estimado,5 M€
+178,1,Equipo,Espanyol
+178,2,Puesto,Central
+178,3,Edad,30 años
+178,4,Altura,"1,84 m"
+178,5,Pie,Derecho
+178,6,Nacionalidad,España
+178,7,Minutos,2.159
+178,8,Partidos,28
+178,9,Valor estimado,2 M€
+179,1,Equipo,Espanyol
+179,2,Puesto,Extremo
+179,3,Edad,28 años
+179,4,Altura,"1,77 m"
+179,5,Pie,Derecho
+179,6,Nacionalidad,España
+179,7,Minutos,687
+179,8,Partidos,10
+179,9,Valor estimado,"7,5 M€"
+180,1,Equipo,Espanyol
+180,2,Puesto,Extremo
+180,3,Edad,24 años
+180,4,Altura,"1,75 m"
+180,5,Pie,Derecho
+180,6,Nacionalidad,España
+180,7,Minutos,890
+180,8,Partidos,26
+180,9,Valor estimado,3 M€
+181,1,Equipo,Espanyol
+181,2,Puesto,Central
+181,3,Edad,25 años
+181,4,Altura,"1,78 m"
+181,5,Pie,Izquierdo
+181,6,Nacionalidad,España
+181,7,Minutos,232
+181,8,Partidos,11
+181,9,Valor estimado,2 M€
+182,1,Equipo,Espanyol
+182,2,Puesto,Delantero
+182,3,Edad,36 años
+182,4,Altura,"1,86 m"
+182,5,Pie,Derecho
+182,6,Nacionalidad,España
+182,7,Minutos,1.694
+182,8,Partidos,37
+182,9,Valor estimado,700 mil €
+183,1,Equipo,Espanyol
+183,2,Puesto,Central
+183,3,Edad,34 años
+183,4,Altura,"1,90 m"
+183,5,Pie,Izquierdo
+183,6,Nacionalidad,Uruguay / España
+183,7,Minutos,3.330
+183,8,Partidos,37
+183,9,Valor estimado,900 mil €
+184,1,Equipo,Espanyol
+184,2,Puesto,Delantero
+184,3,Edad,19 años
+184,4,Altura,"1,64 m"
+184,5,Pie,Derecho
+184,6,Nacionalidad,España
+184,7,Minutos,15
+184,8,Partidos,1
+184,9,Valor estimado,200 mil €
+185,1,Equipo,Espanyol
+185,2,Puesto,Posición no confirmada
+185,3,Edad,21 años
+185,4,Altura,"1,75 m"
+185,5,Pie,Derecho
+185,6,Nacionalidad,Italia / Estados Unidos
+185,7,Minutos,48
+185,8,Partidos,3
+185,9,Valor estimado,6 M€
+186,1,Equipo,Espanyol
+186,2,Puesto,Central
+186,3,Edad,28 años
+186,4,Altura,"1,91 m"
+186,5,Pie,Derecho
+186,6,Nacionalidad,España
+186,7,Minutos,168
+186,8,Partidos,12
+186,9,Valor estimado,"1,5 M€"
+187,1,Equipo,Espanyol
+187,2,Puesto,Lateral
+187,3,Edad,22 años
+187,4,Altura,"1,83 m"
+187,5,Pie,Derecho
+187,6,Nacionalidad,Marruecos / España
+187,7,Minutos,2.853
+187,8,Partidos,36
+187,9,Valor estimado,15 M€
+188,1,Equipo,Espanyol
+188,2,Puesto,Extremo
+188,3,Edad,33 años
+188,4,Altura,"1,80 m"
+188,5,Pie,Izquierdo
+188,6,Nacionalidad,España
+188,7,Minutos,2.005
+188,8,Partidos,33
+188,9,Valor estimado,1 M€
+189,1,Equipo,Espanyol
+189,2,Puesto,Mediocentro
+189,3,Edad,26 años
+189,4,Altura,"1,76 m"
+189,5,Pie,Derecho
+189,6,Nacionalidad,España
+189,7,Minutos,2.211
+189,8,Partidos,33
+189,9,Valor estimado,6 M€
+190,1,Equipo,Espanyol
+190,2,Puesto,Mediocentro
+190,3,Edad,25 años
+190,4,Altura,"1,81 m"
+190,5,Pie,Izquierdo
+190,6,Nacionalidad,España
+190,7,Minutos,1.020
+190,8,Partidos,29
+190,9,Valor estimado,3 M€
+191,1,Equipo,Espanyol
+191,2,Puesto,Delantero
+191,3,Edad,23 años
+191,4,Altura,"1,86 m"
+191,5,Pie,Derecho
+191,6,Nacionalidad,España
+191,7,Minutos,2.388
+191,8,Partidos,38
+191,9,Valor estimado,10 M€
+192,1,Equipo,Espanyol
+192,2,Puesto,Lateral
+192,3,Edad,25 años
+192,4,Altura,"1,85 m"
+192,5,Pie,Derecho
+192,6,Nacionalidad,España
+192,7,Minutos,774
+192,8,Partidos,21
+192,9,Valor estimado,"1,8 M€"
+193,1,Equipo,Espanyol
+193,2,Puesto,Extremo
+193,3,Edad,24 años
+193,4,Altura,"1,70 m"
+193,5,Pie,Derecho
+193,6,Nacionalidad,Inglaterra
+193,7,Minutos,2.481
+193,8,Partidos,36
+193,9,Valor estimado,10 M€
+194,1,Equipo,Espanyol
+194,2,Puesto,Pivote
+194,3,Edad,25 años
+194,4,Altura,"1,89 m"
+194,5,Pie,Derecho
+194,6,Nacionalidad,España
+194,7,Minutos,2.615
+194,8,Partidos,36
+194,9,Valor estimado,12 M€
+195,1,Equipo,Getafe
+195,2,Puesto,Central
+195,3,Edad,27 años
+195,4,Altura,"1,88 m"
+195,5,Pie,Derecho
+195,6,Nacionalidad,Marruecos
+195,7,Minutos,1.479
+195,8,Partidos,23
+195,9,Valor estimado,"3,5 M€"
+196,1,Equipo,Getafe
+196,2,Puesto,Delantero
+196,3,Edad,22 años
+196,4,Altura,"1,83 m"
+196,5,Pie,Izquierdo
+196,6,Nacionalidad,Inglaterra / Sierra Leona
+196,7,Minutos,210
+196,8,Partidos,12
+196,9,Valor estimado,"2,5 M€"
+197,1,Equipo,Getafe
+197,2,Puesto,Extremo
+197,3,Edad,21 años
+197,4,Altura,"1,82 m"
+197,5,Pie,Izquierdo
+197,6,Nacionalidad,España
+197,7,Minutos,1.725
+197,8,Partidos,28
+197,9,Valor estimado,3 M€
+198,1,Equipo,Getafe
+198,2,Puesto,Mediapunta
+198,3,Edad,21 años
+198,4,Altura,"1,77 m"
+198,5,Pie,Derecho
+198,6,Nacionalidad,España
+198,7,Minutos,68
+198,8,Partidos,3
+198,9,Valor estimado,250 mil €
+199,1,Equipo,Getafe
+199,2,Puesto,Extremo
+199,3,Edad,29 años
+199,4,Altura,"1,81 m"
+199,5,Pie,Ambidiestro
+199,6,Nacionalidad,España
+199,7,Minutos,693
+199,8,Partidos,18
+199,9,Valor estimado,"1,5 M€"
+200,1,Equipo,Getafe
+200,2,Puesto,Posición no confirmada
+200,3,Edad,26 años
+200,4,Altura,"1,78 m"
+200,5,Pie,Derecho
+200,6,Nacionalidad,España
+200,7,Minutos,10
+200,8,Partidos,1
+200,9,Valor estimado,"1,5 M€"
+201,1,Equipo,Getafe
+201,2,Puesto,Lateral
+201,3,Edad,38 años
+201,4,Altura,"1,89 m"
+201,5,Pie,Derecho
+201,6,Nacionalidad,Camerún / Francia
+201,7,Minutos,522
+201,8,Partidos,15
+201,9,Valor estimado,100 mil €
+202,1,Equipo,Getafe
+202,2,Puesto,Delantero
+202,3,Edad,29 años
+202,4,Altura,"1,82 m"
+202,5,Pie,Derecho
+202,6,Nacionalidad,España
+202,7,Minutos,1.072
+202,8,Partidos,16
+202,9,Valor estimado,6 M€
+203,1,Equipo,Getafe
+203,2,Puesto,Delantero
+203,3,Edad,23 años
+203,4,Altura,"1,90 m"
+203,5,Pie,Ambidiestro
+203,6,Nacionalidad,Nigeria
+203,7,Minutos,270
+203,8,Partidos,3
+203,9,Valor estimado,12 M€
+204,1,Equipo,Getafe
+204,2,Puesto,Posición no confirmada
+204,3,Edad,23 años
+204,4,Altura,"1,82 m"
+204,5,Pie,Derecho
+204,6,Nacionalidad,Guinea-Bissau / España
+204,7,Minutos,318
+204,8,Partidos,14
+204,9,Valor estimado,"1,5 M€"
+205,1,Equipo,Getafe
+205,2,Puesto,Sin definir
+205,3,Edad,23 años
+205,4,Altura,"1,81 m"
+205,5,Pie,Derecho
+205,6,Nacionalidad,España
+205,7,Minutos,150
+205,8,Partidos,3
+205,9,Valor estimado,200 mil €
+206,1,Equipo,Getafe
+206,2,Puesto,Lateral
+206,3,Edad,18 años
+206,4,Altura,"1,82 m"
+206,5,Pie,Izquierdo
+206,6,Nacionalidad,España
+206,7,Minutos,688
+206,8,Partidos,14
+206,9,Valor estimado,1 M€
+207,1,Equipo,Getafe
+207,2,Puesto,Lateral
+207,3,Edad,33 años
+207,4,Altura,"1,83 m"
+207,5,Pie,Izquierdo
+207,6,Nacionalidad,España
+207,7,Minutos,1.723
+207,8,Partidos,28
+207,9,Valor estimado,1 M€
+208,1,Equipo,Getafe
+208,2,Puesto,Central
+208,3,Edad,34 años
+208,4,Altura,"1,78 m"
+208,5,Pie,Derecho
+208,6,Nacionalidad,Togo
+208,7,Minutos,2.601
+208,8,Partidos,34
+208,9,Valor estimado,"1,4 M€"
+209,1,Equipo,Getafe
+209,2,Puesto,Central
+209,3,Edad,31 años
+209,4,Altura,"1,92 m"
+209,5,Pie,Derecho
+209,6,Nacionalidad,Portugal
+209,7,Minutos,2.953
+209,8,Partidos,34
+209,9,Valor estimado,800 mil €
+210,1,Equipo,Getafe
+210,2,Puesto,Mediocentro
+210,3,Edad,23 años
+210,4,Altura,
+210,5,Pie,
+210,6,Nacionalidad,España
+210,7,Minutos,4
+210,8,Partidos,1
+210,9,Valor estimado,200 mil €
+211,1,Equipo,Getafe
+211,2,Puesto,Lateral
+211,3,Edad,21 años
+211,4,Altura,"1,76 m"
+211,5,Pie,Derecho
+211,6,Nacionalidad,Marruecos / España
+211,7,Minutos,106
+211,8,Partidos,4
+211,9,Valor estimado,300 mil €
+212,1,Equipo,Getafe
+212,2,Puesto,Mediocentro
+212,3,Edad,31 años
+212,4,Altura,"1,77 m"
+212,5,Pie,Derecho
+212,6,Nacionalidad,España
+212,7,Minutos,527
+212,8,Partidos,17
+212,9,Valor estimado,"1,2 M€"
+213,1,Equipo,Getafe
+213,2,Puesto,Sin definir
+213,3,Edad,22 años
+213,4,Altura,"1,88 m"
+213,5,Pie,
+213,6,Nacionalidad,España
+213,7,Minutos,24
+213,8,Partidos,1
+213,9,Valor estimado,50 mil €
+214,1,Equipo,Getafe
+214,2,Puesto,Delantero
+214,3,Edad,22 años
+214,4,Altura,"1,83 m"
+214,5,Pie,Derecho
+214,6,Nacionalidad,España
+214,7,Minutos,16
+214,8,Partidos,2
+214,9,Valor estimado,200 mil €
+215,1,Equipo,Getafe
+215,2,Puesto,Lateral
+215,3,Edad,27 años
+215,4,Altura,"1,87 m"
+215,5,Pie,Derecho
+215,6,Nacionalidad,España
+215,7,Minutos,3.189
+215,8,Partidos,37
+215,9,Valor estimado,5 M€
+216,1,Equipo,Getafe
+216,2,Puesto,Extremo
+216,3,Edad,33 años
+216,4,Altura,"1,72 m"
+216,5,Pie,Derecho
+216,6,Nacionalidad,España
+216,7,Minutos,152
+216,8,Partidos,8
+216,9,Valor estimado,1 M€
+217,1,Equipo,Getafe
+217,2,Puesto,Lateral
+217,3,Edad,35 años
+217,4,Altura,"1,74 m"
+217,5,Pie,Derecho
+217,6,Nacionalidad,España
+217,7,Minutos,2.070
+217,8,Partidos,28
+217,9,Valor estimado,700 mil €
+218,1,Equipo,Getafe
+218,2,Puesto,Mediocentro
+218,3,Edad,31 años
+218,4,Altura,"1,75 m"
+218,5,Pie,Derecho
+218,6,Nacionalidad,España
+218,7,Minutos,3.288
+218,8,Partidos,37
+218,9,Valor estimado,"3,5 M€"
+219,1,Equipo,Getafe
+219,2,Puesto,Delantero
+219,3,Edad,25 años
+219,4,Altura,"1,90 m"
+219,5,Pie,Derecho
+219,6,Nacionalidad,Argentina
+219,7,Minutos,1.232
+219,8,Partidos,17
+219,9,Valor estimado,"2,5 M€"
+220,1,Equipo,Getafe
+220,2,Puesto,Pivote
+220,3,Edad,22 años
+220,4,Altura,"1,77 m"
+220,5,Pie,Derecho
+220,6,Nacionalidad,España
+220,7,Minutos,2.158
+220,8,Partidos,35
+220,9,Valor estimado,10 M€
+221,1,Equipo,Getafe
+221,2,Puesto,Delantero
+221,3,Edad,25 años
+221,4,Altura,"1,87 m"
+221,5,Pie,Derecho
+221,6,Nacionalidad,Uruguay / Italia
+221,7,Minutos,1.609
+221,8,Partidos,18
+221,9,Valor estimado,10 M€
+222,1,Equipo,Getafe
+222,2,Puesto,Mediocentro
+222,3,Edad,30 años
+222,4,Altura,"1,75 m"
+222,5,Pie,Derecho
+222,6,Nacionalidad,Uruguay / España
+222,7,Minutos,3.279
+222,8,Partidos,37
+222,9,Valor estimado,8 M€
+223,1,Equipo,Getafe
+223,2,Puesto,Central
+223,3,Edad,22 años
+223,4,Altura,"1,83 m"
+223,5,Pie,Derecho
+223,6,Nacionalidad,Uruguay / Italia
+223,7,Minutos,356
+223,8,Partidos,11
+223,9,Valor estimado,"1,5 M€"
+224,1,Equipo,Getafe
+224,2,Puesto,Extremo
+224,3,Edad,28 años
+224,4,Altura,"1,79 m"
+224,5,Pie,Derecho
+224,6,Nacionalidad,Serbia
+224,7,Minutos,129
+224,8,Partidos,6
+224,9,Valor estimado,"3,5 M€"
+225,1,Equipo,Getafe
+225,2,Puesto,Posición no confirmada
+225,3,Edad,29 años
+225,4,Altura,"1,80 m"
+225,5,Pie,Derecho
+225,6,Nacionalidad,Camerún / Francia
+225,7,Minutos,49
+225,8,Partidos,5
+225,9,Valor estimado,2 M€
+226,1,Equipo,Getafe
+226,2,Puesto,Central
+226,3,Edad,26 años
+226,4,Altura,"1,92 m"
+226,5,Pie,Izquierdo
+226,6,Nacionalidad,Argentina / Siria
+226,7,Minutos,1.350
+226,8,Partidos,15
+226,9,Valor estimado,"2,5 M€"
+227,1,Equipo,Girona
+227,2,Puesto,Delantero
+227,3,Edad,26 años
+227,4,Altura,"1,82 m"
+227,5,Pie,Derecho
+227,6,Nacionalidad,España
+227,7,Minutos,168
+227,8,Partidos,9
+227,9,Valor estimado,2 M€
+228,1,Equipo,Girona
+228,2,Puesto,Central
+228,3,Edad,23 años
+228,4,Altura,"1,82 m"
+228,5,Pie,Derecho
+228,6,Nacionalidad,España
+228,7,Minutos,1.077
+228,8,Partidos,24
+228,9,Valor estimado,3 M€
+229,1,Equipo,Girona
+229,2,Puesto,Central
+229,3,Edad,23 años
+229,4,Altura,"1,82 m"
+229,5,Pie,Derecho
+229,6,Nacionalidad,España
+229,7,Minutos,2.715
+229,8,Partidos,35
+229,9,Valor estimado,10 M€
+230,1,Equipo,Girona
+230,2,Puesto,Central
+230,3,Edad,37 años
+230,4,Altura,"1,86 m"
+230,5,Pie,Derecho
+230,6,Nacionalidad,Bélgica / Martinica
+230,7,Minutos,2.546
+230,8,Partidos,32
+230,9,Valor estimado,"1,2 M€"
+231,1,Equipo,Girona
+231,2,Puesto,Mediocentro
+231,3,Edad,26 años
+231,4,Altura,"1,82 m"
+231,5,Pie,Derecho
+231,6,Nacionalidad,Marruecos
+231,7,Minutos,1.777
+231,8,Partidos,24
+231,9,Valor estimado,10 M€
+232,1,Equipo,Girona
+232,2,Puesto,Posición no confirmada
+232,3,Edad,26 años
+232,4,Altura,"1,89 m"
+232,5,Pie,Izquierdo
+232,6,Nacionalidad,Macedonia del Norte
+232,7,Minutos,44
+232,8,Partidos,1
+232,9,Valor estimado,"2,5 M€"
+233,1,Equipo,Girona
+233,2,Puesto,Extremo
+233,3,Edad,25 años
+233,4,Altura,"1,75 m"
+233,5,Pie,Izquierdo
+233,6,Nacionalidad,España
+233,7,Minutos,1.607
+233,8,Partidos,29
+233,9,Valor estimado,8 M€
+234,1,Equipo,Girona
+234,2,Puesto,Mediapunta
+234,3,Edad,20 años
+234,4,Altura,"1,70 m"
+234,5,Pie,Derecho
+234,6,Nacionalidad,Argentina
+234,7,Minutos,606
+234,8,Partidos,17
+234,9,Valor estimado,15 M€
+235,1,Equipo,Girona
+235,2,Puesto,Delantero
+235,3,Edad,39 años
+235,4,Altura,"1,84 m"
+235,5,Pie,Derecho
+235,6,Nacionalidad,Uruguay / Italia
+235,7,Minutos,359
+235,8,Partidos,21
+235,9,Valor estimado,700 mil €
+236,1,Equipo,Girona
+236,2,Puesto,Lateral
+236,3,Edad,36 años
+236,4,Altura,"1,80 m"
+236,5,Pie,Izquierdo
+236,6,Nacionalidad,Países Bajos
+236,7,Minutos,2.624
+236,8,Partidos,31
+236,9,Valor estimado,"1,2 M€"
+237,1,Equipo,Girona
+237,2,Puesto,Central
+237,3,Edad,36 años
+237,4,Altura,"1,85 m"
+237,5,Pie,Derecho
+237,6,Nacionalidad,España
+237,7,Minutos,300
+237,8,Partidos,5
+237,9,Valor estimado,600 mil €
+238,1,Equipo,Girona
+238,2,Puesto,Posición no confirmada
+238,3,Edad,23 años
+238,4,Altura,"1,88 m"
+238,5,Pie,Derecho
+238,6,Nacionalidad,Mauritania / España
+238,7,Minutos,73
+238,8,Partidos,2
+238,9,Valor estimado,1 M€
+239,1,Equipo,Girona
+239,2,Puesto,Mediocentro
+239,3,Edad,29 años
+239,4,Altura,"1,84 m"
+239,5,Pie,Derecho
+239,6,Nacionalidad,Países Bajos
+239,7,Minutos,37
+239,8,Partidos,2
+239,9,Valor estimado,"1,8 M€"
+240,1,Equipo,Girona
+240,2,Puesto,Mediocentro
+240,3,Edad,27 años
+240,4,Altura,"1,65 m"
+240,5,Pie,Derecho
+240,6,Nacionalidad,España
+240,7,Minutos,1.544
+240,8,Partidos,27
+240,9,Valor estimado,4 M€
+241,1,Equipo,Girona
+241,2,Puesto,Lateral
+241,3,Edad,23 años
+241,4,Altura,"1,83 m"
+241,5,Pie,Derecho
+241,6,Nacionalidad,España
+241,7,Minutos,1.713
+241,8,Partidos,33
+241,9,Valor estimado,"3,5 M€"
+242,1,Equipo,Girona
+242,2,Puesto,Mediapunta
+242,3,Edad,27 años
+242,4,Altura,"1,78 m"
+242,5,Pie,Izquierdo
+242,6,Nacionalidad,España
+242,7,Minutos,2.558
+242,8,Partidos,35
+242,9,Valor estimado,5 M€
+243,1,Equipo,Girona
+243,2,Puesto,Mediocentro
+243,3,Edad,21 años
+243,4,Altura,"1,88 m"
+243,5,Pie,Derecho
+243,6,Nacionalidad,Colombia
+243,7,Minutos,362
+243,8,Partidos,12
+243,9,Valor estimado,"4,5 M€"
+244,1,Equipo,Girona
+244,2,Puesto,Extremo
+244,3,Edad,20 años
+244,4,Altura,"1,76 m"
+244,5,Pie,Derecho
+244,6,Nacionalidad,España
+244,7,Minutos,1.463
+244,8,Partidos,32
+244,9,Valor estimado,6 M€
+245,1,Equipo,Girona
+245,2,Puesto,Extremo
+245,3,Edad,19 años
+245,4,Altura,"1,75 m"
+245,5,Pie,Derecho
+245,6,Nacionalidad,Venezuela / España
+245,7,Minutos,14
+245,8,Partidos,2
+245,9,Valor estimado,100 mil €
+246,1,Equipo,Girona
+246,2,Puesto,Central
+246,3,Edad,27 años
+246,4,Altura,"1,91 m"
+246,5,Pie,Izquierdo
+246,6,Nacionalidad,República Checa
+246,7,Minutos,180
+246,8,Partidos,2
+246,9,Valor estimado,22 M€
+247,1,Equipo,Girona
+247,2,Puesto,Mediocentro
+247,3,Edad,22 años
+247,4,Altura,"1,80 m"
+247,5,Pie,Derecho
+247,6,Nacionalidad,Guinea / España
+247,7,Minutos,23
+247,8,Partidos,5
+247,9,Valor estimado,500 mil €
+248,1,Equipo,Girona
+248,2,Puesto,Extremo
+248,3,Edad,34 años
+248,4,Altura,"1,67 m"
+248,5,Pie,Derecho
+248,6,Nacionalidad,España
+248,7,Minutos,463
+248,8,Partidos,10
+248,9,Valor estimado,"1,2 M€"
+249,1,Equipo,Girona
+249,2,Puesto,Mediapunta
+249,3,Edad,30 años
+249,4,Altura,"1,71 m"
+249,5,Pie,Izquierdo
+249,6,Nacionalidad,Francia / Guadalupe
+249,7,Minutos,1.252
+249,8,Partidos,27
+249,9,Valor estimado,"1,8 M€"
+250,1,Equipo,Girona
+250,2,Puesto,Extremo
+250,3,Edad,28 años
+250,4,Altura,"1,78 m"
+250,5,Pie,Izquierdo
+250,6,Nacionalidad,Ucrania
+250,7,Minutos,2.672
+250,8,Partidos,32
+250,9,Valor estimado,15 M€
+251,1,Equipo,Girona
+251,2,Puesto,Central
+251,3,Edad,20 años
+251,4,Altura,"1,86 m"
+251,5,Pie,Derecho
+251,6,Nacionalidad,Brasil
+251,7,Minutos,3.137
+251,8,Partidos,36
+251,9,Valor estimado,30 M€
+252,1,Equipo,Girona
+252,2,Puesto,Delantero
+252,3,Edad,24 años
+252,4,Altura,"1,82 m"
+252,5,Pie,Izquierdo
+252,6,Nacionalidad,Ucrania
+252,7,Minutos,2.003
+252,8,Partidos,27
+252,9,Valor estimado,15 M€
+253,1,Equipo,Girona
+253,2,Puesto,Extremo
+253,3,Edad,22 años
+253,4,Altura,"1,76 m"
+253,5,Pie,Izquierdo
+253,6,Nacionalidad,Colombia
+253,7,Minutos,601
+253,8,Partidos,15
+253,9,Valor estimado,14 M€
+254,1,Equipo,Girona
+254,2,Puesto,Lateral
+254,3,Edad,32 años
+254,4,Altura,"1,79 m"
+254,5,Pie,Izquierdo
+254,6,Nacionalidad,España
+254,7,Minutos,2.554
+254,8,Partidos,31
+254,9,Valor estimado,3 M€
+255,1,Equipo,Levante
+255,2,Puesto,Central
+255,3,Edad,27 años
+255,4,Altura,"1,79 m"
+255,5,Pie,Derecho
+255,6,Nacionalidad,España
+255,7,Minutos,2.704
+255,8,Partidos,33
+255,9,Valor estimado,4 M€
+256,1,Equipo,Levante
+256,2,Puesto,Central
+256,3,Edad,21 años
+256,4,Altura,"1,89 m"
+256,5,Pie,Izquierdo
+256,6,Nacionalidad,Uruguay / Italia
+256,7,Minutos,918
+256,8,Partidos,19
+256,9,Valor estimado,4 M€
+257,1,Equipo,Levante
+257,2,Puesto,Delantero
+257,3,Edad,20 años
+257,4,Altura,"1,94 m"
+257,5,Pie,Derecho
+257,6,Nacionalidad,España
+257,7,Minutos,1.328
+257,8,Partidos,25
+257,9,Valor estimado,20 M€
+258,1,Equipo,Levante
+258,2,Puesto,Mediapunta
+258,3,Edad,22 años
+258,4,Altura,"1,68 m"
+258,5,Pie,Izquierdo
+258,6,Nacionalidad,España
+258,7,Minutos,1.910
+258,8,Partidos,30
+258,9,Valor estimado,15 M€
+259,1,Equipo,Levante
+259,2,Puesto,Lateral
+259,3,Edad,26 años
+259,4,Altura,"1,75 m"
+259,5,Pie,Izquierdo
+259,6,Nacionalidad,España
+259,7,Minutos,526
+259,8,Partidos,8
+259,9,Valor estimado,1 M€
+260,1,Equipo,Levante
+260,2,Puesto,Posición no confirmada
+260,3,Edad,26 años
+260,4,Altura,"1,84 m"
+260,5,Pie,Derecho
+260,6,Nacionalidad,República Centroafricana / Francia
+260,7,Minutos,217
+260,8,Partidos,11
+260,9,Valor estimado,"2,5 M€"
+261,1,Equipo,Levante
+261,2,Puesto,Delantero
+261,3,Edad,24 años
+261,4,Altura,"1,75 m"
+261,5,Pie,Derecho
+261,6,Nacionalidad,España
+261,7,Minutos,882
+261,8,Partidos,23
+261,9,Valor estimado,"1,8 M€"
+262,1,Equipo,Levante
+262,2,Puesto,Delantero
+262,3,Edad,25 años
+262,4,Altura,"1,73 m"
+262,5,Pie,Derecho
+262,6,Nacionalidad,España
+262,7,Minutos,2.339
+262,8,Partidos,32
+262,9,Valor estimado,8 M€
+263,1,Equipo,Levante
+263,2,Puesto,Lateral
+263,3,Edad,31 años
+263,4,Altura,"1,82 m"
+263,5,Pie,Derecho
+263,6,Nacionalidad,Alemania / Estados Unidos
+263,7,Minutos,3.199
+263,8,Partidos,37
+263,9,Valor estimado,2 M€
+264,1,Equipo,Levante
+264,2,Puesto,Mediocentro
+264,3,Edad,25 años
+264,4,Altura,"1,76 m"
+264,5,Pie,Izquierdo
+264,6,Nacionalidad,España
+264,7,Minutos,1.712
+264,8,Partidos,33
+264,9,Valor estimado,"2,5 M€"
+265,1,Equipo,Levante
+265,2,Puesto,Central
+265,3,Edad,22 años
+265,4,Altura,"1,83 m"
+265,5,Pie,Izquierdo
+265,6,Nacionalidad,España
+265,7,Minutos,367
+265,8,Partidos,5
+265,9,Valor estimado,900 mil €
+266,1,Equipo,Levante
+266,2,Puesto,Delantero
+266,3,Edad,38 años
+266,4,Altura,"1,80 m"
+266,5,Pie,Derecho
+266,6,Nacionalidad,España
+266,7,Minutos,298
+266,8,Partidos,20
+266,9,Valor estimado,200 mil €
+267,1,Equipo,Levante
+267,2,Puesto,Extremo
+267,3,Edad,20 años
+267,4,Altura,"1,77 m"
+267,5,Pie,Izquierdo
+267,6,Nacionalidad,España / Nigeria
+267,7,Minutos,1.183
+267,8,Partidos,21
+267,9,Valor estimado,2 M€
+268,1,Equipo,Levante
+268,2,Puesto,Delantero
+268,3,Edad,22 años
+268,4,Altura,"1,81 m"
+268,5,Pie,Derecho
+268,6,Nacionalidad,Camerún
+268,7,Minutos,1.657
+268,8,Partidos,33
+268,9,Valor estimado,15 M€
+269,1,Equipo,Levante
+269,2,Puesto,Pivote
+269,3,Edad,28 años
+269,4,Altura,"1,91 m"
+269,5,Pie,Derecho
+269,6,Nacionalidad,Honduras
+269,7,Minutos,1.511
+269,8,Partidos,27
+269,9,Valor estimado,2 M€
+270,1,Equipo,Levante
+270,2,Puesto,Lateral
+270,3,Edad,25 años
+270,4,Altura,"1,71 m"
+270,5,Pie,Izquierdo
+270,6,Nacionalidad,España
+270,7,Minutos,2.844
+270,8,Partidos,33
+270,9,Valor estimado,6 M€
+271,1,Equipo,Levante
+271,2,Puesto,Central
+271,3,Edad,22 años
+271,4,Altura,"1,93 m"
+271,5,Pie,Derecho
+271,6,Nacionalidad,Argentina
+271,7,Minutos,2.265
+271,8,Partidos,28
+271,9,Valor estimado,6 M€
+272,1,Equipo,Levante
+272,2,Puesto,Lateral
+272,3,Edad,17 años
+272,4,Altura,"1,76 m"
+272,5,Pie,Derecho
+272,6,Nacionalidad,España
+272,7,Minutos,147
+272,8,Partidos,3
+272,9,Valor estimado,300 mil €
+273,1,Equipo,Levante
+273,2,Puesto,Pivote
+273,3,Edad,28 años
+273,4,Altura,"1,77 m"
+273,5,Pie,Izquierdo
+273,6,Nacionalidad,España
+273,7,Minutos,1.316
+273,8,Partidos,20
+273,9,Valor estimado,"1,8 M€"
+274,1,Equipo,Levante
+274,2,Puesto,Pivote
+274,3,Edad,28 años
+274,4,Altura,"1,82 m"
+274,5,Pie,Derecho
+274,6,Nacionalidad,España
+274,7,Minutos,1.878
+274,8,Partidos,27
+274,9,Valor estimado,3 M€
+275,1,Equipo,Levante
+275,2,Puesto,Extremo
+275,3,Edad,18 años
+275,4,Altura,"1,78 m"
+275,5,Pie,Derecho
+275,6,Nacionalidad,España
+275,7,Minutos,456
+275,8,Partidos,12
+275,9,Valor estimado,"1,5 M€"
+276,1,Equipo,Levante
+276,2,Puesto,Mediocentro
+276,3,Edad,29 años
+276,4,Altura,"1,74 m"
+276,5,Pie,Izquierdo
+276,6,Nacionalidad,España
+276,7,Minutos,1.008
+276,8,Partidos,19
+276,9,Valor estimado,2 M€
+277,1,Equipo,Levante
+277,2,Puesto,Extremo
+277,3,Edad,21 años
+277,4,Altura,"1,76 m"
+277,5,Pie,Izquierdo
+277,6,Nacionalidad,Israel / España
+277,7,Minutos,68
+277,8,Partidos,7
+277,9,Valor estimado,1 M€
+278,1,Equipo,Levante
+278,2,Puesto,Mediocentro
+278,3,Edad,22 años
+278,4,Altura,"1,88 m"
+278,5,Pie,Izquierdo
+278,6,Nacionalidad,Francia
+278,7,Minutos,705
+278,8,Partidos,16
+278,9,Valor estimado,3 M€
+279,1,Equipo,Levante
+279,2,Puesto,Central
+279,3,Edad,33 años
+279,4,Altura,"1,85 m"
+279,5,Pie,Derecho
+279,6,Nacionalidad,España
+279,7,Minutos,963
+279,8,Partidos,12
+279,9,Valor estimado,500 mil €
+280,1,Equipo,Levante
+280,2,Puesto,Mediocentro
+280,3,Edad,25 años
+280,4,Altura,"1,76 m"
+280,5,Pie,Derecho
+280,6,Nacionalidad,España
+280,7,Minutos,837
+280,8,Partidos,16
+280,9,Valor estimado,"1,6 M€"
+281,1,Equipo,Levante
+281,2,Puesto,Sin definir
+281,3,Edad,28 años
+281,4,Altura,"1,80 m"
+281,5,Pie,Derecho
+281,6,Nacionalidad,España
+281,7,Minutos,1.065
+281,8,Partidos,21
+281,9,Valor estimado,"1,5 M€"
+282,1,Equipo,Mallorca
+282,2,Puesto,Delantero
+282,3,Edad,33 años
+282,4,Altura,"1,81 m"
+282,5,Pie,Izquierdo
+282,6,Nacionalidad,España
+282,7,Minutos,92
+282,8,Partidos,15
+282,9,Valor estimado,800 mil €
+283,1,Equipo,Mallorca
+283,2,Puesto,Central
+283,3,Edad,34 años
+283,4,Altura,"1,87 m"
+283,5,Pie,Derecho
+283,6,Nacionalidad,España
+283,7,Minutos,2.069
+283,8,Partidos,24
+283,9,Valor estimado,1 M€
+284,1,Equipo,Mallorca
+284,2,Puesto,Mediocentro
+284,3,Edad,29 años
+284,4,Altura,"1,79 m"
+284,5,Pie,Derecho
+284,6,Nacionalidad,España
+284,7,Minutos,1.016
+284,8,Partidos,30
+284,9,Valor estimado,2 M€
+285,1,Equipo,Mallorca
+285,2,Puesto,Posición no confirmada
+285,3,Edad,37 años
+285,4,Altura,"1,78 m"
+285,5,Pie,Derecho
+285,6,Nacionalidad,España
+285,7,Minutos,56
+285,8,Partidos,2
+285,9,Valor estimado,100 mil €
+286,1,Equipo,Mallorca
+286,2,Puesto,Central
+286,3,Edad,23 años
+286,4,Altura,"1,95 m"
+286,5,Pie,Derecho
+286,6,Nacionalidad,España
+286,7,Minutos,827
+286,8,Partidos,14
+286,9,Valor estimado,"1,2 M€"
+287,1,Equipo,Mallorca
+287,2,Puesto,Mediocentro
+287,3,Edad,20 años
+287,4,Altura,"1,82 m"
+287,5,Pie,Derecho
+287,6,Nacionalidad,España
+287,7,Minutos,6
+287,8,Partidos,2
+287,9,Valor estimado,500 mil €
+288,1,Equipo,Mallorca
+288,2,Puesto,Extremo
+288,3,Edad,19 años
+288,4,Altura,"1,68 m"
+288,5,Pie,Derecho
+288,6,Nacionalidad,España
+288,7,Minutos,1.807
+288,8,Partidos,31
+288,9,Valor estimado,15 M€
+289,1,Equipo,Mallorca
+289,2,Puesto,Extremo
+289,3,Edad,23 años
+289,4,Altura,"1,74 m"
+289,5,Pie,Ambidiestro
+289,6,Nacionalidad,España
+289,7,Minutos,147
+289,8,Partidos,16
+289,9,Valor estimado,800 mil €
+290,1,Equipo,Mallorca
+290,2,Puesto,Sin definir
+290,3,Edad,19 años
+290,4,Altura,"1,85 m"
+290,5,Pie,Izquierdo
+290,6,Nacionalidad,España
+290,7,Minutos,44
+290,8,Partidos,2
+290,9,Valor estimado,
+291,1,Equipo,Mallorca
+291,2,Puesto,Lateral
+291,3,Edad,33 años
+291,4,Altura,"1,84 m"
+291,5,Pie,Izquierdo
+291,6,Nacionalidad,Colombia / España
+291,7,Minutos,2.723
+291,8,Partidos,35
+291,9,Valor estimado,"1,5 M€"
+292,1,Equipo,Mallorca
+292,2,Puesto,Extremo
+292,3,Edad,21 años
+292,4,Altura,"1,71 m"
+292,5,Pie,Izquierdo
+292,6,Nacionalidad,Francia / RD del Congo
+292,7,Minutos,81
+292,8,Partidos,3
+292,9,Valor estimado,800 mil €
+293,1,Equipo,Mallorca
+293,2,Puesto,Sin definir
+293,3,Edad,18 años
+293,4,Altura,
+293,5,Pie,
+293,6,Nacionalidad,España
+293,7,Minutos,90
+293,8,Partidos,1
+293,9,Valor estimado,
+294,1,Equipo,Mallorca
+294,2,Puesto,Mediocentro
+294,3,Edad,27 años
+294,4,Altura,"1,78 m"
+294,5,Pie,Derecho
+294,6,Nacionalidad,España
+294,7,Minutos,1.801
+294,8,Partidos,32
+294,9,Valor estimado,"2,4 M€"
+295,1,Equipo,Mallorca
+295,2,Puesto,Central
+295,3,Edad,26 años
+295,4,Altura,"1,91 m"
+295,5,Pie,Derecho
+295,6,Nacionalidad,Albania / Italia
+295,7,Minutos,434
+295,8,Partidos,8
+295,9,Valor estimado,3 M€
+296,1,Equipo,Mallorca
+296,2,Puesto,Posición no confirmada
+296,3,Edad,19 años
+296,4,Altura,"1,82 m"
+296,5,Pie,Izquierdo
+296,6,Nacionalidad,España
+296,7,Minutos,198
+296,8,Partidos,7
+296,9,Valor estimado,1 M€
+297,1,Equipo,Mallorca
+297,2,Puesto,Central
+297,3,Edad,30 años
+297,4,Altura,"1,87 m"
+297,5,Pie,Derecho
+297,6,Nacionalidad,Eslovaquia
+297,7,Minutos,3.311
+297,8,Partidos,37
+297,9,Valor estimado,3 M€
+298,1,Equipo,Mallorca
+298,2,Puesto,Delantero
+298,3,Edad,22 años
+298,4,Altura,"1,85 m"
+298,5,Pie,Derecho
+298,6,Nacionalidad,España / Inglaterra
+298,7,Minutos,1.707
+298,8,Partidos,29
+298,9,Valor estimado,"3,5 M€"
+299,1,Equipo,Mallorca
+299,2,Puesto,Lateral
+299,3,Edad,26 años
+299,4,Altura,"1,73 m"
+299,5,Pie,Derecho
+299,6,Nacionalidad,España
+299,7,Minutos,723
+299,8,Partidos,18
+299,9,Valor estimado,"1,4 M€"
+300,1,Equipo,Mallorca
+300,2,Puesto,Sin definir
+300,3,Edad,20 años
+300,4,Altura,
+300,5,Pie,
+300,6,Nacionalidad,España
+300,7,Minutos,34
+300,8,Partidos,2
+300,9,Valor estimado,
+301,1,Equipo,Mallorca
+301,2,Puesto,Pivote
+301,3,Edad,33 años
+301,4,Altura,"1,81 m"
+301,5,Pie,Derecho
+301,6,Nacionalidad,Guinea Ecuatorial / España
+301,7,Minutos,2.251
+301,8,Partidos,30
+301,9,Valor estimado,700 mil €
+302,1,Equipo,Mallorca
+302,2,Puesto,Lateral
+302,3,Edad,28 años
+302,4,Altura,"1,72 m"
+302,5,Pie,Derecho
+302,6,Nacionalidad,Argentina / España
+302,7,Minutos,2.690
+302,8,Partidos,31
+302,9,Valor estimado,3 M€
+303,1,Equipo,Mallorca
+303,2,Puesto,Mediapunta
+303,3,Edad,23 años
+303,4,Altura,"1,73 m"
+303,5,Pie,Derecho
+303,6,Nacionalidad,España
+303,7,Minutos,1.614
+303,8,Partidos,35
+303,9,Valor estimado,5 M€
+304,1,Equipo,Mallorca
+304,2,Puesto,Pivote
+304,3,Edad,25 años
+304,4,Altura,"1,85 m"
+304,5,Pie,Izquierdo
+304,6,Nacionalidad,Portugal
+304,7,Minutos,2.731
+304,8,Partidos,34
+304,9,Valor estimado,15 M€
+305,1,Equipo,Mallorca
+305,2,Puesto,Mediocentro
+305,3,Edad,32 años
+305,4,Altura,"1,80 m"
+305,5,Pie,Derecho
+305,6,Nacionalidad,España
+305,7,Minutos,2.715
+305,8,Partidos,38
+305,9,Valor estimado,3 M€
+306,1,Equipo,Mallorca
+306,2,Puesto,Extremo
+306,3,Edad,31 años
+306,4,Altura,"1,71 m"
+306,5,Pie,Derecho
+306,6,Nacionalidad,Japón
+306,7,Minutos,662
+306,8,Partidos,20
+306,9,Valor estimado,"1,5 M€"
+307,1,Equipo,Mallorca
+307,2,Puesto,Lateral
+307,3,Edad,28 años
+307,4,Altura,"1,71 m"
+307,5,Pie,Izquierdo
+307,6,Nacionalidad,España
+307,7,Minutos,601
+307,8,Partidos,12
+307,9,Valor estimado,"1,4 M€"
+308,1,Equipo,Mallorca
+308,2,Puesto,Delantero
+308,3,Edad,32 años
+308,4,Altura,"1,94 m"
+308,5,Pie,Izquierdo
+308,6,Nacionalidad,Kosovo / Albania
+308,7,Minutos,3.150
+308,8,Partidos,37
+308,9,Valor estimado,"4,5 M€"
+309,1,Equipo,Mallorca
+309,2,Puesto,Delantero
+309,3,Edad,24 años
+309,4,Altura,"1,71 m"
+309,5,Pie,Izquierdo
+309,6,Nacionalidad,Angola
+309,7,Minutos,511
+309,8,Partidos,10
+309,9,Valor estimado,3 M€
+310,1,Equipo,Osasuna
+310,2,Puesto,Lateral
+310,3,Edad,25 años
+310,4,Altura,"1,88 m"
+310,5,Pie,Izquierdo
+310,6,Nacionalidad,España
+310,7,Minutos,1.600
+310,8,Partidos,28
+310,9,Valor estimado,"3,5 M€"
+311,1,Equipo,Osasuna
+311,2,Puesto,Mediapunta
+311,3,Edad,24 años
+311,4,Altura,"1,77 m"
+311,5,Pie,Derecho
+311,6,Nacionalidad,España
+311,7,Minutos,2.175
+311,8,Partidos,31
+311,9,Valor estimado,"7,5 M€"
+312,1,Equipo,Osasuna
+312,2,Puesto,Central
+312,3,Edad,31 años
+312,4,Altura,"1,94 m"
+312,5,Pie,Derecho
+312,6,Nacionalidad,España
+312,7,Minutos,3.083
+312,8,Partidos,35
+312,9,Valor estimado,"2,6 M€"
+313,1,Equipo,Osasuna
+313,2,Puesto,Delantero
+313,3,Edad,34 años
+313,4,Altura,"1,90 m"
+313,5,Pie,Izquierdo
+313,6,Nacionalidad,Croacia
+313,7,Minutos,2.995
+313,8,Partidos,37
+313,9,Valor estimado,"2,8 M€"
+314,1,Equipo,Osasuna
+314,2,Puesto,Mediapunta
+314,3,Edad,21 años
+314,4,Altura,"1,86 m"
+314,5,Pie,Derecho
+314,6,Nacionalidad,España
+314,7,Minutos,295
+314,8,Partidos,17
+314,9,Valor estimado,1 M€
+315,1,Equipo,Osasuna
+315,2,Puesto,Central
+315,3,Edad,24 años
+315,4,Altura,"1,87 m"
+315,5,Pie,Derecho
+315,6,Nacionalidad,Camerún / Francia
+315,7,Minutos,2.544
+315,8,Partidos,30
+315,9,Valor estimado,15 M€
+316,1,Equipo,Osasuna
+316,2,Puesto,Extremo
+316,3,Edad,23 años
+316,4,Altura,"1,76 m"
+316,5,Pie,Derecho
+316,6,Nacionalidad,España
+316,7,Minutos,148
+316,8,Partidos,6
+316,9,Valor estimado,"1,4 M€"
+317,1,Equipo,Osasuna
+317,2,Puesto,Mediocentro
+317,3,Edad,23 años
+317,4,Altura,"1,80 m"
+317,5,Pie,Derecho
+317,6,Nacionalidad,España
+317,7,Minutos,928
+317,8,Partidos,19
+317,9,Valor estimado,2 M€
+318,1,Equipo,Osasuna
+318,2,Puesto,Lateral
+318,3,Edad,31 años
+318,4,Altura,"1,72 m"
+318,5,Pie,Izquierdo
+318,6,Nacionalidad,España
+318,7,Minutos,1.806
+318,8,Partidos,25
+318,9,Valor estimado,"1,8 M€"
+319,1,Equipo,Osasuna
+319,2,Puesto,Mediocentro
+319,3,Edad,28 años
+319,4,Altura,"1,82 m"
+319,5,Pie,Derecho
+319,6,Nacionalidad,España
+319,7,Minutos,3.061
+319,8,Partidos,36
+319,9,Valor estimado,7 M€
+320,1,Equipo,Osasuna
+320,2,Puesto,Central
+320,3,Edad,25 años
+320,4,Altura,"1,92 m"
+320,5,Pie,Izquierdo
+320,6,Nacionalidad,España
+320,7,Minutos,1.597
+320,8,Partidos,28
+320,9,Valor estimado,"3,5 M€"
+321,1,Equipo,Osasuna
+321,2,Puesto,Lateral
+321,3,Edad,33 años
+321,4,Altura,"1,82 m"
+321,5,Pie,Izquierdo
+321,6,Nacionalidad,España
+321,7,Minutos,644
+321,8,Partidos,15
+321,9,Valor estimado,1 M€
+322,1,Equipo,Osasuna
+322,2,Puesto,Extremo
+322,3,Edad,29 años
+322,4,Altura,"1,79 m"
+322,5,Pie,Derecho
+322,6,Nacionalidad,España
+322,7,Minutos,369
+322,8,Partidos,27
+322,9,Valor estimado,"1,5 M€"
+323,1,Equipo,Osasuna
+323,2,Puesto,Pivote
+323,3,Edad,31 años
+323,4,Altura,"1,90 m"
+323,5,Pie,Derecho
+323,6,Nacionalidad,España
+323,7,Minutos,2.362
+323,8,Partidos,34
+323,9,Valor estimado,"2,5 M€"
+324,1,Equipo,Osasuna
+324,2,Puesto,Extremo
+324,3,Edad,31 años
+324,4,Altura,"1,76 m"
+324,5,Pie,Derecho
+324,6,Nacionalidad,España
+324,7,Minutos,1.202
+324,8,Partidos,26
+324,9,Valor estimado,"1,5 M€"
+325,1,Equipo,Osasuna
+325,2,Puesto,Delantero
+325,3,Edad,25 años
+325,4,Altura,"1,92 m"
+325,5,Pie,Derecho
+325,6,Nacionalidad,España
+325,7,Minutos,926
+325,8,Partidos,36
+325,9,Valor estimado,3 M€
+326,1,Equipo,Osasuna
+326,2,Puesto,Delantero
+326,3,Edad,23 años
+326,4,Altura,"1,69 m"
+326,5,Pie,Derecho
+326,6,Nacionalidad,España
+326,7,Minutos,628
+326,8,Partidos,14
+326,9,Valor estimado,"3,5 M€"
+327,1,Equipo,Osasuna
+327,2,Puesto,Mediapunta
+327,3,Edad,32 años
+327,4,Altura,"1,72 m"
+327,5,Pie,Izquierdo
+327,6,Nacionalidad,España
+327,7,Minutos,2.297
+327,8,Partidos,35
+327,9,Valor estimado,"1,6 M€"
+328,1,Equipo,Osasuna
+328,2,Puesto,Extremo
+328,3,Edad,31 años
+328,4,Altura,"1,80 m"
+328,5,Pie,Derecho
+328,6,Nacionalidad,Surinam / Países Bajos
+328,7,Minutos,124
+328,8,Partidos,9
+328,9,Valor estimado,"1,5 M€"
+329,1,Equipo,Osasuna
+329,2,Puesto,Lateral
+329,3,Edad,29 años
+329,4,Altura,"1,75 m"
+329,5,Pie,Derecho
+329,6,Nacionalidad,Francia / Guadalupe
+329,7,Minutos,2.563
+329,8,Partidos,31
+329,9,Valor estimado,3 M€
+330,1,Equipo,Osasuna
+330,2,Puesto,Extremo
+330,3,Edad,22 años
+330,4,Altura,"1,73 m"
+330,5,Pie,Derecho
+330,6,Nacionalidad,España
+330,7,Minutos,2.705
+330,8,Partidos,34
+330,9,Valor estimado,30 M€
+331,1,Equipo,Osasuna
+331,2,Puesto,Extremo
+331,3,Edad,21 años
+331,4,Altura,"1,78 m"
+331,5,Pie,Derecho
+331,6,Nacionalidad,España
+331,7,Minutos,187
+331,8,Partidos,6
+331,9,Valor estimado,800 mil €
+332,1,Equipo,Rayo Vallecano
+332,2,Puesto,Central
+332,3,Edad,27 años
+332,4,Altura,"1,88 m"
+332,5,Pie,Derecho
+332,6,Nacionalidad,Ghana / Nigeria
+332,7,Minutos,77
+332,8,Partidos,3
+332,9,Valor estimado,3 M€
+333,1,Equipo,Rayo Vallecano
+333,2,Puesto,Delantero
+333,3,Edad,28 años
+333,4,Altura,"1,82 m"
+333,5,Pie,Derecho
+333,6,Nacionalidad,Brasil / Polonia
+333,7,Minutos,1.118
+333,8,Partidos,26
+333,9,Valor estimado,4 M€
+334,1,Equipo,Rayo Vallecano
+334,2,Puesto,Lateral
+334,3,Edad,27 años
+334,4,Altura,"1,83 m"
+334,5,Pie,Derecho
+334,6,Nacionalidad,Rumania / España
+334,7,Minutos,2.791
+334,8,Partidos,35
+334,9,Valor estimado,18 M€
+335,1,Equipo,Rayo Vallecano
+335,2,Puesto,Delantero
+335,3,Edad,24 años
+335,4,Altura,"1,84 m"
+335,5,Pie,Derecho
+335,6,Nacionalidad,España
+335,7,Minutos,473
+335,8,Partidos,11
+335,9,Valor estimado,"1,5 M€"
+336,1,Equipo,Rayo Vallecano
+336,2,Puesto,Central
+336,3,Edad,35 años
+336,4,Altura,"1,90 m"
+336,5,Pie,Derecho
+336,6,Nacionalidad,Francia
+336,7,Minutos,3.233
+336,8,Partidos,36
+336,9,Valor estimado,"1,8 M€"
+337,1,Equipo,Rayo Vallecano
+337,2,Puesto,Extremo
+337,3,Edad,23 años
+337,4,Altura,"1,76 m"
+337,5,Pie,Derecho
+337,6,Nacionalidad,España
+337,7,Minutos,1.226
+337,8,Partidos,29
+337,9,Valor estimado,"2,5 M€"
+338,1,Equipo,Rayo Vallecano
+338,2,Puesto,Pivote
+338,3,Edad,31 años
+338,4,Altura,"1,88 m"
+338,5,Pie,Izquierdo
+338,6,Nacionalidad,España
+338,7,Minutos,1.153
+338,8,Partidos,28
+338,9,Valor estimado,"1,2 M€"
+339,1,Equipo,Rayo Vallecano
+339,2,Puesto,Extremo
+339,3,Edad,22 años
+339,4,Altura,"1,75 m"
+339,5,Pie,Izquierdo
+339,6,Nacionalidad,Marruecos / España
+339,7,Minutos,876
+339,8,Partidos,20
+339,9,Valor estimado,12 M€
+340,1,Equipo,Rayo Vallecano
+340,2,Puesto,Mediapunta
+340,3,Edad,31 años
+340,4,Altura,"1,69 m"
+340,5,Pie,Izquierdo
+340,6,Nacionalidad,España
+340,7,Minutos,2.294
+340,8,Partidos,31
+340,9,Valor estimado,"2,8 M€"
+341,1,Equipo,Rayo Vallecano
+341,2,Puesto,Lateral
+341,3,Edad,34 años
+341,4,Altura,"1,72 m"
+341,5,Pie,Derecho
+341,6,Nacionalidad,Albania / España
+341,7,Minutos,572
+341,8,Partidos,14
+341,9,Valor estimado,1 M€
+342,1,Equipo,Rayo Vallecano
+342,2,Puesto,Extremo
+342,3,Edad,29 años
+342,4,Altura,"1,73 m"
+342,5,Pie,Derecho
+342,6,Nacionalidad,España
+342,7,Minutos,2.526
+342,8,Partidos,36
+342,9,Valor estimado,12 M€
+343,1,Equipo,Rayo Vallecano
+343,2,Puesto,Lateral
+343,3,Edad,21 años
+343,4,Altura,"1,87 m"
+343,5,Pie,Izquierdo
+343,6,Nacionalidad,Países Bajos
+343,7,Minutos,433
+343,8,Partidos,9
+343,9,Valor estimado,2 M€
+344,1,Equipo,Rayo Vallecano
+344,2,Puesto,Central
+344,3,Edad,29 años
+344,4,Altura,"1,87 m"
+344,5,Pie,Derecho
+344,6,Nacionalidad,Italia / Brasil
+344,7,Minutos,473
+344,8,Partidos,10
+344,9,Valor estimado,2 M€
+345,1,Equipo,Rayo Vallecano
+345,2,Puesto,Central
+345,3,Edad,21 años
+345,4,Altura,"1,87 m"
+345,5,Pie,Izquierdo
+345,6,Nacionalidad,Senegal / Guinea-Bissau
+345,7,Minutos,1.834
+345,8,Partidos,24
+345,9,Valor estimado,"7,5 M€"
+346,1,Equipo,Rayo Vallecano
+346,2,Puesto,Lateral
+346,3,Edad,34 años
+346,4,Altura,"1,72 m"
+346,5,Pie,Izquierdo
+346,6,Nacionalidad,Uruguay / España
+346,7,Minutos,1.472
+346,8,Partidos,30
+346,9,Valor estimado,900 mil €
+347,1,Equipo,Rayo Vallecano
+347,2,Puesto,Pivote
+347,3,Edad,32 años
+347,4,Altura,"1,86 m"
+347,5,Pie,Derecho
+347,6,Nacionalidad,Senegal
+347,7,Minutos,1.974
+347,8,Partidos,29
+347,9,Valor estimado,"1,8 M€"
+348,1,Equipo,Rayo Vallecano
+348,2,Puesto,Mediocentro
+348,3,Edad,27 años
+348,4,Altura,"1,80 m"
+348,5,Pie,Derecho
+348,6,Nacionalidad,España
+348,7,Minutos,1.868
+348,8,Partidos,34
+348,9,Valor estimado,3 M€
+349,1,Equipo,Rayo Vallecano
+349,2,Puesto,Posición no confirmada
+349,3,Edad,23 años
+349,4,Altura,"1,93 m"
+349,5,Pie,Derecho
+349,6,Nacionalidad,España
+349,7,Minutos,37
+349,8,Partidos,1
+349,9,Valor estimado,500 mil €
+350,1,Equipo,Rayo Vallecano
+350,2,Puesto,Lateral
+350,3,Edad,28 años
+350,4,Altura,"1,74 m"
+350,5,Pie,Izquierdo
+350,6,Nacionalidad,España
+350,7,Minutos,2.672
+350,8,Partidos,33
+350,9,Valor estimado,10 M€
+351,1,Equipo,Rayo Vallecano
+351,2,Puesto,Mediapunta
+351,3,Edad,28 años
+351,4,Altura,"1,89 m"
+351,5,Pie,Izquierdo
+351,6,Nacionalidad,Angola / Francia
+351,7,Minutos,342
+351,8,Partidos,13
+351,9,Valor estimado,1 M€
+352,1,Equipo,Rayo Vallecano
+352,2,Puesto,Sin definir
+352,3,Edad,19 años
+352,4,Altura,"1,73 m"
+352,5,Pie,Derecho
+352,6,Nacionalidad,España
+352,7,Minutos,9
+352,8,Partidos,3
+352,9,Valor estimado,300 mil €
+353,1,Equipo,Rayo Vallecano
+353,2,Puesto,Delantero
+353,3,Edad,25 años
+353,4,Altura,"1,82 m"
+353,5,Pie,Derecho
+353,6,Nacionalidad,España
+353,7,Minutos,810
+353,8,Partidos,22
+353,9,Valor estimado,3 M€
+354,1,Equipo,Rayo Vallecano
+354,2,Puesto,Sin definir
+354,3,Edad,
+354,4,Altura,
+354,5,Pie,
+354,6,Nacionalidad,
+354,7,Minutos,7
+354,8,Partidos,1
+354,9,Valor estimado,
+355,1,Equipo,Rayo Vallecano
+355,2,Puesto,Mediocentro
+355,3,Edad,30 años
+355,4,Altura,"1,70 m"
+355,5,Pie,Derecho
+355,6,Nacionalidad,España
+355,7,Minutos,1.637
+355,8,Partidos,28
+355,9,Valor estimado,"2,5 M€"
+356,1,Equipo,Rayo Vallecano
+356,2,Puesto,Extremo
+356,3,Edad,33 años
+356,4,Altura,"1,67 m"
+356,5,Pie,Ambidiestro
+356,6,Nacionalidad,España
+356,7,Minutos,2.123
+356,8,Partidos,32
+356,9,Valor estimado,"1,5 M€"
+357,1,Equipo,Rayo Vallecano
+357,2,Puesto,Mediapunta
+357,3,Edad,38 años
+357,4,Altura,"1,80 m"
+357,5,Pie,Derecho
+357,6,Nacionalidad,Argentina / Italia
+357,7,Minutos,131
+357,8,Partidos,7
+357,9,Valor estimado,300 mil €
+358,1,Equipo,Rayo Vallecano
+358,2,Puesto,Pivote
+358,3,Edad,31 años
+358,4,Altura,"1,77 m"
+358,5,Pie,Derecho
+358,6,Nacionalidad,España
+358,7,Minutos,2.143
+358,8,Partidos,33
+358,9,Valor estimado,2 M€
+359,1,Equipo,Real Betis
+359,2,Puesto,Extremo
+359,3,Edad,24 años
+359,4,Altura,"1,77 m"
+359,5,Pie,Derecho
+359,6,Nacionalidad,Marruecos / España
+359,7,Minutos,2.275
+359,8,Partidos,29
+359,9,Valor estimado,40 M€
+360,1,Equipo,Real Betis
+360,2,Puesto,Extremo
+360,3,Edad,30 años
+360,4,Altura,"1,76 m"
+360,5,Pie,Derecho
+360,6,Nacionalidad,España
+360,7,Minutos,1.809
+360,8,Partidos,27
+360,9,Valor estimado,4 M€
+361,1,Equipo,Real Betis
+361,2,Puesto,Extremo
+361,3,Edad,26 años
+361,4,Altura,"1,72 m"
+361,5,Pie,Izquierdo
+361,6,Nacionalidad,Brasil
+361,7,Minutos,2.495
+361,8,Partidos,32
+361,9,Valor estimado,40 M€
+362,1,Equipo,Real Betis
+362,2,Puesto,Delantero
+362,3,Edad,32 años
+362,4,Altura,"1,72 m"
+362,5,Pie,Derecho
+362,6,Nacionalidad,Argentina / España
+362,7,Minutos,350
+362,8,Partidos,16
+362,9,Valor estimado,"1,2 M€"
+363,1,Equipo,Real Betis
+363,2,Puesto,Delantero
+363,3,Edad,27 años
+363,4,Altura,"1,76 m"
+363,5,Pie,Derecho
+363,6,Nacionalidad,Colombia / España
+363,7,Minutos,2.623
+363,8,Partidos,32
+363,9,Valor estimado,18 M€
+364,1,Equipo,Real Betis
+364,2,Puesto,Delantero
+364,3,Edad,35 años
+364,4,Altura,"1,82 m"
+364,5,Pie,Derecho
+364,6,Nacionalidad,RD del Congo / Francia
+364,7,Minutos,542
+364,8,Partidos,18
+364,9,Valor estimado,"1,2 M€"
+365,1,Equipo,Real Betis
+365,2,Puesto,Mediocentro
+365,3,Edad,20 años
+365,4,Altura,"1,73 m"
+365,5,Pie,Derecho
+365,6,Nacionalidad,España
+365,7,Minutos,1
+365,8,Partidos,1
+365,9,Valor estimado,300 mil €
+366,1,Equipo,Real Betis
+366,2,Puesto,Central
+366,3,Edad,32 años
+366,4,Altura,"1,86 m"
+366,5,Pie,Derecho
+366,6,Nacionalidad,España
+366,7,Minutos,1.221
+366,8,Partidos,18
+366,9,Valor estimado,"2,5 M€"
+367,1,Equipo,Real Betis
+367,2,Puesto,Mediapunta
+367,3,Edad,30 años
+367,4,Altura,"1,77 m"
+367,5,Pie,Izquierdo
+367,6,Nacionalidad,Argentina / Italia
+367,7,Minutos,1.396
+367,8,Partidos,24
+367,9,Valor estimado,8 M€
+368,1,Equipo,Real Betis
+368,2,Puesto,Lateral
+368,3,Edad,31 años
+368,4,Altura,"1,78 m"
+368,5,Pie,Derecho
+368,6,Nacionalidad,España
+368,7,Minutos,1.822
+368,8,Partidos,27
+368,9,Valor estimado,"2,4 M€"
+369,1,Equipo,Real Betis
+369,2,Puesto,Mediapunta
+369,3,Edad,34 años
+369,4,Altura,"1,76 m"
+369,5,Pie,Derecho
+369,6,Nacionalidad,España
+369,7,Minutos,213
+369,8,Partidos,8
+369,9,Valor estimado,"3,5 M€"
+370,1,Equipo,Real Betis
+370,2,Puesto,Mediapunta
+370,3,Edad,19 años
+370,4,Altura,"1,76 m"
+370,5,Pie,
+370,6,Nacionalidad,España
+370,7,Minutos,11
+370,8,Partidos,1
+370,9,Valor estimado,50 mil €
+371,1,Equipo,Real Betis
+371,2,Puesto,Lateral
+371,3,Edad,29 años
+371,4,Altura,"1,84 m"
+371,5,Pie,Izquierdo
+371,6,Nacionalidad,República Dominicana / España
+371,7,Minutos,846
+371,8,Partidos,12
+371,9,Valor estimado,"3,5 M€"
+372,1,Equipo,Real Betis
+372,2,Puesto,Central
+372,3,Edad,35 años
+372,4,Altura,"1,84 m"
+372,5,Pie,Derecho
+372,6,Nacionalidad,España
+372,7,Minutos,1.973
+372,8,Partidos,25
+372,9,Valor estimado,900 mil €
+373,1,Equipo,Real Betis
+373,2,Puesto,Pivote
+373,3,Edad,29 años
+373,4,Altura,"1,84 m"
+373,5,Pie,Izquierdo
+373,6,Nacionalidad,España
+373,7,Minutos,2.020
+373,8,Partidos,29
+373,9,Valor estimado,4 M€
+374,1,Equipo,Real Betis
+374,2,Puesto,Central
+374,3,Edad,25 años
+374,4,Altura,"1,88 m"
+374,5,Pie,Izquierdo
+374,6,Nacionalidad,Brasil
+374,7,Minutos,2.820
+374,8,Partidos,33
+374,9,Valor estimado,25 M€
+375,1,Equipo,Real Betis
+375,2,Puesto,Mediocentro
+375,3,Edad,26 años
+375,4,Altura,"1,85 m"
+375,5,Pie,Izquierdo
+375,6,Nacionalidad,Colombia
+375,7,Minutos,725
+375,8,Partidos,20
+375,9,Valor estimado,9 M€
+376,1,Equipo,Real Betis
+376,2,Puesto,Mediapunta
+376,3,Edad,30 años
+376,4,Altura,"1,78 m"
+376,5,Pie,Derecho
+376,6,Nacionalidad,España
+376,7,Minutos,2.912
+376,8,Partidos,37
+376,9,Valor estimado,8 M€
+377,1,Equipo,Real Betis
+377,2,Puesto,Extremo
+377,3,Edad,19 años
+377,4,Altura,"1,75 m"
+377,5,Pie,Izquierdo
+377,6,Nacionalidad,España
+377,7,Minutos,346
+377,8,Partidos,15
+377,9,Valor estimado,8 M€
+378,1,Equipo,Real Betis
+378,2,Puesto,Lateral
+378,3,Edad,33 años
+378,4,Altura,"1,82 m"
+378,5,Pie,Izquierdo
+378,6,Nacionalidad,Suiza / Chile
+378,7,Minutos,1.552
+378,8,Partidos,23
+378,9,Valor estimado,"1,4 M€"
+379,1,Equipo,Real Betis
+379,2,Puesto,Mediapunta
+379,3,Edad,26 años
+379,4,Altura,"1,74 m"
+379,5,Pie,Derecho
+379,6,Nacionalidad,España
+379,7,Minutos,788
+379,8,Partidos,25
+379,9,Valor estimado,4 M€
+380,1,Equipo,Real Betis
+380,2,Puesto,Mediocentro
+380,3,Edad,24 años
+380,4,Altura,"1,88 m"
+380,5,Pie,Derecho
+380,6,Nacionalidad,España
+380,7,Minutos,1.176
+380,8,Partidos,24
+380,9,Valor estimado,20 M€
+381,1,Equipo,Real Betis
+381,2,Puesto,Pivote
+381,3,Edad,29 años
+381,4,Altura,"1,85 m"
+381,5,Pie,Derecho
+381,6,Nacionalidad,Marruecos / Países Bajos
+381,7,Minutos,1.297
+381,8,Partidos,17
+381,9,Valor estimado,10 M€
+382,1,Equipo,Real Betis
+382,2,Puesto,Central
+382,3,Edad,22 años
+382,4,Altura,"1,81 m"
+382,5,Pie,Izquierdo
+382,6,Nacionalidad,Argentina / España
+382,7,Minutos,1.852
+382,8,Partidos,28
+382,9,Valor estimado,12 M€
+383,1,Equipo,Real Betis
+383,2,Puesto,Mediocentro
+383,3,Edad,29 años
+383,4,Altura,"1,75 m"
+383,5,Pie,Derecho
+383,6,Nacionalidad,México / España
+383,7,Minutos,567
+383,8,Partidos,9
+383,9,Valor estimado,6 M€
+384,1,Equipo,Real Betis
+384,2,Puesto,Lateral
+384,3,Edad,21 años
+384,4,Altura,"1,67 m"
+384,5,Pie,Derecho
+384,6,Nacionalidad,España
+384,7,Minutos,584
+384,8,Partidos,13
+384,9,Valor estimado,4 M€
+385,1,Equipo,Real Madrid
+385,2,Puesto,Central
+385,3,Edad,33 años
+385,4,Altura,"1,90 m"
+385,5,Pie,Derecho
+385,6,Nacionalidad,Alemania / Sierra Leona
+385,7,Minutos,1.501
+385,8,Partidos,18
+385,9,Valor estimado,6 M€
+386,1,Equipo,Real Madrid
+386,2,Puesto,Mediocentro
+386,3,Edad,21 años
+386,4,Altura,"1,76 m"
+386,5,Pie,Izquierdo
+386,6,Nacionalidad,Turquía
+386,7,Minutos,2.076
+386,8,Partidos,33
+386,9,Valor estimado,90 M€
+387,1,Equipo,Real Madrid
+387,2,Puesto,Mediocentro
+387,3,Edad,26 años
+387,4,Altura,"1,87 m"
+387,5,Pie,Derecho
+387,6,Nacionalidad,Francia / Camerún
+387,7,Minutos,2.656
+387,8,Partidos,33
+387,9,Valor estimado,70 M€
+388,1,Equipo,Real Madrid
+388,2,Puesto,Mediapunta
+388,3,Edad,26 años
+388,4,Altura,"1,70 m"
+388,5,Pie,Ambidiestro
+388,6,Nacionalidad,Marruecos / España
+388,7,Minutos,1.243
+388,8,Partidos,30
+388,9,Valor estimado,35 M€
+389,1,Equipo,Real Madrid
+389,2,Puesto,Sin definir
+389,3,Edad,21 años
+389,4,Altura,"1,82 m"
+389,5,Pie,Derecho
+389,6,Nacionalidad,España
+389,7,Minutos,68
+389,8,Partidos,5
+389,9,Valor estimado,"7,5 M€"
+390,1,Equipo,Real Madrid
+390,2,Puesto,Lateral
+390,3,Edad,34 años
+390,4,Altura,"1,73 m"
+390,5,Pie,Derecho
+390,6,Nacionalidad,España
+390,7,Minutos,965
+390,8,Partidos,17
+390,9,Valor estimado,4 M€
+391,1,Equipo,Real Madrid
+391,2,Puesto,Mediapunta
+391,3,Edad,29 años
+391,4,Altura,"1,79 m"
+391,5,Pie,Derecho
+391,6,Nacionalidad,España
+391,7,Minutos,451
+391,8,Partidos,16
+391,9,Valor estimado,7 M€
+392,1,Equipo,Real Madrid
+392,2,Puesto,Delantero
+392,3,Edad,19 años
+392,4,Altura,"1,77 m"
+392,5,Pie,Izquierdo
+392,6,Nacionalidad,España
+392,7,Minutos,40
+392,8,Partidos,2
+392,9,Valor estimado,4 M€
+393,1,Equipo,Real Madrid
+393,2,Puesto,Central
+393,3,Edad,33 años
+393,4,Altura,"1,80 m"
+393,5,Pie,Izquierdo
+393,6,Nacionalidad,Austria
+393,7,Minutos,419
+393,8,Partidos,11
+393,9,Valor estimado,3 M€
+394,1,Equipo,Real Madrid
+394,2,Puesto,Lateral
+394,3,Edad,22 años
+394,4,Altura,"1,70 m"
+394,5,Pie,Derecho
+394,6,Nacionalidad,España
+394,7,Minutos,78
+394,8,Partidos,2
+394,9,Valor estimado,5 M€
+395,1,Equipo,Real Madrid
+395,2,Puesto,Central
+395,3,Edad,21 años
+395,4,Altura,"1,95 m"
+395,5,Pie,Ambidiestro
+395,6,Nacionalidad,España / Países Bajos
+395,7,Minutos,2.046
+395,8,Partidos,28
+395,9,Valor estimado,60 M€
+396,1,Equipo,Real Madrid
+396,2,Puesto,Central
+396,3,Edad,19 años
+396,4,Altura,"1,84 m"
+396,5,Pie,Izquierdo
+396,6,Nacionalidad,España
+396,7,Minutos,24
+396,8,Partidos,1
+396,9,Valor estimado,5 M€
+397,1,Equipo,Real Madrid
+397,2,Puesto,Mediocentro
+397,3,Edad,23 años
+397,4,Altura,"1,82 m"
+397,5,Pie,Izquierdo
+397,6,Nacionalidad,Francia / Congo
+397,7,Minutos,1.507
+397,8,Partidos,29
+397,9,Valor estimado,50 M€
+398,1,Equipo,Real Madrid
+398,2,Puesto,Posición no confirmada
+398,3,Edad,19 años
+398,4,Altura,"1,72 m"
+398,5,Pie,Izquierdo
+398,6,Nacionalidad,Brasil
+398,7,Minutos,5
+398,8,Partidos,1
+398,9,Valor estimado,40 M€
+399,1,Equipo,Real Madrid
+399,2,Puesto,Mediocentro
+399,3,Edad,27 años
+399,4,Altura,"1,82 m"
+399,5,Pie,Derecho
+399,6,Nacionalidad,Uruguay / España
+399,7,Minutos,2.765
+399,8,Partidos,33
+399,9,Valor estimado,90 M€
+400,1,Equipo,Real Madrid
+400,2,Puesto,Lateral
+400,3,Edad,30 años
+400,4,Altura,"1,80 m"
+400,5,Pie,Izquierdo
+400,6,Nacionalidad,Francia / Senegal
+400,7,Minutos,204
+400,8,Partidos,5
+400,9,Valor estimado,4 M€
+401,1,Equipo,Real Madrid
+401,2,Puesto,Lateral
+401,3,Edad,26 años
+401,4,Altura,"1,69 m"
+401,5,Pie,Izquierdo
+401,6,Nacionalidad,España
+401,7,Minutos,930
+401,8,Partidos,13
+401,9,Valor estimado,10 M€
+402,1,Equipo,Real Madrid
+402,2,Puesto,Extremo
+402,3,Edad,18 años
+402,4,Altura,"1,78 m"
+402,5,Pie,Izquierdo
+402,6,Nacionalidad,Argentina / Italia
+402,7,Minutos,1.026
+402,8,Partidos,23
+402,9,Valor estimado,45 M€
+403,1,Equipo,Real Madrid
+403,2,Puesto,Extremo
+403,3,Edad,22 años
+403,4,Altura,"1,82 m"
+403,5,Pie,Ambidiestro
+403,6,Nacionalidad,España
+403,7,Minutos,923
+403,8,Partidos,30
+403,9,Valor estimado,30 M€
+404,1,Equipo,Real Madrid
+404,2,Puesto,Sin definir
+404,3,Edad,20 años
+404,4,Altura,"1,78 m"
+404,5,Pie,Derecho
+404,6,Nacionalidad,España
+404,7,Minutos,8
+404,8,Partidos,2
+404,9,Valor estimado,"7,5 M€"
+405,1,Equipo,Real Madrid
+405,2,Puesto,Mediocentro
+405,3,Edad,22 años
+405,4,Altura,"1,86 m"
+405,5,Pie,Derecho
+405,6,Nacionalidad,Inglaterra / Irlanda
+405,7,Minutos,1.933
+405,8,Partidos,28
+405,9,Valor estimado,130 M€
+406,1,Equipo,Real Madrid
+406,2,Puesto,Delantero
+406,3,Edad,27 años
+406,4,Altura,"1,80 m"
+406,5,Pie,Derecho
+406,6,Nacionalidad,Francia / Camerún
+406,7,Minutos,2.623
+406,8,Partidos,31
+406,9,Valor estimado,180 M€
+407,1,Equipo,Real Madrid
+407,2,Puesto,Lateral
+407,3,Edad,22 años
+407,4,Altura,"1,75 m"
+407,5,Pie,
+407,6,Nacionalidad,España
+407,7,Minutos,3
+407,8,Partidos,1
+407,9,Valor estimado,600 mil €
+408,1,Equipo,Real Madrid
+408,2,Puesto,Sin definir
+408,3,Edad,22 años
+408,4,Altura,"1,70 m"
+408,5,Pie,Derecho
+408,6,Nacionalidad,España
+408,7,Minutos,86
+408,8,Partidos,4
+408,9,Valor estimado,5 M€
+409,1,Equipo,Real Madrid
+409,2,Puesto,Central
+409,3,Edad,23 años
+409,4,Altura,"1,84 m"
+409,5,Pie,Derecho
+409,6,Nacionalidad,España
+409,7,Minutos,1.692
+409,8,Partidos,23
+409,9,Valor estimado,20 M€
+410,1,Equipo,Real Madrid
+410,2,Puesto,Delantero
+410,3,Edad,25 años
+410,4,Altura,"1,74 m"
+410,5,Pie,Derecho
+410,6,Nacionalidad,Brasil / España
+410,7,Minutos,633
+410,8,Partidos,19
+410,9,Valor estimado,45 M€
+411,1,Equipo,Real Madrid
+411,2,Puesto,Sin definir
+411,3,Edad,18 años
+411,4,Altura,"1,79 m"
+411,5,Pie,Derecho
+411,6,Nacionalidad,España / Marruecos
+411,7,Minutos,615
+411,8,Partidos,10
+411,9,Valor estimado,20 M€
+412,1,Equipo,Real Madrid
+412,2,Puesto,Lateral
+412,3,Edad,27 años
+412,4,Altura,"1,80 m"
+412,5,Pie,Derecho
+412,6,Nacionalidad,Inglaterra
+412,7,Minutos,1.175
+412,8,Partidos,21
+412,9,Valor estimado,60 M€
+413,1,Equipo,Real Madrid
+413,2,Puesto,Sin definir
+413,3,Edad,19 años
+413,4,Altura,"1,88 m"
+413,5,Pie,Izquierdo
+413,6,Nacionalidad,España
+413,7,Minutos,81
+413,8,Partidos,1
+413,9,Valor estimado,5 M€
+414,1,Equipo,Real Madrid
+414,2,Puesto,Extremo
+414,3,Edad,25 años
+414,4,Altura,"1,76 m"
+414,5,Pie,Derecho
+414,6,Nacionalidad,Brasil / España
+414,7,Minutos,2.865
+414,8,Partidos,36
+414,9,Valor estimado,140 M€
+415,1,Equipo,Real Madrid
+415,2,Puesto,Lateral
+415,3,Edad,23 años
+415,4,Altura,"1,86 m"
+415,5,Pie,Izquierdo
+415,6,Nacionalidad,España
+415,7,Minutos,2.334
+415,8,Partidos,28
+415,9,Valor estimado,50 M€
+416,1,Equipo,Real Madrid
+416,2,Puesto,Delantero
+416,3,Edad,21 años
+416,4,Altura,"1,73 m"
+416,5,Pie,Derecho
+416,6,Nacionalidad,España
+416,7,Minutos,2
+416,8,Partidos,1
+416,9,Valor estimado,500 mil €
+417,1,Equipo,Real Madrid
+417,2,Puesto,Central
+417,3,Edad,28 años
+417,4,Altura,"1,86 m"
+417,5,Pie,Derecho
+417,6,Nacionalidad,Brasil / España
+417,7,Minutos,1.147
+417,8,Partidos,16
+417,9,Valor estimado,20 M€
+418,1,Equipo,Real Oviedo
+418,2,Puesto,Mediocentro
+418,3,Edad,28 años
+418,4,Altura,"1,79 m"
+418,5,Pie,Derecho
+418,6,Nacionalidad,España
+418,7,Minutos,2.616
+418,8,Partidos,38
+418,9,Valor estimado,2 M€
+419,1,Equipo,Real Oviedo
+419,2,Puesto,Posición no confirmada
+419,3,Edad,30 años
+419,4,Altura,"1,86 m"
+419,5,Pie,Derecho
+419,6,Nacionalidad,España
+419,7,Minutos,9
+419,8,Partidos,1
+419,9,Valor estimado,200 mil €
+420,1,Equipo,Real Oviedo
+420,2,Puesto,Central
+420,3,Edad,32 años
+420,4,Altura,"1,93 m"
+420,5,Pie,Derecho
+420,6,Nacionalidad,España
+420,7,Minutos,1.688
+420,8,Partidos,21
+420,9,Valor estimado,900 mil €
+421,1,Equipo,Real Oviedo
+421,2,Puesto,Central
+421,3,Edad,26 años
+421,4,Altura,"1,96 m"
+421,5,Pie,Izquierdo
+421,6,Nacionalidad,Angola / Portugal
+421,7,Minutos,1.785
+421,8,Partidos,22
+421,9,Valor estimado,5 M€
+422,1,Equipo,Real Oviedo
+422,2,Puesto,Central
+422,3,Edad,31 años
+422,4,Altura,"1,84 m"
+422,5,Pie,Derecho
+422,6,Nacionalidad,España
+422,7,Minutos,2.073
+422,8,Partidos,25
+422,9,Valor estimado,"1,2 M€"
+423,1,Equipo,Real Oviedo
+423,2,Puesto,Central
+423,3,Edad,32 años
+423,4,Altura,"1,87 m"
+423,5,Pie,Derecho
+423,6,Nacionalidad,Costa de Marfil
+423,7,Minutos,1.327
+423,8,Partidos,16
+423,9,Valor estimado,"1,2 M€"
+424,1,Equipo,Real Oviedo
+424,2,Puesto,Delantero
+424,3,Edad,27 años
+424,4,Altura,"1,81 m"
+424,5,Pie,Izquierdo
+424,6,Nacionalidad,Uruguay
+424,7,Minutos,2.575
+424,8,Partidos,34
+424,9,Valor estimado,4 M€
+425,1,Equipo,Real Oviedo
+425,2,Puesto,Extremo
+425,3,Edad,24 años
+425,4,Altura,"1,75 m"
+425,5,Pie,Izquierdo
+425,6,Nacionalidad,Egipto / Francia
+425,7,Minutos,1.937
+425,8,Partidos,38
+425,9,Valor estimado,"3,5 M€"
+426,1,Equipo,Real Oviedo
+426,2,Puesto,Extremo
+426,3,Edad,25 años
+426,4,Altura,"1,79 m"
+426,5,Pie,Derecho
+426,6,Nacionalidad,Marruecos / España
+426,7,Minutos,2.584
+426,8,Partidos,37
+426,9,Valor estimado,4 M€
+427,1,Equipo,Real Oviedo
+427,2,Puesto,Lateral
+427,3,Edad,24 años
+427,4,Altura,"1,83 m"
+427,5,Pie,Izquierdo
+427,6,Nacionalidad,España
+427,7,Minutos,1.825
+427,8,Partidos,26
+427,9,Valor estimado,5 M€
+428,1,Equipo,Real Oviedo
+428,2,Puesto,Extremo
+428,3,Edad,27 años
+428,4,Altura,"1,75 m"
+428,5,Pie,Derecho
+428,6,Nacionalidad,Croacia
+428,7,Minutos,482
+428,8,Partidos,14
+428,9,Valor estimado,2 M€
+429,1,Equipo,Real Oviedo
+429,2,Puesto,Pivote
+429,3,Edad,27 años
+429,4,Altura,"1,83 m"
+429,5,Pie,Derecho
+429,6,Nacionalidad,Ghana
+429,7,Minutos,1.782
+429,8,Partidos,27
+429,9,Valor estimado,"1,4 M€"
+430,1,Equipo,Real Oviedo
+430,2,Puesto,Pivote
+430,3,Edad,31 años
+430,4,Altura,"1,88 m"
+430,5,Pie,Derecho
+430,6,Nacionalidad,Bélgica
+430,7,Minutos,1.338
+430,8,Partidos,19
+430,9,Valor estimado,"1,8 M€"
+431,1,Equipo,Real Oviedo
+431,2,Puesto,Lateral
+431,3,Edad,31 años
+431,4,Altura,"1,74 m"
+431,5,Pie,Derecho
+431,6,Nacionalidad,España
+431,7,Minutos,1.086
+431,8,Partidos,20
+431,9,Valor estimado,600 mil €
+432,1,Equipo,Real Oviedo
+432,2,Puesto,Mediapunta
+432,3,Edad,26 años
+432,4,Altura,"1,85 m"
+432,5,Pie,Izquierdo
+432,6,Nacionalidad,Serbia
+432,7,Minutos,731
+432,8,Partidos,19
+432,9,Valor estimado,"1,4 M€"
+433,1,Equipo,Real Oviedo
+433,2,Puesto,Central
+433,3,Edad,20 años
+433,4,Altura,"1,83 m"
+433,5,Pie,Derecho
+433,6,Nacionalidad,España
+433,7,Minutos,40
+433,8,Partidos,1
+433,9,Valor estimado,500 mil €
+434,1,Equipo,Real Oviedo
+434,2,Puesto,Lateral
+434,3,Edad,31 años
+434,4,Altura,"1,80 m"
+434,5,Pie,Derecho
+434,6,Nacionalidad,España
+434,7,Minutos,2.383
+434,8,Partidos,30
+434,9,Valor estimado,"1,2 M€"
+435,1,Equipo,Real Oviedo
+435,2,Puesto,Pivote
+435,3,Edad,27 años
+435,4,Altura,"1,81 m"
+435,5,Pie,Derecho
+435,6,Nacionalidad,Uruguay / Italia
+435,7,Minutos,1.028
+435,8,Partidos,19
+435,9,Valor estimado,3 M€
+436,1,Equipo,Real Oviedo
+436,2,Puesto,Central
+436,3,Edad,28 años
+436,4,Altura,"1,85 m"
+436,5,Pie,Derecho
+436,6,Nacionalidad,España
+436,7,Minutos,228
+436,8,Partidos,3
+436,9,Valor estimado,700 mil €
+437,1,Equipo,Real Oviedo
+437,2,Puesto,Lateral
+437,3,Edad,22 años
+437,4,Altura,"1,82 m"
+437,5,Pie,Izquierdo
+437,6,Nacionalidad,España
+437,7,Minutos,9
+437,8,Partidos,1
+437,9,Valor estimado,150 mil €
+438,1,Equipo,Real Oviedo
+438,2,Puesto,Extremo
+438,3,Edad,28 años
+438,4,Altura,"1,88 m"
+438,5,Pie,Derecho
+438,6,Nacionalidad,Inglaterra / Nigeria
+438,7,Minutos,207
+438,8,Partidos,9
+438,9,Valor estimado,400 mil €
+439,1,Equipo,Real Oviedo
+439,2,Puesto,Sin definir
+439,3,Edad,18 años
+439,4,Altura,"1,78 m"
+439,5,Pie,Derecho
+439,6,Nacionalidad,España
+439,7,Minutos,60
+439,8,Partidos,8
+439,9,Valor estimado,1 M€
+440,1,Equipo,Real Oviedo
+440,2,Puesto,Lateral
+440,3,Edad,24 años
+440,4,Altura,"1,84 m"
+440,5,Pie,Izquierdo
+440,6,Nacionalidad,Níger / España
+440,7,Minutos,1.689
+440,8,Partidos,28
+440,9,Valor estimado,"1,5 M€"
+441,1,Equipo,Real Oviedo
+441,2,Puesto,Delantero
+441,3,Edad,36 años
+441,4,Altura,"1,86 m"
+441,5,Pie,Derecho
+441,6,Nacionalidad,Venezuela
+441,7,Minutos,1.054
+441,8,Partidos,16
+441,9,Valor estimado,350 mil €
+442,1,Equipo,Real Oviedo
+442,2,Puesto,Mediapunta
+442,3,Edad,41 años
+442,4,Altura,"1,68 m"
+442,5,Pie,Ambidiestro
+442,6,Nacionalidad,España
+442,7,Minutos,877
+442,8,Partidos,29
+442,9,Valor estimado,200 mil €
+443,1,Equipo,Real Oviedo
+443,2,Puesto,Pivote
+443,3,Edad,29 años
+443,4,Altura,"1,78 m"
+443,5,Pie,Izquierdo
+443,6,Nacionalidad,Argentina / Italia
+443,7,Minutos,2.157
+443,8,Partidos,33
+443,9,Valor estimado,"2,5 M€"
+444,1,Equipo,Real Oviedo
+444,2,Puesto,Delantero
+444,3,Edad,24 años
+444,4,Altura,"1,86 m"
+444,5,Pie,Derecho
+444,6,Nacionalidad,Uruguay
+444,7,Minutos,140
+444,8,Partidos,12
+444,9,Valor estimado,"3,5 M€"
+445,1,Equipo,Real Oviedo
+445,2,Puesto,Extremo
+445,3,Edad,22 años
+445,4,Altura,"1,75 m"
+445,5,Pie,Derecho
+445,6,Nacionalidad,Argentina
+445,7,Minutos,919
+445,8,Partidos,17
+445,9,Valor estimado,"4,5 M€"
+446,1,Equipo,Real Oviedo
+446,2,Puesto,Delantero
+446,3,Edad,25 años
+446,4,Altura,"1,79 m"
+446,5,Pie,Derecho
+446,6,Nacionalidad,España
+446,7,Minutos,331
+446,8,Partidos,18
+446,9,Valor estimado,700 mil €
+447,1,Equipo,Real Sociedad
+447,2,Puesto,Lateral
+447,3,Edad,28 años
+447,4,Altura,"1,75 m"
+447,5,Pie,Izquierdo
+447,6,Nacionalidad,España
+447,7,Minutos,829
+447,8,Partidos,21
+447,9,Valor estimado,"2,5 M€"
+448,1,Equipo,Real Sociedad
+448,2,Puesto,Extremo
+448,3,Edad,24 años
+448,4,Altura,"1,75 m"
+448,5,Pie,Derecho
+448,6,Nacionalidad,España
+448,7,Minutos,1.794
+448,8,Partidos,30
+448,9,Valor estimado,18 M€
+449,1,Equipo,Real Sociedad
+449,2,Puesto,Lateral
+449,3,Edad,32 años
+449,4,Altura,"1,80 m"
+449,5,Pie,Derecho
+449,6,Nacionalidad,España
+449,7,Minutos,723
+449,8,Partidos,16
+449,9,Valor estimado,"1,5 M€"
+450,1,Equipo,Real Sociedad
+450,2,Puesto,Extremo
+450,3,Edad,21 años
+450,4,Altura,"1,81 m"
+450,5,Pie,Izquierdo
+450,6,Nacionalidad,España
+450,7,Minutos,1
+450,8,Partidos,1
+450,9,Valor estimado,1 M€
+451,1,Equipo,Real Sociedad
+451,2,Puesto,Mediapunta
+451,3,Edad,23 años
+451,4,Altura,"1,83 m"
+451,5,Pie,Derecho
+451,6,Nacionalidad,Rusia
+451,7,Minutos,424
+451,8,Partidos,17
+451,9,Valor estimado,9 M€
+452,1,Equipo,Real Sociedad
+452,2,Puesto,Mediocentro
+452,3,Edad,24 años
+452,4,Altura,"1,81 m"
+452,5,Pie,Derecho
+452,6,Nacionalidad,España
+452,7,Minutos,1.355
+452,8,Partidos,27
+452,9,Valor estimado,10 M€
+453,1,Equipo,Real Sociedad
+453,2,Puesto,Mediapunta
+453,3,Edad,29 años
+453,4,Altura,"1,87 m"
+453,5,Pie,Izquierdo
+453,6,Nacionalidad,España
+453,7,Minutos,1.708
+453,8,Partidos,29
+453,9,Valor estimado,8 M€
+454,1,Equipo,Real Sociedad
+454,2,Puesto,Mediocentro
+454,3,Edad,29 años
+454,4,Altura,"1,80 m"
+454,5,Pie,Derecho
+454,6,Nacionalidad,España
+454,7,Minutos,2.346
+454,8,Partidos,33
+454,9,Valor estimado,7 M€
+455,1,Equipo,Real Sociedad
+455,2,Puesto,Extremo
+455,3,Edad,19 años
+455,4,Altura,"1,67 m"
+455,5,Pie,Izquierdo
+455,6,Nacionalidad,España
+455,7,Minutos,13
+455,8,Partidos,1
+455,9,Valor estimado,2 M€
+456,1,Equipo,Real Sociedad
+456,2,Puesto,Central
+456,3,Edad,29 años
+456,4,Altura,"1,93 m"
+456,5,Pie,Derecho
+456,6,Nacionalidad,Croacia
+456,7,Minutos,2.140
+456,8,Partidos,27
+456,9,Valor estimado,"2,8 M€"
+457,1,Equipo,Real Sociedad
+457,2,Puesto,Extremo
+457,3,Edad,29 años
+457,4,Altura,"1,79 m"
+457,5,Pie,Derecho
+457,6,Nacionalidad,Portugal
+457,7,Minutos,1.833
+457,8,Partidos,32
+457,9,Valor estimado,6 M€
+458,1,Equipo,Real Sociedad
+458,2,Puesto,Delantero
+458,3,Edad,21 años
+458,4,Altura,"1,78 m"
+458,5,Pie,Izquierdo
+458,6,Nacionalidad,España
+458,7,Minutos,49
+458,8,Partidos,3
+458,9,Valor estimado,4 M€
+459,1,Equipo,Real Sociedad
+459,2,Puesto,Sin definir
+459,3,Edad,19 años
+459,4,Altura,"1,85 m"
+459,5,Pie,Izquierdo
+459,6,Nacionalidad,España
+459,7,Minutos,4
+459,8,Partidos,1
+459,9,Valor estimado,1 M€
+460,1,Equipo,Real Sociedad
+460,2,Puesto,Central
+460,3,Edad,29 años
+460,4,Altura,"1,81 m"
+460,5,Pie,Derecho
+460,6,Nacionalidad,España
+460,7,Minutos,2.080
+460,8,Partidos,25
+460,9,Valor estimado,6 M€
+461,1,Equipo,Real Sociedad
+461,2,Puesto,Lateral
+461,3,Edad,23 años
+461,4,Altura,"1,77 m"
+461,5,Pie,Derecho
+461,6,Nacionalidad,España
+461,7,Minutos,1
+461,8,Partidos,1
+461,9,Valor estimado,200 mil €
+462,1,Equipo,Real Sociedad
+462,2,Puesto,Delantero
+462,3,Edad,23 años
+462,4,Altura,"1,85 m"
+462,5,Pie,Derecho
+462,6,Nacionalidad,Kenia
+462,7,Minutos,92
+462,8,Partidos,2
+462,9,Valor estimado,2 M€
+463,1,Equipo,Real Sociedad
+463,2,Puesto,Lateral
+463,3,Edad,23 años
+463,4,Altura,"1,76 m"
+463,5,Pie,Derecho
+463,6,Nacionalidad,Venezuela / España
+463,7,Minutos,2.789
+463,8,Partidos,35
+463,9,Valor estimado,15 M€
+464,1,Equipo,Real Sociedad
+464,2,Puesto,Pivote
+464,3,Edad,23 años
+464,4,Altura,"1,77 m"
+464,5,Pie,Derecho
+464,6,Nacionalidad,España
+464,7,Minutos,2.235
+464,8,Partidos,30
+464,9,Valor estimado,25 M€
+465,1,Equipo,Real Sociedad
+465,2,Puesto,Delantero
+465,3,Edad,23 años
+465,4,Altura,"1,83 m"
+465,5,Pie,Derecho
+465,6,Nacionalidad,España
+465,7,Minutos,107
+465,8,Partidos,7
+465,9,Valor estimado,"1,8 M€"
+466,1,Equipo,Real Sociedad
+466,2,Puesto,Central
+466,3,Edad,20 años
+466,4,Altura,"1,87 m"
+466,5,Pie,Derecho
+466,6,Nacionalidad,España
+466,7,Minutos,2.250
+466,8,Partidos,25
+466,9,Valor estimado,25 M€
+467,1,Equipo,Real Sociedad
+467,2,Puesto,Sin definir
+467,3,Edad,20 años
+467,4,Altura,"1,78 m"
+467,5,Pie,Derecho
+467,6,Nacionalidad,España
+467,7,Minutos,1
+467,8,Partidos,1
+467,9,Valor estimado,"2,5 M€"
+468,1,Equipo,Real Sociedad
+468,2,Puesto,Mediocentro
+468,3,Edad,23 años
+468,4,Altura,"1,85 m"
+468,5,Pie,Izquierdo
+468,6,Nacionalidad,Croacia
+468,7,Minutos,1.003
+468,8,Partidos,22
+468,9,Valor estimado,10 M€
+469,1,Equipo,Real Sociedad
+469,2,Puesto,Central
+469,3,Edad,21 años
+469,4,Altura,"1,91 m"
+469,5,Pie,Derecho
+469,6,Nacionalidad,España
+469,7,Minutos,91
+469,8,Partidos,2
+469,9,Valor estimado,1 M€
+470,1,Equipo,Real Sociedad
+470,2,Puesto,Posición no confirmada
+470,3,Edad,24 años
+470,4,Altura,"1,85 m"
+470,5,Pie,Izquierdo
+470,6,Nacionalidad,España
+470,7,Minutos,64
+470,8,Partidos,4
+470,9,Valor estimado,1 M€
+471,1,Equipo,Real Sociedad
+471,2,Puesto,Delantero
+471,3,Edad,29 años
+471,4,Altura,"1,81 m"
+471,5,Pie,Izquierdo
+471,6,Nacionalidad,España
+471,7,Minutos,2.727
+471,8,Partidos,34
+471,9,Valor estimado,25 M€
+472,1,Equipo,Real Sociedad
+472,2,Puesto,Delantero
+472,3,Edad,21 años
+472,4,Altura,"1,86 m"
+472,5,Pie,Derecho
+472,6,Nacionalidad,Islandia
+472,7,Minutos,822
+472,8,Partidos,20
+472,9,Valor estimado,20 M€
+473,1,Equipo,Real Sociedad
+473,2,Puesto,Mediapunta
+473,3,Edad,22 años
+473,4,Altura,"1,78 m"
+473,5,Pie,Derecho
+473,6,Nacionalidad,España
+473,7,Minutos,1.491
+473,8,Partidos,34
+473,9,Valor estimado,7 M€
+474,1,Equipo,Real Sociedad
+474,2,Puesto,Extremo
+474,3,Edad,25 años
+474,4,Altura,"1,73 m"
+474,5,Pie,Izquierdo
+474,6,Nacionalidad,España
+474,7,Minutos,2.712
+474,8,Partidos,35
+474,9,Valor estimado,15 M€
+475,1,Equipo,Real Sociedad
+475,2,Puesto,Extremo
+475,3,Edad,24 años
+475,4,Altura,"1,73 m"
+475,5,Pie,Izquierdo
+475,6,Nacionalidad,Japón
+475,7,Minutos,1.531
+475,8,Partidos,24
+475,9,Valor estimado,20 M€
+476,1,Equipo,Real Sociedad
+476,2,Puesto,Extremo
+476,3,Edad,21 años
+476,4,Altura,"1,80 m"
+476,5,Pie,Derecho
+476,6,Nacionalidad,Brasil
+476,7,Minutos,74
+476,8,Partidos,5
+476,9,Valor estimado,4 M€
+477,1,Equipo,Real Sociedad
+477,2,Puesto,Mediocentro
+477,3,Edad,28 años
+477,4,Altura,"1,84 m"
+477,5,Pie,Derecho
+477,6,Nacionalidad,Venezuela / España
+477,7,Minutos,638
+477,8,Partidos,14
+477,9,Valor estimado,6 M€
+478,1,Equipo,Real Sociedad
+478,2,Puesto,Lateral
+478,3,Edad,30 años
+478,4,Altura,"1,75 m"
+478,5,Pie,Derecho
+478,6,Nacionalidad,España
+478,7,Minutos,196
+478,8,Partidos,5
+478,9,Valor estimado,800 mil €
+479,1,Equipo,Sevilla
+479,2,Puesto,Mediapunta
+479,3,Edad,31 años
+479,4,Altura,"1,86 m"
+479,5,Pie,Izquierdo
+479,6,Nacionalidad,Bélgica / Kosovo
+479,7,Minutos,283
+479,8,Partidos,12
+479,9,Valor estimado,1 M€
+480,1,Equipo,Sevilla
+480,2,Puesto,Delantero
+480,3,Edad,26 años
+480,4,Altura,"1,90 m"
+480,5,Pie,Derecho
+480,6,Nacionalidad,Nigeria
+480,7,Minutos,2.048
+480,8,Partidos,32
+480,9,Valor estimado,15 M€
+481,1,Equipo,Sevilla
+481,2,Puesto,Delantero
+481,3,Edad,37 años
+481,4,Altura,"1,69 m"
+481,5,Pie,Derecho
+481,6,Nacionalidad,Chile
+481,7,Minutos,1.278
+481,8,Partidos,28
+481,9,Valor estimado,"1,2 M€"
+482,1,Equipo,Sevilla
+482,2,Puesto,Central
+482,3,Edad,23 años
+482,4,Altura,"1,88 m"
+482,5,Pie,Derecho
+482,6,Nacionalidad,España
+482,7,Minutos,1.251
+482,8,Partidos,19
+482,9,Valor estimado,6 M€
+483,1,Equipo,Sevilla
+483,2,Puesto,Pivote
+483,3,Edad,26 años
+483,4,Altura,"1,91 m"
+483,5,Pie,Derecho
+483,6,Nacionalidad,Francia / Guinea-Bissau
+483,7,Minutos,1.632
+483,8,Partidos,27
+483,9,Valor estimado,"7,5 M€"
+484,1,Equipo,Sevilla
+484,2,Puesto,Extremo
+484,3,Edad,28 años
+484,4,Altura,"1,76 m"
+484,5,Pie,Derecho
+484,6,Nacionalidad,Nigeria
+484,7,Minutos,866
+484,8,Partidos,27
+484,9,Valor estimado,4 M€
+485,1,Equipo,Sevilla
+485,2,Puesto,Lateral
+485,3,Edad,36 años
+485,4,Altura,"1,78 m"
+485,5,Pie,Derecho
+485,6,Nacionalidad,España
+485,7,Minutos,1.233
+485,8,Partidos,17
+485,9,Valor estimado,1 M€
+486,1,Equipo,Sevilla
+486,2,Puesto,Mediocentro
+486,3,Edad,29 años
+486,4,Altura,"1,83 m"
+486,5,Pie,Derecho
+486,6,Nacionalidad,Suiza / Senegal
+486,7,Minutos,2.235
+486,8,Partidos,33
+486,9,Valor estimado,"7,5 M€"
+487,1,Equipo,Sevilla
+487,2,Puesto,Posición no confirmada
+487,3,Edad,28 años
+487,4,Altura,"1,84 m"
+487,5,Pie,Izquierdo
+487,6,Nacionalidad,Bélgica / RD del Congo
+487,7,Minutos,180
+487,8,Partidos,2
+487,9,Valor estimado,15 M€
+488,1,Equipo,Sevilla
+488,2,Puesto,Central
+488,3,Edad,27 años
+488,4,Altura,"1,83 m"
+488,5,Pie,Derecho
+488,6,Nacionalidad,Argentina / Italia
+488,7,Minutos,5
+488,8,Partidos,1
+488,9,Valor estimado,800 mil €
+489,1,Equipo,Sevilla
+489,2,Puesto,Central
+489,3,Edad,32 años
+489,4,Altura,"1,87 m"
+489,5,Pie,Derecho
+489,6,Nacionalidad,Portugal
+489,7,Minutos,309
+489,8,Partidos,4
+489,9,Valor estimado,"1,5 M€"
+490,1,Equipo,Sevilla
+490,2,Puesto,Lateral
+490,3,Edad,28 años
+490,4,Altura,"1,78 m"
+490,5,Pie,Izquierdo
+490,6,Nacionalidad,Chile
+490,7,Minutos,2.107
+490,8,Partidos,29
+490,9,Valor estimado,6 M€
+491,1,Equipo,Sevilla
+491,2,Puesto,Delantero
+491,3,Edad,26 años
+491,4,Altura,"1,83 m"
+491,5,Pie,Izquierdo
+491,6,Nacionalidad,España
+491,7,Minutos,1.506
+491,8,Partidos,29
+491,9,Valor estimado,5 M€
+492,1,Equipo,Sevilla
+492,2,Puesto,Mediocentro
+492,3,Edad,31 años
+492,4,Altura,"1,85 m"
+492,5,Pie,Derecho
+492,6,Nacionalidad,España
+492,7,Minutos,15
+492,8,Partidos,3
+492,9,Valor estimado,1 M€
+493,1,Equipo,Sevilla
+493,2,Puesto,Lateral
+493,3,Edad,24 años
+493,4,Altura,"1,84 m"
+493,5,Pie,Derecho
+493,6,Nacionalidad,España
+493,7,Minutos,2.561
+493,8,Partidos,35
+493,9,Valor estimado,12 M€
+494,1,Equipo,Sevilla
+494,2,Puesto,Lateral
+494,3,Edad,22 años
+494,4,Altura,"1,86 m"
+494,5,Pie,Derecho
+494,6,Nacionalidad,España
+494,7,Minutos,2.016
+494,8,Partidos,32
+494,9,Valor estimado,10 M€
+495,1,Equipo,Sevilla
+495,2,Puesto,Central
+495,3,Edad,24 años
+495,4,Altura,"1,88 m"
+495,5,Pie,Izquierdo
+495,6,Nacionalidad,España
+495,7,Minutos,2.199
+495,8,Partidos,26
+495,9,Valor estimado,14 M€
+496,1,Equipo,Sevilla
+496,2,Puesto,Pivote
+496,3,Edad,24 años
+496,4,Altura,"1,85 m"
+496,5,Pie,Derecho
+496,6,Nacionalidad,Francia / Camerún
+496,7,Minutos,2.728
+496,8,Partidos,34
+496,9,Valor estimado,15 M€
+497,1,Equipo,Sevilla
+497,2,Puesto,Mediocentro
+497,3,Edad,21 años
+497,4,Altura,"1,78 m"
+497,5,Pie,Izquierdo
+497,6,Nacionalidad,España
+497,7,Minutos,256
+497,8,Partidos,8
+497,9,Valor estimado,"1,5 M€"
+498,1,Equipo,Sevilla
+498,2,Puesto,Central
+498,3,Edad,29 años
+498,4,Altura,"1,85 m"
+498,5,Pie,Izquierdo
+498,6,Nacionalidad,Brasil / España
+498,7,Minutos,935
+498,8,Partidos,13
+498,9,Valor estimado,"2,5 M€"
+499,1,Equipo,Sevilla
+499,2,Puesto,Delantero
+499,3,Edad,21 años
+499,4,Altura,"1,81 m"
+499,5,Pie,Izquierdo
+499,6,Nacionalidad,España
+499,7,Minutos,50
+499,8,Partidos,4
+499,9,Valor estimado,300 mil €
+500,1,Equipo,Sevilla
+500,2,Puesto,Delantero
+500,3,Edad,29 años
+500,4,Altura,"1,71 m"
+500,5,Pie,Derecho
+500,6,Nacionalidad,Francia / Argentina
+500,7,Minutos,884
+500,8,Partidos,12
+500,9,Valor estimado,4 M€
+501,1,Equipo,Sevilla
+501,2,Puesto,Mediocentro
+501,3,Edad,34 años
+501,4,Altura,"1,87 m"
+501,5,Pie,Derecho
+501,6,Nacionalidad,Serbia / Países Bajos
+501,7,Minutos,2.349
+501,8,Partidos,34
+501,9,Valor estimado,2 M€
+502,1,Equipo,Sevilla
+502,2,Puesto,Lateral
+502,3,Edad,22 años
+502,4,Altura,"1,83 m"
+502,5,Pie,Izquierdo
+502,6,Nacionalidad,España / Argentina
+502,7,Minutos,1.397
+502,8,Partidos,21
+502,9,Valor estimado,10 M€
+503,1,Equipo,Sevilla
+503,2,Puesto,Extremo
+503,3,Edad,23 años
+503,4,Altura,"1,72 m"
+503,5,Pie,Derecho
+503,6,Nacionalidad,España
+503,7,Minutos,952
+503,8,Partidos,26
+503,9,Valor estimado,3 M€
+504,1,Equipo,Sevilla
+504,2,Puesto,Posición no confirmada
+504,3,Edad,23 años
+504,4,Altura,"1,85 m"
+504,5,Pie,Derecho
+504,6,Nacionalidad,España
+504,7,Minutos,99
+504,8,Partidos,2
+504,9,Valor estimado,1 M€
+505,1,Equipo,Sevilla
+505,2,Puesto,Extremo
+505,3,Edad,27 años
+505,4,Altura,"1,79 m"
+505,5,Pie,Derecho
+505,6,Nacionalidad,Suiza / República Dominicana
+505,7,Minutos,1.670
+505,8,Partidos,24
+505,9,Valor estimado,12 M€
+506,1,Equipo,Sevilla
+506,2,Puesto,Posición no confirmada
+506,3,Edad,20 años
+506,4,Altura,"1,71 m"
+506,5,Pie,Derecho
+506,6,Nacionalidad,RD del Congo / Bélgica
+506,7,Minutos,48
+506,8,Partidos,1
+506,9,Valor estimado,4 M€
+507,1,Equipo,Sevilla
+507,2,Puesto,Central
+507,3,Edad,23 años
+507,4,Altura,"1,91 m"
+507,5,Pie,Derecho
+507,6,Nacionalidad,Francia / Costa de Marfil
+507,7,Minutos,670
+507,8,Partidos,12
+507,9,Valor estimado,"1,2 M€"
+508,1,Equipo,Valencia
+508,2,Puesto,Mediocentro
+508,3,Edad,26 años
+508,4,Altura,"1,76 m"
+508,5,Pie,Derecho
+508,6,Nacionalidad,Portugal
+508,7,Minutos,1.007
+508,8,Partidos,22
+508,9,Valor estimado,6 M€
+509,1,Equipo,Valencia
+509,2,Puesto,Extremo
+509,3,Edad,29 años
+509,4,Altura,"1,78 m"
+509,5,Pie,Derecho
+509,6,Nacionalidad,Países Bajos / Nigeria
+509,7,Minutos,1.612
+509,8,Partidos,30
+509,9,Valor estimado,3 M€
+510,1,Equipo,Valencia
+510,2,Puesto,Pivote
+510,3,Edad,31 años
+510,4,Altura,"1,83 m"
+510,5,Pie,Derecho
+510,6,Nacionalidad,Francia
+510,7,Minutos,731
+510,8,Partidos,19
+510,9,Valor estimado,"2,5 M€"
+511,1,Equipo,Valencia
+511,2,Puesto,Central
+511,3,Edad,26 años
+511,4,Altura,"1,90 m"
+511,5,Pie,Izquierdo
+511,6,Nacionalidad,España
+511,7,Minutos,1.767
+511,8,Partidos,21
+511,9,Valor estimado,5 M€
+512,1,Equipo,Valencia
+512,2,Puesto,Central
+512,3,Edad,24 años
+512,4,Altura,"1,94 m"
+512,5,Pie,Derecho
+512,6,Nacionalidad,España
+512,7,Minutos,2.588
+512,8,Partidos,32
+512,9,Valor estimado,9 M€
+513,1,Equipo,Valencia
+513,2,Puesto,Extremo
+513,3,Edad,30 años
+513,4,Altura,"1,85 m"
+513,5,Pie,Izquierdo
+513,6,Nacionalidad,España
+513,7,Minutos,247
+513,8,Partidos,13
+513,9,Valor estimado,"1,2 M€"
+514,1,Equipo,Valencia
+514,2,Puesto,Delantero
+514,3,Edad,24 años
+514,4,Altura,"1,72 m"
+514,5,Pie,Derecho
+514,6,Nacionalidad,España
+514,7,Minutos,1.781
+514,8,Partidos,34
+514,9,Valor estimado,9 M€
+515,1,Equipo,Valencia
+515,2,Puesto,Lateral
+515,3,Edad,33 años
+515,4,Altura,"1,83 m"
+515,5,Pie,Derecho
+515,6,Nacionalidad,Guadalupe / Francia
+515,7,Minutos,1.149
+515,8,Partidos,15
+515,9,Valor estimado,900 mil €
+516,1,Equipo,Valencia
+516,2,Puesto,Central
+516,3,Edad,28 años
+516,4,Altura,"1,83 m"
+516,5,Pie,Derecho
+516,6,Nacionalidad,Suiza / Turquía
+516,7,Minutos,1.341
+516,8,Partidos,17
+516,9,Valor estimado,"2,5 M€"
+517,1,Equipo,Valencia
+517,2,Puesto,Sin definir
+517,3,Edad,27 años
+517,4,Altura,"1,84 m"
+517,5,Pie,Derecho
+517,6,Nacionalidad,Suiza
+517,7,Minutos,1.515
+517,8,Partidos,27
+517,9,Valor estimado,6 M€
+518,1,Equipo,Valencia
+518,2,Puesto,Pivote
+518,3,Edad,32 años
+518,4,Altura,"1,85 m"
+518,5,Pie,Derecho
+518,6,Nacionalidad,Argentina / Italia
+518,7,Minutos,1.310
+518,8,Partidos,16
+518,9,Valor estimado,4 M€
+519,1,Equipo,Valencia
+519,2,Puesto,Delantero
+519,3,Edad,26 años
+519,4,Altura,"1,77 m"
+519,5,Pie,Izquierdo
+519,6,Nacionalidad,España
+519,7,Minutos,1.979
+519,8,Partidos,36
+519,9,Valor estimado,12 M€
+520,1,Equipo,Valencia
+520,2,Puesto,Mediocentro
+520,3,Edad,23 años
+520,4,Altura,"1,87 m"
+520,5,Pie,Derecho
+520,6,Nacionalidad,España
+520,7,Minutos,2.086
+520,8,Partidos,36
+520,9,Valor estimado,25 M€
+521,1,Equipo,Valencia
+521,2,Puesto,Lateral
+521,3,Edad,23 años
+521,4,Altura,"1,82 m"
+521,5,Pie,Izquierdo
+521,6,Nacionalidad,España
+521,7,Minutos,936
+521,8,Partidos,24
+521,9,Valor estimado,4 M€
+522,1,Equipo,Valencia
+522,2,Puesto,Lateral
+522,3,Edad,31 años
+522,4,Altura,"1,72 m"
+522,5,Pie,Izquierdo
+522,6,Nacionalidad,España
+522,7,Minutos,2.491
+522,8,Partidos,32
+522,9,Valor estimado,4 M€
+523,1,Equipo,Valencia
+523,2,Puesto,Extremo
+523,3,Edad,25 años
+523,4,Altura,"1,68 m"
+523,5,Pie,Derecho
+523,6,Nacionalidad,Bélgica / Burundi
+523,7,Minutos,1.200
+523,8,Partidos,27
+523,9,Valor estimado,8 M€
+524,1,Equipo,Valencia
+524,2,Puesto,Mediapunta
+524,3,Edad,25 años
+524,4,Altura,"1,76 m"
+524,5,Pie,Derecho
+524,6,Nacionalidad,Argentina / Italia
+524,7,Minutos,1.377
+524,8,Partidos,27
+524,9,Valor estimado,8 M€
+525,1,Equipo,Valencia
+525,2,Puesto,Extremo
+525,3,Edad,32 años
+525,4,Altura,"1,76 m"
+525,5,Pie,Izquierdo
+525,6,Nacionalidad,España
+525,7,Minutos,2.676
+525,8,Partidos,37
+525,9,Valor estimado,"1,8 M€"
+526,1,Equipo,Valencia
+526,2,Puesto,Central
+526,3,Edad,29 años
+526,4,Altura,"1,92 m"
+526,5,Pie,Derecho
+526,6,Nacionalidad,Guinea / Francia
+526,7,Minutos,539
+526,8,Partidos,8
+526,9,Valor estimado,"1,5 M€"
+527,1,Equipo,Valencia
+527,2,Puesto,Pivote
+527,3,Edad,27 años
+527,4,Altura,"1,86 m"
+527,5,Pie,Derecho
+527,6,Nacionalidad,España
+527,7,Minutos,2.253
+527,8,Partidos,31
+527,9,Valor estimado,8 M€
+528,1,Equipo,Valencia
+528,2,Puesto,Lateral
+528,3,Edad,32 años
+528,4,Altura,"1,78 m"
+528,5,Pie,Derecho
+528,6,Nacionalidad,Argentina
+528,7,Minutos,358
+528,8,Partidos,5
+528,9,Valor estimado,"1,4 M€"
+529,1,Equipo,Valencia
+529,2,Puesto,Central
+529,3,Edad,23 años
+529,4,Altura,"1,82 m"
+529,5,Pie,Derecho
+529,6,Nacionalidad,España
+529,7,Minutos,1
+529,8,Partidos,1
+529,9,Valor estimado,600 mil €
+530,1,Equipo,Valencia
+530,2,Puesto,Lateral
+530,3,Edad,27 años
+530,4,Altura,"1,76 m"
+530,5,Pie,Derecho
+530,6,Nacionalidad,Portugal / Cabo Verde
+530,7,Minutos,1.386
+530,8,Partidos,24
+530,9,Valor estimado,"2,5 M€"
+531,1,Equipo,Valencia
+531,2,Puesto,Delantero
+531,3,Edad,29 años
+531,4,Altura,"1,91 m"
+531,5,Pie,Derecho
+531,6,Nacionalidad,Nigeria
+531,7,Minutos,1.028
+531,8,Partidos,25
+531,9,Valor estimado,4 M€
+532,1,Equipo,Valencia
+532,2,Puesto,Central
+532,3,Edad,29 años
+532,4,Altura,"1,86 m"
+532,5,Pie,Derecho
+532,6,Nacionalidad,España
+532,7,Minutos,927
+532,8,Partidos,13
+532,9,Valor estimado,"3,5 M€"
+533,1,Equipo,Villarreal
+533,2,Puesto,Posición no confirmada
+533,3,Edad,25 años
+533,4,Altura,"1,70 m"
+533,5,Pie,Derecho
+533,6,Nacionalidad,España
+533,7,Minutos,7
+533,8,Partidos,1
+533,9,Valor estimado,"1,8 M€"
+534,1,Equipo,Villarreal
+534,2,Puesto,Sin definir
+534,3,Edad,21 años
+534,4,Altura,"1,90 m"
+534,5,Pie,Izquierdo
+534,6,Nacionalidad,Senegal
+534,7,Minutos,19
+534,8,Partidos,1
+534,9,Valor estimado,700 mil €
+535,1,Equipo,Villarreal
+535,2,Puesto,Mediapunta
+535,3,Edad,22 años
+535,4,Altura,"1,71 m"
+535,5,Pie,Derecho
+535,6,Nacionalidad,España / Cuba
+535,7,Minutos,2.535
+535,8,Partidos,38
+535,9,Valor estimado,50 M€
+536,1,Equipo,Villarreal
+536,2,Puesto,Lateral
+536,3,Edad,21 años
+536,4,Altura,"1,88 m"
+536,5,Pie,Derecho
+536,6,Nacionalidad,Estados Unidos
+536,7,Minutos,332
+536,8,Partidos,10
+536,9,Valor estimado,"3,5 M€"
+537,1,Equipo,Villarreal
+537,2,Puesto,Extremo
+537,3,Edad,27 años
+537,4,Altura,"1,72 m"
+537,5,Pie,
+537,6,Nacionalidad,España
+537,7,Minutos,691
+537,8,Partidos,21
+537,9,Valor estimado,3 M€
+538,1,Equipo,Villarreal
+538,2,Puesto,Lateral
+538,3,Edad,30 años
+538,4,Altura,"1,84 m"
+538,5,Pie,Izquierdo
+538,6,Nacionalidad,España
+538,7,Minutos,1.700
+538,8,Partidos,27
+538,9,Valor estimado,"2,5 M€"
+539,1,Equipo,Villarreal
+539,2,Puesto,Extremo
+539,3,Edad,32 años
+539,4,Altura,"1,78 m"
+539,5,Pie,Derecho
+539,6,Nacionalidad,España
+539,7,Minutos,1.154
+539,8,Partidos,26
+539,9,Valor estimado,5 M€
+540,1,Equipo,Villarreal
+540,2,Puesto,Sin definir
+540,3,Edad,17 años
+540,4,Altura,"1,94 m"
+540,5,Pie,Derecho
+540,6,Nacionalidad,España
+540,7,Minutos,65
+540,8,Partidos,5
+540,9,Valor estimado,3 M€
+541,1,Equipo,Villarreal
+541,2,Puesto,Mediocentro
+541,3,Edad,37 años
+541,4,Altura,"1,82 m"
+541,5,Pie,Derecho
+541,6,Nacionalidad,España
+541,7,Minutos,1.474
+541,8,Partidos,33
+541,9,Valor estimado,1 M€
+542,1,Equipo,Villarreal
+542,2,Puesto,Delantero
+542,3,Edad,25 años
+542,4,Altura,"1,76 m"
+542,5,Pie,Derecho
+542,6,Nacionalidad,Georgia / Francia
+542,7,Minutos,2.155
+542,8,Partidos,33
+542,9,Valor estimado,30 M€
+543,1,Equipo,Villarreal
+543,2,Puesto,Delantero
+543,3,Edad,34 años
+543,4,Altura,"1,80 m"
+543,5,Pie,Izquierdo
+543,6,Nacionalidad,España
+543,7,Minutos,1.368
+543,8,Partidos,22
+543,9,Valor estimado,"2,5 M€"
+544,1,Equipo,Villarreal
+544,2,Puesto,Delantero
+544,3,Edad,19 años
+544,4,Altura,"1,78 m"
+544,5,Pie,Derecho
+544,6,Nacionalidad,España
+544,7,Minutos,57
+544,8,Partidos,2
+544,9,Valor estimado,1 M€
+545,1,Equipo,Villarreal
+545,2,Puesto,Lateral
+545,3,Edad,28 años
+545,4,Altura,"1,87 m"
+545,5,Pie,Derecho
+545,6,Nacionalidad,Argentina / España
+545,7,Minutos,946
+545,8,Partidos,13
+545,9,Valor estimado,8 M€
+546,1,Equipo,Villarreal
+546,2,Puesto,Central
+546,3,Edad,25 años
+546,4,Altura,"1,90 m"
+546,5,Pie,Derecho
+546,6,Nacionalidad,Cabo Verde / Francia
+546,7,Minutos,21
+546,8,Partidos,2
+546,9,Valor estimado,15 M€
+547,1,Equipo,Villarreal
+547,2,Puesto,Posición no confirmada
+547,3,Edad,26 años
+547,4,Altura,"1,70 m"
+547,5,Pie,Derecho
+547,6,Nacionalidad,Israel / Portugal
+547,7,Minutos,129
+547,8,Partidos,6
+547,9,Valor estimado,8 M€
+548,1,Equipo,Villarreal
+548,2,Puesto,Extremo
+548,3,Edad,31 años
+548,4,Altura,"1,83 m"
+548,5,Pie,Izquierdo
+548,6,Nacionalidad,Costa de Marfil / Francia
+548,7,Minutos,2.497
+548,8,Partidos,37
+548,9,Valor estimado,6 M€
+549,1,Equipo,Villarreal
+549,2,Puesto,Mediocentro
+549,3,Edad,27 años
+549,4,Altura,"1,89 m"
+549,5,Pie,Izquierdo
+549,6,Nacionalidad,Senegal / Francia
+549,7,Minutos,2.280
+549,8,Partidos,31
+549,9,Valor estimado,40 M€
+550,1,Equipo,Villarreal
+550,2,Puesto,Delantero
+550,3,Edad,21 años
+550,4,Altura,"1,79 m"
+550,5,Pie,Derecho
+550,6,Nacionalidad,España
+550,7,Minutos,10
+550,8,Partidos,1
+550,9,Valor estimado,800 mil €
+551,1,Equipo,Villarreal
+551,2,Puesto,Central
+551,3,Edad,21 años
+551,4,Altura,"1,85 m"
+551,5,Pie,Derecho
+551,6,Nacionalidad,España
+551,7,Minutos,2.034
+551,8,Partidos,24
+551,9,Valor estimado,15 M€
+552,1,Equipo,Villarreal
+552,2,Puesto,Central
+552,3,Edad,24 años
+552,4,Altura,"1,91 m"
+552,5,Pie,Derecho
+552,6,Nacionalidad,España
+552,7,Minutos,1.975
+552,8,Partidos,23
+552,9,Valor estimado,12 M€
+553,1,Equipo,Villarreal
+553,2,Puesto,Pivote
+553,3,Edad,22 años
+553,4,Altura,"1,88 m"
+553,5,Pie,Izquierdo
+553,6,Nacionalidad,Portugal / Cabo Verde
+553,7,Minutos,2.553
+553,8,Partidos,33
+553,9,Valor estimado,25 M€
+554,1,Equipo,Villarreal
+554,2,Puesto,Mediocentro
+554,3,Edad,29 años
+554,4,Altura,"1,88 m"
+554,5,Pie,Ambidiestro
+554,6,Nacionalidad,España
+554,7,Minutos,2.428
+554,8,Partidos,34
+554,9,Valor estimado,8 M€
+555,1,Equipo,Villarreal
+555,2,Puesto,Central
+555,3,Edad,24 años
+555,4,Altura,"1,86 m"
+555,5,Pie,Derecho
+555,6,Nacionalidad,Uruguay / España
+555,7,Minutos,2.485
+555,8,Partidos,29
+555,9,Valor estimado,20 M€
+556,1,Equipo,Villarreal
+556,2,Puesto,Lateral
+556,3,Edad,26 años
+556,4,Altura,"1,86 m"
+556,5,Pie,Ambidiestro
+556,6,Nacionalidad,España
+556,7,Minutos,2.028
+556,8,Partidos,32
+556,9,Valor estimado,9 M€
+557,1,Equipo,Villarreal
+557,2,Puesto,Extremo
+557,3,Edad,27 años
+557,4,Altura,"1,83 m"
+557,5,Pie,Derecho
+557,6,Nacionalidad,Canadá / Jamaica
+557,7,Minutos,1.873
+557,8,Partidos,35
+557,9,Valor estimado,12 M€
+558,1,Equipo,Villarreal
+558,2,Puesto,Delantero
+558,3,Edad,26 años
+558,4,Altura,"1,87 m"
+558,5,Pie,Izquierdo
+558,6,Nacionalidad,Canadá / Nigeria
+558,7,Minutos,949
+558,8,Partidos,28
+558,9,Valor estimado,7 M€
+559,1,Equipo,Villarreal
+559,2,Puesto,Pivote
+559,3,Edad,32 años
+559,4,Altura,"1,85 m"
+559,5,Pie,Derecho
+559,6,Nacionalidad,Ghana
+559,7,Minutos,892
+559,8,Partidos,26
+559,9,Valor estimado,2 M€
+560,1,Equipo,Villarreal
+560,2,Puesto,Central
+560,3,Edad,21 años
+560,4,Altura,"1,92 m"
+560,5,Pie,Derecho
+560,6,Nacionalidad,RD del Congo / Francia
+560,7,Minutos,85
+560,8,Partidos,2
+560,9,Valor estimado,3 M€
+561,1,Equipo,Villarreal
+561,2,Puesto,Posición no confirmada
+561,3,Edad,23 años
+561,4,Altura,"1,74 m"
+561,5,Pie,Derecho
+561,6,Nacionalidad,España
+561,7,Minutos,165
+561,8,Partidos,2
+561,9,Valor estimado,30 M€

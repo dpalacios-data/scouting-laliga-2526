@@ -22,3 +22,14 @@ relationship acf26002-1def-5acb-0702-60c372391f3d
 	fromColumn: dim_jugador.id_jugador
 	toColumn: hechos_jugador.id_jugador
 
+relationship 018eee5d-370a-4217-9277-d448ee5b1de1
+	fromColumn: hechos_metrica.id_metrica
+	toColumn: dim_metrica.id_metrica
+
+relationship 674b65f9-aed3-4a8e-8cf9-21e2dad75e09
+	fromColumn: hechos_metrica.id_jugador
+	toColumn: dim_jugador.id_jugador
+
+relationship 5a52463c-4794-477d-8f1c-934d77472aa3
+	fromColumn: hechos_ficha.id_jugador
+	toColumn: dim_jugador.id_jugador

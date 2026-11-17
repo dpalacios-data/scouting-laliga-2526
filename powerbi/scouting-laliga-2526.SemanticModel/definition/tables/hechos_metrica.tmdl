@@ -1,0 +1,53 @@
+table hechos_metrica
+	lineageTag: 4d6d6248-1db2-49bf-afa4-ad2e759aca6a
+
+	column id_jugador
+		dataType: int64
+		formatString: 0
+		lineageTag: bbfc4598-7883-441f-ada7-2128e0c52b1b
+		summarizeBy: none
+		sourceColumn: id_jugador
+
+		annotation SummarizationSetBy = User
+
+	column id_metrica
+		dataType: int64
+		formatString: 0
+		lineageTag: 1989b27f-e545-4a0f-ba33-2c224ba24840
+		summarizeBy: none
+		sourceColumn: id_metrica
+
+		annotation SummarizationSetBy = User
+
+	column valor
+		dataType: double
+		lineageTag: aaae7b3b-ce6b-482e-ba81-83fea25be161
+		summarizeBy: none
+		sourceColumn: valor
+
+		annotation SummarizationSetBy = User
+
+	column percentil
+		dataType: int64
+		formatString: 0
+		lineageTag: a999e281-8e0a-4f9e-86a3-cccd2bb1f28a
+		summarizeBy: none
+		sourceColumn: percentil
+
+		annotation SummarizationSetBy = User
+
+	partition hechos_metrica = m
+		mode: import
+		source =
+				let
+				    Url = "https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/data/modelo/hechos_metrica.csv",
+				    Origen = Csv.Document(Web.Contents(Url), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"id_jugador", Int64.Type}, {"id_metrica", Int64.Type}, {"valor", type number}, {"percentil", Int64.Type}
+				    }, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+
