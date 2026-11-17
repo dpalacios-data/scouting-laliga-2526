@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "scouting-laliga-2526"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4409912a-9f13-4b9c-b287-c2d34816e892"
+  }
+}

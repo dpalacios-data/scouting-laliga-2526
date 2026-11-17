@@ -1,0 +1,25 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-ES
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["dim_posicion","dim_equipo","dim_jugador","hechos_jugador"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dim_posicion
+ref table dim_equipo
+ref table dim_jugador
+ref table DateTableTemplate_29965dcb-f4ae-477d-8eda-0fdd04f63a17
+ref table LocalDateTable_94a3d14a-afc5-483c-afed-6fca123a848e
+ref table LocalDateTable_99790919-6ec7-493d-a9fb-7661a890c859
+ref table hechos_jugador
+
+ref cultureInfo es-ES
+

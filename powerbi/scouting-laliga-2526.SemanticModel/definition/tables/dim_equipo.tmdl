@@ -1,0 +1,125 @@
+table dim_equipo
+	lineageTag: c01c04f0-9f6f-4816-894b-cdd4c2ebb9b1
+
+	column id_equipo
+		dataType: int64
+		formatString: 0
+		lineageTag: 6ee65585-b71d-4c21-a2f6-59394d669a93
+		summarizeBy: none
+		sourceColumn: id_equipo
+
+		annotation SummarizationSetBy = Automatic
+
+	column equipo
+		dataType: string
+		lineageTag: 84afb5fd-b751-4c0b-a8f2-849477567ff3
+		summarizeBy: none
+		sourceColumn: equipo
+
+		annotation SummarizationSetBy = Automatic
+
+	column altura_defensiva
+		dataType: double
+		lineageTag: 19517cb8-291e-4e3d-b2d6-8aa1b5bc775f
+		summarizeBy: none
+		sourceColumn: altura_defensiva
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column puntos
+		dataType: int64
+		formatString: 0
+		lineageTag: 85080c86-029d-42f2-b475-6cd912590e57
+		summarizeBy: none
+		sourceColumn: puntos
+
+		annotation SummarizationSetBy = Automatic
+
+	column puntos_esperados
+		dataType: double
+		lineageTag: 176c4790-26d2-43a5-a503-b49b54d99e17
+		summarizeBy: none
+		sourceColumn: puntos_esperados
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column escudo
+		dataType: string
+		lineageTag: 7de88b17-23ab-4164-b958-164f5896cc94
+		summarizeBy: none
+		sourceColumn: escudo
+
+		annotation SummarizationSetBy = Automatic
+
+	column url_escudo
+		dataType: string
+		lineageTag: 3ce0d10e-82ea-4548-a23c-ec7260bfd8b9
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: url_escudo
+
+		annotation SummarizationSetBy = Automatic
+
+	column color_primario
+		dataType: string
+		lineageTag: aa200b21-f9dd-4f0c-b346-6b37c065daf9
+		summarizeBy: none
+		sourceColumn: color_primario
+
+		annotation SummarizationSetBy = Automatic
+
+	column color_secundario
+		dataType: string
+		lineageTag: bb1aab7c-91be-4d7b-a492-34abf5e59dcd
+		summarizeBy: none
+		sourceColumn: color_secundario
+
+		annotation SummarizationSetBy = Automatic
+
+	column color_origen
+		dataType: string
+		lineageTag: 88923ece-ee04-4ae5-b62f-989e3095658c
+		summarizeBy: none
+		sourceColumn: color_origen
+
+		annotation SummarizationSetBy = Automatic
+
+	column color_secundario_origen
+		dataType: string
+		lineageTag: 8849818c-d092-4424-996f-67db59017cf1
+		summarizeBy: none
+		sourceColumn: color_secundario_origen
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_equipo = m
+		mode: import
+		source =
+				let
+				    Url = "https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/data/modelo/dim_equipo.csv",
+				    Origen = Csv.Document(Web.Contents(Url), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"id_equipo", Int64.Type},
+				        {"equipo", type text},
+				        {"altura_defensiva", type number},
+				        {"puntos", Int64.Type},
+				        {"puntos_esperados", type number},
+				        {"escudo", type text},
+				        {"url_escudo", type text},
+				        {"color_primario", type text},
+				        {"color_secundario", type text},
+				        {"color_origen", type text},
+				        {"color_secundario_origen", type text}
+				    }, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

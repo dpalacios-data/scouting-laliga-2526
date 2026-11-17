@@ -1,0 +1,218 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_jugador.url_foto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "url_foto"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "dim_jugador.jugador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "jugador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "JUGADOR": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_jugador.edad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "edad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EDAD": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_jugador.minutos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "minutos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MINUTOS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_equipo.url_escudo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_equipo",
+			          "ConceptualProperty": "url_escudo"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "dim_posicion.posicion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_posicion",
+			          "ConceptualProperty": "posicion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "POSICIÓN": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_jugador.pctl_intercepciones_fiable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_jugador",
+			          "ConceptualProperty": "pctl_intercepciones_fiable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "INTERCEPCIONES": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_jugador.pctl_entradas_exitosas_fiable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_jugador",
+			          "ConceptualProperty": "pctl_entradas_exitosas_fiable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ENTRADAS EXITOSAS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_jugador.pctl_duelos_aereos_ganados_fiable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_jugador",
+			          "ConceptualProperty": "pctl_duelos_aereos_ganados_fiable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DUELOS AÉREOS GANADOS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_jugador.pctl_xg_fiable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_jugador",
+			          "ConceptualProperty": "pctl_xg_fiable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "xG": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_jugador.pctl_xa_fiable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_jugador",
+			          "ConceptualProperty": "pctl_xa_fiable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "xA": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

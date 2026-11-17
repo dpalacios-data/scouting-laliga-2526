@@ -1,0 +1,100 @@
+{
+  "name": "Scouting LaLiga 2025-26",
+  "dataColors": [
+    "#4da3ff",
+    "#e8485c",
+    "#3ddc97",
+    "#ffb547",
+    "#b388ff",
+    "#36cfc9",
+    "#ff7a45",
+    "#9aa7b8"
+  ],
+  "foreground": "#e8edf4",
+  "foregroundNeutralSecondary": "#9aa7b8",
+  "foregroundNeutralTertiary": "#6b7889",
+  "background": "#0d1420",
+  "backgroundLight": "#16202e",
+  "backgroundNeutral": "#1d2836",
+  "tableAccent": "#4da3ff",
+  "good": "#3ddc97",
+  "neutral": "#9aa7b8",
+  "bad": "#e8485c",
+  "maximum": "#4da3ff",
+  "center": "#1d2836",
+  "minimum": "#16202e",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#e8edf4"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#c3ccd9"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#c3ccd9"
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 32,
+      "color": "#ffffff"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#131d2b" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#243040" } },
+            "radius": 8
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#e8edf4" } },
+            "background": { "solid": { "color": "#131d2b" } },
+            "fontSize": 12,
+            "alignment": "left"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "background": { "solid": { "color": "#131d2b" } },
+            "foreground": { "solid": { "color": "#9aa7b8" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0d1420" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#0d1420" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

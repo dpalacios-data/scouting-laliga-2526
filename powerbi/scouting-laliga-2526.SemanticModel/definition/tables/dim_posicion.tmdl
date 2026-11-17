@@ -1,0 +1,45 @@
+table dim_posicion
+	lineageTag: 888df3c7-394e-4288-a578-c0b5379d1c14
+
+	column id_posicion
+		dataType: int64
+		formatString: 0
+		lineageTag: fc549ab3-a387-47b7-aece-5aa1b5fdf666
+		summarizeBy: none
+		sourceColumn: id_posicion
+
+		annotation SummarizationSetBy = Automatic
+
+	column posicion
+		dataType: string
+		lineageTag: 6dc5adb0-555f-41ad-94d0-60544196878e
+		summarizeBy: none
+		sourceColumn: posicion
+
+		annotation SummarizationSetBy = Automatic
+
+	column grupo
+		dataType: string
+		lineageTag: 977c196a-070e-40af-bdad-b60893e531e1
+		summarizeBy: none
+		sourceColumn: grupo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_posicion = m
+		mode: import
+		source =
+				let
+				    Url = "https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/data/modelo/dim_posicion.csv",
+				    Origen = Csv.Document(Web.Contents(Url), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"id_posicion", Int64.Type}, {"posicion", type text}, {"grupo", type text}
+				    }, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

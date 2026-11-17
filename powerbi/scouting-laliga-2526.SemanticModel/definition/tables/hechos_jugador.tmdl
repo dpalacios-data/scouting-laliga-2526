@@ -1,0 +1,556 @@
+table hechos_jugador
+	lineageTag: e0c3f6a8-812c-4299-a08b-47a3c6c29e59
+
+	column id_jugador
+		dataType: int64
+		formatString: 0
+		lineageTag: a291eaee-cf53-4e44-a9aa-771e4e4b24b7
+		summarizeBy: none
+		sourceColumn: id_jugador
+
+		annotation SummarizationSetBy = Automatic
+
+	column tiene_eventos
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: a33210b9-dd05-4832-acf3-5c9f492e1ed4
+		summarizeBy: none
+		sourceColumn: tiene_eventos
+
+		annotation SummarizationSetBy = Automatic
+
+	column goles_90
+		dataType: double
+		lineageTag: 3bc55e83-ebab-4b44-930b-8cbbdad43d92
+		summarizeBy: sum
+		sourceColumn: goles_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column goles_sin_penalti_90
+		dataType: double
+		lineageTag: f55c420d-5ab1-4d3b-92b3-3860a17fedcc
+		summarizeBy: sum
+		sourceColumn: goles_sin_penalti_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column xg_90
+		dataType: double
+		lineageTag: 2ab227ad-5bf8-4cbb-9cd1-2fc25c1d3384
+		summarizeBy: sum
+		sourceColumn: xg_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column xg_sin_penalti_90
+		dataType: double
+		lineageTag: b514c2a4-34e1-4457-b481-bfc2722e7963
+		summarizeBy: sum
+		sourceColumn: xg_sin_penalti_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column asistencias_90
+		dataType: double
+		lineageTag: 8c530aaf-316e-457a-9035-65d3cf815038
+		summarizeBy: sum
+		sourceColumn: asistencias_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column xa_90
+		dataType: double
+		lineageTag: 0169865d-3589-4424-80fb-660a8c829046
+		summarizeBy: sum
+		sourceColumn: xa_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tiros_90
+		dataType: double
+		lineageTag: a076d1fa-9aaa-4e5d-8aca-d0ef78c2c571
+		summarizeBy: sum
+		sourceColumn: tiros_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pases_clave_90
+		dataType: double
+		lineageTag: 82ec262c-48b8-4da2-8021-4714a261ba57
+		summarizeBy: sum
+		sourceColumn: pases_clave_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column xg_chain_90
+		dataType: double
+		lineageTag: 9e10ab0e-412f-497e-a89c-31d53c1a64d2
+		summarizeBy: sum
+		sourceColumn: xg_chain_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column xg_buildup_90
+		dataType: double
+		lineageTag: 190158dc-594d-4195-a638-977de429e9db
+		summarizeBy: sum
+		sourceColumn: xg_buildup_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column entradas_intentadas_90
+		dataType: double
+		lineageTag: 7f2eb813-d03e-4513-a11d-d4974eb2719b
+		summarizeBy: sum
+		sourceColumn: entradas_intentadas_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column entradas_exitosas_90
+		dataType: double
+		lineageTag: 076a1779-d2b2-4828-b37b-689009b923d8
+		summarizeBy: sum
+		sourceColumn: entradas_exitosas_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column intercepciones_90
+		dataType: double
+		lineageTag: 52b6b4f5-e91f-4bca-9d43-dadc7059c6db
+		summarizeBy: sum
+		sourceColumn: intercepciones_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column despejes_90
+		dataType: double
+		lineageTag: 3a611373-1e93-447a-a25f-76893a521ea7
+		summarizeBy: sum
+		sourceColumn: despejes_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pases_bloqueados_90
+		dataType: double
+		lineageTag: 2474184f-c066-48ed-a875-1f4984e9eaee
+		summarizeBy: sum
+		sourceColumn: pases_bloqueados_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column duelos_aereos_disputados_90
+		dataType: double
+		lineageTag: a3b65102-0a73-4b67-ba2c-afa6c81d6b1a
+		summarizeBy: sum
+		sourceColumn: duelos_aereos_disputados_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column duelos_aereos_ganados_90
+		dataType: double
+		lineageTag: 291cfcd2-2c96-4d01-9ada-e4750c016843
+		summarizeBy: sum
+		sourceColumn: duelos_aereos_ganados_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column centros_90
+		dataType: double
+		lineageTag: f07117be-ba36-4791-87dc-2d436c6961bc
+		summarizeBy: sum
+		sourceColumn: centros_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column toques_area_90
+		dataType: double
+		lineageTag: afc534a6-8b41-4a00-8b4f-1af92d18be52
+		summarizeBy: sum
+		sourceColumn: toques_area_90
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pct_entradas
+		dataType: double
+		lineageTag: 8df1d974-8e3a-451e-a5a2-a7d4821d7a64
+		summarizeBy: sum
+		sourceColumn: pct_entradas
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pct_duelos_aereos
+		dataType: double
+		lineageTag: 161bc01b-fedd-41f7-9c9b-f2637ccdfa77
+		summarizeBy: sum
+		sourceColumn: pct_duelos_aereos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_goles
+		dataType: double
+		formatString: 0
+		lineageTag: e9c11ea8-fe9b-43b7-9aa9-3ced9cc4ee9a
+		summarizeBy: none
+		sourceColumn: pctl_goles
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_goles_sin_penalti
+		dataType: double
+		formatString: 0
+		lineageTag: 80ddf0e5-d607-4689-bec7-7befb571769f
+		summarizeBy: none
+		sourceColumn: pctl_goles_sin_penalti
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_xg
+		dataType: double
+		formatString: 0
+		lineageTag: 6727d31e-e01d-480e-b1c1-f68e7e91c1df
+		summarizeBy: none
+		sourceColumn: pctl_xg
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_xg_sin_penalti
+		dataType: double
+		formatString: 0
+		lineageTag: 197b70b0-2da0-47b5-8287-8dc82ef292a6
+		summarizeBy: none
+		sourceColumn: pctl_xg_sin_penalti
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_asistencias
+		dataType: double
+		formatString: 0
+		lineageTag: 3821d447-3669-4505-9a0e-970b10fff4bc
+		summarizeBy: none
+		sourceColumn: pctl_asistencias
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_xa
+		dataType: double
+		formatString: 0
+		lineageTag: ee71e75d-822e-4ffe-b810-4b00354d5228
+		summarizeBy: none
+		sourceColumn: pctl_xa
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_tiros
+		dataType: double
+		formatString: 0
+		lineageTag: f880c4a1-4b4a-409b-aa0a-79a3a83b58d7
+		summarizeBy: none
+		sourceColumn: pctl_tiros
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_pases_clave
+		dataType: double
+		formatString: 0
+		lineageTag: 0ad81ff6-bedc-454b-9c51-ea3b04cb1e86
+		summarizeBy: none
+		sourceColumn: pctl_pases_clave
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_xg_chain
+		dataType: double
+		formatString: 0
+		lineageTag: e374c8cb-cd76-4f6b-8d9c-a33701681d5d
+		summarizeBy: none
+		sourceColumn: pctl_xg_chain
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_xg_buildup
+		dataType: double
+		formatString: 0
+		lineageTag: e79e38ca-b367-46d5-bfff-a2f15067aea4
+		summarizeBy: none
+		sourceColumn: pctl_xg_buildup
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_entradas_intentadas
+		dataType: double
+		formatString: 0
+		lineageTag: 4d7d17c0-0100-4029-ab2b-7eb551871832
+		summarizeBy: none
+		sourceColumn: pctl_entradas_intentadas
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_entradas_exitosas
+		dataType: double
+		formatString: 0
+		lineageTag: 3f7f2b81-2e30-4fb7-8ceb-ea4b57a82afb
+		summarizeBy: none
+		sourceColumn: pctl_entradas_exitosas
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_intercepciones
+		dataType: double
+		formatString: 0
+		lineageTag: 2273139e-c51d-4411-a921-dc07c86ad70f
+		summarizeBy: none
+		sourceColumn: pctl_intercepciones
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_despejes
+		dataType: double
+		formatString: 0
+		lineageTag: cf1d91a9-50b8-4f1f-8fda-d727fa8e0e8c
+		summarizeBy: none
+		sourceColumn: pctl_despejes
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_pases_bloqueados
+		dataType: double
+		formatString: 0
+		lineageTag: fea922d9-03c5-443b-9e06-9cfd5e5c7b70
+		summarizeBy: none
+		sourceColumn: pctl_pases_bloqueados
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_duelos_aereos_disputados
+		dataType: double
+		formatString: 0
+		lineageTag: a885dbd7-969b-413f-87a4-9e590bdf7dce
+		summarizeBy: none
+		sourceColumn: pctl_duelos_aereos_disputados
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_duelos_aereos_ganados
+		dataType: double
+		formatString: 0
+		lineageTag: ec1807bb-e2c6-4c32-a010-3e404e77cb9b
+		summarizeBy: none
+		sourceColumn: pctl_duelos_aereos_ganados
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_centros
+		dataType: double
+		formatString: 0
+		lineageTag: 2a8ea321-fd09-43d0-bf6e-1561a6b8eca7
+		summarizeBy: none
+		sourceColumn: pctl_centros
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_toques_area
+		dataType: double
+		formatString: 0
+		lineageTag: 443f3cf6-127d-4219-82f9-da669d1880ee
+		summarizeBy: none
+		sourceColumn: pctl_toques_area
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_pct_entradas
+		dataType: double
+		formatString: 0
+		lineageTag: d6a0158c-0b78-47cb-8538-0fbb7431e669
+		summarizeBy: none
+		sourceColumn: pctl_pct_entradas
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pctl_pct_duelos_aereos
+		dataType: double
+		formatString: 0
+		lineageTag: 18bf6309-d9c5-4b79-a256-4864cf7e6938
+		summarizeBy: none
+		sourceColumn: pctl_pct_duelos_aereos
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column percentil_fiable
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 783a8abf-4979-4e38-8171-53c11ad98e04
+		summarizeBy: none
+		sourceColumn: percentil_fiable
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_grupo_referencia
+		dataType: int64
+		formatString: 0
+		lineageTag: 8f51e076-e913-4681-82c2-984189f36435
+		summarizeBy: sum
+		sourceColumn: n_grupo_referencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column muestra_reducida
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: c1b1746f-b0cd-4a61-98e8-0b4004b42340
+		summarizeBy: none
+		sourceColumn: muestra_reducida
+
+		annotation SummarizationSetBy = Automatic
+
+	column pctl_intercepciones_fiable = IF ( hechos_jugador[percentil_fiable], hechos_jugador[pctl_intercepciones] )
+		formatString: 0
+		lineageTag: 0a8bc18f-78a3-43d5-93c8-d218f00a50f4
+		summarizeBy: none
+
+		annotation SummarizationSetBy = User
+
+	column pctl_entradas_exitosas_fiable = IF ( hechos_jugador[percentil_fiable], hechos_jugador[pctl_entradas_exitosas] )
+		formatString: 0
+		lineageTag: 8871a176-7f2f-417a-924e-ea5daa1045b5
+		summarizeBy: none
+
+		annotation SummarizationSetBy = User
+
+	column pctl_duelos_aereos_ganados_fiable = IF ( hechos_jugador[percentil_fiable], hechos_jugador[pctl_duelos_aereos_ganados] )
+		formatString: 0
+		lineageTag: db1f2ead-644f-49b9-9058-9c039276e511
+		summarizeBy: none
+
+		annotation SummarizationSetBy = User
+
+	column pctl_xg_fiable = IF ( hechos_jugador[percentil_fiable], hechos_jugador[pctl_xg] )
+		formatString: 0
+		lineageTag: 40c92fbe-3514-4554-8943-d5fc8a129389
+		summarizeBy: none
+
+		annotation SummarizationSetBy = User
+
+	column pctl_xa_fiable = IF ( hechos_jugador[percentil_fiable], hechos_jugador[pctl_xa] )
+		formatString: 0
+		lineageTag: e7ad01a0-d1b5-4359-bc5a-19d4ed8d3a45
+		summarizeBy: none
+
+		annotation SummarizationSetBy = User
+
+	column muestra = IF ( hechos_jugador[percentil_fiable], "Solo fiables", "No fiables" )
+		lineageTag: 1d758d80-5388-406b-b95d-e6fb7e4ff2f5
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition hechos_jugador = m
+		mode: import
+		source =
+				let
+				    Url = "https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/data/modelo/hechos_jugador.csv",
+				    Origen = Csv.Document(Web.Contents(Url), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Logicas = {"tiene_eventos", "percentil_fiable", "muestra_reducida"},
+				    Enteras = {"id_jugador", "n_grupo_referencia"},
+				    Decimales = List.Difference(Table.ColumnNames(Encabezados), List.Combine({Logicas, Enteras})),
+				    Tipos = Table.TransformColumnTypes(
+				        Encabezados,
+				        List.Combine({
+				            List.Transform(Logicas, each {_, type logical}),
+				            List.Transform(Enteras, each {_, Int64.Type}),
+				            List.Transform(Decimales, each {_, type number})
+				        }),
+				        "en-US"
+				    )
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

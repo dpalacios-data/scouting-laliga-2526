@@ -1,0 +1,24 @@
+relationship 764a7f0a-89d9-470c-8bad-e072559655e5
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_jugador.fecha_nacimiento
+	toColumn: LocalDateTable_94a3d14a-afc5-483c-afed-6fca123a848e.Date
+
+relationship 412e60e9-beda-40db-ac74-9bc55d9bb437
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_jugador.fecha_datos_tm
+	toColumn: LocalDateTable_99790919-6ec7-493d-a9fb-7661a890c859.Date
+
+relationship 609ca47e-6ec4-4ce1-daf5-0cb3c335cbeb
+	fromColumn: dim_jugador.id_equipo
+	toColumn: dim_equipo.id_equipo
+
+relationship 4e1078c3-df62-cf02-602f-595d96edba6c
+	fromColumn: dim_jugador.id_posicion
+	toColumn: dim_posicion.id_posicion
+
+relationship acf26002-1def-5acb-0702-60c372391f3d
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: dim_jugador.id_jugador
+	toColumn: hechos_jugador.id_jugador
+

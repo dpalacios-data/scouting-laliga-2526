@@ -34,3 +34,9 @@ images/escudos_control.png
 
 # Hoja de control de los 539 retratos recortados (solo para revisión)
 images/control_retratos.png
+
+# Power BI (.pbip): ficheros locales y de caché que el propio Power BI excluye de git
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+# Copia binaria antigua del informe: el informe versionado es el .pbip en texto
+powerbi/*.pbix

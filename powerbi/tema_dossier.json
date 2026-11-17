@@ -1,0 +1,269 @@
+{
+  "name": "Scouting LaLiga - Dossier",
+  "dataColors": [
+    "#ff4b44",
+    "#4dd4ff",
+    "#ffc53d",
+    "#3ddc97",
+    "#b388ff",
+    "#ff8f6b",
+    "#5f7489",
+    "#f2f5f8"
+  ],
+  "foreground": "#f2f5f8",
+  "foregroundNeutralSecondary": "#79879a",
+  "foregroundNeutralTertiary": "#44505f",
+  "background": "#07090e",
+  "backgroundLight": "#121823",
+  "backgroundNeutral": "#1a212c",
+  "tableAccent": "#ff4b44",
+  "good": "#3ddc97",
+  "neutral": "#79879a",
+  "bad": "#ff4b44",
+  "maximum": "#ff4b44",
+  "center": "#44505f",
+  "minimum": "#1a212c",
+  "textClasses": {
+    "title": {
+      "fontFace": "DIN",
+      "fontSize": 14,
+      "color": "#f2f5f8"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 9,
+      "color": "#44505f"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 9,
+      "color": "#79879a"
+    },
+    "callout": {
+      "fontFace": "DIN",
+      "fontSize": 30,
+      "color": "#f2f5f8"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "DIN",
+            "fontColor": { "solid": { "color": "#f2f5f8" } },
+            "background": { "solid": { "color": "#07090e" } },
+            "fontSize": 13,
+            "bold": true,
+            "alignment": "left"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#79879a" } },
+            "fontSize": 9,
+            "gridlineShow": false,
+            "showAxisTitle": false,
+            "lineColor": { "solid": { "color": "#1a212c" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#79879a" } },
+            "fontSize": 9,
+            "gridlineShow": true,
+            "gridlineColor": { "solid": { "color": "#141b26" } },
+            "gridlineThickness": 1,
+            "showAxisTitle": false
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "TopLeft",
+            "labelColor": { "solid": { "color": "#79879a" } },
+            "fontSize": 9,
+            "showTitle": false
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#f2f5f8" } },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#07090e" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#07090e" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": false,
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#1a212c" } },
+            "gridHorizontalWeight": 1,
+            "outlineColor": { "solid": { "color": "#1a212c" } },
+            "outlineWeight": 0,
+            "rowPadding": 6,
+            "textSize": 9
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#44505f" } },
+            "backColor": { "solid": { "color": "#07090e" } },
+            "outline": "BottomOnly",
+            "fontSize": 8,
+            "bold": true,
+            "wordWrap": false
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": { "solid": { "color": "#f2f5f8" } },
+            "backColorPrimary": { "solid": { "color": "#07090e" } },
+            "fontColorSecondary": { "solid": { "color": "#f2f5f8" } },
+            "backColorSecondary": { "solid": { "color": "#07090e" } },
+            "outline": "None",
+            "fontSize": 9
+          }
+        ],
+        "total": [
+          {
+            "totals": false
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": false,
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#1a212c" } },
+            "rowPadding": 6,
+            "textSize": 9
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#44505f" } },
+            "backColor": { "solid": { "color": "#07090e" } },
+            "fontSize": 8,
+            "bold": true
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": { "solid": { "color": "#f2f5f8" } },
+            "backColorPrimary": { "solid": { "color": "#07090e" } },
+            "fontColorSecondary": { "solid": { "color": "#f2f5f8" } },
+            "backColorSecondary": { "solid": { "color": "#07090e" } },
+            "fontSize": 9
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "fontColor": { "solid": { "color": "#f2f5f8" } },
+            "background": { "solid": { "color": "#07090e" } },
+            "outline": "None",
+            "textSize": 10
+          }
+        ],
+        "header": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#44505f" } },
+            "background": { "solid": { "color": "#07090e" } },
+            "outline": "None",
+            "textSize": 8,
+            "bold": true
+          }
+        ],
+        "slider": [
+          {
+            "color": { "solid": { "color": "#ff4b44" } }
+          }
+        ],
+        "numericInputStyle": [
+          {
+            "fontColor": { "solid": { "color": "#f2f5f8" } },
+            "background": { "solid": { "color": "#07090e" } },
+            "textSize": 10
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#f2f5f8" } },
+            "fontFamily": "DIN",
+            "fontSize": 28
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#44505f" } },
+            "fontSize": 8
+          }
+        ]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ]
+      }
+    }
+  }
+}

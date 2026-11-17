@@ -1,0 +1,225 @@
+table dim_jugador
+	lineageTag: adc739bd-b0a0-4371-add0-f40fd96c1797
+
+	column id_jugador
+		dataType: int64
+		formatString: 0
+		lineageTag: c3965a16-b997-4a9a-bc7d-7d0db45fc2e9
+		summarizeBy: none
+		sourceColumn: id_jugador
+
+		annotation SummarizationSetBy = Automatic
+
+	column jugador
+		dataType: string
+		lineageTag: 4cd1d137-0561-4d80-93d9-8fac71eacbfb
+		summarizeBy: none
+		sourceColumn: jugador
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_equipo
+		dataType: int64
+		formatString: 0
+		lineageTag: 4a2a8540-f7d7-44d8-b851-b6ab9c5392c8
+		summarizeBy: none
+		sourceColumn: id_equipo
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_posicion
+		dataType: int64
+		formatString: 0
+		lineageTag: 5cff3f8f-b850-4dbc-a8f6-18ea6f32e4fb
+		summarizeBy: none
+		sourceColumn: id_posicion
+
+		annotation SummarizationSetBy = Automatic
+
+	column minutos
+		dataType: int64
+		formatString: 0
+		lineageTag: 613814d3-6ea7-42f5-8b5c-9f6d751f28eb
+		summarizeBy: none
+		sourceColumn: minutos
+
+		annotation SummarizationSetBy = User
+
+	column partidos
+		dataType: int64
+		formatString: 0
+		lineageTag: fb417dc7-727c-4b88-9ffe-d5678e08325f
+		summarizeBy: none
+		sourceColumn: partidos
+
+		annotation SummarizationSetBy = User
+
+	column posicion_origen
+		dataType: string
+		lineageTag: 1bd496e1-ac29-428d-bfff-f726be35e25b
+		summarizeBy: none
+		sourceColumn: posicion_origen
+
+		annotation SummarizationSetBy = Automatic
+
+	column equipos_temporada
+		dataType: string
+		lineageTag: 7012fc55-1037-41d9-98e9-0626caa0e9ef
+		summarizeBy: none
+		sourceColumn: equipos_temporada
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_nacimiento
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8420bc43-704e-4fab-a546-21e8f1b0bf9f
+		summarizeBy: none
+		sourceColumn: fecha_nacimiento
+
+		variation Variation
+			isDefault
+			relationship: 764a7f0a-89d9-470c-8bad-e072559655e5
+			defaultHierarchy: LocalDateTable_94a3d14a-afc5-483c-afed-6fca123a848e.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column edad
+		dataType: int64
+		formatString: 0
+		lineageTag: 8a00ce3b-c8d4-4f3e-b785-5ff043270651
+		summarizeBy: none
+		sourceColumn: edad
+
+		annotation SummarizationSetBy = User
+
+	column altura_cm
+		dataType: int64
+		formatString: 0
+		lineageTag: ed745b55-d4c1-41ba-b042-0e0759d955d1
+		summarizeBy: none
+		sourceColumn: altura_cm
+
+		annotation SummarizationSetBy = User
+
+	column pie
+		dataType: string
+		lineageTag: 3380182d-0c7d-4fb4-b0ee-8e2e5add7a38
+		summarizeBy: none
+		sourceColumn: pie
+
+		annotation SummarizationSetBy = Automatic
+
+	column nacionalidad
+		dataType: string
+		lineageTag: edf6b182-9862-4fb3-90b4-99775a5b247a
+		summarizeBy: none
+		sourceColumn: nacionalidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column nacionalidad_2
+		dataType: string
+		lineageTag: 857dbafc-da06-40a3-964e-7e73dc7610ac
+		summarizeBy: none
+		sourceColumn: nacionalidad_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column valor_mercado_tm
+		dataType: int64
+		formatString: 0
+		lineageTag: db816308-ec4f-4ba6-ab4b-fd48c7df693f
+		summarizeBy: none
+		sourceColumn: valor_mercado_tm
+
+		annotation SummarizationSetBy = User
+
+	column fecha_datos_tm
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 4ce4a6a2-4c0d-4ee6-a40b-584164741fe3
+		summarizeBy: none
+		sourceColumn: fecha_datos_tm
+
+		variation Variation
+			isDefault
+			relationship: 412e60e9-beda-40db-ac74-9bc55d9bb437
+			defaultHierarchy: LocalDateTable_99790919-6ec7-493d-a9fb-7661a890c859.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column url_foto
+		dataType: string
+		lineageTag: b350c44f-95f5-4159-89b9-918f6fbb1caf
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: url_foto
+
+		annotation SummarizationSetBy = Automatic
+
+	column foto_origen
+		dataType: string
+		lineageTag: df8ab2ba-c2b3-44b7-95b5-accae38533d3
+		summarizeBy: none
+		sourceColumn: foto_origen
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_understat
+		dataType: int64
+		formatString: 0
+		lineageTag: ff9d2a92-7554-4f9b-9832-ce89b1755f56
+		summarizeBy: sum
+		sourceColumn: id_understat
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_whoscored
+		dataType: int64
+		formatString: 0
+		lineageTag: 8381f435-e496-42a1-83a7-d02850db0170
+		summarizeBy: sum
+		sourceColumn: id_whoscored
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_transfermarkt
+		dataType: int64
+		formatString: 0
+		lineageTag: acc1b1a0-ecec-437b-b86f-e32da7fa67a2
+		summarizeBy: sum
+		sourceColumn: id_transfermarkt
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_jugador = m
+		mode: import
+		source =
+				let
+				    Url = "https://raw.githubusercontent.com/dpalacios-data/scouting-laliga-2526/main/data/modelo/dim_jugador.csv",
+				    Origen = Csv.Document(Web.Contents(Url), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Fechas = {"fecha_nacimiento", "fecha_datos_tm"},
+				    Enteras = {"id_jugador","id_equipo","id_posicion","minutos","partidos","edad","altura_cm","valor_mercado_tm","id_understat","id_whoscored","id_transfermarkt"},
+				    Textos = List.Difference(Table.ColumnNames(Encabezados), List.Combine({Fechas, Enteras})),
+				    Tipos = Table.TransformColumnTypes(
+				        Encabezados,
+				        List.Combine({
+				            List.Transform(Fechas, each {_, type date}),
+				            List.Transform(Enteras, each {_, Int64.Type}),
+				            List.Transform(Textos, each {_, type text})
+				        }),
+				        "en-US"
+				    )
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

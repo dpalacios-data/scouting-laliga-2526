@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 10.399999618530273,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 50,
+            "y": -50
+          },
+          "nodeIndex": "dim_equipo",
+          "nodeLineageTag": "c01c04f0-9f6f-4816-894b-cdd4c2ebb9b1",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 620.84149245788763,
+            "y": 378.29056649197787
+          },
+          "nodeIndex": "dim_jugador",
+          "nodeLineageTag": "adc739bd-b0a0-4371-add0-f40fd96c1797",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 526.01830639559751,
+            "y": 728.49006186269014
+          },
+          "nodeIndex": "dim_posicion",
+          "nodeLineageTag": "888df3c7-394e-4288-a578-c0b5379d1c14",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 334.3445693748356,
+            "y": 41.683330876754781
+          },
+          "nodeIndex": "hechos_jugador",
+          "nodeLineageTag": "e0c3f6a8-812c-4299-a08b-47a3c6c29e59",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}
