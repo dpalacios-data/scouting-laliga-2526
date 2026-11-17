@@ -183,20 +183,21 @@ comparten exactamente el mismo `#ff0000`. El color servirá para acentuar la fic
 donde solo hay un equipo en pantalla. El detalle, con la revisión de cada artículo, está en el
 [diccionario de datos](docs/diccionario_datos.md).
 
-**Retratos de jugadores. Fuente: [Transfermarkt](https://www.transfermarkt.es).** Las imágenes de Transfermarkt
-no se descargan ni se republican: `dim_jugador.url_foto` guarda la dirección del retrato en sus servidores, y
-el panel la cargará desde allí. Los retratos son de Transfermarkt y de sus proveedores, y el panel citará la
-fuente de forma visible.
+**Retratos de jugadores. Fuente: [Transfermarkt](https://www.transfermarkt.es).** Los retratos son de
+Transfermarkt y de sus proveedores. Se alojan en este repositorio (`images/jugadores/`) recortados en círculo,
+porque Power BI no recorta imágenes, para un panel académico sin ánimo de lucro. La url de origen de cada uno
+está en `data/fotos_transfermarkt.csv`, y en `dim_jugador.url_foto_transfermarkt`. El panel citará la fuente de
+forma visible.
 
-- **539 de 561** jugadores tienen retrato enlazado, y **367 de los 368** con percentil fiable.
-- Los otros **22** tienen un retrato de iniciales generado en este proyecto (`images/jugadores/`, cuaderno 07):
-  un rectángulo de la misma proporción que los retratos de Transfermarkt (10:13), con el color primario de su
-  equipo y sus iniciales. `url_foto` apunta a su dirección pública en
-  este repositorio, así que **los 561 jugadores tienen una url de imagen**, y `foto_origen` dice de dónde sale
-  cada una. Son: 18 que en
-  Transfermarkt solo tienen la silueta genérica, 3 sin coincidencia y 1 con cruce dudoso.
-- Todas las url responden fuera de la web de Transfermarkt, pesan entre 3 y 30 KB y tienen 85 caracteres como
-  máximo, dentro de los límites de Tableau (128 KB y 255 caracteres).
+- **539 de 561** jugadores tienen retrato de Transfermarkt, y **367 de los 368** con percentil fiable. Se
+  recortan en el cuaderno 08: círculo de 200 × 200 px centrado en la cara, con la cabeza entera. Lo que el
+  círculo pide a los lados de la foto se rellena prolongando su borde y desenfocándolo.
+- Los otros **22** tienen un retrato de iniciales generado en este proyecto (cuaderno 07): un círculo del mismo
+  tamaño con el color primario de su equipo y sus iniciales. Son 18 que en Transfermarkt solo tienen la silueta
+  genérica, 3 sin coincidencia y 1 con cruce dudoso.
+- `dim_jugador.url_foto` apunta, para los 561, a su retrato en este repositorio, y `foto_origen` dice de dónde
+  sale cada uno. Todos son PNG con las esquinas transparentes, de menos de 128 KB y con url de menos de 255
+  caracteres, los límites de Tableau.
 
 **Datos de scouting. Fuente: Transfermarkt.** De las mismas páginas de plantilla salen la fecha de nacimiento,
 la altura, el pie, la nacionalidad y el valor de mercado de 557 de los 561 jugadores (descargadas el 16/11/2026).
@@ -220,7 +221,8 @@ fiable (47,3 %). Con menos de la mitad de cobertura se cambió de fuente.
 | `notebooks/03_escudos.ipynb` | Descarga los 20 escudos, los normaliza a 128 × 128 px con el mismo margen y extrae su color dominante | con conexión a internet |
 | `notebooks/04_fotos_wikidata.ipynb` | Mide qué jugadores tienen foto en Wikidata. No descarga ninguna imagen. Fuente descartada por cobertura | con conexión a internet |
 | `notebooks/05_colores_equipacion.ipynb` | Mide los dos colores de la camiseta de cada equipo sobre la plantilla de equipación de Wikipedia y fija el color primario | sí |
-| `notebooks/07_retratos_iniciales.ipynb` | Genera el retrato de iniciales de los jugadores sin retrato de Transfermarkt | sí, después del cuaderno 01 |
+| `notebooks/07_retratos_iniciales.ipynb` | Genera el retrato de iniciales, en círculo, de los jugadores sin retrato de Transfermarkt | sí, después del cuaderno 01 |
+| `notebooks/08_retratos_recortados.ipynb` | Descarga los 539 retratos de Transfermarkt y los recorta en círculo centrado en la cara | **no** sin volver a descargar los retratos (el resultado está versionado) |
 | `notebooks/06_fotos_transfermarkt.ipynb` | Empareja a los 561 jugadores con las plantillas de Transfermarkt y guarda la url de su retrato, sin descargar imágenes. Comprueba que las url responden y cumplen los límites de Tableau | **no** sin volver a descargar las plantillas |
 | `notebooks/02_auditoria_cruce_eventos.ipynb` | Comprueba que el cruce por identificador reproduce las cifras de eventos publicadas en el TFM: 462 de 464 jugadores son idénticos. Identifica los dos que cambian (dos homónimos que el TFM sumaba al cruzar por nombre) y mide su efecto en los cálculos del TFM. Compara también volumen y éxito en duelos aéreos y entradas | sí |
 

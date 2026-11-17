@@ -78,8 +78,9 @@ entre los dos puestos.
 | `nacionalidad_2` | Segunda nacionalidad, si Transfermarkt muestra dos (155 jugadores) | texto | Transfermarkt |
 | `valor_mercado_tm` | **Estimación** del valor de mercado hecha por Transfermarkt, tal como aparecía en la página el día de la descarga. Es la opinión de un tercero: **no es un precio real**, ni una cifra de traspaso, ni una cláusula. Vacío en 9 jugadores | euros | Transfermarkt |
 | `fecha_datos_tm` | Fecha en la que se descargaron de Transfermarkt los datos anteriores. El valor de mercado cambia con el tiempo | fecha, `aaaa-mm-dd` | cuaderno 06 |
-| `url_foto` | Dirección https del retrato del jugador. Los 561 tienen una: 539 en los servidores de Transfermarkt y 22 en este repositorio (`images/jugadores/<id_jugador>.png`) | url https | Transfermarkt, plantillas 2025/26 (cuaderno 06), o retrato de iniciales (cuaderno 07) |
-| `foto_origen` | `transfermarkt` (539 jugadores) o `iniciales` (22): retrato generado en este proyecto, un rectángulo de 200 × 260 px (la proporción 10:13 de los retratos de Transfermarkt, que miden 100 × 130) con el color primario del equipo y las iniciales del nombre y del primer apellido | texto | cuaderno 01 |
+| `url_foto` | Dirección pública del retrato del jugador en este repositorio (`images/jugadores/<id_jugador>.png`). Los 561 tienen una. PNG de 200 × 200 px en círculo, con las esquinas transparentes | url https | retrato de Transfermarkt recortado (cuaderno 08) o retrato de iniciales (cuaderno 07) |
+| `url_foto_transfermarkt` | Url original en Transfermarkt del retrato que se recortó (versión grande, 300 × 390 px). Vacía en los 22 retratos de iniciales | url https | Transfermarkt (cuaderno 08) |
+| `foto_origen` | `transfermarkt` (539 jugadores): retrato de Transfermarkt recortado en círculo; o `iniciales` (22): retrato generado en este proyecto, un círculo de 200 × 200 px con el color primario del equipo y las iniciales del nombre y del primer apellido | texto | cuaderno 01 |
 | `id_transfermarkt` | Identificador del jugador en Transfermarkt, para auditoría. Vacío en los 4 jugadores no emparejados | entero | Transfermarkt (cuaderno 06) |
 
 ## hechos_jugador.csv · 561 filas
@@ -305,18 +306,24 @@ El color dominante del escudo (cuaderno 03) no se usa en el modelo. Queda en `da
 
 ## Retratos de jugadores
 
-**Fuente: Transfermarkt** (transfermarkt.es), plantillas de la temporada 2025/26. Las imágenes no se descargan ni
-se republican: el modelo guarda la url, y Power BI (categoría "URL de imagen") y Tableau (rol de imagen) la
-cargan directamente. El panel deberá citar la fuente de forma visible.
+**Fuente: Transfermarkt** (transfermarkt.es), plantillas de la temporada 2025/26. Power BI no recorta imágenes,
+así que los retratos se alojan en este repositorio ya recortados en círculo, para un panel académico sin ánimo de
+lucro. La url de origen de cada uno está en `data/fotos_transfermarkt.csv` y en `url_foto_transfermarkt`. Power BI
+(categoría "URL de imagen") y Tableau (rol de imagen) cargan `url_foto` directamente. El panel deberá citar la
+fuente de forma visible.
 
 - Un jugador se empareja dentro de sus clubes de la temporada, por nombre exacto y con la edad comprobada contra
   WhoScored (±1 año). 8 parejas con nombre parecido las revisó y confirmó el autor una a una, y otros 2 jugadores
   que Transfermarkt escribe de otra forma (Adrián de la Fuente y Djené Dakonam) los localizó a mano.
-- **539** jugadores tienen retrato enlazado y **22** no: 18 que en Transfermarkt solo tienen la
+- **539** jugadores tienen retrato de Transfermarkt y **22** no: 18 que en Transfermarkt solo tienen la
   silueta genérica, 3 sin coincidencia y 1 con cruce dudoso (Sergio Lozano, el mismo cruce de
   `cruces_descartados.csv`).
-- Las url son externas y pueden cambiar o dejar de responder. El cuaderno 06 comprueba que responden; a
-  2026-11-16 respondían todas.
+- **Recorte (cuaderno 08).** Se usa la versión grande del retrato (300 × 390 px). Se detecta la cara con OpenCV
+  y se centra la cabeza en un círculo de 200 × 200 px. El círculo mide un 30 % más que el ancho de la foto, para
+  que entre la cabeza entera (los retratos vienen muy cerrados); lo que queda fuera de la foto a los lados se
+  rellena prolongando su borde y desenfocándolo, nunca con la cara. En vertical se usa el alto completo de la
+  foto. A los PNG sin fondo se les pone gris claro detrás. El método de detección de cada uno está en
+  `data/retratos_recortados.csv`.
 
 ## Datos de scouting de Transfermarkt
 
@@ -343,6 +350,7 @@ cargan directamente. El panel deberá citar la fuente de forma visible.
 | `colores_equipos.csv` | 20 | Artículo de Wikipedia, revisión y fechas, campos de la plantilla de equipación, los dos colores medidos con su superficie, color primario, secundario, origen y color dominante del escudo (`color_escudo`, solo para comparar) |
 | `wikitexto_equipaciones.json` | 20 artículos | Copia de lo leído en Wikipedia: líneas de la equipación de cada ficha con su revisión y fecha, e imágenes de los patrones y siluetas de la plantilla. Permite ejecutar el cuaderno 05 sin conexión |
 | `fotos_transfermarkt.csv` | 561 | Para cada jugador, el candidato de Transfermarkt, sus datos de scouting (nacimiento, altura, pie, nacionalidad, valor de mercado estimado y fecha de descarga), su estado (`claro`, `confirmado_autor`, `dudoso` o `sin_coincidencia`), el motivo, si se aplica, y el código de respuesta y el peso de la url |
+| `retratos_recortados.csv` | 539 | Para cada retrato recortado, la url original en Transfermarkt, el tamaño original, cómo se detectó la cara y el peso del PNG |
 | `fotos_wikidata.csv` | 561 | Para cada jugador, la entidad de Wikidata aceptada (si la hay), la url, licencia, autor y tamaño de su foto, y el motivo cuando no se acepta ninguna |
 
 ### Valores de `origen` en `mapa_nombres.csv`
