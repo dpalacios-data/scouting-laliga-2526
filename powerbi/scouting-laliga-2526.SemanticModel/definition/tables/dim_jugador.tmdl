@@ -21,7 +21,7 @@ table dim_jugador
 		formatString: 0
 		lineageTag: 73faeb34-4ba2-4f47-a30d-37c4bc03dc76
 
-	measure 'Escudo jugador' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[url_escudo] ) ) )
+	measure 'Escudo jugador' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[url_escudo] ) ), "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1' height='1'/>" )
 		lineageTag: 4eb2c47d-277a-4e27-ae96-316622c6e531
 		dataCategory: ImageUrl
 

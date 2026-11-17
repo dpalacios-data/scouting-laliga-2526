@@ -182,8 +182,11 @@ rect("lineaRoja", 34, 106, 1212, 2, ROJO)
 # Retrato con medida, como el escudo: una sola fila y vacía si no hay un jugador elegido
 tabla("retrato", 34, 124, 134, 134, [proy(med("dim_jugador", "Foto jugador"), "dim_jugador.Foto jugador", " ")], [130],
       cabecera=False, imagen=124, fila=0)
-tabla("escudo", 102, 192, 50, 50, [proy(med("dim_jugador", "Escudo jugador"), "dim_jugador.Escudo jugador", " ")], [48],
-      cabecera=False, imagen=42, fila=0)
+# Escudo como objeto visual de imagen con la URL de una medida: sin fondo propio, así solo se ve el PNG transparente.
+# Una tabla pintaría sus celdas del color del fondo (no admite transparencia) y taparía el retrato.
+visual("escudo", 128, 218, 52, 52, {"visualType": "image", "objects": {
+    "image": [{"properties": {"sourceType": lit("imageUrl"), "sourceUrl": {"expr": med("dim_jugador", "Escudo jugador")}}}],
+    "imageScaling": [{"properties": {"imageScalingType": lit("Fit")}}]}, "visualContainerObjects": sin_marco()})
 tabla("datosJugador", 34, 274, 272, 250,
       [proy(col("hechos_ficha", "atributo"), "hechos_ficha.atributo", " "), proy(col("hechos_ficha", "valor"), "hechos_ficha.valor", "  ")],
       [110, 158], [fmt("hechos_ficha.atributo", GRIS), fmt("hechos_ficha.valor", BLANCO, "Right")],
@@ -283,7 +286,9 @@ MEDIDAS = {
          '"ESTE JUGADOR NO TIENE PUESTO CONFIRMADO: NO TIENE PERCENTILES" ), "" )', None),
         ("Jugador elegido", 'IF ( HASONEVALUE ( dim_jugador[id_jugador] ), 1 )', "0"),
         ("Foto jugador", 'IF ( HASONEVALUE ( dim_jugador[id_jugador] ), SELECTEDVALUE ( dim_jugador[url_foto] ) )', "ImageUrl"),
-        ("Escudo jugador", 'IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[url_escudo] ) ) )', "ImageUrl"),
+        # Sin un jugador elegido devuelve un SVG vacío: el objeto de imagen no pinta su recuadro gris de marcador
+        ("Escudo jugador", 'IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[url_escudo] ) ), '
+         '"data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'1\' height=\'1\'/>" )', "ImageUrl"),
         ("Puntos equipo", 'IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[puntos] ) ) )', "0"),
         ("Puntos esperados equipo", 'IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[puntos_esperados] ) ) )', "0.0"),
         ("Altura defensiva equipo", 'IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[altura_defensiva] ) ) )', "0.0"),
