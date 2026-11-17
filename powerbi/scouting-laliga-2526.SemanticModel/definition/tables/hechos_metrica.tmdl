@@ -1,6 +1,17 @@
 table hechos_metrica
 	lineageTag: 4d6d6248-1db2-49bf-afa4-ad2e759aca6a
 
+	measure 'Percentil ranking' = VAR p = SELECTEDVALUE ( hechos_metrica[percentil] ) VAR v = SELECTEDVALUE ( hechos_metrica[valor] ) VAR oculta = SELECTEDVALUE ( dim_metrica[bloque] ) = "defensa" && SELECTEDVALUE ( dim_metrica[orden] ) > 7 RETURN IF ( NOT ISBLANK ( p ) && NOT ISBLANK ( v ) && NOT oculta, p - SELECTEDVALUE ( hechos_metrica[id_metrica] ) / 1000 )
+		formatString: 0.000
+		lineageTag: 69f2ac81-3690-4738-9f99-729fa79454d0
+
+	measure 'Percentil metrica' = SELECTEDVALUE ( hechos_metrica[percentil] )
+		formatString: 0
+		lineageTag: 0a4011ed-6001-4426-92a5-4894c35a193e
+
+	measure 'Valor metrica' = VAR v = SELECTEDVALUE ( hechos_metrica[valor] ) VAR u = SELECTEDVALUE ( dim_metrica[unidad] ) RETURN IF ( ISBLANK ( v ), BLANK (), IF ( u = "porcentaje", FORMAT ( v, "0" ) & " %", FORMAT ( v, "0.00" ) ) )
+		lineageTag: 9cd48437-f6f0-49d9-8728-9cbf68971167
+
 	column id_jugador
 		dataType: int64
 		formatString: 0

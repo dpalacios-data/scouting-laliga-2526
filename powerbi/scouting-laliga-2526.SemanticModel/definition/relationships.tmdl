@@ -33,3 +33,4 @@ relationship 674b65f9-aed3-4a8e-8cf9-21e2dad75e09
 relationship 5a52463c-4794-477d-8f1c-934d77472aa3
 	fromColumn: hechos_ficha.id_jugador
 	toColumn: dim_jugador.id_jugador
+

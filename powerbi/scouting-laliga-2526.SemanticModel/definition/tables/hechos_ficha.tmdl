@@ -24,6 +24,7 @@ table hechos_ficha
 		lineageTag: ca5d6bf7-a036-4a0a-9f1f-3534ce4128c9
 		summarizeBy: none
 		sourceColumn: atributo
+		sortByColumn: orden
 
 		annotation SummarizationSetBy = User
 

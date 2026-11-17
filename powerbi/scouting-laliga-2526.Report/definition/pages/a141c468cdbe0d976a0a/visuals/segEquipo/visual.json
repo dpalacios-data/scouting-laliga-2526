@@ -23,11 +23,11 @@
                       "Entity": "dim_equipo"
                     }
                   },
-                  "Property": "equipo"
+                  "Property": "nombre_equipo"
                 }
               },
-              "queryRef": "dim_equipo.equipo",
-              "nativeQueryRef": "equipo"
+              "queryRef": "dim_equipo.nombre_equipo",
+              "nativeQueryRef": "nombre_equipo"
             }
           ]
         }

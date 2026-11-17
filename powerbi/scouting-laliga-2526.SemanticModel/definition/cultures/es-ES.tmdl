@@ -117,7 +117,7 @@ cultureInfo es-ES
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "INTERCEPCIONES": {
+			          "INTERCEP.": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -138,7 +138,7 @@ cultureInfo es-ES
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "ENTRADAS EXITOSAS": {
+			          "ENTRADAS": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -159,7 +159,7 @@ cultureInfo es-ES
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "DUELOS AÉREOS GANADOS": {
+			          "AÉREOS": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -202,6 +202,147 @@ cultureInfo es-ES
 			      "Terms": [
 			        {
 			          "xA": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_jugador.puntos_equipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "Puntos equipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PTS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_jugador.puntos_esperados_equipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "Puntos esperados equipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "xPTS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_jugador.altura_defensiva_equipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "Altura defensiva equipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ALTURA": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_jugador.escudo_jugador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "Escudo jugador"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "hechos_ficha.atributo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_ficha",
+			          "ConceptualProperty": "atributo"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "hechos_ficha.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_ficha",
+			          "ConceptualProperty": "valor"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "dim_metrica.nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_metrica",
+			          "ConceptualProperty": "nombre"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "hechos_metrica.valor_metrica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_metrica",
+			          "ConceptualProperty": "Valor metrica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "VALOR": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_metrica.percentil_metrica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_metrica",
+			          "ConceptualProperty": "Percentil metrica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PERCENTIL": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",

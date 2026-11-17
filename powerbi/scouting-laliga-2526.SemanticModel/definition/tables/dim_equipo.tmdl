@@ -18,6 +18,14 @@ table dim_equipo
 
 		annotation SummarizationSetBy = Automatic
 
+	column nombre_equipo
+		dataType: string
+		lineageTag: 918ed0b1-0a28-46e8-aad8-217bd7136452
+		summarizeBy: none
+		sourceColumn: nombre_equipo
+
+		annotation SummarizationSetBy = Automatic
+
 	column altura_defensiva
 		dataType: double
 		lineageTag: 19517cb8-291e-4e3d-b2d6-8aa1b5bc775f
@@ -106,6 +114,7 @@ table dim_equipo
 				    Tipos = Table.TransformColumnTypes(Encabezados, {
 				        {"id_equipo", Int64.Type},
 				        {"equipo", type text},
+				        {"nombre_equipo", type text},
 				        {"altura_defensiva", type number},
 				        {"puntos", Int64.Type},
 				        {"puntos_esperados", type number},

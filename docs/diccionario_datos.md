@@ -22,7 +22,8 @@ dim_posicion ┘
 | Columna | Qué es | Unidad | De dónde sale |
 |---|---|---|---|
 | `id_equipo` | Clave propia del equipo | entero, 1 a 20, por orden alfabético | generada en el cuaderno 01 |
-| `equipo` | Nombre del equipo | texto | fichero propio de posiciones; WhoScored escribe "Atletico" y "Deportivo Alaves", que se traducen con una correspondencia explícita en los cuadernos 00 y 01 |
+| `equipo` | Nombre del equipo | texto | fichero propio de posiciones; WhoScored escribe "Atletico" y "Deportivo Alaves", que se traducen con una correspondencia explícita en los cuadernos 00 y 01. Es el nombre de cruce: sin tildes y tal como lo escriben las fuentes |
+| `nombre_equipo` | Nombre del equipo para enseñar en el panel: con tildes y como se conoce al club ("Alavés", "Atlético de Madrid", "Celta") | texto | escrito a mano en el cuaderno 01, uno por equipo |
 | `altura_defensiva` | Posición media en el largo del campo de las entradas, intercepciones, despejes, pases bloqueados y recuperaciones del equipo | coordenada x de Opta: 0 = portería propia, 100 = portería rival. **No son metros** | `altura_defensiva_laliga_2526.csv`, calculada en el TFM (cuaderno `02_analisis_equipo`) con los eventos de Opta |
 | `puntos` | Puntos reales en la liga | puntos | `clasificacion_xpts_laliga_2526.csv` (TFM, a partir de Understat) |
 | `puntos_esperados` | Puntos esperados según el xG de cada partido | puntos | `clasificacion_xpts_laliga_2526.csv`, columna `xpts` (Understat) |
@@ -407,7 +408,7 @@ Entradas intentadas y duelos aéreos disputados están en el bloque defensa (ord
 | `id_jugador` | Clave hacia `dim_jugador` |
 | `orden` | Orden del atributo en la ficha, de 1 a 9 |
 | `atributo` | Equipo, Puesto, Edad, Altura, Pie, Nacionalidad, Minutos, Partidos, Valor estimado |
-| `valor` | Texto ya formateado: "27 años", "1,83 m", "España / Francia", "3.330", "4,5 M€". Vacío si no hay dato |
+| `valor` | Texto ya formateado: el equipo con su `nombre_equipo`, "27 años", "1,83 m", "España / Francia", "3.330", "4,5 M€". Vacío si no hay dato |
 
 Relaciones en el modelo de Power BI, todas de uno a muchos y en una sola dirección: `dim_metrica` → `hechos_metrica`,
 `dim_jugador` → `hechos_metrica` y `dim_jugador` → `hechos_ficha`.

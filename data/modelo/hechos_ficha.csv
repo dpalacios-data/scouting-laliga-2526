@@ -1,5 +1,5 @@
 id_jugador,orden,atributo,valor
-1,1,Equipo,Alaves
+1,1,Equipo,Alavés
 1,2,Puesto,Extremo
 1,3,Edad,27 años
 1,4,Altura,"1,76 m"
@@ -8,7 +8,7 @@ id_jugador,orden,atributo,valor
 1,7,Minutos,1.479
 1,8,Partidos,30
 1,9,Valor estimado,"2,5 M€"
-2,1,Equipo,Alaves
+2,1,Equipo,Alavés
 2,2,Puesto,Delantero
 2,3,Edad,23 años
 2,4,Altura,"1,85 m"
@@ -17,7 +17,7 @@ id_jugador,orden,atributo,valor
 2,7,Minutos,105
 2,8,Partidos,9
 2,9,Valor estimado,600 mil €
-3,1,Equipo,Alaves
+3,1,Equipo,Alavés
 3,2,Puesto,Mediocentro
 3,3,Edad,28 años
 3,4,Altura,"1,80 m"
@@ -26,7 +26,7 @@ id_jugador,orden,atributo,valor
 3,7,Minutos,581
 3,8,Partidos,25
 3,9,Valor estimado,"2,5 M€"
-4,1,Equipo,Alaves
+4,1,Equipo,Alavés
 4,2,Puesto,Pivote
 4,3,Edad,25 años
 4,4,Altura,"1,76 m"
@@ -35,7 +35,7 @@ id_jugador,orden,atributo,valor
 4,7,Minutos,3.137
 4,8,Partidos,36
 4,9,Valor estimado,10 M€
-5,1,Equipo,Alaves
+5,1,Equipo,Alavés
 5,2,Puesto,Mediapunta
 5,3,Edad,26 años
 5,4,Altura,"1,73 m"
@@ -44,7 +44,7 @@ id_jugador,orden,atributo,valor
 5,7,Minutos,767
 5,8,Partidos,19
 5,9,Valor estimado,"1,8 M€"
-6,1,Equipo,Alaves
+6,1,Equipo,Alavés
 6,2,Puesto,Mediocentro
 6,3,Edad,28 años
 6,4,Altura,"1,80 m"
@@ -53,7 +53,7 @@ id_jugador,orden,atributo,valor
 6,7,Minutos,2.002
 6,8,Partidos,34
 6,9,Valor estimado,3 M€
-7,1,Equipo,Alaves
+7,1,Equipo,Alavés
 7,2,Puesto,Sin definir
 7,3,Edad,22 años
 7,4,Altura,"1,78 m"
@@ -62,7 +62,7 @@ id_jugador,orden,atributo,valor
 7,7,Minutos,1
 7,8,Partidos,1
 7,9,Valor estimado,100 mil €
-8,1,Equipo,Alaves
+8,1,Equipo,Alavés
 8,2,Puesto,Posición no confirmada
 8,3,Edad,
 8,4,Altura,
@@ -71,7 +71,7 @@ id_jugador,orden,atributo,valor
 8,7,Minutos,311
 8,8,Partidos,13
 8,9,Valor estimado,
-9,1,Equipo,Alaves
+9,1,Equipo,Alavés
 9,2,Puesto,Extremo
 9,3,Edad,27 años
 9,4,Altura,"1,79 m"
@@ -80,7 +80,7 @@ id_jugador,orden,atributo,valor
 9,7,Minutos,1.250
 9,8,Partidos,21
 9,9,Valor estimado,7 M€
-10,1,Equipo,Alaves
+10,1,Equipo,Alavés
 10,2,Puesto,Mediapunta
 10,3,Edad,32 años
 10,4,Altura,"1,76 m"
@@ -89,7 +89,7 @@ id_jugador,orden,atributo,valor
 10,7,Minutos,1.407
 10,8,Partidos,30
 10,9,Valor estimado,1 M€
-11,1,Equipo,Alaves
+11,1,Equipo,Alavés
 11,2,Puesto,Delantero
 11,3,Edad,22 años
 11,4,Altura,"1,85 m"
@@ -98,7 +98,7 @@ id_jugador,orden,atributo,valor
 11,7,Minutos,8
 11,8,Partidos,1
 11,9,Valor estimado,200 mil €
-12,1,Equipo,Alaves
+12,1,Equipo,Alavés
 12,2,Puesto,Central
 12,3,Edad,26 años
 12,4,Altura,"1,91 m"
@@ -107,7 +107,7 @@ id_jugador,orden,atributo,valor
 12,7,Minutos,786
 12,8,Partidos,10
 12,9,Valor estimado,
-13,1,Equipo,Alaves
+13,1,Equipo,Alavés
 13,2,Puesto,Delantero
 13,3,Edad,26 años
 13,4,Altura,"1,85 m"
@@ -116,7 +116,7 @@ id_jugador,orden,atributo,valor
 13,7,Minutos,579
 13,8,Partidos,10
 13,9,Valor estimado,"1,5 M€"
-14,1,Equipo,Alaves
+14,1,Equipo,Alavés
 14,2,Puesto,Mediocentro
 14,3,Edad,31 años
 14,4,Altura,"1,79 m"
@@ -125,7 +125,7 @@ id_jugador,orden,atributo,valor
 14,7,Minutos,1.251
 14,8,Partidos,28
 14,9,Valor estimado,"1,8 M€"
-15,1,Equipo,Alaves
+15,1,Equipo,Alavés
 15,2,Puesto,Central
 15,3,Edad,25 años
 15,4,Altura,"1,84 m"
@@ -134,7 +134,7 @@ id_jugador,orden,atributo,valor
 15,7,Minutos,1.737
 15,8,Partidos,22
 15,9,Valor estimado,5 M€
-16,1,Equipo,Alaves
+16,1,Equipo,Alavés
 16,2,Puesto,Lateral
 16,3,Edad,32 años
 16,4,Altura,"1,75 m"
@@ -143,7 +143,7 @@ id_jugador,orden,atributo,valor
 16,7,Minutos,3.006
 16,8,Partidos,34
 16,9,Valor estimado,"2,2 M€"
-17,1,Equipo,Alaves
+17,1,Equipo,Alavés
 17,2,Puesto,Sin definir
 17,3,Edad,22 años
 17,4,Altura,"1,78 m"
@@ -152,7 +152,7 @@ id_jugador,orden,atributo,valor
 17,7,Minutos,1
 17,8,Partidos,1
 17,9,Valor estimado,200 mil €
-18,1,Equipo,Alaves
+18,1,Equipo,Alavés
 18,2,Puesto,Delantero
 18,3,Edad,30 años
 18,4,Altura,"1,83 m"
@@ -161,7 +161,7 @@ id_jugador,orden,atributo,valor
 18,7,Minutos,1.960
 18,8,Partidos,29
 18,9,Valor estimado,5 M€
-19,1,Equipo,Alaves
+19,1,Equipo,Alavés
 19,2,Puesto,Delantero
 19,3,Edad,32 años
 19,4,Altura,"1,80 m"
@@ -170,7 +170,7 @@ id_jugador,orden,atributo,valor
 19,7,Minutos,269
 19,8,Partidos,10
 19,9,Valor estimado,300 mil €
-20,1,Equipo,Alaves
+20,1,Equipo,Alavés
 20,2,Puesto,Lateral
 20,3,Edad,25 años
 20,4,Altura,"1,85 m"
@@ -179,7 +179,7 @@ id_jugador,orden,atributo,valor
 20,7,Minutos,225
 20,8,Partidos,3
 20,9,Valor estimado,2 M€
-21,1,Equipo,Alaves
+21,1,Equipo,Alavés
 21,2,Puesto,Lateral
 21,3,Edad,30 años
 21,4,Altura,"1,81 m"
@@ -188,7 +188,7 @@ id_jugador,orden,atributo,valor
 21,7,Minutos,3.240
 21,8,Partidos,36
 21,9,Valor estimado,3 M€
-22,1,Equipo,Alaves
+22,1,Equipo,Alavés
 22,2,Puesto,Mediocentro
 22,3,Edad,27 años
 22,4,Altura,"1,79 m"
@@ -197,7 +197,7 @@ id_jugador,orden,atributo,valor
 22,7,Minutos,2.278
 22,8,Partidos,37
 22,9,Valor estimado,4 M€
-23,1,Equipo,Alaves
+23,1,Equipo,Alavés
 23,2,Puesto,Delantero
 23,3,Edad,28 años
 23,4,Altura,"1,87 m"
@@ -206,7 +206,7 @@ id_jugador,orden,atributo,valor
 23,7,Minutos,2.750
 23,8,Partidos,37
 23,9,Valor estimado,"7,5 M€"
-24,1,Equipo,Alaves
+24,1,Equipo,Alavés
 24,2,Puesto,Lateral
 24,3,Edad,24 años
 24,4,Altura,"1,85 m"
@@ -215,7 +215,7 @@ id_jugador,orden,atributo,valor
 24,7,Minutos,2.159
 24,8,Partidos,30
 24,9,Valor estimado,4 M€
-25,1,Equipo,Alaves
+25,1,Equipo,Alavés
 25,2,Puesto,Central
 25,3,Edad,24 años
 25,4,Altura,"1,85 m"
@@ -224,7 +224,7 @@ id_jugador,orden,atributo,valor
 25,7,Minutos,281
 25,8,Partidos,5
 25,9,Valor estimado,"1,5 M€"
-26,1,Equipo,Alaves
+26,1,Equipo,Alavés
 26,2,Puesto,Lateral
 26,3,Edad,20 años
 26,4,Altura,"1,70 m"
@@ -233,7 +233,7 @@ id_jugador,orden,atributo,valor
 26,7,Minutos,1.332
 26,8,Partidos,25
 26,9,Valor estimado,4 M€
-27,1,Equipo,Alaves
+27,1,Equipo,Alavés
 27,2,Puesto,Lateral
 27,3,Edad,23 años
 27,4,Altura,"1,83 m"
@@ -485,7 +485,7 @@ id_jugador,orden,atributo,valor
 54,7,Minutos,2.289
 54,8,Partidos,34
 54,9,Valor estimado,2 M€
-55,1,Equipo,Atletico Madrid
+55,1,Equipo,Atlético de Madrid
 55,2,Puesto,Extremo
 55,3,Edad,28 años
 55,4,Altura,"1,74 m"
@@ -494,7 +494,7 @@ id_jugador,orden,atributo,valor
 55,7,Minutos,638
 55,8,Partidos,12
 55,9,Valor estimado,40 M€
-56,1,Equipo,Atletico Madrid
+56,1,Equipo,Atlético de Madrid
 56,2,Puesto,Sin definir
 56,3,Edad,22 años
 56,4,Altura,"1,96 m"
@@ -503,7 +503,7 @@ id_jugador,orden,atributo,valor
 56,7,Minutos,40
 56,8,Partidos,2
 56,9,Valor estimado,1 M€
-57,1,Equipo,Atletico Madrid
+57,1,Equipo,Atlético de Madrid
 57,2,Puesto,Delantero
 57,3,Edad,30 años
 57,4,Altura,"1,96 m"
@@ -512,7 +512,7 @@ id_jugador,orden,atributo,valor
 57,7,Minutos,1.955
 57,8,Partidos,35
 57,9,Valor estimado,18 M€
-58,1,Equipo,Atletico Madrid
+58,1,Equipo,Atlético de Madrid
 58,2,Puesto,Delantero
 58,3,Edad,35 años
 58,4,Altura,"1,76 m"
@@ -521,7 +521,7 @@ id_jugador,orden,atributo,valor
 58,7,Minutos,1.428
 58,8,Partidos,34
 58,9,Valor estimado,8 M€
-59,1,Equipo,Atletico Madrid
+59,1,Equipo,Atlético de Madrid
 59,2,Puesto,Central
 59,3,Edad,30 años
 59,4,Altura,"1,86 m"
@@ -530,7 +530,7 @@ id_jugador,orden,atributo,valor
 59,7,Minutos,1.402
 59,8,Partidos,19
 59,9,Valor estimado,4 M€
-60,1,Equipo,Atletico Madrid
+60,1,Equipo,Atlético de Madrid
 60,2,Puesto,Mediocentro
 60,3,Edad,26 años
 60,4,Altura,"1,82 m"
@@ -539,7 +539,7 @@ id_jugador,orden,atributo,valor
 60,7,Minutos,630
 60,8,Partidos,19
 60,9,Valor estimado,32 M€
-61,1,Equipo,Atletico Madrid
+61,1,Equipo,Atlético de Madrid
 61,2,Puesto,Delantero
 61,3,Edad,18 años
 61,4,Altura,"1,84 m"
@@ -548,7 +548,7 @@ id_jugador,orden,atributo,valor
 61,7,Minutos,46
 61,8,Partidos,2
 61,9,Valor estimado,2 M€
-62,1,Equipo,Atletico Madrid
+62,1,Equipo,Atlético de Madrid
 62,2,Puesto,Central
 62,3,Edad,22 años
 62,4,Altura,"1,86 m"
@@ -557,7 +557,7 @@ id_jugador,orden,atributo,valor
 62,7,Minutos,90
 62,8,Partidos,1
 62,9,Valor estimado,500 mil €
-63,1,Equipo,Atletico Madrid
+63,1,Equipo,Atlético de Madrid
 63,2,Puesto,Central
 63,3,Edad,28 años
 63,4,Altura,"1,88 m"
@@ -566,7 +566,7 @@ id_jugador,orden,atributo,valor
 63,7,Minutos,2.443
 63,8,Partidos,30
 63,9,Valor estimado,35 M€
-64,1,Equipo,Atletico Madrid
+64,1,Equipo,Atlético de Madrid
 64,2,Puesto,Posición no confirmada
 64,3,Edad,26 años
 64,4,Altura,"1,72 m"
@@ -575,7 +575,7 @@ id_jugador,orden,atributo,valor
 64,7,Minutos,203
 64,8,Partidos,12
 64,9,Valor estimado,22 M€
-65,1,Equipo,Atletico Madrid
+65,1,Equipo,Atlético de Madrid
 65,2,Puesto,Extremo
 65,3,Edad,23 años
 65,4,Altura,"1,74 m"
@@ -584,7 +584,7 @@ id_jugador,orden,atributo,valor
 65,7,Minutos,2.153
 65,8,Partidos,31
 65,9,Valor estimado,40 M€
-66,1,Equipo,Atletico Madrid
+66,1,Equipo,Atlético de Madrid
 66,2,Puesto,Extremo
 66,3,Edad,20 años
 66,4,Altura,"1,68 m"
@@ -593,7 +593,7 @@ id_jugador,orden,atributo,valor
 66,7,Minutos,26
 66,8,Partidos,1
 66,9,Valor estimado,2 M€
-67,1,Equipo,Atletico Madrid
+67,1,Equipo,Atlético de Madrid
 67,2,Puesto,Mediapunta
 67,3,Edad,20 años
 67,4,Altura,"1,77 m"
@@ -602,7 +602,7 @@ id_jugador,orden,atributo,valor
 67,7,Minutos,14
 67,8,Partidos,2
 67,9,Valor estimado,500 mil €
-68,1,Equipo,Atletico Madrid
+68,1,Equipo,Atlético de Madrid
 68,2,Puesto,Lateral
 68,3,Edad,20 años
 68,4,Altura,"1,80 m"
@@ -611,7 +611,7 @@ id_jugador,orden,atributo,valor
 68,7,Minutos,294
 68,8,Partidos,4
 68,9,Valor estimado,"1,5 M€"
-69,1,Equipo,Atletico Madrid
+69,1,Equipo,Atlético de Madrid
 69,2,Puesto,Sin definir
 69,3,Edad,20 años
 69,4,Altura,"1,83 m"
@@ -620,7 +620,7 @@ id_jugador,orden,atributo,valor
 69,7,Minutos,152
 69,8,Partidos,5
 69,9,Valor estimado,500 mil €
-70,1,Equipo,Atletico Madrid
+70,1,Equipo,Atlético de Madrid
 70,2,Puesto,Mediocentro
 70,3,Edad,24 años
 70,4,Altura,"1,86 m"
@@ -629,7 +629,7 @@ id_jugador,orden,atributo,valor
 70,7,Minutos,905
 70,8,Partidos,15
 70,9,Valor estimado,20 M€
-71,1,Equipo,Atletico Madrid
+71,1,Equipo,Atlético de Madrid
 71,2,Puesto,Central
 71,3,Edad,31 años
 71,4,Altura,"1,86 m"
@@ -638,7 +638,7 @@ id_jugador,orden,atributo,valor
 71,7,Minutos,1.165
 71,8,Partidos,16
 71,9,Valor estimado,9 M€
-72,1,Equipo,Atletico Madrid
+72,1,Equipo,Atlético de Madrid
 72,2,Puesto,Sin definir
 72,3,Edad,21 años
 72,4,Altura,"1,74 m"
@@ -647,7 +647,7 @@ id_jugador,orden,atributo,valor
 72,7,Minutos,322
 72,8,Partidos,4
 72,9,Valor estimado,"1,5 M€"
-73,1,Equipo,Atletico Madrid
+73,1,Equipo,Atlético de Madrid
 73,2,Puesto,Delantero
 73,3,Edad,26 años
 73,4,Altura,"1,70 m"
@@ -656,7 +656,7 @@ id_jugador,orden,atributo,valor
 73,7,Minutos,1.926
 73,8,Partidos,29
 73,9,Valor estimado,100 M€
-74,1,Equipo,Atletico Madrid
+74,1,Equipo,Atlético de Madrid
 74,2,Puesto,Mediocentro
 74,3,Edad,34 años
 74,4,Altura,"1,76 m"
@@ -665,7 +665,7 @@ id_jugador,orden,atributo,valor
 74,7,Minutos,2.237
 74,8,Partidos,34
 74,9,Valor estimado,5 M€
-75,1,Equipo,Atletico Madrid
+75,1,Equipo,Atlético de Madrid
 75,2,Puesto,Lateral
 75,3,Edad,22 años
 75,4,Altura,"1,91 m"
@@ -674,7 +674,7 @@ id_jugador,orden,atributo,valor
 75,7,Minutos,1.377
 75,8,Partidos,19
 75,9,Valor estimado,35 M€
-76,1,Equipo,Atletico Madrid
+76,1,Equipo,Atlético de Madrid
 76,2,Puesto,Mediocentro
 76,3,Edad,31 años
 76,4,Altura,"1,83 m"
@@ -683,7 +683,7 @@ id_jugador,orden,atributo,valor
 76,7,Minutos,2.190
 76,8,Partidos,29
 76,9,Valor estimado,20 M€
-77,1,Equipo,Atletico Madrid
+77,1,Equipo,Atlético de Madrid
 77,2,Puesto,Lateral
 77,3,Edad,23 años
 77,4,Altura,"1,87 m"
@@ -692,7 +692,7 @@ id_jugador,orden,atributo,valor
 77,7,Minutos,1.767
 77,8,Partidos,26
 77,9,Valor estimado,28 M€
-78,1,Equipo,Atletico Madrid
+78,1,Equipo,Atlético de Madrid
 78,2,Puesto,Lateral
 78,3,Edad,28 años
 78,4,Altura,"1,79 m"
@@ -701,7 +701,7 @@ id_jugador,orden,atributo,valor
 78,7,Minutos,1.292
 78,8,Partidos,26
 78,9,Valor estimado,15 M€
-79,1,Equipo,Atletico Madrid
+79,1,Equipo,Atlético de Madrid
 79,2,Puesto,Extremo
 79,3,Edad,28 años
 79,4,Altura,"1,80 m"
@@ -710,7 +710,7 @@ id_jugador,orden,atributo,valor
 79,7,Minutos,1.480
 79,8,Partidos,24
 79,9,Valor estimado,22 M€
-80,1,Equipo,Atletico Madrid
+80,1,Equipo,Atlético de Madrid
 80,2,Puesto,Mediocentro
 80,3,Edad,20 años
 80,4,Altura,"1,75 m"
@@ -719,7 +719,7 @@ id_jugador,orden,atributo,valor
 80,7,Minutos,742
 80,8,Partidos,12
 80,9,Valor estimado,10 M€
-81,1,Equipo,Atletico Madrid
+81,1,Equipo,Atlético de Madrid
 81,2,Puesto,Mediocentro
 81,3,Edad,22 años
 81,4,Altura,"1,81 m"
@@ -728,7 +728,7 @@ id_jugador,orden,atributo,valor
 81,7,Minutos,1.672
 81,8,Partidos,23
 81,9,Valor estimado,55 M€
-82,1,Equipo,Atletico Madrid
+82,1,Equipo,Atlético de Madrid
 82,2,Puesto,Extremo
 82,3,Edad,21 años
 82,4,Altura,"1,75 m"
@@ -737,7 +737,7 @@ id_jugador,orden,atributo,valor
 82,7,Minutos,140
 82,8,Partidos,2
 82,9,Valor estimado,600 mil €
-83,1,Equipo,Atletico Madrid
+83,1,Equipo,Atlético de Madrid
 83,2,Puesto,Central
 83,3,Edad,29 años
 83,4,Altura,"1,87 m"
@@ -746,7 +746,7 @@ id_jugador,orden,atributo,valor
 83,7,Minutos,1.776
 83,8,Partidos,28
 83,9,Valor estimado,20 M€
-84,1,Equipo,Atletico Madrid
+84,1,Equipo,Atlético de Madrid
 84,2,Puesto,Mediocentro
 84,3,Edad,21 años
 84,4,Altura,"1,82 m"
@@ -755,7 +755,7 @@ id_jugador,orden,atributo,valor
 84,7,Minutos,1.243
 84,8,Partidos,24
 84,9,Valor estimado,20 M€
-85,1,Equipo,Atletico Madrid
+85,1,Equipo,Atlético de Madrid
 85,2,Puesto,Mediocentro
 85,3,Edad,18 años
 85,4,Altura,"1,82 m"
@@ -764,7 +764,7 @@ id_jugador,orden,atributo,valor
 85,7,Minutos,15
 85,8,Partidos,1
 85,9,Valor estimado,
-86,1,Equipo,Atletico Madrid
+86,1,Equipo,Atlético de Madrid
 86,2,Puesto,Mediapunta
 86,3,Edad,25 años
 86,4,Altura,"1,71 m"
@@ -773,7 +773,7 @@ id_jugador,orden,atributo,valor
 86,7,Minutos,1.327
 86,8,Partidos,27
 86,9,Valor estimado,15 M€
-87,1,Equipo,Atletico Madrid
+87,1,Equipo,Atlético de Madrid
 87,2,Puesto,Mediapunta
 87,3,Edad,24 años
 87,4,Altura,"1,72 m"
@@ -1025,7 +1025,7 @@ id_jugador,orden,atributo,valor
 114,7,Minutos,90
 114,8,Partidos,1
 114,9,Valor estimado,4 M€
-115,1,Equipo,Celta Vigo
+115,1,Equipo,Celta
 115,2,Puesto,Mediapunta
 115,3,Edad,19 años
 115,4,Altura,"1,83 m"
@@ -1034,7 +1034,7 @@ id_jugador,orden,atributo,valor
 115,7,Minutos,64
 115,8,Partidos,2
 115,9,Valor estimado,500 mil €
-116,1,Equipo,Celta Vigo
+116,1,Equipo,Celta
 116,2,Puesto,Delantero
 116,3,Edad,33 años
 116,4,Altura,"1,87 m"
@@ -1043,7 +1043,7 @@ id_jugador,orden,atributo,valor
 116,7,Minutos,1.903
 116,8,Partidos,35
 116,9,Valor estimado,"2,8 M€"
-117,1,Equipo,Celta Vigo
+117,1,Equipo,Celta
 117,2,Puesto,Extremo
 117,3,Edad,24 años
 117,4,Altura,"1,64 m"
@@ -1052,7 +1052,7 @@ id_jugador,orden,atributo,valor
 117,7,Minutos,1.138
 117,8,Partidos,19
 117,9,Valor estimado,8 M€
-118,1,Equipo,Celta Vigo
+118,1,Equipo,Celta
 118,2,Puesto,Central
 118,3,Edad,30 años
 118,4,Altura,"1,85 m"
@@ -1061,7 +1061,7 @@ id_jugador,orden,atributo,valor
 118,7,Minutos,1.492
 118,8,Partidos,19
 118,9,Valor estimado,"4,5 M€"
-119,1,Equipo,Celta Vigo
+119,1,Equipo,Celta
 119,2,Puesto,Central
 119,3,Edad,25 años
 119,4,Altura,"1,87 m"
@@ -1070,7 +1070,7 @@ id_jugador,orden,atributo,valor
 119,7,Minutos,602
 119,8,Partidos,8
 119,9,Valor estimado,2 M€
-120,1,Equipo,Celta Vigo
+120,1,Equipo,Celta
 120,2,Puesto,Posición no confirmada
 120,3,Edad,23 años
 120,4,Altura,"1,80 m"
@@ -1079,7 +1079,7 @@ id_jugador,orden,atributo,valor
 120,7,Minutos,155
 120,8,Partidos,2
 120,9,Valor estimado,2 M€
-121,1,Equipo,Celta Vigo
+121,1,Equipo,Celta
 121,2,Puesto,Mediapunta
 121,3,Edad,22 años
 121,4,Altura,"1,88 m"
@@ -1088,7 +1088,7 @@ id_jugador,orden,atributo,valor
 121,7,Minutos,1.179
 121,8,Partidos,17
 121,9,Valor estimado,16 M€
-122,1,Equipo,Celta Vigo
+122,1,Equipo,Celta
 122,2,Puesto,Delantero
 122,3,Edad,27 años
 122,4,Altura,"1,75 m"
@@ -1097,7 +1097,7 @@ id_jugador,orden,atributo,valor
 122,7,Minutos,1.702
 122,8,Partidos,30
 122,9,Valor estimado,10 M€
-123,1,Equipo,Celta Vigo
+123,1,Equipo,Celta
 123,2,Puesto,Mediocentro
 123,3,Edad,19 años
 123,4,Altura,"1,87 m"
@@ -1106,7 +1106,7 @@ id_jugador,orden,atributo,valor
 123,7,Minutos,4
 123,8,Partidos,1
 123,9,Valor estimado,500 mil €
-124,1,Equipo,Celta Vigo
+124,1,Equipo,Celta
 124,2,Puesto,Delantero
 124,3,Edad,23 años
 124,4,Altura,"1,77 m"
@@ -1115,7 +1115,7 @@ id_jugador,orden,atributo,valor
 124,7,Minutos,4
 124,8,Partidos,1
 124,9,Valor estimado,700 mil €
-125,1,Equipo,Celta Vigo
+125,1,Equipo,Celta
 125,2,Puesto,Mediocentro
 125,3,Edad,22 años
 125,4,Altura,"1,80 m"
@@ -1124,7 +1124,7 @@ id_jugador,orden,atributo,valor
 125,7,Minutos,1.350
 125,8,Partidos,20
 125,9,Valor estimado,5 M€
-126,1,Equipo,Celta Vigo
+126,1,Equipo,Celta
 126,2,Puesto,Extremo
 126,3,Edad,22 años
 126,4,Altura,"1,76 m"
@@ -1133,7 +1133,7 @@ id_jugador,orden,atributo,valor
 126,7,Minutos,1.359
 126,8,Partidos,28
 126,9,Valor estimado,8 M€
-127,1,Equipo,Celta Vigo
+127,1,Equipo,Celta
 127,2,Puesto,Delantero
 127,3,Edad,38 años
 127,4,Altura,"1,76 m"
@@ -1142,7 +1142,7 @@ id_jugador,orden,atributo,valor
 127,7,Minutos,1.082
 127,8,Partidos,32
 127,9,Valor estimado,"1,6 M€"
-128,1,Equipo,Celta Vigo
+128,1,Equipo,Celta
 128,2,Puesto,Mediocentro
 128,3,Edad,23 años
 128,4,Altura,"1,85 m"
@@ -1151,7 +1151,7 @@ id_jugador,orden,atributo,valor
 128,7,Minutos,2.484
 128,8,Partidos,36
 128,9,Valor estimado,15 M€
-129,1,Equipo,Celta Vigo
+129,1,Equipo,Celta
 129,2,Puesto,Lateral
 129,3,Edad,22 años
 129,4,Altura,"1,83 m"
@@ -1160,7 +1160,7 @@ id_jugador,orden,atributo,valor
 129,7,Minutos,2.568
 129,8,Partidos,33
 129,9,Valor estimado,18 M€
-130,1,Equipo,Celta Vigo
+130,1,Equipo,Celta
 130,2,Puesto,Lateral
 130,3,Edad,24 años
 130,4,Altura,"1,77 m"
@@ -1169,7 +1169,7 @@ id_jugador,orden,atributo,valor
 130,7,Minutos,1.403
 130,8,Partidos,26
 130,9,Valor estimado,6 M€
-131,1,Equipo,Celta Vigo
+131,1,Equipo,Celta
 131,2,Puesto,Extremo
 131,3,Edad,20 años
 131,4,Altura,"1,84 m"
@@ -1178,7 +1178,7 @@ id_jugador,orden,atributo,valor
 131,7,Minutos,621
 131,8,Partidos,22
 131,9,Valor estimado,8 M€
-132,1,Equipo,Celta Vigo
+132,1,Equipo,Celta
 132,2,Puesto,Central
 132,3,Edad,30 años
 132,4,Altura,"1,81 m"
@@ -1187,7 +1187,7 @@ id_jugador,orden,atributo,valor
 132,7,Minutos,640
 132,8,Partidos,8
 132,9,Valor estimado,1 M€
-133,1,Equipo,Celta Vigo
+133,1,Equipo,Celta
 133,2,Puesto,Central
 133,3,Edad,25 años
 133,4,Altura,"1,85 m"
@@ -1196,7 +1196,7 @@ id_jugador,orden,atributo,valor
 133,7,Minutos,768
 133,8,Partidos,14
 133,9,Valor estimado,"1,5 M€"
-134,1,Equipo,Celta Vigo
+134,1,Equipo,Celta
 134,2,Puesto,Lateral
 134,3,Edad,35 años
 134,4,Altura,"1,88 m"
@@ -1205,7 +1205,7 @@ id_jugador,orden,atributo,valor
 134,7,Minutos,2.780
 134,8,Partidos,32
 134,9,Valor estimado,"1,2 M€"
-135,1,Equipo,Celta Vigo
+135,1,Equipo,Celta
 135,2,Puesto,Mediocentro
 135,3,Edad,34 años
 135,4,Altura,"1,87 m"
@@ -1214,7 +1214,7 @@ id_jugador,orden,atributo,valor
 135,7,Minutos,136
 135,8,Partidos,6
 135,9,Valor estimado,1 M€
-136,1,Equipo,Celta Vigo
+136,1,Equipo,Celta
 136,2,Puesto,Sin definir
 136,3,Edad,23 años
 136,4,Altura,"1,78 m"
@@ -1223,7 +1223,7 @@ id_jugador,orden,atributo,valor
 136,7,Minutos,1.297
 136,8,Partidos,19
 136,9,Valor estimado,15 M€
-137,1,Equipo,Celta Vigo
+137,1,Equipo,Celta
 137,2,Puesto,Lateral
 137,3,Edad,30 años
 137,4,Altura,"1,82 m"
@@ -1232,7 +1232,7 @@ id_jugador,orden,atributo,valor
 137,7,Minutos,266
 137,8,Partidos,5
 137,9,Valor estimado,800 mil €
-138,1,Equipo,Celta Vigo
+138,1,Equipo,Celta
 138,2,Puesto,Delantero
 138,3,Edad,25 años
 138,4,Altura,"1,76 m"
@@ -1241,7 +1241,7 @@ id_jugador,orden,atributo,valor
 138,7,Minutos,1.451
 138,8,Partidos,30
 138,9,Valor estimado,4 M€
-139,1,Equipo,Celta Vigo
+139,1,Equipo,Celta
 139,2,Puesto,Lateral
 139,3,Edad,25 años
 139,4,Altura,"1,70 m"
@@ -1250,7 +1250,7 @@ id_jugador,orden,atributo,valor
 139,7,Minutos,2.695
 139,8,Partidos,34
 139,9,Valor estimado,12 M€
-140,1,Equipo,Celta Vigo
+140,1,Equipo,Celta
 140,2,Puesto,Mediapunta
 140,3,Edad,22 años
 140,4,Altura,"1,87 m"
@@ -1259,7 +1259,7 @@ id_jugador,orden,atributo,valor
 140,7,Minutos,1.237
 140,8,Partidos,29
 140,9,Valor estimado,20 M€
-141,1,Equipo,Celta Vigo
+141,1,Equipo,Celta
 141,2,Puesto,Central
 141,3,Edad,22 años
 141,4,Altura,"1,85 m"
@@ -1268,7 +1268,7 @@ id_jugador,orden,atributo,valor
 141,7,Minutos,966
 141,8,Partidos,12
 141,9,Valor estimado,4 M€
-142,1,Equipo,Celta Vigo
+142,1,Equipo,Celta
 142,2,Puesto,Lateral
 142,3,Edad,25 años
 142,4,Altura,"1,77 m"
@@ -1277,7 +1277,7 @@ id_jugador,orden,atributo,valor
 142,7,Minutos,2.006
 142,8,Partidos,25
 142,9,Valor estimado,4 M€
-143,1,Equipo,Celta Vigo
+143,1,Equipo,Celta
 143,2,Puesto,Lateral
 143,3,Edad,27 años
 143,4,Altura,"1,84 m"

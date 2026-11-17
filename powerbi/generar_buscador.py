@@ -142,7 +142,7 @@ solo_fiables = filtro("hechos_jugador", "muestra", lambda ref: {"In": {
     "Expressions": [ref], "Values": [[{"Literal": {"Value": "'Solo fiables'"}}]]}})
 for nombre, x, tabla, col, tit, modo, defecto in [
         ("segPuesto", 34, "dim_posicion", "grupo", "PUESTO", "Dropdown", None),
-        ("segEquipo", 278, "dim_equipo", "equipo", "EQUIPO", "Dropdown", None),
+        ("segEquipo", 278, "dim_equipo", "nombre_equipo", "EQUIPO", "Dropdown", None),
         ("segEdad", 522, "dim_jugador", "edad", "EDAD", "Between", None),
         ("segMinutos", 766, "dim_jugador", "minutos", "MINUTOS", "Between", None),
         ("segMuestra", 1010, "hechos_jugador", "muestra", "MUESTRA", "Dropdown", solo_fiables)]:

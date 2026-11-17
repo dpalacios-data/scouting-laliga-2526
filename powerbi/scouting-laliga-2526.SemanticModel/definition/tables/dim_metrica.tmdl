@@ -23,11 +23,13 @@ table dim_metrica
 		lineageTag: f2f0dc07-a59a-49e9-9a95-c0fdc787b8c4
 		summarizeBy: none
 		sourceColumn: nombre
+		sortByColumn: orden
 
 		annotation SummarizationSetBy = User
 
 	column nombre_corto
 		dataType: string
+		sortByColumn: orden
 		lineageTag: 0bdc3aad-d31b-4457-9687-7e407c64da45
 		summarizeBy: none
 		sourceColumn: nombre_corto

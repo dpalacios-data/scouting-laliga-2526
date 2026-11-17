@@ -1,6 +1,39 @@
 table dim_jugador
 	lineageTag: adc739bd-b0a0-4371-add0-f40fd96c1797
 
+	measure 'Foto jugador' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), SELECTEDVALUE ( dim_jugador[url_foto] ) )
+		dataCategory: ImageUrl
+		lineageTag: e216f1a9-f4cb-4151-8405-ae7b14215c19
+
+	measure 'Jugador elegido' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), 1 )
+		formatString: 0
+		lineageTag: 36a6c0a5-6a59-4eb0-b3ac-97c5a74f47f4
+
+	measure 'Altura defensiva equipo' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[altura_defensiva] ) ) )
+		formatString: 0.0
+		lineageTag: 3f4cbe4f-8a65-419d-801c-6d5d6c2d1cfe
+
+	measure 'Puntos esperados equipo' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[puntos_esperados] ) ) )
+		formatString: 0.0
+		lineageTag: fc205386-64a3-4445-a0ee-cc1a578613f2
+
+	measure 'Puntos equipo' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[puntos] ) ) )
+		formatString: 0
+		lineageTag: 73faeb34-4ba2-4f47-a30d-37c4bc03dc76
+
+	measure 'Escudo jugador' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[url_escudo] ) ) )
+		lineageTag: 4eb2c47d-277a-4e27-ae96-316622c6e531
+		dataCategory: ImageUrl
+
+	measure 'Aviso fiabilidad' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ) && NOT SELECTEDVALUE ( hechos_jugador[percentil_fiable] ), IF ( SELECTEDVALUE ( dim_jugador[minutos] ) < 600, "ESTE JUGADOR TIENE MENOS DE 600 MINUTOS: SUS PERCENTILES NO SON COMPARABLES", "ESTE JUGADOR NO TIENE PUESTO CONFIRMADO: NO TIENE PERCENTILES" ), "" )
+		lineageTag: 4a7ec8c5-d2b5-4463-bb90-7b1a80f4e1db
+
+	measure 'Subtitulo ficha' = VAR n = SELECTEDVALUE ( hechos_jugador[n_grupo_referencia] ) VAR g = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_posicion[grupo] ) ) ) VAR plural = SWITCH ( g, "central", "CENTRALES", "lateral", "LATERALES", "pivote_mediocentro", "PIVOTES Y MEDIOCENTROS", "mediapunta", "MEDIAPUNTAS", "extremo", "EXTREMOS", "delantero", "DELANTEROS" ) RETURN IF ( NOT HASONEVALUE ( dim_jugador[id_jugador] ), "", IF ( ISBLANK ( n ), "SIN GRUPO DE COMPARACIÓN: SU PUESTO NO ESTÁ DEFINIDO O CONFIRMADO", "COMPARADO CON " & n & " " & plural & " DE LALIGA CON 600 MINUTOS O MÁS" ) )
+		lineageTag: 2a2dc2fd-02ac-4dfa-86f8-7f9b2599600d
+
+	measure 'Nombre jugador' = COALESCE ( SELECTEDVALUE ( dim_jugador[jugador] ), "Selecciona un jugador" )
+		lineageTag: 2bdcdb11-ac94-4c51-b2fc-ce36b4f14183
+
 	column id_jugador
 		dataType: int64
 		formatString: 0
