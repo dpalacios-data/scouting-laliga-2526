@@ -31,3 +31,6 @@ data/cache_wikidata.json
 
 # Hoja de control interna del cuaderno 03 (la de revisión de colores sí se versiona)
 images/escudos_control.png
+
+# Hoja de control de los 539 retratos recortados (solo para revisión)
+images/control_retratos.png
