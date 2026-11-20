@@ -235,7 +235,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#F2F5F8'"
+                      "Value": "'#C3CBD5'"
                     }
                   }
                 }
@@ -325,7 +325,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#79879A'"
+                      "Value": "'#44505F'"
                     }
                   }
                 }
@@ -341,7 +341,14 @@
             "style": {
               "expr": {
                 "Literal": {
-                  "Value": "'dashed'"
+                  "Value": "'dotted'"
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
                 }
               }
             },

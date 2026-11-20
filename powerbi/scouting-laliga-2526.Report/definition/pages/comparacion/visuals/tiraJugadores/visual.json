@@ -3,9 +3,9 @@
   "name": "tiraJugadores",
   "position": {
     "x": 34,
-    "y": 104,
+    "y": 96,
     "z": 6000,
-    "height": 70,
+    "height": 80,
     "width": 1212,
     "tabOrder": 6000
   },
@@ -224,7 +224,7 @@
             "imageHeight": {
               "expr": {
                 "Literal": {
-                  "Value": "16D"
+                  "Value": "20D"
                 }
               }
             }
@@ -311,6 +311,13 @@
                   "Value": "false"
                 }
               }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
             }
           }
         },
@@ -364,7 +371,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "6D"
+                  "Value": "8D"
                 }
               }
             }
@@ -378,7 +385,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "44D"
+                  "Value": "36D"
                 }
               }
             }
@@ -392,7 +399,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "260D"
+                  "Value": "300D"
                 }
               }
             }
@@ -406,7 +413,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "200D"
+                  "Value": "240D"
                 }
               }
             }
@@ -420,7 +427,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "60D"
+                  "Value": "80D"
                 }
               }
             }
@@ -434,7 +441,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "80D"
+                  "Value": "100D"
                 }
               }
             }
@@ -448,7 +455,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "70D"
+                  "Value": "130D"
                 }
               }
             }
@@ -462,7 +469,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "70D"
+                  "Value": "130D"
                 }
               }
             }
@@ -476,7 +483,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "70D"
+                  "Value": "130D"
                 }
               }
             }

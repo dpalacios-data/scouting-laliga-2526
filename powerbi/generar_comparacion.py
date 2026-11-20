@@ -117,7 +117,7 @@ def fmt(ref, tinta=None, alineacion=None, fondo=None):
 
 
 def tabla(nombre, x, y, w, h, proyecciones, anchos, formatos=(), cabecera=True, orden=None, sentido="Ascending",
-          imagen=None, filtros=None, fila=1, autoajuste=True):
+          imagen=None, filtros=None, fila=1, autoajuste=True, tam=None):
     """Tabla sin fondo; cabecera=False la reduce a una línea mínima del color del fondo (no se puede ocultar).
     Sin la propiedad 'outline' y con autoSizeColumnWidth en true: así lo deja Power BI al guardar."""
     objetos = {
@@ -126,7 +126,8 @@ def tabla(nombre, x, y, w, h, proyecciones, anchos, formatos=(), cabecera=True, 
                                  **({"imageHeight": lit(imagen)} if imagen else {})}}],
         "columnHeaders": [{"properties": {"fontColor": color(OSCURO if cabecera else FONDO), "fontSize": lit(8 if cabecera else 1),
                                           "backColor": color(FONDO), "wordWrap": lit(False), "autoSizeColumnWidth": lit(autoajuste)}}],
-        "values": [{"properties": {"backColorPrimary": color(FONDO), "backColorSecondary": color(FONDO), "wordWrap": lit(False)}}],
+        "values": [{"properties": {"backColorPrimary": color(FONDO), "backColorSecondary": color(FONDO), "wordWrap": lit(False),
+                                   **({"fontSize": lit(tam)} if tam else {})}}],
         "total": [{"properties": {"totals": lit(False)}}],
         "columnWidth": [{"properties": {"value": lit(a)}, "selector": {"metadata": p["queryRef"]}} for p, a in zip(proyecciones, anchos)],
         "columnFormatting": list(formatos)}
@@ -195,13 +196,14 @@ def barras(nombre, x, y, w, h, categoria, valor, filtros=None):
                                       "labelColor": color(OSCURO), "fontSize": lit(8), "gridlineShow": lit(True),
                                       "gridlineColor": color(RAYA)}}],
         "legend": [{"properties": {"show": lit(False)}}],
-        "labels": [{"properties": {"show": lit(True), "color": color(BLANCO), "fontSize": lit(TAM_EJE), "labelPrecision": entero(0),
+        # Etiquetas en gris claro: más discretas que el blanco y aún legibles dentro de una barra larga (el 99 de Llorente)
+        "labels": [{"properties": {"show": lit(True), "color": color("#C3CBD5"), "fontSize": lit(TAM_EJE), "labelPrecision": entero(0),
                                    "labelDisplayUnits": lit(1)}}],
         "dataPoint": [{"properties": {"fill": color_medida("dim_jugador", "Color jugador")},
                        "selector": {"data": [{"dataViewWildcard": {"matchingOption": 1}}]}}],
         # En barras horizontales la línea constante del eje de valores es y1AxisReferenceLine (así la guarda Power BI)
         "y1AxisReferenceLine": [{"properties": {"show": lit(True), "displayName": lit("mediana del puesto"), "value": lit(50),
-                                               "lineColor": color(GRIS), "transparency": lit(0), "style": lit("dashed"),
+                                               "lineColor": color(OSCURO), "transparency": lit(0), "style": lit("dotted"), "width": lit(1),
                                                "position": lit("front"), "dataLabelShow": lit(False), "dataLabelColor": color(GRIS),
                                                "dataLabelText": lit("Name"), "dataLabelHorizontalPosition": lit("left"),
                                                "dataLabelVerticalPosition": lit("above")},
@@ -249,22 +251,24 @@ rect("lineaRoja", 34, 92, 1212, 2, ROJO)
 # Cabecera visible: sin ella no se sabe qué es DEF, BAL y ATA. Nombres reales en todas las columnas, aunque las
 # primeras salgan en gris oscuro: con nombres en blanco el panel de formato no deja elegir la columna.
 TIRA = [  # (campo, queryRef, cabecera, ancho, tinta, alineación)
-    (med("dim_jugador", "Muestra color"), "dim_jugador.Muestra color", "COLOR", 6, None, None),
-    (col("dim_jugador", "url_foto"), "dim_jugador.url_foto", "FOTO", 44, None, None),
-    (col("dim_jugador", "jugador"), "dim_jugador.jugador", "JUGADOR", 260, BLANCO, None),
-    (col("dim_equipo", "nombre_equipo"), "dim_equipo.nombre_equipo", "EQUIPO", 200, GRIS, None),
-    (col("dim_jugador", "edad"), "dim_jugador.edad", "EDAD", 60, GRIS, "Right"),
-    (col("dim_jugador", "minutos"), "dim_jugador.minutos", "MINUTOS", 80, GRIS, "Right"),
-    (med("hechos_metrica", "Mediana defensa"), "hechos_metrica.Mediana defensa", "DEF", 70, BLANCO, "Right"),
-    (med("hechos_metrica", "Mediana con balon"), "hechos_metrica.Mediana con balon", "BAL", 70, BLANCO, "Right"),
-    (med("hechos_metrica", "Mediana ataque"), "hechos_metrica.Mediana ataque", "ATA", 70, BLANCO, "Right"),
+    (med("dim_jugador", "Muestra color"), "dim_jugador.Muestra color", "COLOR", 8, None, None),
+    (col("dim_jugador", "url_foto"), "dim_jugador.url_foto", "FOTO", 36, None, None),
+    (col("dim_jugador", "jugador"), "dim_jugador.jugador", "JUGADOR", 300, BLANCO, None),
+    (col("dim_equipo", "nombre_equipo"), "dim_equipo.nombre_equipo", "EQUIPO", 240, GRIS, None),
+    (col("dim_jugador", "edad"), "dim_jugador.edad", "EDAD", 80, GRIS, "Right"),
+    (col("dim_jugador", "minutos"), "dim_jugador.minutos", "MINUTOS", 100, GRIS, "Right"),
+    (med("hechos_metrica", "Mediana defensa"), "hechos_metrica.Mediana defensa", "DEF", 130, BLANCO, "Right"),
+    (med("hechos_metrica", "Mediana con balon"), "hechos_metrica.Mediana con balon", "BAL", 130, BLANCO, "Right"),
+    (med("hechos_metrica", "Mediana ataque"), "hechos_metrica.Mediana ataque", "ATA", 130, BLANCO, "Right"),
 ]
-tabla("tiraJugadores", 34, 104, 1212, 70,
+# Columnas repartidas en los 1212 px (1184 de ancho total; con el ancho exacto sale barra horizontal).
+# Fotos de 20 px y letra de 10 pt: tres filas y la cabecera caben en 80 px, de y=96 (bajo la raya roja) a y=176
+tabla("tiraJugadores", 34, 96, 1212, 80,
       [proy(c, r, n) for c, r, n, *_ in TIRA], [a for *_, a, _, _ in TIRA],
       [fmt("dim_jugador.Muestra color", fondo=color_medida("dim_jugador", "Color jugador"))] +
       [fmt(r, t, al) for _, r, _, _, t, al in TIRA if t],
-      cabecera=True, orden=col("dim_jugador", "minutos"), sentido="Descending", imagen=16, fila=0)
-texto("avisoSeleccion", 946, 104, 300, 16, med("dim_jugador", "Aviso seleccion"), 9, ROJO, negrita=True, alineacion="right")
+      cabecera=True, orden=col("dim_jugador", "minutos"), sentido="Descending", imagen=20, fila=0, tam=10)
+texto("avisoSeleccion", 946, 96, 300, 16, med("dim_jugador", "Aviso seleccion"), 9, ROJO, negrita=True, alineacion="right")
 # Dónde más se separan: una línea de texto
 texto("separan", 34, 178, 1212, 14, med("hechos_metrica", "Texto separacion"), 8, GRIS)
 rect("separador", 34, 188, 1212, 1, RAYA)
