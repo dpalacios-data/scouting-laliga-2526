@@ -345,7 +345,7 @@ fuente de forma visible.
 | Fichero | Filas | Contenido |
 |---|---|---|
 | `mapa_nombres.csv` | 561 | Un jugador del modelo por fila: nombre en cada fuente, identificadores de Understat y WhoScored, minutos, partidos en Understat, partidos con eventos y origen del cruce |
-| `eventos_por_jugador.csv` | 556 | Totales de las acciones de Opta por identificador de WhoScored, partidos con eventos y reparto por club. Incluye `entradas_tfm` (todos los `Tackle`, la definición del TFM), que solo usa la auditoría |
+| `eventos_por_jugador.csv` | 556 | Totales de las acciones de Opta por identificador de WhoScored, partidos con eventos y reparto por club. Incluye `entradas_tfm` (todos los `Tackle`, la definición del TFM), que solo usa la auditoría. Sale del fichero de eventos en bruto del TFM (`eventos_laliga_2526.parquet`, no versionado), que tenía 577.205 eventos de todos los tipos; aquí solo quedan las acciones agregadas por jugador. La página Método del panel da la suma de las acciones defensivas de este fichero: 67.953 (entradas intentadas, intercepciones, despejes, pases bloqueados y duelos aéreos disputados; los exitosos y los ganados ya están dentro) |
 | `posiciones_alineaciones.csv` | 38 | Titularidades por puesto, propuesta, si es concluyente y si está confirmada |
 | `sin_minutos.csv` | 112 | Jugadores del fichero de posiciones que no jugaron en LaLiga 2025/26 |
 | `cruces_descartados.csv` | 7 | Cruces dudosos que no se aplican, con su motivo y su efecto |

@@ -1,6 +1,13 @@
 table hechos_jugador
 	lineageTag: e0c3f6a8-812c-4299-a08b-47a3c6c29e59
 
+	measure 'Color grupo' = IF ( SELECTEDVALUE ( dim_posicion[grupo] ) = "mediapunta", "#FF4B44", "#3F5468" )
+		lineageTag: bedcf1dc-b0bd-4eb0-806f-6d705b98a784
+
+	measure 'Jugadores fiables' = CALCULATE ( COUNTROWS ( hechos_jugador ), hechos_jugador[percentil_fiable] = TRUE () )
+		formatString: 0
+		lineageTag: 85a1f351-afee-4270-95f2-2a696299ef41
+
 	column id_jugador
 		dataType: int64
 		formatString: 0

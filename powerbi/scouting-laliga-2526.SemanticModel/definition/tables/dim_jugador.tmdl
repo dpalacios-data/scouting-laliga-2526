@@ -1,6 +1,9 @@
 table dim_jugador
 	lineageTag: adc739bd-b0a0-4371-add0-f40fd96c1797
 
+	measure 'Jugadores del panel' = FORMAT ( COUNTROWS ( ALL ( dim_jugador ) ), "0" )
+		lineageTag: bc9225eb-0113-416c-99d9-3aa01ab8f45d
+
 	measure 'Altura defensiva equipo' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[altura_defensiva] ) ) )
 		formatString: 0.0
 		lineageTag: 3f4cbe4f-8a65-419d-801c-6d5d6c2d1cfe
