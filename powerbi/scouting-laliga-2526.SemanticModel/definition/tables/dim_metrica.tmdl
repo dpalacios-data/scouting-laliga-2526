@@ -29,10 +29,10 @@ table dim_metrica
 
 	column nombre_corto
 		dataType: string
-		sortByColumn: orden
 		lineageTag: 0bdc3aad-d31b-4457-9687-7e407c64da45
 		summarizeBy: none
 		sourceColumn: nombre_corto
+		sortByColumn: orden
 
 		annotation SummarizationSetBy = User
 

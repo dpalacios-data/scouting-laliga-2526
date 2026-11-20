@@ -12,7 +12,19 @@ cultureInfo es-ES
 			          "ConceptualProperty": "url_foto"
 			        }
 			      },
-			      "State": "Generated"
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "FOTO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    },
 			    "dim_jugador.jugador": {
 			      "Definition": {
@@ -343,6 +355,138 @@ cultureInfo es-ES
 			      "Terms": [
 			        {
 			          "PERCENTIL": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_jugador.foto_jugador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "Foto jugador"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "dim_metrica.nombre_corto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_metrica",
+			          "ConceptualProperty": "nombre_corto"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "dim_jugador.muestra_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_jugador",
+			          "ConceptualProperty": "Muestra color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "COLOR": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_equipo.nombre_equipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_equipo",
+			          "ConceptualProperty": "nombre_equipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EQUIPO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_metrica.separacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_metrica",
+			          "ConceptualProperty": "Separacion"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "hechos_metrica.mediana_defensa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_metrica",
+			          "ConceptualProperty": "Mediana defensa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DEF": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_metrica.mediana_con_balon": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_metrica",
+			          "ConceptualProperty": "Mediana con balon"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "BAL": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hechos_metrica.mediana_ataque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hechos_metrica",
+			          "ConceptualProperty": "Mediana ataque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ATA": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",

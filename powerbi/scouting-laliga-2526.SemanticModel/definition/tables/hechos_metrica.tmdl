@@ -1,16 +1,43 @@
 table hechos_metrica
 	lineageTag: 4d6d6248-1db2-49bf-afa4-ad2e759aca6a
 
-	measure 'Percentil ranking' = VAR p = SELECTEDVALUE ( hechos_metrica[percentil] ) VAR v = SELECTEDVALUE ( hechos_metrica[valor] ) VAR oculta = SELECTEDVALUE ( dim_metrica[bloque] ) = "defensa" && SELECTEDVALUE ( dim_metrica[orden] ) > 7 RETURN IF ( NOT ISBLANK ( p ) && NOT ISBLANK ( v ) && NOT oculta, p - SELECTEDVALUE ( hechos_metrica[id_metrica] ) / 1000 )
-		formatString: 0.000
-		lineageTag: 69f2ac81-3690-4738-9f99-729fa79454d0
-
 	measure 'Percentil metrica' = SELECTEDVALUE ( hechos_metrica[percentil] )
 		formatString: 0
 		lineageTag: 0a4011ed-6001-4426-92a5-4894c35a193e
 
 	measure 'Valor metrica' = VAR v = SELECTEDVALUE ( hechos_metrica[valor] ) VAR u = SELECTEDVALUE ( dim_metrica[unidad] ) RETURN IF ( ISBLANK ( v ), BLANK (), IF ( u = "porcentaje", FORMAT ( v, "0" ) & " %", FORMAT ( v, "0.00" ) ) )
 		lineageTag: 9cd48437-f6f0-49d9-8728-9cbf68971167
+
+	measure 'Percentil ranking' = VAR p = SELECTEDVALUE ( hechos_metrica[percentil] ) VAR v = SELECTEDVALUE ( hechos_metrica[valor] ) VAR oculta = SELECTEDVALUE ( dim_metrica[bloque] ) = "defensa" && SELECTEDVALUE ( dim_metrica[orden] ) > 7 RETURN IF ( NOT ISBLANK ( p ) && NOT ISBLANK ( v ) && NOT oculta, p - SELECTEDVALUE ( hechos_metrica[id_metrica] ) / 1000 )
+		formatString: 0.000
+		lineageTag: 69f2ac81-3690-4738-9f99-729fa79454d0
+
+	measure 'Separacion ranking' = VAR d = [Separacion] RETURN IF ( NOT ISBLANK ( d ), d - SELECTEDVALUE ( hechos_metrica[id_metrica] ) / 1000 )
+		formatString: 0.000
+		lineageTag: 0530e5f5-5d37-41c9-8c83-0c3c46e0205d
+
+	measure Separacion = VAR oculta = SELECTEDVALUE ( dim_metrica[bloque] ) = "defensa" && SELECTEDVALUE ( dim_metrica[orden] ) > 7 VAR t = ADDCOLUMNS ( VALUES ( dim_jugador[id_jugador] ), "p", CALCULATE ( SELECTEDVALUE ( hechos_metrica[percentil] ) ), "v", CALCULATE ( SELECTEDVALUE ( hechos_metrica[valor] ) ) ) VAR n = COUNTROWS ( t ) RETURN IF ( HASONEVALUE ( dim_metrica[id_metrica] ) && NOT oculta && n >= 2 && n <= 3 && COUNTROWS ( FILTER ( t, ISBLANK ( [v] ) || ISBLANK ( [p] ) ) ) = 0, MAXX ( t, [p] ) - MINX ( t, [p] ) )
+		formatString: 0
+		lineageTag: b7c0e27b-e7ae-452d-b3c1-3e35b7270f90
+
+	measure 'Mediana apartado' = MEDIANX ( FILTER ( dim_metrica, NOT ( dim_metrica[bloque] = "defensa" && dim_metrica[orden] > 7 ) ), IF ( NOT ISBLANK ( CALCULATE ( SELECTEDVALUE ( hechos_metrica[valor] ) ) ), CALCULATE ( SELECTEDVALUE ( hechos_metrica[percentil] ) ) ) )
+		formatString: 0
+		lineageTag: 4d663c05-3237-4eb1-9254-bf0068f641bd
+
+	measure 'Texto separacion' = VAR t = FILTER ( ADDCOLUMNS ( VALUES ( dim_metrica[id_metrica] ), "nom", CALCULATE ( SELECTEDVALUE ( dim_metrica[nombre] ) ), "d", CALCULATE ( [Separacion] ), "r", CALCULATE ( [Separacion ranking] ) ), NOT ISBLANK ( [d] ) ) VAR top3 = TOPN ( 3, t, [r], DESC ) VAR primero = MAXX ( top3, [r] ) RETURN IF ( ISEMPTY ( top3 ), "", "MÁS SE SEPARAN EN: " & CONCATENATEX ( top3, UPPER ( [nom] ) & " (" & [d] & IF ( [r] = primero, " PTS", "" ) & ")", " · ", [r], DESC ) )
+		lineageTag: 01d70805-1e29-46ec-aa54-df181ad3f672
+
+	measure 'Mediana ataque' = CALCULATE ( [Mediana apartado], dim_metrica[bloque] = "ataque" )
+		formatString: 0
+		lineageTag: 75ed658c-4820-4f5c-b7d7-faf2035caf0d
+
+	measure 'Mediana con balon' = CALCULATE ( [Mediana apartado], dim_metrica[bloque] = "con_balon" )
+		formatString: 0
+		lineageTag: 76baeeca-6842-48d4-bf4f-5ea4042b17da
+
+	measure 'Mediana defensa' = CALCULATE ( [Mediana apartado], dim_metrica[bloque] = "defensa" )
+		formatString: 0
+		lineageTag: a2dd4ec6-0b46-4fc5-87e4-4b3e8aa0df98
 
 	column id_jugador
 		dataType: int64

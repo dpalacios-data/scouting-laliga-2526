@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "segJugador",
   "position": {
     "x": 800,
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "dim_jugador.jugador",
-              "nativeQueryRef": "jugador"
+              "nativeQueryRef": "jugador",
+              "active": true
             }
           ]
         }
@@ -95,13 +96,6 @@
                       "Value": "'#07090E'"
                     }
                   }
-                }
-              }
-            },
-            "outline": {
-              "expr": {
-                "Literal": {
-                  "Value": "'None'"
                 }
               }
             },

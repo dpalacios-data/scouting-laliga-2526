@@ -1,15 +1,20 @@
 """Genera la página Ficha del informe PBIR (powerbi/) y añade al modelo las medidas que usa.
 
 Uso: python powerbi/generar_ficha.py   (con Power BI Desktop cerrado; luego abrir el .pbip)
+
+Lleva ya lo que Power BI cambia al guardar (esquema 2.14, sin 'outline', autoSizeColumnWidth en true).
+Antes de volver a ejecutarlo, comprobar con git diff si Power BI ha cambiado algo más y llevarlo aquí.
 """
 import json, os, re, shutil, uuid
 
+# Saltos de línea con que Power BI guarda los .tmdl
+CRLF = "\r\n"
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 REP = f"{RAIZ}/scouting-laliga-2526.Report"
 SEM = f"{RAIZ}/scouting-laliga-2526.SemanticModel/definition/tables"
 PAG = "ficha"
 VIS = f"{REP}/definition/pages/{PAG}/visuals"
-ESQ = "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json"
+ESQ = "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
 BLANCO, GRIS, OSCURO, ROJO, RAYA, FONDO = "#F2F5F8", "#79879A", "#44505F", "#FF4B44", "#1A212C", "#07090E"
 BARRA = "#2C1316"   # rojo #FF4B44 al 15 % sobre el fondo
 # Nombre interno de las fuentes en el formato de los objetos visuales (DIN se guarda así al elegirla en Power BI)
@@ -88,16 +93,14 @@ def tabla(nombre, x, y, w, h, proyecciones, anchos, formatos=(), cabecera=True, 
                                  "gridVertical": lit(False), "outlineStyle": lit(0), "rowPadding": lit(fila),
                                  **({"imageHeight": lit(imagen)} if imagen else {})}}],
         "columnHeaders": [{"properties": {"fontColor": color(OSCURO if cabecera else FONDO), "fontSize": lit(8 if cabecera else 1),
-                                          "backColor": color(FONDO), "wordWrap": lit(False), "autoSizeColumnWidth": lit(False),
-                                          "outline": lit("None")}}],
-        "values": [{"properties": {"backColorPrimary": color(FONDO), "backColorSecondary": color(FONDO), "wordWrap": lit(False),
-                                   "outline": lit("None")}}],
+                                          "backColor": color(FONDO), "wordWrap": lit(False), "autoSizeColumnWidth": lit(True)}}],
+        "values": [{"properties": {"backColorPrimary": color(FONDO), "backColorSecondary": color(FONDO), "wordWrap": lit(False)}}],
         "total": [{"properties": {"totals": lit(False)}}],
         "columnWidth": [{"properties": {"value": lit(a)}, "selector": {"metadata": p["queryRef"]}} for p, a in zip(proyecciones, anchos)],
         "columnFormatting": list(formatos)}
     q = {"queryState": {"Values": {"projections": proyecciones}}}
     if orden:
-        q["sortDefinition"] = {"sort": [{"field": orden, "direction": sentido}], "isDefaultSort": False}
+        q["sortDefinition"] = {"sort": [{"field": orden, "direction": sentido}]}
     visual(nombre, x, y, w, h, {"visualType": "tableEx", "query": q, "objects": objetos, "visualContainerObjects": sin_marco()}, filtros)
 
 
@@ -167,11 +170,11 @@ texto("nombreJugador", 34, 30, 700, 46, med("dim_jugador", "Nombre jugador"), 36
 texto("subtituloFicha", 34, 80, 760, 18, med("dim_jugador", "Subtitulo ficha"), 9, GRIS)
 visual("segJugador", 800, 36, 360, 40, {
     "visualType": "slicer",
-    "query": {"queryState": {"Values": {"projections": [proy(col("dim_jugador", "jugador"), "dim_jugador.jugador")]}}},
+    "query": {"queryState": {"Values": {"projections": [proy(col("dim_jugador", "jugador"), "dim_jugador.jugador") | {"active": True}]}}},
     "objects": {"data": [{"properties": {"mode": lit("Dropdown")}}],
                 "header": [{"properties": {"show": lit(False)}}],
                 "selection": [{"properties": {"singleSelect": lit(True)}}],
-                "items": [{"properties": {"fontColor": color(BLANCO), "background": color(FONDO), "outline": lit("None"), "textSize": lit(10)}}]},
+                "items": [{"properties": {"fontColor": color(BLANCO), "background": color(FONDO), "textSize": lit(10)}}]},
     "visualContainerObjects": sin_marco()})
 visual("logoLaliga", 1182, 22, 64, 46, {"visualType": "image", "objects": {
     "general": [{"properties": {"imageUrl": {"expr": {"ResourcePackageItem": {"PackageName": "RegisteredResources", "PackageType": 1, "ItemName": "laliga.png"}}}}}],
@@ -309,9 +312,11 @@ for t, medidas in MEDIDAS.items():
     ruta = f"{SEM}/{t}.tmdl"
     s = open(ruta, encoding="utf-8").read()
     for nombre, expr, extra in medidas:
-        if f"measure '{nombre}' " in s:
+        # Power BI guarda sin comillas los nombres sin espacios (measure Separacion = ...): se buscan las dos formas
+        patron = rf"\tmeasure (?:'{re.escape(nombre)}'|{re.escape(nombre)}) = [^\n]*\n"
+        if re.search(patron, s):
             # Ya existe: se actualiza su expresión (una sola línea) y se dejan sus propiedades
-            s = re.sub(rf"\tmeasure '{re.escape(nombre)}' = [^\n]*\n", lambda m: f"\tmeasure '{nombre}' = {expr}\n", s, count=1)
+            s = re.sub(patron, lambda m: m.group(0).split(" = ", 1)[0] + f" = {expr}\n", s, count=1)
             continue
         linea = f"\tmeasure '{nombre}' = {expr}\n"
         if extra == "ImageUrl":
@@ -320,7 +325,8 @@ for t, medidas in MEDIDAS.items():
             linea += f"\t\tformatString: {extra}\n"
         linea += f"\t\tlineageTag: {uuid.uuid4()}\n\n"
         s = re.sub(r"(table [^\n]+\n\tlineageTag: [^\n]+\n\n)", lambda m: m.group(1) + linea, s, count=1)
-    open(ruta, "w", encoding="utf-8", newline="").write(s)
+    # Power BI guarda los .tmdl con CRLF: se escriben igual
+    open(ruta, "w", encoding="utf-8", newline=CRLF).write(s)
 # Las métricas y los atributos se ordenan por su campo "orden" al ordenar por el texto
 for tabla_, columna in [("dim_metrica", "nombre"), ("dim_metrica", "nombre_corto"), ("hechos_ficha", "atributo")]:
     ruta = f"{SEM}/{tabla_}.tmdl"
@@ -330,5 +336,6 @@ for tabla_, columna in [("dim_metrica", "nombre"), ("dim_metrica", "nombre_corto
     if "sortByColumn:" not in bloque:
         s = s.replace(f"\tcolumn {columna}\n\t\tdataType: string\n",
                       f"\tcolumn {columna}\n\t\tdataType: string\n\t\tsortByColumn: orden\n", 1)
-    open(ruta, "w", encoding="utf-8", newline="").write(s)
+    # Power BI guarda los .tmdl con CRLF: se escriben igual
+    open(ruta, "w", encoding="utf-8", newline=CRLF).write(s)
 print("visuales:", [v["name"] for v in visuales])

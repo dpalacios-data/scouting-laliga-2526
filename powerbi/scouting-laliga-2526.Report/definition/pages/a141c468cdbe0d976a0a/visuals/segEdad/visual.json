@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "segEdad",
   "position": {
     "x": 522,
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "dim_jugador.edad",
-              "nativeQueryRef": "edad"
+              "nativeQueryRef": "edad",
+              "active": true
             }
           ]
         }
@@ -89,13 +90,6 @@
                 }
               }
             },
-            "outline": {
-              "expr": {
-                "Literal": {
-                  "Value": "'None'"
-                }
-              }
-            },
             "background": {
               "solid": {
                 "color": {
@@ -125,24 +119,6 @@
               }
             },
             "background": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#07090E'"
-                    }
-                  }
-                }
-              }
-            },
-            "outline": {
-              "expr": {
-                "Literal": {
-                  "Value": "'None'"
-                }
-              }
-            },
-            "outlineColor": {
               "solid": {
                 "color": {
                   "expr": {

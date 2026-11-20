@@ -1,14 +1,6 @@
 table dim_jugador
 	lineageTag: adc739bd-b0a0-4371-add0-f40fd96c1797
 
-	measure 'Foto jugador' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), SELECTEDVALUE ( dim_jugador[url_foto] ) )
-		dataCategory: ImageUrl
-		lineageTag: e216f1a9-f4cb-4151-8405-ae7b14215c19
-
-	measure 'Jugador elegido' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), 1 )
-		formatString: 0
-		lineageTag: 36a6c0a5-6a59-4eb0-b3ac-97c5a74f47f4
-
 	measure 'Altura defensiva equipo' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[altura_defensiva] ) ) )
 		formatString: 0.0
 		lineageTag: 3f4cbe4f-8a65-419d-801c-6d5d6c2d1cfe
@@ -33,6 +25,29 @@ table dim_jugador
 
 	measure 'Nombre jugador' = COALESCE ( SELECTEDVALUE ( dim_jugador[jugador] ), "Selecciona un jugador" )
 		lineageTag: 2bdcdb11-ac94-4c51-b2fc-ce36b4f14183
+
+	measure 'Foto jugador' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), SELECTEDVALUE ( dim_jugador[url_foto] ) )
+		lineageTag: e216f1a9-f4cb-4151-8405-ae7b14215c19
+		dataCategory: ImageUrl
+
+	measure 'Jugador elegido' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), 1 )
+		formatString: 0
+		lineageTag: 36a6c0a5-6a59-4eb0-b3ac-97c5a74f47f4
+
+	measure 'Subtitulo comparacion' = VAR grupos = COUNTROWS ( SUMMARIZE ( dim_jugador, dim_posicion[grupo] ) ) VAR g = MAXX ( dim_jugador, RELATED ( dim_posicion[grupo] ) ) VAR n = CALCULATE ( MAX ( hechos_jugador[n_grupo_referencia] ) ) VAR plural = SWITCH ( g, "central", "CENTRALES", "lateral", "LATERALES", "pivote_mediocentro", "PIVOTES Y MEDIOCENTROS", "mediapunta", "MEDIAPUNTAS", "extremo", "EXTREMOS", "delantero", "DELANTEROS" ) RETURN IF ( NOT ISFILTERED ( dim_jugador[jugador] ) || grupos > 1, "", IF ( ISBLANK ( n ), "SIN GRUPO DE COMPARACIÓN: SU PUESTO NO ESTÁ DEFINIDO O CONFIRMADO", "PERCENTIL DENTRO DE LOS " & n & " " & plural & " DE LALIGA CON 600 MINUTOS O MÁS" ) )
+		lineageTag: 7758f49e-e3d8-4a00-aa3e-75e3a0236d37
+
+	measure 'Aviso puesto' = VAR grupos = COUNTROWS ( SUMMARIZE ( dim_jugador, dim_posicion[grupo] ) ) RETURN IF ( ISFILTERED ( dim_jugador[jugador] ) && grupos > 1, "OJO: LOS JUGADORES SELECCIONADOS NO COMPARTEN PUESTO", "" )
+		lineageTag: 264056c4-997f-460d-ba47-195e33bff993
+
+	measure 'Aviso seleccion' = VAR n = DISTINCTCOUNT ( dim_jugador[id_jugador] ) RETURN IF ( NOT ISFILTERED ( dim_jugador[jugador] ) || n < 2 || n > 3, "SELECCIONA ENTRE 2 Y 3 JUGADORES", "" )
+		lineageTag: 8d13cea3-873a-4098-a5e1-a008acbc6cb2
+
+	measure 'Muestra color' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), " " )
+		lineageTag: c1d8d1ed-cd5c-40f6-ba9d-534245ae9ee5
+
+	measure 'Color jugador' = VAR vEquipo = SELECTEDVALUE ( dim_jugador[id_equipo] ) VAR vMinutos = SELECTEDVALUE ( dim_jugador[minutos] ) VAR vId = SELECTEDVALUE ( dim_jugador[id_jugador] ) VAR k = COUNTROWS ( FILTER ( ALLSELECTED ( dim_jugador ), dim_jugador[id_equipo] = vEquipo && ( dim_jugador[minutos] > vMinutos || ( dim_jugador[minutos] = vMinutos && dim_jugador[id_jugador] < vId ) ) ) ) + 1 RETURN IF ( HASONEVALUE ( dim_jugador[id_jugador] ), SWITCH ( TRUE (), k = 1, MAXX ( dim_jugador, RELATED ( dim_equipo[color_grado_1] ) ), k = 2, MAXX ( dim_jugador, RELATED ( dim_equipo[color_grado_2] ) ), MAXX ( dim_jugador, RELATED ( dim_equipo[color_grado_3] ) ) ) )
+		lineageTag: 3d262cdb-56f3-4517-b846-df6dca26f3db
 
 	column id_jugador
 		dataType: int64
@@ -227,6 +242,22 @@ table dim_jugador
 		lineageTag: acc1b1a0-ecec-437b-b86f-e32da7fa67a2
 		summarizeBy: sum
 		sourceColumn: id_transfermarkt
+
+		annotation SummarizationSetBy = Automatic
+
+	column url_foto_transfermarkt
+		dataType: string
+		lineageTag: bd7aacaa-40a3-4894-b993-00d9001deb4a
+		summarizeBy: none
+		sourceColumn: url_foto_transfermarkt
+
+		annotation SummarizationSetBy = Automatic
+
+	column color_jugador
+		dataType: string
+		lineageTag: dc8b1ea8-770f-402b-88c2-4ce3476d0078
+		summarizeBy: none
+		sourceColumn: color_jugador
 
 		annotation SummarizationSetBy = Automatic
 

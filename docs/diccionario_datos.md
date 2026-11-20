@@ -32,6 +32,7 @@ dim_posicion ┘
 | `color_primario` | Color identificativo del equipo: el color de la camiseta de la primera equipación 2025/26 que no es blanco (ver "Colores de equipo") | hexadecimal, `#rrggbb` | `data/colores_equipos.csv`, calculado en el cuaderno 05 |
 | `color_secundario` | El otro color de la camiseta, tal cual sale de Wikipedia, salvo en el Celta | hexadecimal, `#rrggbb` | `data/colores_equipos.csv` |
 | `color_secundario_origen` | `wikipedia_equipacion`, o `revision_autor` si lo fijó el autor (solo Celta: blanco, porque el negro medido es el contorno del cuello, un 4 % de la camiseta) | texto | cuaderno 05 |
+| `color_grado_1`, `color_grado_2`, `color_grado_3` | Tres grados del color del equipo para la página Comparación: el primero es `color_primario` aclarado lo justo para contrastar 3:1 con el fondo del panel (#07090E); los otros dos, cada vez más claros (o más oscuros en los colores claros: Real Madrid, Villarreal, Celta). Entre los jugadores seleccionados de un mismo club, el de más minutos se pinta con el grado 1, el siguiente con el 2 y el tercero con el 3. Distancia mínima entre dos grados de un mismo equipo (CIEDE2000): 15,7 (Celta); el resto, 16 o más | hexadecimal, `#rrggbb` | cuaderno 01 |
 | `color_origen` | `wikipedia_equipacion` si el color primario es uno de los colores de camiseta medidos en Wikipedia; `revision_autor` si lo fijó el autor con otro criterio (solo Valencia) | texto | cuaderno 05 |
 
 ## dim_posicion.csv · 9 filas
@@ -82,6 +83,7 @@ entre los dos puestos.
 | `url_foto` | Dirección pública del retrato del jugador en este repositorio (`images/jugadores/<id_jugador>.png`). Los 561 tienen una. PNG de 200 × 200 px en círculo, con las esquinas transparentes | url https | retrato de Transfermarkt recortado (cuaderno 08) o retrato de iniciales (cuaderno 07) |
 | `url_foto_transfermarkt` | Url original en Transfermarkt del retrato que se recortó (versión grande, 300 × 390 px). Vacía en los 22 retratos de iniciales | url https | Transfermarkt (cuaderno 08) |
 | `foto_origen` | `transfermarkt` (539 jugadores): retrato de Transfermarkt recortado en círculo; o `iniciales` (22): retrato generado en este proyecto, un círculo de 200 × 200 px con el color primario del equipo y las iniciales del nombre y del primer apellido | texto | cuaderno 01 |
+| `color_jugador` | Color base del jugador en la página Comparación: el `color_grado_1` de su equipo. No distingue a dos jugadores del mismo club (un solo tono para 22-33 jugadores no puede); eso lo hace en Power BI la medida `Color jugador` con los tres grados de `dim_equipo` | hexadecimal, `#rrggbb` | cuaderno 01 |
 | `id_transfermarkt` | Identificador del jugador en Transfermarkt, para auditoría. Vacío en los 4 jugadores no emparejados | entero | Transfermarkt (cuaderno 06) |
 
 ## hechos_jugador.csv · 561 filas
