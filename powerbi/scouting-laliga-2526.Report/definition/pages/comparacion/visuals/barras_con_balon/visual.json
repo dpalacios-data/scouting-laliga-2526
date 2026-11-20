@@ -4,10 +4,10 @@
   "position": {
     "x": 450,
     "y": 214,
-    "z": 15000,
+    "z": 16000,
     "height": 482,
     "width": 382,
-    "tabOrder": 15000
+    "tabOrder": 16000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -130,7 +130,14 @@
             "innerPadding": {
               "expr": {
                 "Literal": {
-                  "Value": "2D"
+                  "Value": "40L"
+                }
+              }
+            },
+            "outerPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "25L"
                 }
               }
             }

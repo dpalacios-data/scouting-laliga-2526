@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "segJugadores",
   "position": {
-    "x": 800,
+    "x": 866,
     "y": 24,
-    "z": 3000,
+    "z": 4000,
     "height": 56,
-    "width": 360,
-    "tabOrder": 3000
+    "width": 294,
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "slicer",
@@ -54,7 +54,50 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'JUGADORES'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#44505F'"
+                    }
+                  }
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#07090E'"
+                    }
+                  }
                 }
               }
             }
@@ -131,7 +174,7 @@
                 "Version": 2,
                 "From": [
                   {
-                    "Name": "d",
+                    "Name": "t",
                     "Entity": "dim_jugador",
                     "Type": 0
                   }
@@ -145,7 +188,7 @@
                             "Column": {
                               "Expression": {
                                 "SourceRef": {
-                                  "Source": "d"
+                                  "Source": "t"
                                 }
                               },
                               "Property": "jugador"

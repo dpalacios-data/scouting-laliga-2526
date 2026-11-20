@@ -191,7 +191,9 @@ def barras(nombre, x, y, w, h, categoria, valor, filtros=None):
         "sortDefinition": {"sort": [{"field": cat_campo, "direction": "Ascending"}]}}
     objetos = {
         "categoryAxis": [{"properties": {"show": lit(True), "showAxisTitle": lit(False), "labelColor": color(GRIS),
-                                         "fontSize": lit(TAM_EJE), "concatenateLabels": lit(False), "innerPadding": lit(2)}}],
+                                         "fontSize": lit(TAM_EJE), "concatenateLabels": lit(False),
+                                         # Carriles finos: 40 % de hueco entre barras y 25 % en los extremos
+                                         "innerPadding": entero(40), "outerPadding": entero(25)}}],
         "valueAxis": [{"properties": {"show": lit(True), "showAxisTitle": lit(False), "start": lit(0), "end": lit(100),
                                       "labelColor": color(OSCURO), "fontSize": lit(8), "gridlineShow": lit(True),
                                       "gridlineColor": color(RAYA)}}],
@@ -220,27 +222,36 @@ def barras(nombre, x, y, w, h, categoria, valor, filtros=None):
 # Selección al abrir la página: los tres centrales de la comparación del TFM
 SELECCION_INICIAL = ["Diego Llorente", "Martin Valjent", "Antonio Raíllo"]
 # 32 pt de DIN no cabe en 44 de alto: la caja de texto saca barra de desplazamiento; 54 de alto, subida 6 px
-visual("titulo", 34, 10, 700, 54, {"visualType": "textbox", "objects": {"general": [{"properties": {"paragraphs": [{"textRuns": [
+visual("titulo", 34, 16, 640, 54, {"visualType": "textbox", "objects": {"general": [{"properties": {"paragraphs": [{"textRuns": [
     {"value": "COMPARACIÓN DE ", "textStyle": {"fontFamily": "DIN", "fontSize": "32pt", "fontWeight": "bold", "color": BLANCO}},
     {"value": "JUGADORES", "textStyle": {"fontFamily": "DIN", "fontSize": "32pt", "fontWeight": "bold", "color": ROJO}}]}]}}]},
     "visualContainerObjects": sin_marco()})
 # Subtítulo gris y aviso rojo en el mismo sitio: cada medida está vacía cuando le toca a la otra
 texto("subtitulo", 34, 62, 760, 18, med("dim_jugador", "Subtitulo comparacion"), 9, GRIS)
 texto("avisoPuesto", 34, 62, 760, 18, med("dim_jugador", "Aviso puesto"), 9, ROJO)
-visual("segJugadores", 800, 24, 360, 56, {
-    "visualType": "slicer",
-    "query": {"queryState": {"Values": {"projections": [proy(col("dim_jugador", "jugador"), "dim_jugador.jugador", activa=True)]}}},
-    "objects": {"data": [{"properties": {"mode": lit("Dropdown")}}],
-                "header": [{"properties": {"show": lit(False)}}],
-                "selection": [{"properties": {"singleSelect": lit(False), "strictSingleSelect": lit(False)}}],
-                "items": [{"properties": {"fontColor": color(BLANCO), "background": color(FONDO), "textSize": lit(10)}}],
-                # Cuadro de búsqueda en el desplegable y, al abrir, los tres centrales del TFM ya seleccionados
-                "general": [{"properties": {"selfFilterEnabled": lit(True), "filter": {"filter": {
-                    "Version": 2, "From": [{"Name": "d", "Entity": "dim_jugador", "Type": 0}],
-                    "Where": [{"Condition": {"In": {
-                        "Expressions": [{"Column": {"Expression": {"SourceRef": {"Source": "d"}}, "Property": "jugador"}}],
-                        "Values": [[{"Literal": {"Value": f"'{n}'"}}] for n in SELECCION_INICIAL]}}}]}}}}]},
-    "visualContainerObjects": sin_marco()})
+def segmentacion(nombre, x, y, w, h, tabla_, columna, titulo, multiple, valores):
+    """Lista desplegable con cabecera pequeña, como en el Buscador, y una selección guardada para abrir la página."""
+    visual(nombre, x, y, w, h, {
+        "visualType": "slicer",
+        "query": {"queryState": {"Values": {"projections": [proy(col(tabla_, columna), f"{tabla_}.{columna}", activa=True)]}}},
+        "objects": {"data": [{"properties": {"mode": lit("Dropdown")}}],
+                    "header": [{"properties": {"show": lit(True), "text": lit(titulo), "fontColor": color(OSCURO),
+                                               "textSize": lit(8), "bold": lit(True), "background": color(FONDO)}}],
+                    "selection": [{"properties": {"singleSelect": lit(not multiple), "strictSingleSelect": lit(not multiple)}}],
+                    "items": [{"properties": {"fontColor": color(BLANCO), "background": color(FONDO), "textSize": lit(10)}}],
+                    "general": [{"properties": {"selfFilterEnabled": lit(multiple), "filter": {"filter": {
+                        "Version": 2, "From": [{"Name": "t", "Entity": tabla_, "Type": 0}],
+                        "Where": [{"Condition": {"In": {
+                            "Expressions": [{"Column": {"Expression": {"SourceRef": {"Source": "t"}}, "Property": columna}}],
+                            "Values": [[{"Literal": {"Value": f"'{v}'"}}] for v in valores]}}}]}}}}]},
+        "visualContainerObjects": sin_marco()})
+
+
+# Puesto de selección única: los percentiles solo son comparables dentro de un mismo grupo de posición, así que la
+# página no deja mezclar puestos. El selector de jugadores queda filtrado por él a través de dim_posicion -> dim_jugador
+segmentacion("segPuesto", 700, 24, 150, 56, "dim_posicion", "grupo", "PUESTO", False, ["central"])
+# Jugadores: selección múltiple con buscador; abre con los tres centrales del TFM
+segmentacion("segJugadores", 866, 24, 294, 56, "dim_jugador", "jugador", "JUGADORES", True, SELECCION_INICIAL)
 visual("logoLaliga", 1182, 20, 64, 46, {"visualType": "image", "objects": {
     "general": [{"properties": {"imageUrl": {"expr": {"ResourcePackageItem": {"PackageName": "RegisteredResources", "PackageType": 1, "ItemName": "laliga.png"}}}}}],
     "imageScaling": [{"properties": {"imageScalingType": lit("Fit")}}]}, "visualContainerObjects": sin_marco()})
