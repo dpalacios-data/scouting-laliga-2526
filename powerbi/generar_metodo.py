@@ -91,7 +91,7 @@ def titulo_bloque(nombre, x, y, w, rotulo):
     rect(f"raya_{nombre}", x, y + 18, w, 1, RAYA)
 
 
-def puntos(nombre, x, y, w, alto, lineas, alto_titulo=14):
+def puntos(nombre, x, y, w, alto, lineas, alto_titulo=16):   # 16: con 14 se comía la g de "Segunda"
     """Lista de puntos: título en blanco y explicación en gris debajo. alto = alto de cada punto, o lista de altos."""
     altos = alto if isinstance(alto, list) else [alto] * len(lineas)
     yy = y
@@ -103,16 +103,21 @@ def puntos(nombre, x, y, w, alto, lineas, alto_titulo=14):
 
 # ------------------------------------------------------------------ imagen: 71 puntos, el último en rojo
 def puntos_percentil(ruta, n=71, ancho=382, alto=44, escala=2):
-    """71 puntos en fila (el grupo de centrales): 70 en gris y el último en rojo, con fondo transparente.
-    Se dibuja al doble de tamaño para que se vea nítido en pantallas con escala."""
+    """71 puntos (el grupo de centrales) en dos filas de 35 y 36: 70 en gris y el último, al final de la segunda fila,
+    en rojo; fondo transparente. En una sola fila se veían como una raya. Se dibuja al doble para que se vea nítido."""
     w, h = ancho * escala, alto * escala
     im = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-    paso = w / n
-    r = paso * 0.32
-    for i in range(n):
-        cx, cy = paso * (i + 0.5), h / 2
-        d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=ROJO if i == n - 1 else PUNTO_GRIS)
+    filas = [35, n - 35]
+    paso = w / max(filas)
+    alto_fila = h / len(filas)
+    r = min(paso, alto_fila) * 0.34
+    k = 0
+    for f, cuantos in enumerate(filas):
+        for i in range(cuantos):
+            cx, cy = paso * (i + 0.5), alto_fila * (f + 0.5)
+            k += 1
+            d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=ROJO if k == n else PUNTO_GRIS)
     im.save(ruta)
 
 
@@ -153,8 +158,8 @@ FUENTES = [
 ]
 for k, (nombre, aporta, cifra) in enumerate(FUENTES):
     y = 218 + k * 36
-    texto(f"fuente_{k}_n", 34, y, 300, 14, nombre, 9, BLANCO, negrita=True)
-    texto(f"fuente_{k}_a", 34, y + 15, 340, 17, aporta, 9, GRIS)
+    texto(f"fuente_{k}_n", 34, y, 300, 16, nombre, 9, BLANCO, negrita=True)
+    texto(f"fuente_{k}_a", 34, y + 16, 340, 17, aporta, 9, GRIS)
     texto(f"fuente_{k}_c", 336, y, 80, 14, cifra, 9, BLANCO, negrita=True, alineacion="right")
     rect(f"fuente_{k}_raya", 34, y + 33, 382, 1, RAYA)
 titulo_bloque("comprobar", 34, 416, 382, "CÓMO COMPROBARLO")
@@ -197,7 +202,7 @@ visual("grupos", 450, 390, 382, 150, {
     "visualContainerObjects": sin_marco()})
 titulo_bloque("decisiones", 450, 554, 382, "TRES DECISIONES QUE LO RECORREN TODO")
 # La última explicación ocupa dos líneas: su punto es más alto
-puntos("decisiones", 450, 576, 382, [36, 36, 48], [
+puntos("decisiones", 450, 576, 382, [36, 36, 52], [
     ("Siempre la mediana, nunca la media", "Un jugador con cifras infladas no mueve la mediana del grupo"),
     ("Un hueco se queda vacío, nunca a cero", "Cero significa que no lo hizo, vacío significa que no se sabe"),
     ("Volumen y éxito, separados", "Duelos disputados y duelos ganados no son lo mismo, y se llaman distinto"),
@@ -210,7 +215,7 @@ puntos("limites", 866, 134, 380, 55, [
     ("Fin de contrato", "La única fuente disponible es de la temporada siguiente, y mezclarla falsearía la lectura"),
     ("Segunda División", "WhoScored no publica sus eventos, así que no hay acciones defensivas para comparar"),
     ("Posición sin confirmar", "28 jugadores: 26 con menos de 3 titularidades y 2 sin identificador de WhoScored. "
-                               "Ninguno pasa de 330 minutos"),
+                               "Ninguno llega a 320 minutos"),
     ("Sin métricas de eventos", "5 jugadores cuyo cruce de nombre no quedó demostrado. Vacío, nunca cero"),
     ("Mediapunta", "Solo 28 jugadores de referencia. El percentil ahí es menos fiable y el panel lo avisa"),
 ])

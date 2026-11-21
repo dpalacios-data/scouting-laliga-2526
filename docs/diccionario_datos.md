@@ -223,7 +223,7 @@ posición se deduce de sus titularidades en las alineaciones de WhoScored (`posi
 - **Regla:** al menos 3 titularidades y más de la mitad de ellas en el mismo grupo de posición.
 - **10 confirmados** a mano, con la posición propuesta por la regla.
 - **28 sin confirmar**: 15 con menos de 3 titularidades, 11 que nunca fueron titulares y 2 sin identificador de
-  WhoScored. Están en el grupo `sin_confirmar`, sin percentil. Ninguno pasa de 320 minutos.
+  WhoScored. Están en el grupo `sin_confirmar`, sin percentil. Ninguno llega a 320 minutos.
 
 El recuento de cada uno está en `data/posiciones_alineaciones.csv`.
 

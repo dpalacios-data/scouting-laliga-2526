@@ -106,7 +106,7 @@ confirmaron a mano. Cada cruce está en `data/mapa_nombres.csv`, con el nombre d
 - **38** jugadores tienen la posición deducida de sus titularidades en las alineaciones de WhoScored:
   - **10** están confirmados.
   - **28** siguen **sin posición confirmada**: tienen menos de 3 titularidades, nunca fueron titulares o no
-    tienen identificador de WhoScored. No tienen percentil y ninguno pasa de 320 minutos.
+    tienen identificador de WhoScored. No tienen percentil y ninguno llega a 320 minutos.
 
 ### Eventos de Opta
 

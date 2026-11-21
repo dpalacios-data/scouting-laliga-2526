@@ -3,9 +3,9 @@
   "name": "limites_3_e",
   "position": {
     "x": 866,
-    "y": 313,
+    "y": 315,
     "z": 63000,
-    "height": 39,
+    "height": 37,
     "width": 380,
     "tabOrder": 63000
   },
@@ -71,7 +71,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'28 jugadores: 26 con menos de 3 titularidades y 2 sin identificador de WhoScored. Ninguno pasa de 330 minutos'"
+                  "Value": "'28 jugadores: 26 con menos de 3 titularidades y 2 sin identificador de WhoScored. Ninguno llega a 320 minutos'"
                 }
               }
             },
