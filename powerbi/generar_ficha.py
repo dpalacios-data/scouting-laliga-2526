@@ -260,8 +260,15 @@ pagina = {"$schema": "https://developer.microsoft.com/json-schemas/fabric/item/r
           "pageBinding": {"name": "explorarJugador", "type": "Drillthrough",
                           "parameters": [{"name": "paramJugador", "boundFilter": "filtroExplorarJugador",
                                           "fieldExpr": col("dim_jugador", "jugador")}]},
+          # El filtro de drillthrough lleva guardado a Diego Llorente (el fichaje que propone el TFM): la Ficha abre con él,
+          # y al entrar por drillthrough Power BI sustituye ese valor por el jugador elegido. Una selección guardada en la
+          # segmentación no vale: se suma al drillthrough (Llorente Y el otro) y la página queda vacía.
           "filterConfig": {"filters": [{"name": "filtroExplorarJugador", "field": col("dim_jugador", "jugador"),
-                                        "type": "Categorical", "howCreated": "Drillthrough"}]},
+                                        "type": "Categorical", "howCreated": "Drillthrough",
+                                        "filter": {"Version": 2, "From": [{"Name": "d", "Entity": "dim_jugador", "Type": 0}],
+                                                   "Where": [{"Condition": {"In": {
+                                                       "Expressions": [{"Column": {"Expression": {"SourceRef": {"Source": "d"}}, "Property": "jugador"}}],
+                                                       "Values": [[{"Literal": {"Value": "'Diego Llorente'"}}]]}}}]}}]},
           "objects": {"background": [{"properties": {"color": color(FONDO), "transparency": lit(0)}}],
                       "outspace": [{"properties": {"color": color(FONDO), "transparency": lit(0)}}]}}
 json.dump(pagina, open(f"{REP}/definition/pages/{PAG}/page.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
