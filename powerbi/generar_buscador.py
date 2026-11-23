@@ -200,7 +200,7 @@ visual("verFicha", 1030, 34, 130, 30, {"visualType": "actionButton", "objects": 
     "icon": [{"properties": {"show": lit(False)}}],
     "text": [{"properties": {"show": lit(True)}},
              {"selector": {"id": "default"}, "properties": {
-                 "text": lit("VER FICHA →"), "fontColor": color("#F2F5F8"), "fontSize": lit(9), "fontFamily": lit("Segoe UI"),
+                 "text": lit("IR A LA FICHA →"), "fontColor": color("#F2F5F8"), "fontSize": lit(9), "fontFamily": lit("Segoe UI"),
                  "bold": lit(True), "horizontalAlignment": lit("center"), "verticalAlignment": lit("middle")}}],
     "fill": [{"properties": {"show": lit(False)}}],
     "outline": [{"properties": {"show": lit(True)}},
@@ -246,7 +246,8 @@ for tabla, cols in NO_SUMAR.items():
         if cols is None and "formatString:" not in b:   # percentiles sin decimales
             b = b.replace("\t\tdataType: double\n", "\t\tdataType: double\n\t\tformatString: 0\n", 1)
         bloques[i] = b
-    open(ruta, "w", encoding="utf-8", newline="").write("".join(bloques))
+    # Power BI guarda los .tmdl con CRLF: se escriben igual
+    open(ruta, "w", encoding="utf-8", newline=chr(13) + chr(10)).write("".join(bloques))
 
 # ---------------------------------------------------------------- percentil solo si es fiable (si no, en blanco)
 import uuid
@@ -267,5 +268,5 @@ if nuevas:
     # Se insertan justo antes de la partición
     i = s.index("\n\tpartition ")
     s = s[:i] + nuevas + s[i:]
-    open(ruta, "w", encoding="utf-8", newline="").write(s)
+    open(ruta, "w", encoding="utf-8", newline=chr(13) + chr(10)).write(s)
 print("visuales:", [v["name"] for v in visuales])

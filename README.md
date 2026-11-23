@@ -19,7 +19,7 @@ intercepciones no dicen si es mucho para un central, y un percentil 99 no dice s
 El subtítulo dice contra cuántos se compara («71 centrales») porque un percentil sin denominador no se puede
 pesar: no vale lo mismo ser el mejor de 71 que de 28. El jugador se elige con el selector de arriba, que
 siempre tiene uno elegido y no se puede vaciar; abre con Diego Llorente, el fichaje que propone el TFM. El
-botón «VER FICHA» del Buscador lleva hasta aquí.
+botón «IR A LA FICHA» del Buscador lleva hasta aquí.
 
 ![Comparación](images/powerbi/03_comparacion.png)
 
