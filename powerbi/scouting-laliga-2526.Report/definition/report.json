@@ -70,14 +70,14 @@
           "type": "Image"
         },
         {
-          "name": "Scouting_LaLiga_-_Dossier47055702612159644.json",
-          "path": "Scouting_LaLiga_-_Dossier47055702612159644.json",
-          "type": "CustomTheme"
-        },
-        {
           "name": "percentil_71.png",
           "path": "percentil_71.png",
           "type": "Image"
+        },
+        {
+          "name": "Scouting_LaLiga_-_Dossier47055702612159644.json",
+          "path": "Scouting_LaLiga_-_Dossier47055702612159644.json",
+          "type": "CustomTheme"
         }
       ]
     }

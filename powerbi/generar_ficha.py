@@ -151,8 +151,8 @@ def filtro_n(nombre, n, descendente):
                             "Table": {"SourceRef": {"Source": "subquery"}}}}}]}}]
 
 
-def boton_atras(nombre, x, y, w, h, rotulo, tam, c):
-    """Botón en blanco con la acción Atrás y el mismo aspecto que un texto: sin icono, sin relleno y sin borde."""
+def boton_ir(nombre, x, y, w, h, rotulo, tam, c, pagina):
+    """Botón con el aspecto de un texto (sin icono, relleno ni borde) que navega a otra página del informe."""
     estilo = {"text": lit(rotulo), "fontColor": color(c), "fontSize": lit(tam), "fontFamily": lit("Segoe UI"),
               "horizontalAlignment": lit("left"), "verticalAlignment": lit("middle"),
               "leftMargin": lit(0), "rightMargin": lit(0), "topMargin": lit(0), "bottomMargin": lit(0)}
@@ -161,11 +161,12 @@ def boton_atras(nombre, x, y, w, h, rotulo, tam, c):
         "text": [{"properties": {"show": lit(True)}}, {"selector": {"id": "default"}, "properties": estilo}],
         "fill": [{"properties": {"show": lit(False)}}],
         "outline": [{"properties": {"show": lit(False)}}]},
-        "visualContainerObjects": sin_marco() | {"visualLink": [{"properties": {"show": lit(True), "type": lit("Back")}}]}})
+        "visualContainerObjects": sin_marco() | {"visualLink": [{"properties": {"show": lit(True), "type": lit("PageNavigation"),
+                                                       "navigationSection": lit(pagina)}}]}})
 
 
 # ------------------------------------------------------------------ cabecera
-boton_atras("volver", 34, 14, 200, 14, "← BUSCADOR", 8, OSCURO)
+boton_ir("volver", 34, 14, 200, 14, "← BUSCADOR", 8, OSCURO, "a141c468cdbe0d976a0a")
 texto("nombreJugador", 34, 30, 700, 46, med("dim_jugador", "Nombre jugador"), 36, BLANCO, "DIN", True)
 texto("subtituloFicha", 34, 80, 760, 18, med("dim_jugador", "Subtitulo ficha"), 9, GRIS)
 visual("segJugador", 800, 36, 360, 40, {
@@ -173,8 +174,15 @@ visual("segJugador", 800, 36, 360, 40, {
     "query": {"queryState": {"Values": {"projections": [proy(col("dim_jugador", "jugador"), "dim_jugador.jugador") | {"active": True}]}}},
     "objects": {"data": [{"properties": {"mode": lit("Dropdown")}}],
                 "header": [{"properties": {"show": lit(False)}}],
-                "selection": [{"properties": {"singleSelect": lit(True)}}],
-                "items": [{"properties": {"fontColor": color(BLANCO), "background": color(FONDO), "textSize": lit(10)}}]},
+                "selection": [{"properties": {"singleSelect": lit(True), "strictSingleSelect": lit(True)}}],
+                "items": [{"properties": {"fontColor": color(BLANCO), "background": color(FONDO), "textSize": lit(10)}}],
+                # La página se elige con este selector (no hay drillthrough: su filtro recortaba la lista a un jugador).
+                # Abre con Diego Llorente, el fichaje que propone el TFM; con buscador para los 561
+                "general": [{"properties": {"selfFilterEnabled": lit(True), "filter": {"filter": {
+                    "Version": 2, "From": [{"Name": "d", "Entity": "dim_jugador", "Type": 0}],
+                    "Where": [{"Condition": {"In": {
+                        "Expressions": [{"Column": {"Expression": {"SourceRef": {"Source": "d"}}, "Property": "jugador"}}],
+                        "Values": [[{"Literal": {"Value": "'Diego Llorente'"}}]]}}}]}}}}]},
     "visualContainerObjects": sin_marco()})
 visual("logoLaliga", 1182, 22, 64, 46, {"visualType": "image", "objects": {
     "general": [{"properties": {"imageUrl": {"expr": {"ResourcePackageItem": {"PackageName": "RegisteredResources", "PackageType": 1, "ItemName": "laliga.png"}}}}}],
@@ -257,18 +265,6 @@ for v in visuales:
     json.dump(v, open(f"{VIS}/{v['name']}/visual.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 pagina = {"$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
           "name": PAG, "displayName": "Ficha", "displayOption": "FitToPage", "height": 720, "width": 1280,
-          "pageBinding": {"name": "explorarJugador", "type": "Drillthrough",
-                          "parameters": [{"name": "paramJugador", "boundFilter": "filtroExplorarJugador",
-                                          "fieldExpr": col("dim_jugador", "jugador")}]},
-          # El filtro de drillthrough lleva guardado a Diego Llorente (el fichaje que propone el TFM): la Ficha abre con él,
-          # y al entrar por drillthrough Power BI sustituye ese valor por el jugador elegido. Una selección guardada en la
-          # segmentación no vale: se suma al drillthrough (Llorente Y el otro) y la página queda vacía.
-          "filterConfig": {"filters": [{"name": "filtroExplorarJugador", "field": col("dim_jugador", "jugador"),
-                                        "type": "Categorical", "howCreated": "Drillthrough",
-                                        "filter": {"Version": 2, "From": [{"Name": "d", "Entity": "dim_jugador", "Type": 0}],
-                                                   "Where": [{"Condition": {"In": {
-                                                       "Expressions": [{"Column": {"Expression": {"SourceRef": {"Source": "d"}}, "Property": "jugador"}}],
-                                                       "Values": [[{"Literal": {"Value": "'Diego Llorente'"}}]]}}}]}}]},
           "objects": {"background": [{"properties": {"color": color(FONDO), "transparency": lit(0)}}],
                       "outspace": [{"properties": {"color": color(FONDO), "transparency": lit(0)}}]}}
 json.dump(pagina, open(f"{REP}/definition/pages/{PAG}/page.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)

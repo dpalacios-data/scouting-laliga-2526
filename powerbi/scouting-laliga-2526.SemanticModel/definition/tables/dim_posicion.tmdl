@@ -27,10 +27,8 @@ table dim_posicion
 		annotation SummarizationSetBy = Automatic
 
 	column grupo_nombre = SWITCH ( dim_posicion[grupo], "central", "Central", "lateral", "Lateral", "pivote_mediocentro", "Pivote y mediocentro", "mediapunta", "Mediapunta", "extremo", "Extremo", "delantero", "Delantero", "sin_definir", "Sin definir", "sin_confirmar", "Sin confirmar" )
-		dataType: string
 		lineageTag: 963b695a-edda-4aeb-a48a-17d78b68118e
 		summarizeBy: none
-		isDataTypeInferred
 
 		annotation SummarizationSetBy = Automatic
 

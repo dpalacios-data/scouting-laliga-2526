@@ -1,9 +1,6 @@
 table dim_jugador
 	lineageTag: adc739bd-b0a0-4371-add0-f40fd96c1797
 
-	measure 'Jugadores del panel' = FORMAT ( COUNTROWS ( ALL ( dim_jugador ) ), "0" )
-		lineageTag: bc9225eb-0113-416c-99d9-3aa01ab8f45d
-
 	measure 'Altura defensiva equipo' = IF ( HASONEVALUE ( dim_jugador[id_jugador] ), MAXX ( dim_jugador, RELATED ( dim_equipo[altura_defensiva] ) ) )
 		formatString: 0.0
 		lineageTag: 3f4cbe4f-8a65-419d-801c-6d5d6c2d1cfe
@@ -51,6 +48,9 @@ table dim_jugador
 
 	measure 'Color jugador' = VAR vEquipo = SELECTEDVALUE ( dim_jugador[id_equipo] ) VAR vMinutos = SELECTEDVALUE ( dim_jugador[minutos] ) VAR vId = SELECTEDVALUE ( dim_jugador[id_jugador] ) VAR k = COUNTROWS ( FILTER ( ALLSELECTED ( dim_jugador ), dim_jugador[id_equipo] = vEquipo && ( dim_jugador[minutos] > vMinutos || ( dim_jugador[minutos] = vMinutos && dim_jugador[id_jugador] < vId ) ) ) ) + 1 RETURN IF ( HASONEVALUE ( dim_jugador[id_jugador] ), SWITCH ( TRUE (), k = 1, MAXX ( dim_jugador, RELATED ( dim_equipo[color_grado_1] ) ), k = 2, MAXX ( dim_jugador, RELATED ( dim_equipo[color_grado_2] ) ), MAXX ( dim_jugador, RELATED ( dim_equipo[color_grado_3] ) ) ) )
 		lineageTag: 3d262cdb-56f3-4517-b846-df6dca26f3db
+
+	measure 'Jugadores del panel' = FORMAT ( COUNTROWS ( ALL ( dim_jugador ) ), "0" )
+		lineageTag: bc9225eb-0113-416c-99d9-3aa01ab8f45d
 
 	column id_jugador
 		dataType: int64

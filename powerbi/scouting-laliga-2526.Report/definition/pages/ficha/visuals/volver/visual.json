@@ -259,7 +259,14 @@
             "type": {
               "expr": {
                 "Literal": {
-                  "Value": "'Back'"
+                  "Value": "'PageNavigation'"
+                }
+              }
+            },
+            "navigationSection": {
+              "expr": {
+                "Literal": {
+                  "Value": "'a141c468cdbe0d976a0a'"
                 }
               }
             }

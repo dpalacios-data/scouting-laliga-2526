@@ -10,7 +10,7 @@ REP = f"{RAIZ}/scouting-laliga-2526.Report"
 SEM = f"{RAIZ}/scouting-laliga-2526.SemanticModel/definition/tables"
 PAG = "a141c468cdbe0d976a0a"
 VIS = f"{REP}/definition/pages/{PAG}/visuals"
-ESQ = "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json"
+ESQ = "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
 
 
 def lit(v):
@@ -100,10 +100,8 @@ def segmentacion(nombre, x, tabla, col, titulo, modo, defecto=None):
     objetos = {
         "data": [{"properties": {"mode": lit(modo)}}],
         "header": [{"properties": {"show": lit(True), "text": lit(titulo), "fontColor": color("#44505F"),
-                                   "textSize": lit(8), "bold": lit(True), "outline": lit("None"),
-                                   "background": color("#07090E")}}],
-        "items": [{"properties": {"fontColor": color("#F2F5F8"), "background": color("#07090E"),
-                                  "outline": lit("None"), "outlineColor": color("#07090E"), "textSize": lit(10)}}],
+                                   "textSize": lit(8), "bold": lit(True), "background": color("#07090E")}}],
+        "items": [{"properties": {"fontColor": color("#F2F5F8"), "background": color("#07090E"), "textSize": lit(10)}}],
         "general": [{"properties": {"outlineColor": color("#07090E"), "outlineWeight": lit(0)}}]}
     if modo == "Between":
         # Barra deslizante con los dos extremos; las casillas de valor, sin caja
@@ -117,7 +115,8 @@ def segmentacion(nombre, x, tabla, col, titulo, modo, defecto=None):
             objetos["data"][0]["properties"]["numericStart"] = {"expr": {"Literal": {"Value": "600D"}}}
     visual(nombre, x, 104, 236, 80, {
         "visualType": "slicer",
-        "query": {"queryState": {"Values": {"projections": [proyeccion(tabla, col)]}}},
+        # Power BI marca el campo de la segmentación como activo al guardar
+        "query": {"queryState": {"Values": {"projections": [proyeccion(tabla, col) | {"active": True}]}}},
         "objects": objetos,
         "visualContainerObjects": sin_marco()})
 
@@ -180,15 +179,14 @@ visual("tablaJugadores", 34, 198, 1212, 500, {
     "visualType": "tableEx",
     "query": {"queryState": {"Values": {"projections": [proyeccion(t, c, n) for t, c, n, _ in COLS]}},
               # Ordenada por minutos, de mayor a menor
-              "sortDefinition": {"sort": [{"field": columna("dim_jugador", "minutos"), "direction": "Descending"}],
-                                 "isDefaultSort": False}},
+              "sortDefinition": {"sort": [{"field": columna("dim_jugador", "minutos"), "direction": "Descending"}]}},
     "objects": {
         "grid": [{"properties": {"gridHorizontal": lit(True), "gridHorizontalColor": color("#1A212C"),
                                  "gridHorizontalWeight": lit(1), "gridVertical": lit(False),
                                  "outlineStyle": lit(0), "imageHeight": lit(34), "rowPadding": lit(1)}}],
         "columnHeaders": [{"properties": {"fontColor": color("#44505F"), "fontSize": lit(8),
                                           "backColor": color("#07090E"), "wordWrap": lit(False),
-                                          "autoSizeColumnWidth": lit(False)}}],
+                                          "autoSizeColumnWidth": lit(True)}}],
         "values": [{"properties": {"backColorPrimary": color("#07090E"), "backColorSecondary": color("#07090E"),
                                    "wordWrap": lit(False)}}],
         "total": [{"properties": {"totals": lit(False)}}],
@@ -196,6 +194,19 @@ visual("tablaJugadores", 34, 198, 1212, 500, {
         "columnFormatting": formato_cols},
     "visualContainerObjects": sin_marco()})
 texto_forma("notaPie", 34, 702, 1212, 16, "PERCENTIL DENTRO DEL PUESTO · ENTRADAS Y AÉREOS SON LOS GANADOS, NO LOS DISPUTADOS · SOLO JUGADORES CON 600 MINUTOS O MÁS", 8, "#44505F")
+
+# Botón a la Ficha: el camino visible de una página a otra (la Ficha se elige con su selector de jugador)
+visual("verFicha", 1030, 34, 130, 30, {"visualType": "actionButton", "objects": {
+    "icon": [{"properties": {"show": lit(False)}}],
+    "text": [{"properties": {"show": lit(True)}},
+             {"selector": {"id": "default"}, "properties": {
+                 "text": lit("VER FICHA →"), "fontColor": color("#F2F5F8"), "fontSize": lit(9), "fontFamily": lit("Segoe UI"),
+                 "bold": lit(True), "horizontalAlignment": lit("center"), "verticalAlignment": lit("middle")}}],
+    "fill": [{"properties": {"show": lit(False)}}],
+    "outline": [{"properties": {"show": lit(True)}},
+                {"selector": {"id": "default"}, "properties": {"lineColor": color("#FF4B44"), "weight": lit(1)}}]},
+    "visualContainerObjects": sin_marco() | {"visualLink": [{"properties": {
+        "show": lit(True), "type": lit("PageNavigation"), "navigationSection": lit("ficha")}}]}})
 
 # ---------------------------------------------------------------- escritura de los visuales
 if os.path.isdir(VIS):

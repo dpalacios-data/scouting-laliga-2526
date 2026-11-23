@@ -17,7 +17,9 @@ fiables nunca reciben un percentil que parezca comparable.
 **Ficha.** Cada métrica lleva el valor por 90 minutos y el percentil a la vez, porque ninguno se basta solo: 2,06
 intercepciones no dicen si es mucho para un central, y un percentil 99 no dice si la ventaja es grande o mínima.
 El subtítulo dice contra cuántos se compara («71 centrales») porque un percentil sin denominador no se puede
-pesar: no vale lo mismo ser el mejor de 71 que de 28. Abre con Diego Llorente, el fichaje que propone el TFM.
+pesar: no vale lo mismo ser el mejor de 71 que de 28. El jugador se elige con el selector de arriba, que
+siempre tiene uno elegido y no se puede vaciar; abre con Diego Llorente, el fichaje que propone el TFM. El
+botón «VER FICHA» del Buscador lleva hasta aquí.
 
 ![Comparación](images/powerbi/03_comparacion.png)
 
@@ -42,6 +44,17 @@ dónde sale cada número, porque saber dónde acaba el dato es lo que permite fi
 Las cuatro páginas se generan con los scripts de `powerbi/` (`generar_buscador.py`, `generar_ficha.py`,
 `generar_comparacion.py` y `generar_metodo.py`), con Power BI cerrado. Si se guarda desde Power BI, hay que llevar
 a los scripts lo que haya cambiado antes de volver a ejecutarlos.
+
+### Panel de Tableau
+
+El panel de Tableau no usa el modelo en estrella: lee una tabla plana, `tableau/datos_tableau.csv`, con una fila
+por jugador (561) y las 21 métricas en dos columnas cada una, valor y percentil. Es una sola vista, y con una tabla
+plana no hace falta montar relaciones; los nombres de columna ya son los que se ven en el panel de datos.
+
+Tableau Public no se conecta a un CSV por url: el fichero se carga desde el disco y se empaqueta al publicar. Por
+eso está versionado aquí, porque es el dato de origen del panel publicado. Lo genera
+`notebooks/09_tabla_tableau.ipynb` a partir de `data/modelo/`, junto con `tableau/campos_calculados.md`: los
+parámetros de los ejes, los campos de valor y percentil, las medianas y el cuadrante, listos para pegar.
 
 Es un proyecto separado de mi TFM sobre el descenso del RCD Mallorca
 ([analisis-mallorca-2025-26](https://github.com/dpalacios-data/analisis-mallorca-2025-26)), del que reutiliza los
@@ -275,6 +288,7 @@ cd data/origen && sha256sum -c SHA256SUMS
 | `notebooks/08_retratos_recortados.ipynb` | Descarga los 539 retratos de Transfermarkt y los recorta en círculo centrado en la cara | **no** sin volver a descargar los retratos (el resultado está versionado) |
 | `notebooks/06_fotos_transfermarkt.ipynb` | Empareja a los 561 jugadores con las plantillas de Transfermarkt y guarda la url de su retrato, sin descargar imágenes. Comprueba que las url responden y cumplen los límites de Tableau | **no** sin volver a descargar las plantillas |
 | `notebooks/02_auditoria_cruce_eventos.ipynb` | Comprueba que el cruce por identificador reproduce las cifras de eventos publicadas en el TFM: 462 de 464 jugadores son idénticos. Identifica los dos que cambian (dos homónimos que el TFM sumaba al cruzar por nombre) y mide su efecto en los cálculos del TFM. Compara también volumen y éxito en duelos aéreos y entradas | sí |
+| `notebooks/09_tabla_tableau.ipynb` | Genera la tabla plana del panel de Tableau (`tableau/datos_tableau.csv`) y sus campos calculados (`tableau/campos_calculados.md`) | sí, después del cuaderno 01 |
 
 Entorno: Python con pandas, numpy, pyarrow, unidecode, Pillow y scikit-learn 1.9.1 (la versión con la que el cuaderno 02
 reproduce los modelos del TFM). Cada cuaderno se ejecuta desde la raíz del proyecto o desde `notebooks/`, con
@@ -283,7 +297,6 @@ rutas relativas. Las fórmulas, unidades y fuentes de cada columna están en
 
 ## Pendiente
 
-- **Panel en Tableau** sobre el mismo modelo. Los retratos ya cumplen sus límites (menos de 128 KB y url de menos
-  de 255 caracteres).
+- **Panel en Tableau:** los datos y los campos calculados están en `tableau/`; falta montar y publicar la vista.
 - **Filtros por percentil en el Buscador:** hoy filtra por puesto, equipo, edad, minutos y muestra; no por el
   percentil de una métrica.
